@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE BULLETIN [
+        <!ELEMENT BULLETIN (HEADING+)>
+        <!ELEMENT HEADING EMPTY>
+
+        <!ATTLIST HEADING name CDATA #REQUIRED>
+        <!ATTLIST HEADING fontabbrv CDATA #REQUIRED>
+        <!ATTLIST HEADING fontsize CDATA #REQUIRED>
+        ]>
+
+<BULLETIN>
+    <HEADING name="article" fontabbrv="ACaslonPro" fontsize="33"/>
+    <HEADING name="article" fontabbrv="ACaslonPro" fontsize="46"/>
+    <HEADING name="LeadText" fontabbrv="ACaslonPro" fontsize="14.5"/>
+    <HEADING name="LeadText" fontabbrv="ACaslonPro" fontsize="18"/>
+    <HEADING name="Paragraph" fontabbrv="ACaslonPro" fontsize="9.9"/>
+    <HEADING name="Author" fontabbrv="ACaslonPro" fontsize="8.2"/>
+    <HEADING name="PageHeader" fontabbrv="ACaslonPro" fontsize="7.5"/>
+    <HEADING name="PageFooter" fontabbrv="ACaslonPro" fontsize="7"/>
+    <HEADING name="Caption" fontabbrv="ACaslonPro" fontsize="5.446"/>
+    <HEADING name="Caption" fontabbrv="ACaslonPro" fontsize="5.5"/>
+</BULLETIN>

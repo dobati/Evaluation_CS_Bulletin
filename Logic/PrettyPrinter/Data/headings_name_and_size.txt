@@ -1,0 +1,12 @@
+ACaslonPro 30
+ACaslonPro 33
+ACaslonPro 42
+ACaslonPro 46
+ACaslonPro 64
+AkzidenzGroteskBE 109
+AkzidenzGroteskBE 30
+AkzidenzGroteskBE 33
+AkzidenzGroteskBE 46
+AkzidenzGroteskBE 65
+AkzidenzGroteskBE 70
+AkzidenzGroteskBE 90
