@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<!--
+Copyright 2012 Mozilla Foundation
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Adobe CMap resources are covered by their own copyright and license:
+http://sourceforge.net/adobe/cmap/wiki/License/
+-->
+<html dir="ltr" mozdisallowselectionprint moznomarginboxes>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="google" content="notranslate">
+    <title></title>
+
+
+
+      <link rel="stylesheet" href="../../Logic/PrettyPrinter/Web/js/pdf.js/web/my_viewer.css">
+
+      <script src="../../Logic/PrettyPrinter/Web/js/pdf.js/build/pdf.worker.js"></script>
+      <script src="../../Logic/PrettyPrinter/Web/js/pdf.js/web/compatibility.js"></script>
+        <script src="../../Logic/PrettyPrinter/Web/js/jquery-2.1.3.js"></script>
+
+            <script src="../../Logic/PrettyPrinter/Web/js/pretty_printer.js"></script>
+            <link rel="stylesheet" href="../../Logic/PrettyPrinter/Web/stylesheet.css" type="text/css">
+
+
+
+  <!-- This snippet is used in production (included from viewer.html) -->
+  <link rel="resource" type="application/l10n" href="../../Logic/PrettyPrinter/Web/js/pdf.js/web/locale/locale.properties">
+  <script src="../../Logic/PrettyPrinter/Web/js/pdf.js/web/l10n.js"></script>
+  <script src="../../Logic/PrettyPrinter/Web/js/pdf.js/build/pdf.js"></script>
+
+
+
+
+      <script src="../../Logic/PrettyPrinter/Web/js/pdf.js/web/debugger.js"></script>
+      <script src="../../Logic/PrettyPrinter/Web/js/pdf.js/web/viewer.js"></script>
+
+
+
+
+
+  </head>
+
+  <body tabindex="1" class="loadingInProgress">
+  <label class="myButtons">Min font size: <input type="text" id="minfontsize" class="myButtons" value="20">Max font size: <input type="text" class="myButtons" id="maxfontsize" value="200"></label>
+  <button id="fontRangeButton" class="myButtons">Highlight Font Sizes</button>
+  <input type="file" id="loadHistoryButton" class="myButtons" name="files[]">
+  <label class="myButtons">Filter Table <input type="checkbox" id="filterCheckbox"></label>
+  <button id="exportButton" class="myButtons">Export Selected</button>
+  <label id="searchFieldLabel" class="myButtons">Scroll to page: <input type="text" class="myButtons" id="pageSearchField"></label>
+  <label id="numSelected" class="highlightSelected">0</label><br>
+  <div id="pdfFileName" name="http://localhost:8000/StructureXML3.5/Input/BulletinPDFs/referenzCS_de.pdf"></div>
+  <div id="tableDiv"><table>
+<tr><td><a name="1">Page Number 1</a></td></tr>
+<tr>
+<td><span style="font-size:7.5pt;">&#8212; Risiko &#8212;</span></td>
+<td><span>ACaslonPro 7.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:33pt;">Die Ehre geb&#252;hrt Spielern, Spekulanten und mutigen Aufkl&#228;rern</span></td>
+<td><span>ACaslonPro 33</span></td>
+</tr>
+<tr>
+<td><span style="font-size:14.5pt;">Heute gibt es f&#252;r fast jede Unw&#228;gbarkeit des Lebens eine Police. Wie ist es dazu gekommen? Eine Exkursion zu den Anf&#228;ngen der modernen Versicherung.</span></td>
+<td><span>ACaslonPro 14.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Meilensteine der Versicherungen</span></td>
+<td><span>ACaslonPro 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">1654</span></td>
+<td><span>AkzidenzGroteskBE 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">Entdeckung der Wahr- scheinlichkeitsrechnung</span></td>
+<td><span>ACaslonPro 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">durch Blaise Pascal und Pierre de Fermat</span></td>
+<td><span>ACaslonPro 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">1681</span></td>
+<td><span>AkzidenzGroteskBE 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">Gr&#252;ndung des &#171;Insurance Office for Houses&#187; als erste moderne Versicherung (als Folge des &#171;Great Fire of London&#187; 1666)</span></td>
+<td><span>ACaslonPro 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">Von Niels Viggo Haueter</span></td>
+<td><span>ACaslonPro 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Junge, adlige M&#228;nner iM england</span></td>
+<td><span>ACaslonPro 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">des 17. und des 18. Jahrhunderts genossen in der Regel eine gute Ausbildung, noch mehr aber genossen viele von ihnen die Freuden des Lebens, besonders beim Gl&#252;cksspiel. Dies veranlasste deren V&#228;ter zu berechtigter Sorge, und manch ein Sohn sah sich mit empfindlichen Taschengeldk&#252;rzungen konfrontiert. Doch einer von ihnen hatte eine Idee, wie er trotz der nun beschr&#228;nkten Mittel weiterhin mit seinen Freunden der Spielleidenschaft fr&#246;nen konnte: Die M&#228;nner organisierten sich in Vereinen, wo ausgemacht wurde, dass derjenige, dessen Vater zuerst starb, die Spielschulden aller anderen mit seinem Erbe begleichen w&#252;rde. Dies liess bei den Gl&#228;ubigern die Aussicht auf baldige Bezahlung um einiges wahrscheinlicher erscheinen.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Solche Spekulation war nicht nur der adligen Klasse vorbehalten. Es wurden damals munter &#171;Versicherungen&#187; (es waren fast schon Wetten) auf fast alles abgeschlossen: auf den Zeitpunkt von Heiraten ber&#252;hmter Leute, auf den Ausgang kriegerischer Belagerungen, auf die Wahrscheinlichkeit, an &#252;berm&#228;ssigem Gin-Genuss zu sterben. Vor allem machte sich die Gewohnheit breit, mehrere oder &#252;bertrieben hohe Versicherungen auf Handelsschiffe zu l&#246;sen, in der Hoffnung, dass diese sinken w&#252;rden. 1774 setzte der englische Staat diesem Treiben mit dem Gambling Act ein Ende und markierte damit den Anfang einer langen Reihe von Aufsichtsregelungen.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Versicherungen entstanden nicht im geschichtslosen Raum, sie bildeten sich aus unterschiedlichsten althergebrachten Institutionen und Br&#228;uchen heraus. Die Entwicklung verlief alles andere als linear, und die Einfl&#252;sse waren vielf&#228;ltig. Der Siegeszug der Aufkl&#228;rung und damit auch der Wissenschaften spielte ebenso eine Rolle wie dramatische Naturereignisse, die Ausbreitung des Welthandels hatte ebenso ihren Einfluss wie frivole Zockereien.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Als die jungen Adligen zu spielen begannen, gab es bereits eine lange Tradition der Risikoabsicherung, die auf Solidarit&#228;t und Schicksalsteilung basierte. So war es seit Jahrtausenden &#252;blich, Ladungen auf verschiedene Schiffe zu verteilen, und schon die Genueser, damals eine Handelsmacht, bildeten im Mittelalter Vereine, die gemeinsam Schiffstransporte versicherten. Andere fr&#252;he Formen der Absicherung wie Sterbekassen, Brandkassen und die &#171;friendly societies&#187; in England waren ebenfalls seit langem bekannt und beliebt. Oft wurden sie von einer homogenen Gemeinschaft wie Minenarbeitern getragen, von denen w&#246;chentlich ein bescheidener Obolus eingesammelt wurde.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Solche Vereine lebten zwar ein religi&#246;ses Solidarit&#228;tsprinzip vor, aber als Gesch&#228;ftsmodell sahen sie sich mit etlichen Schwierigkeiten konfrontiert. Oft kam ein grosser Teil der Versicherten bei einem einzigen Grubenungl&#252;ck ums Leben, sodass das angeh&#228;ufte Kapital nicht ausreichte, um alle Hinterbliebenen zu entsch&#228;digen. Auch wurden die Pr&#228;mieneinnahmen nicht oder schlecht investiert, und sie mussten ausserdem auch noch die Betriebskosten decken. Schliesslich kam dazu, dass die krankheitsbedingte Sterblichkeit in sozial tieferen Schichten besonders hoch war. Eine taugliche Versicherung war dies noch nicht.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Die Macht der Wahrscheinlichkeit Liess sich gegen das Schicksal wirklich nichts ausrichten? Ist das Leben unberechenbar? F&#252;r die Kirche stand dies ausser Zweifel: Es war Bestimmung, dass der Mensch irgendwann sterben musste; es war Gott, der den Zeitpunkt w&#228;hlte; und es war S&#252;nde, darauf zu spekulieren oder zu berechnen, wann dies geschehen sollte. Doch genau dies wurde im Zug der Aufkl&#228;rung getan. Seit der Renaissance waren Wissenschaftler daran, die Logik des Universums systematisch zu erforschen, immer mehr</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">46 &#8212; Bulletin N &#176; 2 / 2013</span></td>
+<td><span>ACaslonPro 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:5.446pt;">Bilder: Mary Evans / Interfoto (2)</span></td>
+<td><span>ACaslonPro 5.446</span></td>
+</tr>
+<tr><td><a name="2">Page Number 2</a></td></tr>
+<tr>
+<td><span style="font-size:7.5pt;">&#8212; Risiko &#8212;</span></td>
+<td><span>ACaslonPro 7.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">1842 / 1852</span></td>
+<td><span>AkzidenzGroteskBE 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">Gr&#252;ndung der ersten reinen R&#252;ckversicherungsgesellschaft, der K&#246;lner R&#252;ckversicherung</span></td>
+<td><span>ACaslonPro 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">1883</span></td>
+<td><span>AkzidenzGroteskBE 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">&#171;Gesetz betreffend der Krankenversicherung der Arbeiter&#187;, auf Initiative von Otto von Bismarck als erste umfassende Sozialversicherung</span></td>
+<td><span>ACaslonPro 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">1906</span></td>
+<td><span>AkzidenzGroteskBE 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">Erdbeben San Francisco, der erste Mega-Event der Versicherungsgeschichte, zeigt auch, wie international die Versicherungsindustrie zu der Zeit schon war</span></td>
+<td><span>ACaslonPro 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">1920er</span></td>
+<td><span>AkzidenzGroteskBE 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">Inflation und Wirtschaftskrise zwingen die Versicherer, sich vermehrt mit monet&#228;ren und finanziellen Risiken zu besch&#228;ftigen</span></td>
+<td><span>ACaslonPro 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">1973</span></td>
+<td><span>AkzidenzGroteskBE 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">Erster Vorschlag f&#252;r &#171;Reinsurance Futures&#187; am Chicago Board of Trade (CBOT), der &#228;ltesten Terminb&#246;rse (Futures und Optionen) der Welt</span></td>
+<td><span>ACaslonPro 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Gebiete wurden rational durchdrungen und alte Erkl&#228;rungsmuster abgel&#246;st.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Die Mathematik spielte eine wichtige Rolle, doch wieder war es ein Spiels&#252;chtiger, der den Anstoss zur Berechnung der Wahrscheinlichkeit gegeben hatte &#8211; und sie wurde zur Grundlage f&#252;r die Aktuarswissenschaft in der Lebensversicherung. Der franz&#246;sische Chevalier de M&#233;r&#233; wollte 1654 herausfinden, wie gross die Wahrscheinlichkeit sei, in einer bestimmten Serie einen Sechser zu w&#252;rfeln. Die Mathematiker Blaise Pascal und Pierre de Fermat konnten mit Hilfe einer alten Zahlenpyramide aufzeigen, wie sich die Wahrscheinlichkeit mit zunehmender Anzahl W&#252;rfe entwickelte.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Dieser Versuch, die Zukunft vorauszusagen und so die g&#246;ttliche Vorsehung herauszufordern, stand zwar im direkten Widerspruch zur kirchlichen Doktrin. Doch der Logik des Modells und anderer neu entdeckter Gesetzm&#228;ssigkeiten konnten sich auch die Kleriker nicht g&#228;nzlich verschliessen. Sie stellten sie in den Dienst der eigenen Sache und versuchten, mit statistischer und wissenschaftlicher Logik eine g&#246;ttliche Ordnung zu beweisen. Die Sterbetafeln, welche die Geistlichen zu sammeln begannen, wurden sp&#228;ter ironischerweise f&#252;r die Lebensversicherer zu zentralen Arbeitsinstrumenten.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Schon bald nach Pascal und de Fermat wandten Mathematiker in Grossbri- tannien, Deutschland und Holland die Wahrscheinlichkeitsberechnung auf die Lebensversicherung an, nur vermochten sie die Versicherer noch nicht von solchen Methoden zu &#252;berzeugen. Die Lebensversicherung blieb vorerst ein spekulatives Gesch&#228;ft, und die Erfindung der Aktie tat das Ihre dazu. In England f&#252;hrte der Aktienboom des sp&#228;ten 17. und fr&#252;hen 18. Jahrhunderts zu zahlreichen Gr&#252;ndungen von Versicherern, vor allem der unseri&#246;sen Art, und verleitete zu riskanten Spekulationen auf Unternehmer- und auf Investorenseite.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Das Leben wird berechenbar Auf eine gesunde Basis wurde die Lebensversicherung erst sp&#228;ter gestellt. Die Wende kam, als der Mathematiker James Dodson bei der Amicable Life Assurance Society eine Lebensversicherung abschlies sen wollte. Wegen seines hohen Alters von 45 Jahren wurde er abgewiesen, was ihn derart ver&#228;rgerte, dass er eine mathematische L&#246;sung f&#252;r eine gerechtere (more equitable) Lebensversicherung aufstellte: Die Pr&#228;mienzahlungen sollten als Prozentsatz der Lebenserwartung ausgerechnet werden. Dies wurde zur Grundlage einer 1762 gegr&#252;ndeten Lebensversicherung, die Equitable Assurance genannt wurde.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Der englische Philosoph und Prediger Richard Price schaffte es schliesslich, daraus ein Kostenmodell zu entwerfen. 1774 verfasste er f&#252;r die Equitable Assurance eine Abhandlung zur Berechnung der Profitabilit&#228;t in der Lebensversicherung. Man hatte entdeckt, dass die Buchf&#252;hrung keine verl&#228;sslichen Schl&#252;sse zur gegenw&#228;rtigen finanziellen Lage des Unternehmens zuliess. Es war unm&#246;glich einzusch&#228;tzen, wie viel jede einzelne Lebensversicherung gerade wert war beziehungsweise ob die Equitable Assurance mit der aktuellen Pr&#228;mienstruktur einen Gewinn oder einen Verlust machte. Price tat seinem Nachnamen alle Ehre und berechnete aufgrund aktueller und zu erwartender Sterblichkeit ein neues Pr&#228;mienmodell. Die Lebensversicherung musste sich von da an nicht mehr auf Spekulationen einlassen.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Die marktwirtschaftlichen Ideale, die massgeblich von Grossbritannien ausgingen, setzten das streng religi&#246;se Denken S&#252;deuropas unter Druck. Dennoch hielt sich die Skepsis gegen&#252;ber der Wissenschaft hartn&#228;ckig. Dies &#228;nderte sich erst, als eine Katastrophe Zweifel an der herk&#246;mmlichen Deutung der g&#246;ttlichen Allmacht aufkommen liess: 1755 l&#246;ste ein Seebeben vor Lissabon einen Tsunami aus, der fast die ganze Stadt zerst&#246;rte. Was besonders irritierte, war der Umstand, dass ausgerechnet das Rotlichtviertel vom Desaster verschont geblieben war &#8211; nicht aber Kirchen.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Wenn ein allm&#228;chtiger Gott dies gewollte hatte, dann war er nicht g&#252;tig,</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:5.5pt;">Bild: Sammlung Rauch / Interfoto</span></td>
+<td><span>ACaslonPro 5.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Bulletin N &#176; 2 / 2013 &#8212; 47</span></td>
+<td><span>ACaslonPro 7</span></td>
+</tr>
+<tr><td><a name="3">Page Number 3</a></td></tr>
+<tr>
+<td><span style="font-size:9.9pt;">Die Versicherung lobte er als rationale Einrichtung und erhob sie zur moralischen Pflicht. Sich nicht zu versichern, befand er als &#171;gedankenlose Voreiligkeit und anmassende Verachtung des Risikos&#187;.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Meilensteine der Versicherungen</span></td>
+<td><span>ACaslonPro 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">1992 &#8211; 1998</span></td>
+<td><span>AkzidenzGroteskBE 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">Vierte M &amp; A-Welle mit Fokus auf &#220;bernahmen im gleichen Industriesektor</span></td>
+<td><span>ACaslonPro 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">2001</span></td>
+<td><span>AkzidenzGroteskBE 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">&#171;9 / 11&#187; als gr&#246;sster von Menschen verursachter versicherter Schaden</span></td>
+<td><span>ACaslonPro 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">und wenn er g&#252;tig war, so konnte er nicht allm&#228;chtig sein, schlossen viele. Das theologische Problem der Allm&#228;chtigkeit wurde mit dem Erdbeben neu aufgeworfen und ebnete aufkl&#228;rerischen Idealen den Weg in den S&#252;den &#8211; und damit auch der Ausbreitung des Versicherungsgedankens &#252;ber das n&#246;rdliche Europa hinaus. Ausserdem gab das Erdbeben den Anstoss zur Seismologie, die f&#252;r die Versicherung eine grosse Rolle spielt.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">2008 / 09</span></td>
+<td><span>AkzidenzGroteskBE 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">Versicherungsgesch&#228;ft erweist sich als krisenresistent</span></td>
+<td><span>ACaslonPro 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Aus Schutt und Asche Auch in der Geschichte der Sachversicherungen markiert eine Katastrophe einen Wendepunkt. 1666 wurde die Londoner Innenstadt von einem gewaltigen Feuer zerst&#246;rt. Kaum etwas war damals versichert. F&#252;r innovative Gesch&#228;ftsleute war die Rekonstruktion der City ein finanzieller Segen. Einer davon, der &#214;konom, Bankier und erste Anbieter von Hypotheken, Nicholas Barbon, erwarb sich erst ein Verm&#246;gen mit dem Wiederaufbau und gr&#252;ndete 1681 die erste eigentlich moderne Versicherungsgesellschaft, das Insurance Office for Houses.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Barbon war ein fr&#252;her Anh&#228;nger der freien Markttheorie, und massgebend f&#252;r ihn war die Aussicht auf Pr&#228;mieneinnahmen, nicht die Solidarit&#228;t. Auch war ihm klar, dass das neue Unternehmen eine Aktiengesellschaft werden sollte, die erste in diesem Industriezweig. Zwar war der Gesellschaft kein langfristiger Erfolg beschieden, aber die Fremdkapitalisierung von Versicherungen mit Aktien sollte zu einem wichtigen Vorteil gegen&#252;ber den herk&#246;mmlichen Gegenseitigkeitsvereinen werden. Denn sie sorgte f&#252;r ausreichendes Betriebskapital und erlaubte es, das Risikokapital getrennt zu verwalten. In der Folge wurde eine Reihe von Versicherungen gegr&#252;ndet. Einige von ihnen unterhielten auch eigene Brandwehren, die im Falle eines Feuers zuerst ihre versicherten H&#228;user zu retten versuchten.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Eine Grosszahl von Versicherern aber war mit rein spekulativen Absichten gegr&#252;ndet worden, und viele scheiterten sp&#228;testens mit dem Kurssturz von 1720, als die sogenannte South Sea Bubble platzte und zahlreiche Investoren in den Ruin getrieben wurden. Hingegen bew&#228;hrte sich ein Kaffeehaus, das Edward Lloyd seit 1688 an der Tower Street betrieb. Dort trafen sich Schiffsbesitzer, die allm&#228;hlich gegenseitig am Transportrisiko ihrer Berufskollegen teilnahmen. Lloyd &#8217; s wurde ein Markt, der Broker und Kunden zusammenbrachte.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Einer der prominentesten Vertreter des neuen Wirtschaftsdenkens in Grossbritannien, der schottische &#214;konom Adam Smith, f&#252;hrte 1776 im Buch &#171;Der Wohlstand der Nationen&#187; nicht nur den freien Wettbewerb als Voraussetzung f&#252;r Prosperit&#228;t an, sondern machte sich auch Gedanken zur Selbstverantwortung des Menschen.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">&#220;ber die Grenzen hinweg Die einsetzende Industrielle Revolution und die Ausdehnung der Kolonien brachten zahlreiche neue zu versichernde Risiken mit sich. So war der immense Bedarf der englischen Gesellschaft des 18. Jahrhunderts an Zucker aus den Kolonien mit bisher unbekannten Problemen verbunden. Raffinerien zur Zuckerproduktion waren &#228;usserst kapitalintensiv, auch wegen der vielen Sklaven, die ben&#246;tigt wurden. Zu den Gefahren, die sich mit dem Seetransport ergaben, kam die Brandgefahr der Bottiche und der Destillieranlagen f&#252;r den Rum.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">1782 gr&#252;ndete eine Vereinigung von 84 Zuckerraffineriebesitzern in London die Phoenix Assurance, die erste wirklich bedeutende, globale, moderne Versicherung, die auch l&#228;ngerfristig Bestand hatte. Ihre Erfolgsgeschichte verdankte sie auch der Kapitalisierung mit Aktien und dem zur Verf&#252;gung stehenden Fremdkapital, das schnell eine geografische Ausdehnung erm&#246;glichte. Schon im ersten Jahr nach ihrer Gr&#252;ndung versicherte sie Raffinerien in Sankt Petersburg, Smyrna (dem heutigen Izmir in der T&#252;rkei), Lissabon und bald auch in &#220;bersee. Sie gr&#252;ndete dazu als erste Gesellschaft Niederlassungen im Ausland, was die Risikoverteilung erheblich ver besserte.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">So begann die moderne Versicherung allm&#228;hlich, die traditionellen Formen der Gefahrenvermeidung von Sterbekassen und Brandwehren aufzuweichen. Die wissenschaftliche Basis der Aktuare, die moderne Unternehmensform der Aktiengesellschaft und die geografische Streuung der Risiken machten das britische Modell der Versicherung zu einer unschlagbaren Gesch&#228;ftsidee. Sie sollte in den kommenden Jahrhunderten die Welt erobern.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">Niels Viggo Haueter ist Head Corporate History bei der Swiss Re. Der &#228;lteste noch existierende R&#252;ckversicherer der Welt feiert dieses Jahr das 150-j&#228;hrige Bestehen. Die Firma wurde 1863 von der Helvetia Versicherung, der Schweizerischen Kreditanstalt und der Basler Handelsbank gegr&#252;ndet, um der Abh&#228;ngigkeit der Schweizer Assekuranz von ausl&#228;ndischen R&#252;ckversicherern entgegenzuwirken.</span></td>
+<td><span>ACaslonPro 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">48 &#8212; Bulletin N &#176; 2 / 2013</span></td>
+<td><span>ACaslonPro 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:5.446pt;">Foto: Alex Fuchs / AP / Keystone</span></td>
+<td><span>ACaslonPro 5.446</span></td>
+</tr>
+<tr><td><a name="4">Page Number 4</a></td></tr>
+<tr>
+<td><span style="font-size:5.986pt;">N &#176; 2 / 2013</span></td>
+<td><span>CreditSuisseType 5.986</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.859pt;">Sicherheit &#8211; sorgenfrei schlafen in ungewissen Zeiten</span></td>
+<td><span>CreditSuisseType 9.859</span></td>
+</tr>
+<tr>
+<td><span style="font-size:5.38pt;">DAS MAGAZIN F&#220;R DEN SCHWEIZER MARKT</span></td>
+<td><span>CreditSuisseType 5.38</span></td>
+</tr>
+<tr>
+<td><span style="font-size:17.45pt;">PLUS</span></td>
+<td><span>CreditSuisseType 17.45</span></td>
+</tr>
+<tr>
+<td><span style="font-size:4.225pt;">023 _ 300 _ Bulletin _ Plus _ 2 _ 13 _ d 1 11.04.13 12:39</span></td>
+<td><span>Helvetica 4.225</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Bulletin Plus, das Magazin der Credit Suisse f&#252;r den Schweizer Markt www.credit-suisse.com/bulletinplus</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr><td><a name="5">Page Number 5</a></td></tr>
+<tr>
+<td><span style="font-size:46pt;">S&#252;ss f&#252;r mich, bitter f&#252;r dich</span></td>
+<td><span>ACaslonPro 46</span></td>
+</tr>
+<tr>
+<td><span style="font-size:18pt;">Der Diabetesexperte sieht in ihm das Gesundheitsrisiko, f&#252;r den Produzenten (und die Zahn&#228;rztin) ist er die Existenzgrundlage, und widerstehen kann ihm fast niemand: sieben Facetten von Zucker.</span></td>
+<td><span>ACaslonPro 18</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Anoop Misra, 54, Vorsitzender des indischen Kompetenzzentrums f&#252;r Diabetes, Stoffwechselkrankheiten und Endokrinologie, Neu-Delhi, Indien.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Indien sitzt auf einer Diabetes-Zeitbombe, die sehr schnell tickt. Die Zuckerkrankheit hat epidemische Ausmasse angenommen, in einigen Regionen leidet schon jeder F&#252;nfte an ihr. S&#252;ssigkeiten werden als Geschenke gereicht und gelten als religi&#246;se Snacks. Ich pers&#246;nlich mag salzige Speisen lieber. Die meisten Inder aber sind richtige Schleckm&#228;uler. Unsere Bauchumf&#228;nge sind gr&#246;sser als jene der Europ&#228;er, unser K&#246;rperfettgehalt ist h&#246;her. Viele Inder haben einen Buckel im Nacken oder ein Doppelkinn: Ablagerungen von &#252;bersch&#252;ssigem Fett. Andr&#233;s Gonz&#225;lez Aguilera, 47, Gesch&#228;ftsf&#252;hrer der Cooperativa Manduvir&#225; Ltda, Asunci&#243;n, Paraguay. Vor 38 Jahren gr&#252;ndeten wir unsere eigene Genossenschaft. Zu Beginn hatte sie 39 Mitglieder, heute sind es 1500. Die Zuckerrohrernte ist f&#252;r uns mehr als bloss eine Arbeit: Mit Fair-Trade-Produkten wollen wir die Lebensqualit&#228;t der klei- nen Produzenten verbessern. Momentan bauen wir mit Hilfe von Oikocredit eine</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">umweltfreundliche Anlage f&#252;r die Herstellung von Bio-Zucker. Viele sagten anf&#228;nglich, wir seien verr&#252;ckt &#8211; wie ein H&#252;ndchen, das den Mond anbellt und glaubt, ihn erreichen zu k&#246;nnen. Doch heute exportieren wir bereits in 18 L&#228;nder. Johanna Spohrer, 14, Gymnasiastin, Hamburg, Deutschland. Ich esse viel Schokolade, Gummib&#228;rchen und M &amp; Ms. Am liebsten mag ich da die braunen, vielleicht, weil die nach Schoko- lade aussehen. Nutella mag ich am aller- liebsten. Mama sagt, ich solle nicht so viel S&#252;sses essen. Eigentlich hat sie recht. Wenn ich n&#228;mlich viel Zucker esse und mich dann bewege, dann wird mir ganz schwindlig. Meine Z&#228;hne sind nicht so</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">gut, das liegt aber nicht an den S&#252;ssigkeiten. Jeder hatte doch schon einmal ein Loch im Zahn. Dr. Zsuzsanna Juhasz, 59, Zahn&#228;rztin, Budapest, Ungarn.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Zucker ist die Energiequelle von oralen Bakterien, die die Z&#228;hne angreifen. Kein Zucker hiesse: keine Plaque und kein Karies. Zucker ist also die Basis allen &#220;bels. Wird gegen Plaque und Karies l&#228;nger nichts unternommen, kommt es zu Komplikationen, ich muss dann Z&#228;hne ziehen, Wurzeln behandeln, Implantate einsetzen. Ich behandle pro Jahr 300 Leute mit einem Loch im Zahn. Insofern bringt mir Zucker Kunden.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">50 &#8212; Bulletin N &#176; 2 / 2013</span></td>
+<td><span>ACaslonPro 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:5.446pt;">Bilder: Migin / iStockphoto</span></td>
+<td><span>ACaslonPro 5.446</span></td>
+</tr>
+<tr><td><a name="6">Page Number 6</a></td></tr>
+<tr>
+<td><span style="font-size:7.5pt;">&#8212; Risiko &#8212;</span></td>
+<td><span>ACaslonPro 7.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Jordi Butr&#243;n, 45, Inhaber und Chef des Dessert-Restaurants Espai Sucre, Barcelona, Spanien.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Wir verarbeiten eine Tonne Zucker im Jahr. Zucker mag einfach jeder. Egal, welche Speise &#8211; gibt man Zucker dazu, dann werden die Aromen sofort intensiver, alles bekommt mehr Geschmack. Zucker ist ph&#228;nomenal, weil er zu allem passt, man kann ihn mit allem M&#246;glichen kombinieren, S&#252;ssem, Salzigem, Bitterem, Saurem. Ich pers&#246;nlich liebe unsere s&#252;ss-salzige Butter. Nat&#252;rlich muss man aufpassen, Zucker verbrennt schnell, manchmal kristallisiert er. Aber sonst? Mit Zucker ist man v&#246;llig frei, zu tun, was man will.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Selma Illitz, 33, Marketing-Manager Wiener Zucker, Wien, &#214;sterreich.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Das Wichtigste am Bewerben von Zucker ist es, Emotionen zu wecken. Ein ange-</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">nehmes, heimeliges Gef&#252;hl, Geborgenheit. Die Leute sollen sich an gl&#252;ckliche Momente erinnern, an ihren Geburtstag, die Hochzeitstorte. Tradition ist wichtig.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Der &#246;sterreichische Haushalt verbraucht fast acht Kilo Zucker im Jahr. Unsere</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Zielgruppe sind zum Grossteil Frauen ab 25. Wir bewerben den Zucker als Produkt aus der Heimat. Deswegen haben wir nun auch einen Werbefilm mit der Spanischen Hofreitschule gedreht. Auch sie ein Wiener Traditionsunternehmen.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Alf Stevens, 68, Generalsekret&#228;r der Vereinigung der Ethanolproduzenten des s&#252;dlichen Afrika (EPASA), Johannesburg, S&#252;dafrika.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Wir gewinnen Bioethanol aus Zuckerrohr und anderen pflanzlichen Stoffen. Mit diesem Benzin-Ersatz kann man Auto fahren und sogar fliegen. Bei der Bioethanol-Produktion werden keine Kohlenstoffe freigesetzt. Doch auch wir sehen uns Schwierigkeiten gegen&#252;ber: In S&#252;dafrika geht immer mehr Land, auf dem Zuckerrohr f&#252;r die Bioethanol- Produktion angepflanzt wurde, an die Holzproduktion verloren. Ein zweites Problem ist die Bew&#228;sserung. Hirse verdr&#228;ngt zunehmend Zucker, weil sie auch in trockenen Zeiten gedeiht.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">Zusammengestellt von Anna Miller und Dennis B&#252;hler.</span></td>
+<td><span>ACaslonPro 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.5pt;">DAS &#171;WEISSE GOLD&#187;</span></td>
+<td><span>ACaslonPro 8.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Vom Mittelalter an wurde Zuckerrohr weltweit auf Plantagen angebaut, blieb aber vorerst der Oberschicht vorbehalten. &#8212; &#220;bernamen von Zucker: &#171;weisses Gold&#187;. &#8212; Zur Mitte des 19. Jahrhunderts wurde in &#214;sterreich der erste W&#252;rfelzucker produziert. Der Fortschritt erm&#246;glichte bald die industrielle Herstellung.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Zucker ist sowohl Nahrungs- wie Genussmittel. Er tr&#228;gt kein Mindesthaltbarkeitsdatum. &#8212; Die heute weltweit bedeutendsten Zuckerproduzenten sind Brasilien, Indien und China, die wichtigsten europ&#228;ischen Herstellerl&#228;nder sind Frankreich, Deutschland und Polen. &#8212; Die gr&#246;sste Zuckerfabrik der Welt f&#252;r die Produktion von Rohrzucker liegt im</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Sudan. In der Schweiz stehen Zuckerfabriken in Aarberg (Bern) und in Frauenfeld (Thurgau). &#8212; Im Jahr 2011 wurden weltweit knapp 170 Millionen Tonnen Zucker hergestellt. Etwa 80 Prozent des erzeugten Zuckers wird nicht unmittelbar als Nahrungsmittel an Endverbraucher abgegeben, sondern dient der S&#252;sswaren- und der Getr&#228;nkeindustrie sowie in B&#228;ckereien und der Pharmazie als Grundstoff.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Bulletin N &#176; 2 / 2013 &#8212; 51</span></td>
+<td><span>ACaslonPro 7</span></td>
+</tr>
+<tr><td><a name="7">Page Number 7</a></td></tr>
+<tr>
+<td><span style="font-size:33pt;">Die spinnen, die Spinnen</span></td>
+<td><span>ACaslonPro 33</span></td>
+</tr>
+<tr>
+<td><span style="font-size:14.5pt;">Die Evolution geht zuweilen seltsame Wege: Spinnen lassen sich in f&#252;nf Kilometern H&#246;he durch die L&#252;fte tragen &#8211; ohne Einfluss auf Richtung und Ziel. Warum tun sie das? Und was k&#246;nnen wir Menschen davon lernen?</span></td>
+<td><span>ACaslonPro 14.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">Von Hanna Kokko</span></td>
+<td><span>ACaslonPro 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">stellen wir uns Vor, wir liegen auF</span></td>
+<td><span>ACaslonPro 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">einer Sommerwiese, die Sonne scheint, ein leichter Wind weht. Ausnahmsweise widerstehen wir der Versuchung, auf dem Smartphone unsere E-Mails zu checken, und bemerken eine kleine Spinne, die einen Seidenfaden spinnt. Das ist an sich nichts Besonderes, denn das tun Spinnen nun einmal, um Beute zu fangen.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Aber schauen wir genauer hin. Diese Spinne baut kein Netz, sondern streckt den Hinterleib in die H&#246;he und l&#228;sst den hauchd&#252;nnen Faden einfach in der Luft h&#228;ngen. Bald ist dieser Faden so lang, dass er, und mit ihr die Spinne, vom Wind davongetragen wird. Das wird als &#171;Ballooning&#187; oder &#171;Luftschiffen&#187; bezeichnet und von vielen Spinnenarten betrieben.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Spinnen k&#246;nnen weite Entfernungen zur&#252;cklegen. In Luftproben, die in knapp</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">f&#252;nf Kilometern H&#246;he von Forschungsballons genommen wurden, hat man an d&#252;nnen Flugf&#228;den h&#228;ngende Spinnen gefunden. Spinnen k&#246;nnen tagelang ohne Nahrungsaufnahme auskommen, aber ihre Fluggewohnheiten muten geradezu irrsinnig riskant an, denn sie haben ja keinerlei Einfluss auf die Richtung, in der sie sich fortbewegen. Wie viele Spinnen sterben, bevor sie ein halbwegs geeignetes Habitat erreichen, ist nat&#252;rlich kaum zu ermitteln; aber das optimale Szenario &#8211; eine h&#252;bsche Wiese mit reichlich Nahrung, einer gen&#252;gend grossen Anzahl von Geschlechtspartnern und nicht allzu vielen Konkurrenten &#8211; ist keineswegs garantiert.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">In die weite Welt hinaus Genau so riskant ist es jedoch, stets im angestammten Revier zu bleiben. Wenn Angeh&#246;rige einer Gattung nie wandern, kommt es nicht nur zu einem heftigen Wettkampf um die Ressourcen, ihr Habitat w&#228;re irgendwann auch gef&#228;hrdet. Allzu ausgepr&#228;gte Reviertreue ist aus evolutionstechnischer Sicht unvorteilhaft. Biologen sind daher nicht sonderlich &#252;berrascht, wenn sie ein gewisses Mass an K&#252;hnheit beobachten. Niemand wunderte sich, als</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">auf der isl&#228;ndischen Insel Surtsey, die im November 1963 infolge eines Vulkanausbruchs entstanden war, schon bald die ersten Spinnen entdeckt wurden.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Und wir Menschen? Der Nobelpreistr&#228;ger Daniel Kahneman hat in seinem Buch &#171;Schnelles Denken, langsames Denken&#187; dargelegt, dass unsere Entscheidungen allzu oft auf Irrt&#252;mern und Vorurteilen beruhen. Unsere Risikobereitschaft ist das Ergebnis eines eigent&#252;mlichen Zusammenspiels von Fehleinsch&#228;tzungen: einerseits reagieren wir bei Verlusten sehr viel st&#228;rker als bei Gewinnen (was Risikovermeidungsstrategien beg&#252;nstigt), andererseits agieren wir oft, als w&#228;ren bestimmte Trends ein f&#252;r allemal g&#252;ltig. Manchmal hat diese Sichtweise die Oberhand, was dann zu den bekannten Ergebnissen f&#252;hrt &#8211; der niederl&#228;ndischen Tulpenmanie im 17. Jahrhundert, der englischen S&#252;dseeblase im 18. Jahrhundert, der Dotcom- Blase und vielen anderen Beispielen in der j&#252;ngsten Vergangenheit.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Guter Tag, schlechter Tag Wie schaffen wir es, gleichzeitig risikofreudig und risikoscheu zu sein? Diese beiden Seiten k&#246;nnen in der Tat m&#252;helos mitein-</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:5.446pt;">Foto: F. Rauschenbach / F1online / Keystone</span></td>
+<td><span>ACaslonPro 5.446</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">52 &#8212; Bulletin N &#176; 2 / 2013</span></td>
+<td><span>ACaslonPro 7</span></td>
+</tr>
+<tr><td><a name="8">Page Number 8</a></td></tr>
+<tr>
+<td><span style="font-size:8.2pt;">Reise ins Ungewisse: Spinne, kurz bevor sie vom Wind weggetragen wird.</span></td>
+<td><span>ACaslonPro 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">ander existieren. Stellen wir uns einen Tag vor, an dem man zun&#228;chst Geld gewinnt und dann zwei kleinere Verluste verzeichnet. Man wird den Tag sehr viel negativer in Erinnerung behalten, als wenn man neben dem Gewinn keine unangenehmen Verluste verzeichnet h&#228;tte. Verr&#252;ckte menschliche Entscheide sind nicht so &#252;berraschend, bedenkt man, dass wir stets einzelne Ereignisse verfolgen (Gewinn! Gewinn! Gewinn! Verlust! Was f&#252;r ein verflixter Tag!), statt den Gesamtertrag im Blick zu behalten.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Wenn wir lernen, was tendenziell funktioniert, denken wir nicht lange dar&#252;ber nach, ob es klug ist, davon auszugehen, dass in der Vergangenheit erzielte Ergebnisse auch einen Hinweis auf die k&#252;nftigen Spielregeln liefern.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Wer weiss, vielleicht hat das mit der Evolution zu tun. Spinnen wissen nicht, wie ihr k&#252;nftiges Habitat aussieht, sie haben sich einfach so entwickelt, dass sie das tun, was bislang funktioniert hat. Ceteris paribus k&#246;nnte man sagen: je &#246;fter neue vulkanische Inseln entstehen (oder andere, weniger spektakul&#228;re neue geologische Formationen), desto optimistischer sind die Spinnen. Die Evolution arbeitet mit Extrapolation. Sie geht davon aus, dass sich die Regeln seit dem letzten Mal nicht ge&#228;ndert haben, dass Windverh&#228;ltnisse und Lebensbedingungen auch k&#252;nftig gelten. Man kann sich an ver&#228;nderte Bedingungen anpassen, im Allgemeinen aber nur, wenn diese mit grosser Wahrscheinlichkeit eintreten: der Vogelzug, ausgel&#246;st von k&#252;rzer werdenden Tagen, ist ein gutes Beispiel.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Interessanterweise bedeutet Risiko f&#252;r den Einzelnen etwas anderes als f&#252;r eine Gruppe von Individuen. Nehmen wir den Begriff &#171;Bet-hedging&#187;, also Risikostreuung. Man sichert sich, grob gesagt, gegen das gr&#246;sstm&#246;gliche Risiko ab. Setzt man optimistischerweise alles auf eine Karte und etwas l&#228;uft schief, hat man alles verloren. Auch das Ballooning der Spinnen klingt im ersten Moment nicht gerade als Inbegriff von Risikominimierung. Das einzelne Exemplar unternimmt etwas unglaublich Riskantes. Aber was ist die Alternative? Sich nie von seinem Revier zu entfernen? Genau das w&#252;rde darauf hinauslaufen, alles auf eine Karte zu setzen.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Eine Population steht besser da, wenn einige Nachkommen es schaffen und andere sterben, als wenn alle durchkommen, und pl&#246;tzlich wird ein neuer Parkplatz gebaut und alle Nachkommen werden von einem Bulldozer erwischt. Mathematisch besteht hier eine Eigent&#252;mlichkeit: eine breitere Varianz &#8211; eine hohe Performance &#8211; der unmittelbaren Nachkommen kann zu tieferem evolution&#228;rem Erfolg einer Population f&#252;hren.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Das grosse Ganze sehen Was k&#246;nnen wir aus der Evolution lernen? Erstens: Wir sind gut darin, etwas zu wiederholen, was gestern und vorgestern funktioniert hat, haben aber oft keinen Blick daf&#252;r, dass sich &#8211; mitunter als Folge unseres kollektiven Handelns &#8211; die Spielregeln &#228;ndern. Zweitens: Wir sind getrieben von einzelnen Ereignissen und verlieren das Gesamtresultat gerne aus dem Blick. Drittens: Risiko ist gut. Nicht unbedingt f&#252;r den einzelnen &#171;Risk-Taker&#187;, aber f&#252;r den l&#228;ngerfristigen Erfolg einer Spezies.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">Hanna Kokko ist Evolutionsbiologin. Die Finnin lebt in Canberra, sie ist Professorin an der Australian National University und ein Australian Laureate Fellow.</span></td>
+<td><span>ACaslonPro 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">Aus dem Englischen von Matthias Fienbork.</span></td>
+<td><span>ACaslonPro 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Bulletin N &#176; 2 / 2013 &#8212; 53</span></td>
+<td><span>ACaslonPro 7</span></td>
+</tr>
+<tr><td><a name="9">Page Number 9</a></td></tr>
+<tr>
+<td><span style="font-size:7.5pt;">&#8212; Risiko &#8212;</span></td>
+<td><span>ACaslonPro 7.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:33pt;">Droht die n&#228;chste Inflation?</span></td>
+<td><span>ACaslonPro 33</span></td>
+</tr>
+<tr>
+<td><span style="font-size:14.5pt;">Mit der Erh&#246;hung der Geldmenge h&#228;ufen sich auch die Sorgen vor einer Entwertung. Zu Recht?</span></td>
+<td><span>ACaslonPro 14.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">Von Claude Maurer</span></td>
+<td><span>ACaslonPro 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Inflation Jahresrate in %</span></td>
+<td><span>AkzidenzGroteskBE 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.243pt;">30</span></td>
+<td><span>AkzidenzGroteskBE 6.243</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.243pt;">28</span></td>
+<td><span>AkzidenzGroteskBE 6.243</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.243pt;">26</span></td>
+<td><span>AkzidenzGroteskBE 6.243</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.243pt;">24</span></td>
+<td><span>AkzidenzGroteskBE 6.243</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.243pt;">22</span></td>
+<td><span>AkzidenzGroteskBE 6.243</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.243pt;">20</span></td>
+<td><span>AkzidenzGroteskBE 6.243</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.243pt;">18</span></td>
+<td><span>AkzidenzGroteskBE 6.243</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.243pt;">16</span></td>
+<td><span>AkzidenzGroteskBE 6.243</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.243pt;">14</span></td>
+<td><span>AkzidenzGroteskBE 6.243</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.243pt;">12</span></td>
+<td><span>AkzidenzGroteskBE 6.243</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Industriel&#228;nder</span></td>
+<td><span>AkzidenzGroteskBE 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Schwellenl&#228;nder</span></td>
+<td><span>AkzidenzGroteskBE 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.243pt;">10</span></td>
+<td><span>AkzidenzGroteskBE 6.243</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.243pt;">8</span></td>
+<td><span>AkzidenzGroteskBE 6.243</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.243pt;">6</span></td>
+<td><span>AkzidenzGroteskBE 6.243</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.243pt;">4</span></td>
+<td><span>AkzidenzGroteskBE 6.243</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.243pt;">2</span></td>
+<td><span>AkzidenzGroteskBE 6.243</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.243pt;">0</span></td>
+<td><span>AkzidenzGroteskBE 6.243</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7.283pt;">1970 1980 1990 2000 2010</span></td>
+<td><span>AkzidenzGroteskBE 7.283</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">Die ausgezogenen Linien markieren den Zentralwert (Median) der Inflationsrate f&#252;r die beiden L&#228;ndergruppen. Die eingef&#228;rbten Bereiche umfassen die beiden mittleren Quartile f&#252;r jede Gruppe.</span></td>
+<td><span>ACaslonPro 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:5.5pt;">Quelle: Datastream</span></td>
+<td><span>ACaslonPro 5.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">54 &#8212; Bulletin N &#176; 2 / 2013</span></td>
+<td><span>ACaslonPro 7</span></td>
+</tr>
+<tr><td><a name="10">Page Number 10</a></td></tr>
+<tr>
+<td><span style="font-size:7.5pt;">&#8212; Risiko &#8212;</span></td>
+<td><span>ACaslonPro 7.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Mit jedem Morgenrot am Konjunkturhimmel flackern Inflationssorgen auf. Anlass daf&#252;r ist die enorme Aufbl&#228;hung der Geldmenge durch die wiederholten Interventionen der Zentralbanken seit der Finanzkrise. Tats&#228;chlich ist eine Geldschwemme einer der wichtigsten Treiber der Inflation. Die Aussage des Monetaristen Milton Friedman, dass Inflation mittelfristig immer und &#252;berall ein monet&#228;res Ph&#228;nomen sei, bleibt g&#252;ltig. Laut Theorie steigen die Preise, wenn die umgesetzte Geldmenge gr&#246;sser ist als das reale Angebot an G&#252;tern und Dienstleistungen.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Eine Aufbl&#228;hung der Notenbankgeldmenge alleine bedeutet jedoch nicht, dass dieses Geld auch in den Wirtschaftskreislauf gelangt, d. h. umgesetzt wird. In den vergangenen Jahren sind die Geldmengenaggregate, welche die tats&#228;chliche Kaufkraft der Wirtschaft reflektieren, also die Bankeinlagen der &#214;ffentlichkeit, kaum gestiegen. Anders gesagt: Die Umlaufgeschwindigkeit des Notenbankgeldes ist stark gesunken. Nochmals anders betrachtet, ist das viele Geld, das die Notenbanken den Gesch&#228;ftsbanken zur Verf&#252;gung gestellt haben, um diese durch die Krise zu &#171;f&#252;ttern&#187; und damit eine Versch&#228;rfung der Kreditklemme oder gar eine Depression zu vermeiden, gehortet worden; in den Wirtschaftskreislauf gelangt ist es nicht.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Dies erkl&#228;rt unter anderem, warum der Leistungsausweis der Zentralbanken bez&#252;glich Wahrung der Preisstabilit&#228;t trotz der Aufbl&#228;hung der Geldmenge weiterhin tadellos geblieben ist &#8211; zumindest wenn die Teuerung gemessen am Landesindex der Konsumentenpreise als Massstab zugrunde gelegt wird (siehe Grafik).</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Weginflationieren ist schwierig Damit aus einer aufgebl&#228;hten Geldmenge tats&#228;chlich eine Inflation entsteht, m&#252;ssen verschiedene Prozesse in Gang gesetzt werden. Naheliegend ist, dass die Gesch&#228;ftsbanken das Notenbankgeld nicht mehr horten, sondern als Kredite vergeben. Ein solchermassen ausgel&#246;ster Kreditboom w&#228;re ein m&#246;glicher Ausl&#246;ser eines traditionell immer wieder zu beobachtenden Inflationstreibers, einer &#220;bernachfrage.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Es ist jedoch angesichts des weiterhin maroden Zustandes des globalen Finanzsystems eher unwahrscheinlich, dass Gesch&#228;ftsbanken in der nahen Zukunft &#252;berm&#228;ssig viele Kredite vergeben werden &#8211;</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:14.5pt;">Das viele Geld, das die Notenbanken zur Verf&#252;gung stellten, gelangte nicht in den Wirtschaftskreislauf.</span></td>
+<td><span>ACaslonPro 14.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">im Gegenteil: Sie werden das g&#252;nstige Notenbankgeld noch l&#228;nger horten. Eher m&#246;glich ist hingegen, dass Staaten versuchen k&#246;nnten, ihre Staatsschulden wegzuinflationieren. Gewichtige Stimmen fordern bereits, eine h&#246;here Inflation zu tolerieren, damit die bestehende Schuldenlast an realem Wert verliert und damit tragbarer wird.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Doch das Weginflationieren ist in der heutigen vernetzten Finanzwelt einfacher gesagt als getan. Denn die Finanzm&#228;rkte sind gewarnt und nerv&#246;s. Sie w&#252;rden bei den ersten Anzeichen f&#252;r einen Versuch der Weginflationierung sofort h&#246;here Zinsen einfordern und die Inflationierung damit verhindern. Nur wenn das Finanzsystem gezwungen werden kann, auf h&#246;here Zinsen zu verzichten, w&#252;rde diese Art der Entschuldung gelingen.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Eine solche &#171;Financial Repression&#187; w&#228;re aber nur dann in grossem Stil umsetzbar, wenn die Staaten Fundamente wie Rechtssicherheit oder Eigentumsgarantie aufheben w&#252;rden. Es br&#228;uchte also weitreichende politische Entscheide, damit die Inflationsgefahr unkontrollierbar w&#252;rde. In der Tat waren die meisten der &#252;ber 50 F&#228;lle von Hyperinflation zwischen 1920 und 2008 auf politische Extremereignisse wie den Kollaps von Staaten zur&#252;ckzuf&#252;hren. Nat&#252;rlich l&#228;sst sich derzeit insbesondere f&#252;r die Eurozone ein solches negatives Zerfallsszenario spinnen, doch erachtet das Credit Suisse Economic Research dessen Eintrittswahrscheinlichkeit als gering.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Ein weiterer Inflationstreiber ist die Lohn-Preis-Spirale: Arbeitnehmer in Erwartung steigender Preise fordern h&#246;here L&#246;hne und Unternehmen versuchen die zu erwartenden h&#246;heren Personalkosten mittels h&#246;herer Preise auszugleichen. Demnach sind die Erwartungen ein bedeutender Katalysator dieses Inflationsprozesses.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Zudem wird deutlich: Inflation kann sich vor allem in einem wettbewerbsarmen Umfeld entwickeln. Nur dort k&#246;nnen die Unternehmen die Preise tats&#228;chlich erh&#246;hen und die Arbeitnehmer h&#246;here L&#246;hne durchsetzen. Die Globalisierung und der dadurch erh&#246;hte Wettbewerbsdruck ha- ben die Voraussetzungen daf&#252;r in den vergangenen Jahren strukturell verringert, das Risiko f&#252;r eine Lohn-Preis-Spirale ist entsprechend kleiner geworden. Solange der globale Wettbewerb nicht durch eine Welle des Protektionismus erstickt wird &#8211; wof&#252;r es wenige Indizien gibt &#8211;, sollte eine solche Spirale nicht so einfach in Fahrt kommen.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Eine Schl&#252;sselrolle in der B&#228;ndigung der Inflationsgefahr spielen die Zentralbanken. Solange ihre Politik glaubw&#252;rdig ist, keimen keine Preiserh&#246;hungserwartungen auf. Am Beispiel der Schweizerischen Nationalbank l&#228;sst sich zeigen, dass das Vertrauen in die auf Preisstabilit&#228;t ausgerichtete Geldpolitik aktuell gegeben ist.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Glaubw&#252;rdigkeit kein Naturgesetz Als Glaubw&#252;rdigkeitsmass dient ein Indikator, den das Credit Suisse Economic Research f&#252;r die Schweiz berechnet hat. Der Indikator schwankt definitionsgem&#228;ss auf einer Skala zwischen 0 (geringe Glaubw&#252;rdigkeit) und 1 (hohe Glaubw&#252;rdigkeit). Die Glaubw&#252;rdigkeit einer Zentralbank ist jedoch kein Naturgesetz, sondern ist sowohl von endogenen Faktoren, insbesondere dem Erfolgsausweis einer Zentralbank, als auch von strukturellen Faktoren abh&#228;ngig. Der wichtigste strukturelle Faktor ist die Unabh&#228;ngigkeit. Zahlreiche empirische Studien belegen, dass unabh&#228;ngige Zentralbanken tiefe Inflationsraten erzielen und diese nicht auf Kosten des Wirtschaftswachstums gehen. Nat&#252;rlich kann die Unabh&#228;ngigkeit der Zentralbank politisch wieder aufgehoben werden. Genauso wie die Globalisierung umgedreht oder das Finanzsystem theoretisch zum Kauf von Staatsschulden gezwungen werden kann. Entscheidend ist jedoch, ob der politische Prozess in diese Richtung geht oder nicht. Dies wiederum wird von den Pr&#228;ferenzen der bestimmenden politischen Kr&#228;fte abh&#228;ngen.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.9pt;">Man kann das Morgenrot am Konjunkturhimmel also relativ sorgenlos geniessen, das Inflationsrisiko scheint nach wie vor tief. Die alternden Mehrheiten in den Industriel&#228;ndern werden sich letztlich f&#252;r Stabilit&#228;t entscheiden, insbesondere weil eine Inflation ihre ersparten Verm&#246;gen erodieren w&#252;rde. Dasselbe gilt f&#252;r die meisten Schwellenl&#228;nder, wo grosse Teile der Bev&#246;lkerung in den vergangenen Jahrzehnten stark unter der Inflation gelitten haben.</span></td>
+<td><span>ACaslonPro 9.9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.2pt;">Claude Maurer ist Leiter Swiss Macroeconomic Research bei der Credit Suisse.</span></td>
+<td><span>ACaslonPro 8.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Bulletin N &#176; 2 / 2013 &#8212; 55</span></td>
+<td><span>ACaslonPro 7</span></td>
+</tr>
+</table></div>
+  <div id="pdfImage">
+    <div id="outerContainer">
+
+      <div id="sidebarContainer">
+        <div id="toolbarSidebar">
+          <div class="splitToolbarButton toggled">
+            <button id="viewThumbnail" class="toolbarButton group toggled" title="Show Thumbnails" tabindex="2" data-l10n-id="thumbs">
+               <span data-l10n-id="thumbs_label">Thumbnails</span>
+            </button>
+            <button id="viewOutline" class="toolbarButton group" title="Show Document Outline" tabindex="3" data-l10n-id="outline">
+               <span data-l10n-id="outline_label">Document Outline</span>
+            </button>
+            <button id="viewAttachments" class="toolbarButton group" title="Show Attachments" tabindex="4" data-l10n-id="attachments">
+               <span data-l10n-id="attachments_label">Attachments</span>
+            </button>
+          </div>
+        </div>
+        <div id="sidebarContent">
+          <div id="thumbnailView">
+          </div>
+          <div id="outlineView" class="hidden">
+          </div>
+          <div id="attachmentsView" class="hidden">
+          </div>
+        </div>
+      </div>  <!-- sidebarContainer -->
+
+      <div id="mainContainer">
+        <div class="findbar hidden doorHanger hiddenSmallView" id="findbar">
+          <label for="findInput" class="toolbarLabel" data-l10n-id="find_label">Find:</label>
+          <input id="findInput" class="toolbarField" tabindex="91">
+          <div class="splitToolbarButton">
+            <button class="toolbarButton findPrevious" title="" id="findPrevious" tabindex="92" data-l10n-id="find_previous">
+              <span data-l10n-id="find_previous_label">Previous</span>
+            </button>
+            <div class="splitToolbarButtonSeparator"></div>
+            <button class="toolbarButton findNext" title="" id="findNext" tabindex="93" data-l10n-id="find_next">
+              <span data-l10n-id="find_next_label">Next</span>
+            </button>
+          </div>
+          <input type="checkbox" id="findHighlightAll" class="toolbarField">
+          <label for="findHighlightAll" class="toolbarLabel" tabindex="94" data-l10n-id="find_highlight">Highlight all</label>
+          <input type="checkbox" id="findMatchCase" class="toolbarField">
+          <label for="findMatchCase" class="toolbarLabel" tabindex="95" data-l10n-id="find_match_case_label">Match case</label>
+          <span id="findMsg" class="toolbarLabel"></span>
+        </div>  <!-- findbar -->
+
+        <div id="secondaryToolbar" class="secondaryToolbar hidden doorHangerRight">
+          <div id="secondaryToolbarButtonContainer">
+            <button id="secondaryPresentationMode" class="secondaryToolbarButton presentationMode visibleLargeView" title="Switch to Presentation Mode" tabindex="51" data-l10n-id="presentation_mode">
+              <span data-l10n-id="presentation_mode_label">Presentation Mode</span>
+            </button>
+
+            <button id="secondaryOpenFile" class="secondaryToolbarButton openFile visibleLargeView" title="Open File" tabindex="52" data-l10n-id="open_file">
+              <span data-l10n-id="open_file_label">Open</span>
+            </button>
+
+            <button id="secondaryPrint" class="secondaryToolbarButton print visibleMediumView" title="Print" tabindex="53" data-l10n-id="print">
+              <span data-l10n-id="print_label">Print</span>
+            </button>
+
+            <button id="secondaryDownload" class="secondaryToolbarButton download visibleMediumView" title="Download" tabindex="54" data-l10n-id="download">
+              <span data-l10n-id="download_label">Download</span>
+            </button>
+
+            <a href="#" id="secondaryViewBookmark" class="secondaryToolbarButton bookmark visibleSmallView" title="Current view (copy or open in new window)" tabindex="55" data-l10n-id="bookmark">
+              <span data-l10n-id="bookmark_label">Current View</span>
+            </a>
+
+            <div class="horizontalToolbarSeparator visibleLargeView"></div>
+
+            <button id="firstPage" class="secondaryToolbarButton firstPage" title="Go to First Page" tabindex="56" data-l10n-id="first_page">
+              <span data-l10n-id="first_page_label">Go to First Page</span>
+            </button>
+            <button id="lastPage" class="secondaryToolbarButton lastPage" title="Go to Last Page" tabindex="57" data-l10n-id="last_page">
+              <span data-l10n-id="last_page_label">Go to Last Page</span>
+            </button>
+
+            <div class="horizontalToolbarSeparator"></div>
+
+            <button id="pageRotateCw" class="secondaryToolbarButton rotateCw" title="Rotate Clockwise" tabindex="58" data-l10n-id="page_rotate_cw">
+              <span data-l10n-id="page_rotate_cw_label">Rotate Clockwise</span>
+            </button>
+            <button id="pageRotateCcw" class="secondaryToolbarButton rotateCcw" title="Rotate Counterclockwise" tabindex="59" data-l10n-id="page_rotate_ccw">
+              <span data-l10n-id="page_rotate_ccw_label">Rotate Counterclockwise</span>
+            </button>
+
+            <div class="horizontalToolbarSeparator"></div>
+
+            <button id="toggleHandTool" class="secondaryToolbarButton handTool" title="Enable hand tool" tabindex="60" data-l10n-id="hand_tool_enable">
+              <span data-l10n-id="hand_tool_enable_label">Enable hand tool</span>
+            </button>
+            
+            <div class="horizontalToolbarSeparator"></div>
+
+            <button id="documentProperties" class="secondaryToolbarButton documentProperties" title="Document Properties&#8230;" tabindex="61" data-l10n-id="document_properties">
+              <span data-l10n-id="document_properties_label">Document Properties&#8230;</span>
+            </button>
+          </div>
+        </div>  <!-- secondaryToolbar -->
+
+        <div class="toolbar">
+          <div id="toolbarContainer">
+            <div id="toolbarViewer">
+              <div id="toolbarViewerLeft">
+                <button id="sidebarToggle" class="toolbarButton" title="Toggle Sidebar" tabindex="11" data-l10n-id="toggle_sidebar">
+                  <span data-l10n-id="toggle_sidebar_label">Toggle Sidebar</span>
+                </button>
+                <div class="toolbarButtonSpacer"></div>
+                <button id="viewFind" class="toolbarButton group hiddenSmallView" title="Find in Document" tabindex="12" data-l10n-id="findbar">
+                   <span data-l10n-id="findbar_label">Find</span>
+                </button>
+                <div class="splitToolbarButton">
+                  <button class="toolbarButton pageUp" title="Previous Page" id="previous" tabindex="13" data-l10n-id="previous">
+                    <span data-l10n-id="previous_label">Previous</span>
+                  </button>
+                  <div class="splitToolbarButtonSeparator"></div>
+                  <button class="toolbarButton pageDown" title="Next Page" id="next" tabindex="14" data-l10n-id="next">
+                    <span data-l10n-id="next_label">Next</span>
+                  </button>
+                </div>
+                <label id="pageNumberLabel" class="toolbarLabel" for="pageNumber" data-l10n-id="page_label">Page: </label>
+                <input type="number" id="pageNumber" class="toolbarField pageNumber" value="1" size="4" min="1" tabindex="15">
+                <span id="numPages" class="toolbarLabel"></span>
+              </div>
+              <div id="toolbarViewerRight">
+                <button id="presentationMode" class="toolbarButton presentationMode hiddenLargeView" title="Switch to Presentation Mode" tabindex="31" data-l10n-id="presentation_mode">
+                  <span data-l10n-id="presentation_mode_label">Presentation Mode</span>
+                </button>
+
+                <button id="openFile" class="toolbarButton openFile hiddenLargeView" title="Open File" tabindex="32" data-l10n-id="open_file">
+                  <span data-l10n-id="open_file_label">Open</span>
+                </button>
+
+                <button id="print" class="toolbarButton print hiddenMediumView" title="Print" tabindex="33" data-l10n-id="print">
+                  <span data-l10n-id="print_label">Print</span>
+                </button>
+
+                <button id="download" class="toolbarButton download hiddenMediumView" title="Download" tabindex="34" data-l10n-id="download">
+                  <span data-l10n-id="download_label">Download</span>
+                </button>
+                <!-- <div class="toolbarButtonSpacer"></div> -->
+                <a href="#" id="viewBookmark" class="toolbarButton bookmark hiddenSmallView" title="Current view (copy or open in new window)" tabindex="35" data-l10n-id="bookmark">
+                  <span data-l10n-id="bookmark_label">Current View</span>
+                </a>
+
+                <div class="verticalToolbarSeparator hiddenSmallView"></div>
+                
+                <button id="secondaryToolbarToggle" class="toolbarButton" title="Tools" tabindex="36" data-l10n-id="tools">
+                  <span data-l10n-id="tools_label">Tools</span>
+                </button> 
+              </div>
+              <div class="outerCenter">
+                <div class="innerCenter" id="toolbarViewerMiddle">
+                  <div class="splitToolbarButton">
+                    <button id="zoomOut" class="toolbarButton zoomOut" title="Zoom Out" tabindex="21" data-l10n-id="zoom_out">
+                      <span data-l10n-id="zoom_out_label">Zoom Out</span>
+                    </button>
+                    <div class="splitToolbarButtonSeparator"></div>
+                    <button id="zoomIn" class="toolbarButton zoomIn" title="Zoom In" tabindex="22" data-l10n-id="zoom_in">
+                      <span data-l10n-id="zoom_in_label">Zoom In</span>
+                     </button>
+                  </div>
+                  <span id="scaleSelectContainer" class="dropdownToolbarButton">
+                     <select id="scaleSelect" title="Zoom" tabindex="23" data-l10n-id="zoom">
+                      <option id="pageAutoOption" title="" value="auto" selected data-l10n-id="page_scale_auto">Automatic Zoom</option>
+                      <option id="pageActualOption" title="" value="page-actual" data-l10n-id="page_scale_actual">Actual Size</option>
+                      <option id="pageFitOption" title="" value="page-fit" data-l10n-id="page_scale_fit">Fit Page</option>
+                      <option id="pageWidthOption" title="" value="page-width" data-l10n-id="page_scale_width">Full Width</option>
+                      <option id="customScaleOption" title="" value="custom"></option>
+                      <option title="" value="0.5" data-l10n-id="page_scale_percent" data-l10n-args='{ "scale": 50 }'>50%</option>
+                      <option title="" value="0.75" data-l10n-id="page_scale_percent" data-l10n-args='{ "scale": 75 }'>75%</option>
+                      <option title="" value="1" data-l10n-id="page_scale_percent" data-l10n-args='{ "scale": 100 }'>100%</option>
+                      <option title="" value="1.25" data-l10n-id="page_scale_percent" data-l10n-args='{ "scale": 125 }'>125%</option>
+                      <option title="" value="1.5" data-l10n-id="page_scale_percent" data-l10n-args='{ "scale": 150 }'>150%</option>
+                      <option title="" value="2" data-l10n-id="page_scale_percent" data-l10n-args='{ "scale": 200 }'>200%</option>
+                      <option title="" value="3" data-l10n-id="page_scale_percent" data-l10n-args='{ "scale": 300 }'>300%</option>
+                      <option title="" value="4" data-l10n-id="page_scale_percent" data-l10n-args='{ "scale": 400 }'>400%</option>
+                    </select>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div id="loadingBar">
+              <div class="progress">
+                <div class="glimmer">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <menu type="context" id="viewerContextMenu">
+          <menuitem id="contextFirstPage" label="First Page" data-l10n-id="first_page"></menuitem>
+          <menuitem id="contextLastPage" label="Last Page" data-l10n-id="last_page"></menuitem>
+          <menuitem id="contextPageRotateCw" label="Rotate Clockwise" data-l10n-id="page_rotate_cw"></menuitem>
+          <menuitem id="contextPageRotateCcw" label="Rotate Counter-Clockwise" data-l10n-id="page_rotate_ccw"></menuitem>
+        </menu>
+
+        <div id="viewerContainer" tabindex="0">
+          <div id="viewer" class="pdfViewer"></div>
+        </div>
+
+        <div id="errorWrapper" hidden="true">
+          <div id="errorMessageLeft">
+            <span id="errorMessage"></span>
+            <button id="errorShowMore" data-l10n-id="error_more_info">
+              More Information
+            </button>
+            <button id="errorShowLess" data-l10n-id="error_less_info" hidden="true">
+              Less Information
+            </button>
+          </div>
+          <div id="errorMessageRight">
+            <button id="errorClose" data-l10n-id="error_close">
+              Close
+            </button>
+          </div>
+          <div class="clearBoth"></div>
+          <textarea id="errorMoreInfo" hidden="true" readonly></textarea>
+        </div>
+      </div> <!-- mainContainer -->
+
+      <div id="overlayContainer" class="hidden">
+        <div id="passwordOverlay" class="container hidden">
+          <div class="dialog">
+            <div class="row">
+              <p id="passwordText" data-l10n-id="password_label">Enter the password to open this PDF file:</p>
+            </div>
+            <div class="row">
+              <input type="password" id="password" class="toolbarField">
+            </div>
+            <div class="buttonRow">
+              <button id="passwordCancel" class="overlayButton"><span data-l10n-id="password_cancel">Cancel</span></button>
+              <button id="passwordSubmit" class="overlayButton"><span data-l10n-id="password_ok">OK</span></button>
+            </div>
+          </div>
+        </div>
+        <div id="documentPropertiesOverlay" class="container hidden">
+          <div class="dialog">
+            <div class="row">
+              <span data-l10n-id="document_properties_file_name">File name:</span> <p id="fileNameField">-</p>
+            </div>
+            <div class="row">
+              <span data-l10n-id="document_properties_file_size">File size:</span> <p id="fileSizeField">-</p>
+            </div>
+            <div class="separator"></div>
+            <div class="row">
+              <span data-l10n-id="document_properties_title">Title:</span> <p id="titleField">-</p>
+            </div>
+            <div class="row">
+              <span data-l10n-id="document_properties_author">Author:</span> <p id="authorField">-</p>
+            </div>
+            <div class="row">
+              <span data-l10n-id="document_properties_subject">Subject:</span> <p id="subjectField">-</p>
+            </div>
+            <div class="row">
+              <span data-l10n-id="document_properties_keywords">Keywords:</span> <p id="keywordsField">-</p>
+            </div>
+            <div class="row">
+              <span data-l10n-id="document_properties_creation_date">Creation Date:</span> <p id="creationDateField">-</p>
+            </div>
+            <div class="row">
+              <span data-l10n-id="document_properties_modification_date">Modification Date:</span> <p id="modificationDateField">-</p>
+            </div>
+            <div class="row">
+              <span data-l10n-id="document_properties_creator">Creator:</span> <p id="creatorField">-</p>
+            </div>
+            <div class="separator"></div>
+            <div class="row">
+              <span data-l10n-id="document_properties_producer">PDF Producer:</span> <p id="producerField">-</p>
+            </div>
+            <div class="row">
+              <span data-l10n-id="document_properties_version">PDF Version:</span> <p id="versionField">-</p>
+            </div>
+            <div class="row">
+              <span data-l10n-id="document_properties_page_count">Page Count:</span> <p id="pageCountField">-</p>
+            </div>
+            <div class="buttonRow">
+              <button id="documentPropertiesClose" class="overlayButton"><span data-l10n-id="document_properties_close">Close</span></button>
+            </div>
+          </div>
+        </div>
+      </div>  <!-- overlayContainer -->
+
+    </div> <!-- outerContainer -->
+  </div>
+    <div id="printContainer"></div>
+
+<div id="mozPrintCallback-shim" hidden>
+  <style scoped>
+#mozPrintCallback-shim {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999999;
+
+  display: block;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#mozPrintCallback-shim[hidden] {
+  display: none;
+}
+@media print {
+  #mozPrintCallback-shim {
+    display: none;
+  }
+}
+
+#mozPrintCallback-shim .mozPrintCallback-dialog-box {
+  display: inline-block;
+  margin: -50px auto 0;
+  position: relative;
+  top: 45%;
+  left: 0;
+  min-width: 220px;
+  max-width: 400px;
+
+  padding: 9px;
+
+  border: 1px solid hsla(0, 0%, 0%, .5);
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+
+  background-color: #474747;
+
+  color: hsl(0, 0%, 85%);
+  font-size: 16px;
+  line-height: 20px;
+}
+#mozPrintCallback-shim .progress-row {
+  clear: both;
+  padding: 1em 0;
+}
+#mozPrintCallback-shim progress {
+  width: 100%;
+}
+#mozPrintCallback-shim .relative-progress {
+  clear: both;
+  float: right;
+}
+#mozPrintCallback-shim .progress-actions {
+  clear: both;
+}
+  </style>
+  <div class="mozPrintCallback-dialog-box">
+    <!-- TODO: Localise the following strings -->
+    Preparing document for printing...
+    <div class="progress-row">
+      <progress value="0" max="100"></progress>
+      <span class="relative-progress">0%</span>
+    </div>
+    <div class="progress-actions">
+      <input type="button" value="Cancel" class="mozPrintCallback-cancel">
+    </div>
+  </div>
+</div>
+
+  </body>
+</html>
