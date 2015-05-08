@@ -209,7 +209,7 @@ $(function () {
             }
         }
         $("#numSelected").text(num);
-        document.title = 'Currently selected: ' + num;
+        document.title = 'Selected: ' + num;
     }
 
     // search with PDF.js
