@@ -93,8 +93,16 @@ $(function () {
             var fontcolumn_text = font_column.text();
             var font_size = parseFloat(fontcolumn_text.match(/\d+(\.\d+)?$/)[0]);
             if (min_value <= font_size && font_size <= max_value) {
-                font_column.addClass("range");
+                putNewClass(font_column, "range");
             }
+        }
+    }
+
+    function putNewClass(td, class_name) {
+        // never remove a currently selected td
+        if (td.attr('class') != "selected_fontabbrv") {
+            td.removeClass();
+            td.addClass(class_name);
         }
     }
 
@@ -112,12 +120,12 @@ $(function () {
                 if (floatRegex.test(item)) {
                     var font_size = fontcolumn_text.match(/[\d\.]+$/g)[0];  // extract font size from second column
                     if (item == font_size) {
-                        font_column.addClass("history");
+                        putNewClass(font_column, "history");
                     }
                 }
                 // file contains font name & font size
                 else if (fontcolumn_text.indexOf(item) > -1) {
-                    font_column.addClass("history");
+                    putNewClass(font_column, "history");
                 }
             }
         }
@@ -175,22 +183,22 @@ $(function () {
             curr_td.toggleClass("selected_fontabbrv");
         }
 
-        setNumSelected();
+        updateNumSelected();
     }
 
     function getTDsSameFontabbrv(fontabbrv) {
         var tds = getAllTDs(INDEX_FONTCOLUMN);
         var matching_tds = [];
         for (var i = 0; i < tds.length; i++) {
-            var iter_td = tds[i];
-            if (fontabbrv == iter_td.text()) {
-                matching_tds.push(iter_td);
+            var curr_td = tds[i];
+            if (fontabbrv == curr_td.text()) {
+                matching_tds.push(curr_td);
             }
         }
         return matching_tds;
     }
 
-    function setNumSelected() {
+    function updateNumSelected() {
         var tds = getAllTDs(INDEX_FONTCOLUMN);
         var num = 0;
         for (var i = 0; i < tds.length; i++) {
@@ -228,39 +236,39 @@ $(function () {
 
     // to give the user more context, NUM_NEIGHBOURS paragraphs following each highlighted paragraph won't be filtered out/hidden
     function mark_neighbours(class_name) {
-        $("table tr td").each(function () {
-            if ($(this).index() == INDEX_FONTCOLUMN) {
-                var curr_class = $(this).attr('class');
-                if (curr_class == "range" || curr_class == "history") {
-                    var tds_frwd = [];
-                    tds_frwd.push($(this));
+        var tds = getAllTDs(INDEX_FONTCOLUMN);
+        for (var i = 0; i < tds.length; i++) {
+            var curr_td = tds[i];
+            var curr_class = curr_td.attr('class');
+            if (curr_class == "range" || curr_class == "history") {
+                var tds_frwd = [];
+                tds_frwd.push(curr_td);
 
-                    for (var i = 0; i < NUM_NEIGHBOURS; i++) {
-                        var next_td = getNextTD(tds_frwd[i]);
-                        if (next_td.attr('class') == undefined) {
-                            next_td.addClass(class_name);
-                        }
-                        tds_frwd.push(next_td);
+                for (var j = 0; j < NUM_NEIGHBOURS; j++) {
+                    var next_td = getNextTD(tds_frwd[j]);
+                    if (next_td.attr('class') == undefined) {
+                        next_td.addClass(class_name);
                     }
+                    tds_frwd.push(next_td);
                 }
             }
-        });
+        }
     }
 
     function getNextTD(td) {
-        return td.parent().next().find("td").eq(1);
+        return td.parent().next().find("td").eq(INDEX_FONTCOLUMN);
     }
 
     function hideRows() {
         showRows();
-        $("table tr td").each(function () {
-            if ($(this).index() == INDEX_FONTCOLUMN) {
-                var curr_class = $(this).attr('class');
-                if (curr_class == undefined) {
-                    $(this).parent().hide();
-                }
+        var tds = getAllTDs(INDEX_FONTCOLUMN);
+        for (var i = 0; i < tds.length; i++) {
+            var curr_td = tds[i];
+            var curr_class = curr_td.attr('class');
+            if (curr_class == undefined) {
+                curr_td.parent().hide();
             }
-        });
+        }
     }
 
     function showRows() {
@@ -268,7 +276,7 @@ $(function () {
         rows.show();
     }
 
-    // Divs always stays at the same relative window position after scroll
+    // Divs always stays at the same relative window position when scrolling occurs
     $(window).scroll(function () {
         var top = $(window).scrollTop();
         var pdf_top = $(window).scrollTop() + 60;

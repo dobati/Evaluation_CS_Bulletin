@@ -5,7 +5,7 @@
  xsi:schemaLocation="http://www.pdflib.com/XML/TET3/TET-3.0
  http://www.pdflib.com/XML/TET3/TET-3.0.xsd"
  version="4.2">
-<Creation platform="Win32" tetVersion="4.3p1" date="2015-05-07T21:04:02+02:00" />
+<Creation platform="Win32" tetVersion="4.3p1" date="2015-05-08T08:51:30+02:00" />
 <Document filename="C:\Users\Pascal\PycharmProjects\StructureXML\Input\BulletinPDFs\referenzCS_de.pdf" pageCount="10" filesize="946199" linearized="false" pdfVersion="1.7">
 <DocInfo>
 <CreationDate>2014-12-20T13:43:11+01:00</CreationDate>
