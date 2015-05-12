@@ -1,9 +1,8 @@
 __author__ = 'Till'
-from lxml import etree
 from FontAbbrvSize import FontAbbrvSize
 from HeadingsDB import HeadingsDB
 import os.path
-
+from Logic import Parser
 """ Parses and validates headings file. Returns headingsDB """
 class HeadingsParser:
 
@@ -13,8 +12,7 @@ class HeadingsParser:
 
     def parse(self, file_path):
         assert os.path.isfile(file_path), "Heading doesn't exist. Please create " + repr(file_path)
-        parser = etree.XMLParser(dtd_validation=True)
-        tree = etree.parse(file_path, parser)
+        tree = Parser.parse_dtd(file_path)
         bulletin = tree.getroot()
 
         for heading in bulletin:

@@ -6691,13 +6691,15 @@ window.addEventListener('keydown', function keydown(evt) {
   if (OverlayManager.active) {
     return;
   }
-
-    switch (event.keyCode) {
+    // those keys must be available to the PrettyPrinter
+    switch (evt.keyCode) {
         case 34: // pg down
         case 33: // pg up
         case 36: // home
         case 35: // end
             return;
+        default:
+            break;
     }
 
   var handled = false;

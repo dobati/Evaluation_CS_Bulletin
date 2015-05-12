@@ -44,6 +44,10 @@ def __remove_namespace(filename):
 
     return string_nonamespace
 
+def parse_dtd(filename):
+    parser = etree.XMLParser(dtd_validation=True)
+    tree = etree.parse(filename, parser)
+    return tree
 
 def __find(elem, target, all=""):
     item = elem.find(all + target)

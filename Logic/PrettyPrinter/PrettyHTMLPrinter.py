@@ -66,7 +66,8 @@ class PrettyHTMLPrinter:
         pdf_file_url = SettingsManager.webserver_pdf_path + file_name
 
         filename_div = self.body.get_element_by_id("pdfFileName")
-        filename_div.set("name", pdf_file_url)
+        filename_div.set("url", pdf_file_url)
+        filename_div.set("filename", file_name)
 
     def __append_span(self, td):
         span = html.Element("span")
@@ -94,15 +95,15 @@ class PrettyHTMLPrinter:
         new_root = etree.Element("root")
         new_root.append(par_div)
 
-        # run TokenizerAdapter & beautifier to extract nicely formatted text
+        # run TokenizerAdapter & remove_whitespaces() to extract nicely formatted text
         tokenizer = TokenizerAdapter(Parser.TET_div_tag, Parser.TET_word_tag)
         return_xml = tokenizer.start(new_root)
         final_div = Parser.find_all(return_xml, Parser.TET_div_tag)
-        final_text = self.__beautify_text(final_div.text)
+        final_text = self.__remove_whitespaces(final_div.text)
         return final_text
 
-    # beautify the text for better readability
-    def __beautify_text(self, text):
+    # function improves readability of text in first column
+    def __remove_whitespaces(self, text):
         if text is None:
             return ""
 

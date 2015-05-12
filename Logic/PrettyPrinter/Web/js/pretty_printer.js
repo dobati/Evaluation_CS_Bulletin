@@ -7,7 +7,7 @@ $(function () {
     var INDEX_FONTCOLUMN = 1; // 2nd td
     var NUM_NEIGHBOURS = 5; // paragraphs to be displayed after a highlighted one
 
-    var pdf_url = $("#pdfFileName").attr("name");    // URL is fetched from div
+    var pdf_url = $("#pdfFileName").attr("url");    // URL is fetched from div
     PDFView.open(pdf_url, 0);
 
     // load file chosen by user and highlight data
@@ -57,33 +57,6 @@ $(function () {
             showRows();
         }
 
-    });
-
-    $("#exportButton").click(function () {
-        var all_selected = [];
-        $('.selected_fontabbrv').each(function (index, obj) {
-            var font_info = $(this).text();
-            all_selected.push(font_info);
-        });
-
-        // remove duplicate entries
-        var uniqueNames = [];
-        $.each(all_selected, function (i, el) {
-            if ($.inArray(el, uniqueNames) === -1) uniqueNames.push(el);
-        });
-        uniqueNames.sort();
-
-        // convert to newline separated string
-        var output_string = "";
-        for (var i = 0; i < uniqueNames.length; i++) {
-            var split = uniqueNames[i].split(" ");
-            var font_name = split[0];
-            var font_size = split[1];
-
-            output_string += '&lt;HEADING name="article" fontabbrv="' + font_name + '" fontsize="' + font_size + '"/&gt;</br>'
-        }
-
-        exportPopup(output_string);
     });
 
     function higlightFontRange(min_value, max_value) {
@@ -228,10 +201,94 @@ $(function () {
         return event;
     }
 
+    $("#exportButton").click(function () {
+        var all_selected = [];
+        $('.selected_fontabbrv').each(function (index, obj) {
+            var font_info = $(this).text();
+            all_selected.push(font_info);
+        });
+
+        if (!all_selected.length) {
+            alert("Did you forget to select fonts first?");
+            return;
+        }
+
+        // remove duplicate entries
+        var uniqueNames = [];
+        $.each(all_selected, function (i, el) {
+            if ($.inArray(el, uniqueNames) === -1) uniqueNames.push(el);
+        });
+        uniqueNames.sort();
+
+        // convert to newline separated string
+        var output_string = "<BULLETIN>";
+        for (var i = 0; i < uniqueNames.length; i++) {
+            var split = uniqueNames[i].split(" ");
+            var font_name = split[0];
+            var font_size = split[1];
+
+            output_string += '<HEADING name="article" fontabbrv="' + font_name + '" fontsize="' + font_size + '"/>'
+        }
+        output_string += "</BULLETIN>";
+        exportPopup(output_string);
+    });
+
     function exportPopup(text) {
-        var w = window.open('', '', 'width=800,height=400,resizeable,scrollbars');
-        w.document.write(text);
-        w.document.close(); // needed for chrome and safari
+        var headings_file = $("#pdfFileName").attr("filename").replace(".pdf", "-Heading.xml");
+        var xml_data = '<?xml version="1.0" encoding="UTF-8" ?>' +
+            '<!DOCTYPE BULLETIN [' +
+            '<!ELEMENT BULLETIN (HEADING+)>' +
+            '<!ELEMENT HEADING EMPTY>' +
+            '' +
+            '<!ATTLIST HEADING name CDATA #REQUIRED>' +
+            '<!ATTLIST HEADING fontabbrv CDATA #REQUIRED>' +
+            '<!ATTLIST HEADING fontsize CDATA #REQUIRED>' +
+            ']>' +
+            '' + text;
+
+        var my_json = {};
+        my_json[headings_file] = xml_data;
+        var deptObj = JSON.stringify(my_json);
+
+        $.ajax({
+            data: deptObj,
+            type: "POST",
+            url: "/uploadajax",
+            dataType: "json",
+            contentType: "json",
+            success: function (result) {
+                for (var prop in result) {
+                    if (result.hasOwnProperty(prop))
+                        var headings_xml = (result[prop]);
+                }
+
+                show_export_dialog(headings_file, headings_xml);
+
+            },
+            error: function (request, error) {
+                console.log("Error");
+                alert(request);
+            }
+        });
+    }
+
+    function show_export_dialog(filename, headings_xml) {
+        var my_dialog = $("#dialog-message");
+        var url_p_tag = $("#p_url");
+        url_p_tag.text("Preview of the created " + filename + ":");
+        var txtarea = $("#exportTextarea");
+        var xml_data = vkbeautify.xml(headings_xml);
+        txtarea.val(xml_data);
+
+        my_dialog.dialog({
+            modal: true,
+            minWidth: 800,
+            buttons: {
+                Ok: function () {
+                    $(this).dialog("close");
+                }
+            }
+        });
     }
 
     // to give the user more context, NUM_NEIGHBOURS paragraphs following each highlighted paragraph won't be filtered out/hidden
