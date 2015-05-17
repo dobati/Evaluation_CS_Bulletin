@@ -1,0 +1,14 @@
+<!DOCTYPE BULLETIN [
+<!ELEMENT BULLETIN (HEADING)+>
+<!ELEMENT HEADING EMPTY>
+<!ATTLIST HEADING name CDATA #REQUIRED>
+<!ATTLIST HEADING fontabbrv CDATA #REQUIRED>
+<!ATTLIST HEADING fontsize CDATA #REQUIRED>
+]>
+<BULLETIN>
+  <HEADING name="article" fontabbrv="BasicCommercialLTCom" fontsize="23"/>
+  <HEADING name="article" fontabbrv="BasicCommercialLTCom" fontsize="27"/>
+  <HEADING name="article" fontabbrv="BasicCommercialLTCom" fontsize="30"/>
+  <HEADING name="article" fontabbrv="BasicCommercialLTCom" fontsize="34"/>
+  <HEADING name="article" fontabbrv="BasicCommercialLTCom" fontsize="39"/>
+</BULLETIN>

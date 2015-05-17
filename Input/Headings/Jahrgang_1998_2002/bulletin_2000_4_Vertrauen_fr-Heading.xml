@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+            <!DOCTYPE BULLETIN [
+                    <!ELEMENT BULLETIN (HEADING+)>
+                    <!ELEMENT HEADING EMPTY>
+
+                    <!ATTLIST HEADING name CDATA #REQUIRED>
+                    <!ATTLIST HEADING fontabbrv CDATA #REQUIRED>
+                    <!ATTLIST HEADING fontsize CDATA #REQUIRED>
+                    ]>
+
+            <BULLETIN>
+              <HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="100"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="107.2"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="110"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="21"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="22"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="40"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="43.9"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="44.5"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="45"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="46"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="54"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="56.15"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="56.5"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="57"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="58"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="60"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="68"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="88"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="99.37"/>
+
+            </BULLETIN>

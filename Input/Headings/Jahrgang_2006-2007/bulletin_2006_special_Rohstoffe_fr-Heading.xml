@@ -1,0 +1,22 @@
+<!DOCTYPE BULLETIN [
+<!ELEMENT BULLETIN (HEADING)+>
+<!ELEMENT HEADING EMPTY>
+<!ATTLIST HEADING name CDATA #REQUIRED>
+<!ATTLIST HEADING fontabbrv CDATA #REQUIRED>
+<!ATTLIST HEADING fontsize CDATA #REQUIRED>
+]>
+<BULLETIN>
+  <HEADING name="article" fontabbrv="CreditSuisseType" fontsize="120"/>
+  <HEADING name="article" fontabbrv="CreditSuisseType" fontsize="130"/>
+  <HEADING name="article" fontabbrv="CreditSuisseType" fontsize="145"/>
+  <HEADING name="article" fontabbrv="CreditSuisseType" fontsize="20"/>
+  <HEADING name="article" fontabbrv="CreditSuisseType" fontsize="25"/>
+  <HEADING name="article" fontabbrv="CreditSuisseType" fontsize="30"/>
+  <HEADING name="article" fontabbrv="CreditSuisseType" fontsize="50"/>
+  <HEADING name="article" fontabbrv="CreditSuisseType" fontsize="61.5"/>
+  <HEADING name="article" fontabbrv="CreditSuisseType" fontsize="62.5"/>
+  <HEADING name="article" fontabbrv="CreditSuisseType" fontsize="65"/>
+  <HEADING name="article" fontabbrv="CreditSuisseType" fontsize="69.5"/>
+  <HEADING name="article" fontabbrv="CreditSuisseType" fontsize="70"/>
+  <HEADING name="article" fontabbrv="CreditSuisseType" fontsize="85"/>
+</BULLETIN>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+            <!DOCTYPE BULLETIN [
+                    <!ELEMENT BULLETIN (HEADING+)>
+                    <!ELEMENT HEADING EMPTY>
+
+                    <!ATTLIST HEADING name CDATA #REQUIRED>
+                    <!ATTLIST HEADING fontabbrv CDATA #REQUIRED>
+                    <!ATTLIST HEADING fontsize CDATA #REQUIRED>
+                    ]>
+
+            <BULLETIN>
+             <HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="145"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="21"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="22"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="38"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="44"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="45"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="57"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="58.75"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="60"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="63.5"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="72"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="80"/>
+<HEADING name="article" fontabbrv="AkzidenzGrotesk" fontsize="85"/>
+
+            </BULLETIN>
