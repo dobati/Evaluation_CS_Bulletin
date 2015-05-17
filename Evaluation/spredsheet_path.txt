@@ -1,0 +1,4 @@
+https://docs.google.com/spreadsheets/d/1sH4cfW3cYK39TbpFQXhETkl2aE6mzjF3cCsv8T-NTk8/edit#gid=0
+
+# To do (Noemi): Finish creating Headings
+# To do (both): Use the index to count the number of actual articles for one Jahrgang (choose 2-3 Jahrgänge having different layout styles)
