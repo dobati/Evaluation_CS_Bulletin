@@ -1,0 +1,2842 @@
+<!DOCTYPE html>
+<!--
+Copyright 2012 Mozilla Foundation
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Adobe CMap resources are covered by their own copyright and license:
+http://sourceforge.net/adobe/cmap/wiki/License/
+-->
+<html dir="ltr" mozdisallowselectionprint moznomarginboxes>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="google" content="notranslate">
+    <title></title>
+
+
+
+      <link rel="stylesheet" href="../../Logic/PrettyPrinter/Web/js/pdf.js/web/my_viewer.css">
+
+      <script src="../../Logic/PrettyPrinter/Web/js/pdf.js/build/pdf.worker.js"></script>
+      <script src="../../Logic/PrettyPrinter/Web/js/pdf.js/web/compatibility.js"></script>
+        <script src="../../Logic/PrettyPrinter/Web/js/jquery-2.1.3.js"></script>
+        <script src="../../Logic/PrettyPrinter/Web/js/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+        <script src="../../Logic/PrettyPrinter/Web/js/vkbeautify.0.99.00.beta.js"></script>
+
+            <script src="../../Logic/PrettyPrinter/Web/js/pretty_printer.js"></script>
+            <link rel="stylesheet" href="../../Logic/PrettyPrinter/Web/stylesheet.css" type="text/css">
+            <link rel="stylesheet" href="../../Logic/PrettyPrinter/Web/js/jquery-ui-1.11.4.custom/jquery-ui.css" type="text/css">
+
+
+
+
+  <!-- This snippet is used in production (included from viewer.html) -->
+  <link rel="resource" type="application/l10n" href="../../Logic/PrettyPrinter/Web/js/pdf.js/web/locale/locale.properties">
+  <script src="../../Logic/PrettyPrinter/Web/js/pdf.js/web/l10n.js"></script>
+  <script src="../../Logic/PrettyPrinter/Web/js/pdf.js/build/pdf.js"></script>
+
+
+
+
+      <script src="../../Logic/PrettyPrinter/Web/js/pdf.js/web/debugger.js"></script>
+      <script src="../../Logic/PrettyPrinter/Web/js/pdf.js/web/viewer.js"></script>
+
+
+
+
+
+  </head>
+
+  <body tabindex="1" class="loadingInProgress">
+  <label class="myButtons">Min font size: <input type="text" id="minfontsize" class="myButtons" value="20">Max font size: <input type="text" class="myButtons" id="maxfontsize" value="200"></label>
+  <button id="fontRangeButton" class="myButtons">Highlight Font Sizes</button>
+  <input type="file" id="loadHistoryButton" class="myButtons" name="files[]">
+  <label class="myButtons">Filter Table <input type="checkbox" id="filterCheckbox"></label>
+  <button id="exportButton" class="myButtons">Export Selected</button>
+  <label id="searchFieldLabel" class="myButtons">Scroll to page: <input type="text" class="myButtons" id="pageSearchField"></label>
+  <label id="numSelected" class="highlightSelected">0</label><br>
+  <div id="pdfFileName" url="http://127.0.0.1:5000/Input/BulletinPDFs/bulletin_2007_plus_Internet_it.pdf" filename="bulletin_2007_plus_Internet_it.pdf"></div>
+  <div id="tableDiv"><table>
+<tr><td><a name="1">Page Number 1</a></td></tr>
+<tr>
+<td><span style="font-size:7pt;">Rivista del Credit Suisse | Giugno 2007</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:45pt;">Internet</span></td>
+<td><span>CreditSuisseType 45</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7.5pt;">Pagina 04</span></td>
+<td><span>CreditSuisseType 7.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9pt;">Direct Net Buon compleanno! |</span></td>
+<td><span>CreditSuisseType 9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7.5pt;">Pagina 08</span></td>
+<td><span>CreditSuisseType 7.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9pt;">Sicurezza A pesca di password |</span></td>
+<td><span>CreditSuisseType 9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7.5pt;">Pagina 10</span></td>
+<td><span>CreditSuisseType 7.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.7pt;">SCOCI</span></td>
+<td><span>CreditSuisseType 8.7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9pt;">Giri di ronda</span></td>
+<td><span>CreditSuisseType 9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9pt;">su Internet |</span></td>
+<td><span>CreditSuisseType 9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7.5pt;">Pagina 12</span></td>
+<td><span>CreditSuisseType 7.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9pt;">Fund Lab Cliccando s &#8217; investe |</span></td>
+<td><span>CreditSuisseType 9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7.5pt;">Pagina 14</span></td>
+<td><span>CreditSuisseType 7.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9pt;">Accessibilit&#224; Addio alle barriere |</span></td>
+<td><span>CreditSuisseType 9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7.5pt;">Pagina 15</span></td>
+<td><span>CreditSuisseType 7.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9pt;">Lavoro cercasi C &#8217; &#232; un &#8217; e-mail per te |</span></td>
+<td><span>CreditSuisseType 9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7.5pt;">Pagina 17</span></td>
+<td><span>CreditSuisseType 7.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9pt;">Business Internet a gonfie vele |</span></td>
+<td><span>CreditSuisseType 9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7.5pt;">Pagina 18</span></td>
+<td><span>CreditSuisseType 7.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9pt;">Cyberspazio La vita in rete</span></td>
+<td><span>CreditSuisseType 9</span></td>
+</tr>
+<tr><td><a name="2">Page Number 2</a></td></tr>
+<tr>
+<td><span style="font-size:24.99pt;">I vostri figli conoscono i rischi del mondo online?</span></td>
+<td><span>Eurostile 24.99</span></td>
+</tr>
+<tr>
+<td><span style="font-size:10pt;">Security4kids aiuta in modo interattivo e divertente i genitori, i bambini e gli insegnanti a gestire correttamente i rischi di Internet e a navigare in modo sicuro e responsabile nel mondo online. I partner dell &#8217; iniziativa propongono inoltre ad allievi e docenti numerose informazioni e offerte formative. Per saperne di pi&#249; visitate</span></td>
+<td><span>Eurostile 10</span></td>
+</tr>
+<tr>
+<td><span style="font-size:10pt;">con la vostra famiglia o la vostra classe il sito www.security4kids.ch.</span></td>
+<td><span>Eurostile 10</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">1315 _ MS _ sec4kids _ Ins _ 176x235 _ i. i1 1 23.5.2007 16:22:25 Uhr</span></td>
+<td><span>Helvetica 6</span></td>
+</tr>
+<tr><td><a name="3">Page Number 3</a></td></tr>
+<tr>
+<td><span style="font-size:7.3pt;">Credit Suisse Bulletin plus</span></td>
+<td><span>CreditSuisseType 7.3</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">| Internet | 03</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Editoriale Hanspeter Kurzmeyer Responsabile Clientela privata Svizzera</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">Quando Internet era ancora in fasce</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Quanto tempo &#232; passato da quando la maggior parte della gente andava in posta a fare i pagamenti con il libretto giallo? O da quando si comunicava prevalentemente per telefono, lettera o fax e bisognava attendere giornate intere prima di ricevere una risposta? O da quando le vacanze potevano essere prenotate solo in agenzia, si cercavano i numeri di telefono e gli indirizzi nell &#8217; elenco telefonico e per comparare i prezzi di un prodotto si pellegrinava da un negozio all &#8217; altro? La risposta potrebbe sorprendere, perch&#233; ci&#242; che sembra quasi preistoria risale solo a poco pi&#249; di un decennio fa.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Per il Credit Suisse l &#8217; avventura in rete inizi&#242; a met&#224; degli anni Novanta. Internet era sulla bocca di tutti, anche se prevaleva ancora lo scetticismo. Infine, nel</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">1995</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">, il Credit Suisse os&#242; quello che nessun &#8217; altra banca svizzera aveva ancora osato, ossia il lancio di un sito web. Poco meno di due anni dopo, nel</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">1997</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">, il Credit Suisse mise in rete il primo applicativo di online banking della Svizzera, Direct Net, dando il via a una corsa sfrenata tra i maggiori istituti di credito elvetici. Segu&#236; un periodo di enormi progressi in ambito tecnologico e un vero e proprio boom di Internet. All &#8217; inizio del nuovo millennio l &#8217; entusiasmo ebbe una battuta d &#8217; arresto, peraltro di breve durata, e il trend riprese rapidamente l &#8217; andamento al rialzo. Nel frattempo Internet ha conquistato di diritto lo statuto di piattaforma globale di informazione e comunicazione. Grazie al web l &#8217; utente pu&#242; cercare informazioni, effettuare le sue opera zioni bancarie o prenotare un volo in tutta rapidit&#224; e</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">24</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">ore su</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">24</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">. In altre parole: al giorno d &#8217; oggi vivere senza Internet &#232; pressoch&#233; impensabile.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Le nuove tecnologie evolvono a ritmo frenetico, cos&#236; come i requisiti posti alle innovazioni. In quest &#8217; ottica anche il Credit Suisse non pu&#242; adagiarsi sugli allori se vuole imporsi tra i migliori del ramo. Il banking in rete &#232; ormai diventato un canale privilegiato della consulenza globale, sottoposto ad adeguamenti costanti per rispondere in maniera ottimale alle esigenze della clientela. Cos&#236;, in occasione del decimo anniversario, anche Direct Net si presenta in una nuova veste, arricchita da aggiornatissimi risultati di ricerca sulle borse e i mercati. Nel presente inserto del Bulletin vi sveleremo di pi&#249; su tali novit&#224;, ma vi forniremo anche interessanti informazioni su Internet, la sicurezza, la ricerca di un impiego, gli investimenti e la realt&#224; dei mondi virtuali paralleli. Auguriamo a tutti una lettura piacevole e stimolante.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr><td><a name="4">Page Number 4</a></td></tr>
+<tr>
+<td><span style="font-size:7pt;">04 |</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7.3pt;">Credit Suisse Bulletin plus</span></td>
+<td><span>CreditSuisseType 7.3</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">| Internet</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:20pt;">Buon compleanno, Direct Net!</span></td>
+<td><span>CreditSuisseType 20</span></td>
+</tr>
+<tr>
+<td><span style="font-size:11pt;">Direct Net, l &#8217; offerta di online banking del Credit Suisse, compie dieci anni e sorprende tutti con un nuovo look and feel: una struttura snella, servizi ampliati e una nuova veste grafica. Auguri!</span></td>
+<td><span>CreditSuisseType 11</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">&#171;Benvenuto a New York&#187;. La signora alla reception dell &#8217; albergo ha appena registrato il signor Pozzi. Fuori &#232; ormai buio. Pozzi guarda l &#8217; orologio. Quasi mezzanotte. Mancano otto ore al suo importante meeting in cui discuter&#224; di ingenti investimenti.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Pozzi controlla ancora una volta la situazione patrimoniale della sua azienda servendosi di Direct Net: quanti sono i mezzi liberi disponibili e quali sono gli impegni della ditta a medio e lungo termine? Per finire una rapida occhiata a SecureMail, la mailbox codificata della sua banca, dove trova un messaggio del suo consulente: &#171;Buongiorno signor Pozzi. Il Credit Suisse lancia Living Plus, un nuovo fondo immobiliare. Il prodotto si addice in maniera ottimale alla sua personale strategia d &#8217; investimento e dovrebbe interessarla anche in qualit&#224; di cliente commerciale. Importanti cifre e fatti sono disponibili in Direct Net sotto Dati di mercato &amp; Analisi. Cordiali saluti, S. Bianchi&#187;. Pozzi non vuole decidere subito e preferisce prima osservare l &#8217; andamento del fondo Living Plus. &#171;Buonasera signor Bianchi. Offerta interessante. Trasferir&#242; il fondo immobiliare nel portafoglio virtuale. Le dar&#242; notizia appena avr&#242; deciso. Saluti &#8211; U. Pozzi&#187;.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Un esempio fittizio di come utilizzare Direct Net? S&#236; e no. Michel Gaillard &#232; a capo del comparto Online Banking del Credit Suisse da oltre un anno. Ha portato a termine molti progetti e introdotto nuovi servizi sul mercato. Parlando con noi ci illustra tutte le possibilit&#224; offerte da Direct Net e ci spiega in che direzione si muove la tendenza. Ma andiamo per ordine.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Il primo passo verso l &#8217; online banking &#232; stato compiuto nel</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">1995</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">, quando il Credit Suisse ha sorpreso tutti diventando la prima banca svizzera dotata di un sito Internet. Due anni pi&#249; tardi, e quindi esattamente dieci anni fa, i clienti della banca potevano gi&#224; pagare le loro fatture e acquistare titoli online. Un servizio davvero pionieristico. La rinomata societ&#224; di consulting Lafferty Group ha addirittura premiato il sito web come &#171;migliore offerta Internet di tutte le banche europee&#187;. Sono stati lanciati nuovi prodotti, mentre altri servizi sono stati esclusi dall &#8217; offerta. Con Fund Lab, ad esempio, la banca offriva trasparenza al cliente nell &#8217; universo dei fondi. Il Credit Suisse pubblicava non solo le proprie soluzioni d &#8217; investimento, bens&#236; anche i migliori fondi offerti da altri istituti: un po &#8217; come acquistare prodotti Coop alla Migros. Questa architettura aperta veniva allora considerata molto innovativa. Oggi il cliente pu&#242; scegliere tra circa</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2500</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">fondi d &#8217; investimento di oltre</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">60</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">societ&#224; di gestione.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Una piattaforma per tutte le esigenze</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Youtrade &#232; stata una rivoluzione: il primo discount broker online in Svizzera. Lanciato nel</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">1999</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">e poi soppresso nel</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2003</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">. &#171;Youtrade &#232; stato sviluppato su una piattaforma diversa da quella della negoziazione titoli in Direct Net&#187;, cos&#236; Gaillard motiva la decisione di allora. &#171;La gestione di diverse piattaforme Internet non era pi&#249; in linea con la nostra strategia. Volevamo che il cliente potesse muoversi in un unico ambiente, senza dover accedere al sistema pi&#249; volte e con diverse password&#187;. Youtrade &#232; stato quindi tolto dal mercato e molte delle sue funzioni sono state integrate in Direct Net.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">La strategia &#232; ancora oggi la stessa: una piattaforma per tutte le applicazioni. Grazie a questa coerenza il Credit Suisse &#232; in grado di reagire rapidamente e allo stesso tempo di ridurre i costi per lo sviluppo. Come si articola la struttura odierna? L &#8217; online banking &#232; suddiviso in due zone: una &#171;customer zone&#187; e una &#171;public zone&#187;. Ciascuna zona ha una serie di applicazioni orientate alle esigenze del cliente. I &#171;customer&#187; possono ad esempio avvalersi del lavoro di un reparto professionale di ricerca o consultare le quotazioni di borsa in tempo reale. Gli utenti della &#171;public zone&#187; hanno solo un accesso limitato a tali servizi.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Il Credit Suisse sta integrando passo dopo passo in Direct Net le applicazioni della &#171;customer zone&#187;, affinch&#233; ciascun &#171;customer&#187; abbia lo stesso accesso centrale a tutte le informazioni e a tutti i servizi. La vasta gamma di prestazioni e funzioni richiede una struttura chiara e una semplice gestione dei menu. Altrimenti come ci si potrebbe orientare nella giungla delle informazioni? &#171;Oggi Direct Net &#232; meglio ritagliato su misura dei diversi segmenti di clientela. I clienti commerciali hanno infatti esigenze diverse da quelle dei clienti privati. &#200; inoltre pi&#249; chiaro e pu&#242; essere utilizzato anche in modo intuitivo&#187;, cos&#236; Gaillard descrive il nuovo look and feel.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Mezzo milione di clienti Direct Net</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">A marzo di quest &#8217; anno il numero dei clienti Direct Net ha raggiunto quota</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">500 000</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">. Nel</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2006</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">gli utenti Direct Net hanno effettuato non meno di</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">43</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">milioni di trasferimenti di denaro. Due clienti privati su tre utilizzano l &#8217; online banking settimanalmente o mensilmente. Circa due terzi di tutti i clienti commerciali addirittura ogni giorno.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Ma con il numero di utenti crescono anche le aspettative che il prodotto deve soddisfare. Per essere all &#8217; altezza della fama di &#171;piattaforma di transazioni&#187; globale deve offrire pi&#249; servizi. Ad esempio</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">&gt;</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr><td><a name="5">Page Number 5</a></td></tr>
+<tr>
+<td><span style="font-size:7.3pt;">Credit Suisse Bulletin plus</span></td>
+<td><span>CreditSuisseType 7.3</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">| Internet | 05</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">La nuova veste di Direct Net colpisce per la chiarezza della sua struttura: con pochi clic del mouse l &#8217; utente pu&#242; controllare la sua situazione patrimoniale, inviare ordini di pagamento, acquistare titoli, consultare dati di mercato o ricevere documenti elettronici.</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">L &#8217; ambito &#171;Dati di mercato &amp; Analisi&#187; fornisce una panoramica completa dell &#8217; attuale situazione sui mercati. Esclusivi studi redatti dal comparto Credit Suisse Research offrono inoltre preziose informazioni di base per il proprio investimento finanziario.</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr><td><a name="6">Page Number 6</a></td></tr>
+<tr>
+<td><span style="font-size:7pt;">06 |</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7.3pt;">Credit Suisse Bulletin plus</span></td>
+<td><span>CreditSuisseType 7.3</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">| Internet</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">la possibilit&#224; di consultare tutte le situazioni patrimoniali in un colpo d &#8217; occhio, con dettagli e grafici su tutti i conti e titoli, disponibili sempre aggiornati in qualsiasi momento e in tutto il mondo. Oppure raccomandazioni in tema di negoziazione e analisi esaustive di mercati e prodotti, riassunte in modo chiaro. Perch&#233; non tutti sono abili agenti di borsa. E non tutti gli esperti sono necessariamente analisti.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Portafoglio virtuale e e-documenti</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Il Credit Suisse, spiega Gaillard, tiene conto di tutte queste esigenze ed &#232; addirittura andato oltre. Con &#171;oltre&#187; Gaillard intende ad esempio il portafoglio virtuale: un deposito fittizio per monitorare in borsa i propri titoli preferiti. Su richiesta le quotazioni di borsa aggiornate vengono inviate anche via</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">SMS</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">o e-mail. Un &#8217; altra funzione aggiuntiva &#232; il recapito elettronico in Direct Net dei giustificativi bancari (ad esempio estratti conto, giustificativi titoli, avvisi di bonifico), i cosiddetti e-documenti. I documenti con firma digitale sono giuridicamente validi e possono essere salvati e inoltrati. &#171;I documenti elettronici consentono di risparmiare tempo e denaro. E in questo modo contribuiamo attivamente anche alla salvaguardia dell &#8217; ambiente&#187;.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Gaillard conosce i bisogni dei clienti. Il suo team osserva il comportamento degli utenti online. Dietro ogni nuova applicazione ci sono anche innumerevoli test con le relative valutazioni. Oggi l &#8217; online banking &#232; ancora prevalentemente una piattaforma di negoziazione e di pagamento, ma la consulenza diventa sempre pi&#249; importante.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Sbaglia dunque chi teme che il colloquio di consulenza passer&#224; in secondo piano o, con la stretta interazione tra uomo e computer, finir&#224; addirittura per scomparire. Direct Net non &#232; tuttavia uno strumento adatto per gli intraday trader, che svolgono le loro operazioni di borsa nell &#8217; arco di un giorno sfruttando le oscillazioni quotidiane dei corsi. Il gruppo target &#232; chiaramente costituito da inve&#173;</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">E-documenti</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">Visualizzare ed elaborare i documenti in formato elettronico.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">Il nuovo e pratico servizio del Credit Suisse per i clienti Direct Net: i giustificativi bancari su conti, traffico dei pagamenti e titoli possono essere consultati, visualizzati ed elaborati direttamente online.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">I principali vantaggi in sintesi</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">&#8226;</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">I documenti elettronici sono</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">facili da trovare, salvare, copiare e inoltrare.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">&#8226;</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">Rapida disponibilit&#224; dei documenti, in quanto la spedizione postale viene meno.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">&#8226;</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">Minor consumo di carta a</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">tutto vantaggio dell &#8217; ambiente.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">&#8226;</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">I documenti elettronici sono</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">provvisti di firma digitale e sono giuridicamente validi.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">&#8226;</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">Servizio gratuito.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">&#8226;</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">Possono essere richiamati</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">velocemente in qualsiasi momento.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">&#8226;</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">I documenti restano a disposizione in forma elettronica per 24 mesi, a condizione che il cliente non li cancelli prima.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">Ulteriori informazioni all &#8217; indirizzo www.credit-suisse.com/documentielettronici</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">E-fatture</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">Inviare e ricevere le fatture in forma elettronica.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">Le e-fatture vengono emesse in formato elettronico dal creditore attraverso un apposito sistema di fatturazione, il circuito PayNet, e recapitate direttamente in Direct Net, sostituendo le fatture convenzionali in formato cartaceo.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">I principali vantaggi in sintesi</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">&#8226;</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">Potete verificare le vostre fatture</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">in Direct Net, elaborarle e autorizzarne il pagamento.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">&#8226;</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">Non dovete pi&#249; inserire i dettagli</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">di pagamento a mano; in questo modo risparmiate tempo ed evitate errori.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">&#8226;</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">Potete accedere alle vostre</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">fatture elettroniche indipendentemente da dove vi trovate e autorizzarne il pagamento.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">&#8226;</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">Decidete voi da quali emittenti</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">ricevere le fatture in formato elettronico.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">Ulteriori informazioni all &#8217; indirizzo www.e-fattura.ch</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr><td><a name="7">Page Number 7</a></td></tr>
+<tr>
+<td><span style="font-size:7.3pt;">Credit Suisse Bulletin plus</span></td>
+<td><span>CreditSuisseType 7.3</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">| Internet | 07</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">stitori che operano nel medio e lungo termine. Lo scambio di opinioni tra consulente e cliente &#232; quindi di centrale importanza. &#171;Il Credit Suisse intende differenziarsi con una consulenza globale. Per questo stiamo lavorando per ampliare Direct Net con una componente di consulenza. Non per rimpiazzare il colloquio personale, bens&#236; per integrarlo&#187;, precisa Gaillard.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Michel Gaillard Responsabile Online Banking presso il Credit Suisse</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9pt;">&#171;Direct Net ha ora una struttura molto pi&#249; chiara.&#187;</span></td>
+<td><span>CreditSuisseType 9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Una consulenza pi&#249; mirata</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Pozzi conosce i vantaggi e ne fruisce con profitto. Il suo modo di operare &#232; all &#8217; avanguardia. In Direct Net ha gi&#224; descritto il proprio profilo: propensione al rischio, impegni finanziari e obiettivi d &#8217; investimento. Successivamente ha elaborato una strategia d &#8217; investimento con il suo consulente. Bianchi adesso sa cosa Pozzi vuole e gli pu&#242; offrire la propria consulenza in ogni momento tramite Direct Net. L &#8217; online banking diventa cos&#236; sempre di pi&#249; un importante canale complementare per tutte le operazioni bancarie. In ultima analisi ogni cliente usufruisce di un ampio know&#173;how e di raccomandazioni individuali, orientate alla sua strategia d &#8217; investimento. Gaillard parla a tal proposito di &#171;piattaforma integrata di consulenza e interazione&#187;.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Pozzi &#232; tornato da tempo da New York. Ha alle spalle una frenetica giornata di lavoro. Prima di lasciare l &#8217; ufficio scrive ancora un breve messaggio al suo consulente via SecureMail. &#171;Buonasera signor Bianchi. Ho investito</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">10 000</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">franchi nel fondo Living Plus. Splendida performance. Grazie per il consiglio. Saluti, U. Pozzi&#187;.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">fva</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">&#65533;</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Maggiori informazioni al sito www.credit-suisse.com/directnet</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:20pt;">&#171;La soluzione giusta per ciascun segmento di clientela&#187;</span></td>
+<td><span>CreditSuisseType 20</span></td>
+</tr>
+<tr>
+<td><span style="font-size:11pt;">Fatture elettroniche, rapporti di ricerca, analisi dettagliata della performance, portafogli virtuali: Direct Net ha arricchito la propria offerta. Michel Gaillard spiega ci&#242; che attende i clienti.</span></td>
+<td><span>CreditSuisseType 11</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Bulletin: Signor Gaillard, con il nuovo look and feel il Credit Suisse ha migliorato molte funzioni e ne ha create di nuove. Cosa la rende particolarmente fiero?</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Michel Gaillard: Con il nuovo Direct Net abbiamo sviluppato l &#8217; intera applicazione in base alle norme internazionali per la creazione di cosiddetti siti web privi di barriere. Grazie a uno speciale software, anche i non vedenti o le persone con deficit visivi possono utilizzare Direct Net. Per questo sito privo di barriere siamo stati la prima banca in Svizzera a ottenere il rating AA (certificazione di accessibilit&#224;). Abbiamo inoltre adeguato la gestione del menu alle esigenze dei nostri clienti. Direct Net ha ora una struttura pi&#249; chiara ed &#232; pi&#249; facile da usare.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Ci dica qualcosa di pi&#249; sull &#8217; applicazione SecureMail.</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">SecureMail &#232; un canale di comunicazione sicuro tra i clienti private banking e i loro interlocutori presso la banca. Un normale scambio di e&#173;mail non &#232; codificato e pu&#242; essere letto da qualsiasi provider o hacker. SecureMail, invece, utilizza le stesse caratteristiche di sicurezza dell &#8217; online banking. Nessuno al di fuori del mittente e del destinatario pu&#242; leggere il messaggio. Stiamo pensando di rendere accessibile in futuro SecureMail anche ad altri segmenti di clientela.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Quali servizi offre Direct Net al cliente?</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Direct Net offre una vasta gamma di funzioni sia per clienti privati che per clienti commerciali o istituzionali. Oltre agli abituali ambiti come conto, deposito, pagamenti, negoziazione titoli o borsa ci sono fatture elettroniche, giustificativi bancari in forma elettronica, analisi dettagliata della performance, rapporti di ricerca, portafogli virtuali e altro ancora. In altre parole: la soluzione giusta per ciascun segmento di clientela.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Quali nuovi progetti avete in cantiere?</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Lavoriamo su diversi fronti. Al momento stiamo integrando in Direct Net l &#8217; Investors &#8217; Circle, un &#8217; applicazione specifica riservata ai clienti private banking.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">&gt;</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr><td><a name="8">Page Number 8</a></td></tr>
+<tr>
+<td><span style="font-size:7pt;">08 |</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7.3pt;">Credit Suisse Bulletin plus</span></td>
+<td><span>CreditSuisseType 7.3</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">| Internet</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Diamo grande importanza anche al traffico dei pagamenti, soprattutto per aziende e istituzioni. Attraverso &#171;customer panel&#187; regolari, con</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">25</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">aziende selezionate, ci proponiamo di migliorare le operazioni di pagamento e la gestione del portafoglio. Curiamo dunque il contatto stretto con i nostri clienti in modo da ampliare l &#8217; offerta in base alle loro esigenze.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Dal mese di maggio sono visibili i dettagli dei pagamenti. Quando saranno disponibili anche i dettagli relativi alle carte di credito?</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">&#200; vero, al momento i nostri clienti non possono ancora visualizzare in Direct Net i dettagli relativi alle carte di credito. La sfida che dobbiamo affrontare consiste nel conciliare i sistemi del Credit Suisse e della Swisscard. Si sono gi&#224; svolti i primi colloqui in tal senso.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Quanto &#232; sicuro l &#8217; online banking?</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">In via di massima l &#8217; online banking &#232; sicuro. Forniamo la massima sicurezza ai clienti gi&#224; al momento del login mediante un &#8217; identificazione a pi&#249; livelli. I dati per la trasmissione sono inoltre codificati con le pi&#249; moderne tecnologie e non possono essere visualizzati su Internet da persone non autorizzate. Ciascun utente deve per&#242;, nel proprio interesse, adottare una giusta dose di cautela. All &#8217; indirizzo www.credit&#173;suisse.com/sicurezza forniamo ai clienti utili consigli in tema di protezione del proprio</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">PC</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">e dei propri dati.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">fva</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:20pt;">Online banking: priorit&#224; assoluta alla sicurezza!</span></td>
+<td><span>CreditSuisseType 20</span></td>
+</tr>
+<tr>
+<td><span style="font-size:11pt;">Il Credit Suisse provvede affinch&#233; vengano rispettati i massimi standard di sicurezza nelle operazioni online e sfodera gli artigli per proteggere il sistema informatico della banca e il trasferimento elettronico dei dati.</span></td>
+<td><span>CreditSuisseType 11</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">A livello planetario centinaia di milioni di utenti sono uniti grazie a Internet, cui si aggiungono giornalmente nuovi computer. Un terreno assai fertile per gli hacker, che sferrano i loro attacchi in modo sempre pi&#249; mirato e professionale. Gli istituti di credito sono in costante allerta poich&#233; il denaro &#232; una calamita per i malintenzionati, sia nelle filiali che nei centri commerciali o, appunto, su Internet.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">&#171;Impieghiamo moltissime risorse in termini finanziari e di personale per garantire il miglior livello di sicurezza possibile&#187;, sottolinea Johannes Hennekeuser, responsabile Security Technologies presso il Credit Suisse. Per &#171;migliore possibile&#187; il Credit Suisse intende una custodia sicura dei dati, un trasferimento codificato degli stessi come pure un accesso protetto ai conti. Se un cliente vuole accedere alla banca deve identificarsi a tre livelli: con il codice utente, la parola d &#8217; ordine e la SecurID, vale a dire un numero a sei cifre generato elettronicamente e che cambia ogni minuto. Il sistema iden&#173; tifica l &#8217; utente in base a questi dati. Inoltre, per la prima transazione occorre immettere anche un ulteriore numero SecurID. Con questo accesso multilivello il sistema garantisce la miglior protezione possibile dalle operazioni fraudolente.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">La frode del phishing</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Chi naviga su Internet si espone giocoforza a innumerevoli pericoli. E nelle operazioni bancarie in rete uno di essi potrebbe essere la manipolazione dei conti. Ma chi sono i &#171;truffatori&#187; e come riescono a sottrarre il denaro? Per esempio con il phishing. Dall &#8217; inglese &#171;password&#187; e &#171;fishing&#187;, letteralmente significa &#171;adescare le parole d &#8217; ordine&#187;. Facciamo un esempio: tramite posta elettronica il truffatore attira gli utenti Internet su siti contraffatti, dove vengono richiesti parole d &#8217; ordine, codici</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">NIP</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">e altri dati riservati. Visto che l &#8217; utente crede di essere &#171;al sicuro&#187; non ha nessuna ritrosia e inserisce i dati. Tuttavia il link non rimanda alla homepage originale del rispettivo</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Johannes Hennekeuser Responsabile Security Technologies presso il Credit Suisse</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9pt;">&#171;Impieghiamo moltissime risorse in termini finanziari e di personale per garantire il miglior livello di sicurezza possibile.&#187;</span></td>
+<td><span>CreditSuisseType 9</span></td>
+</tr>
+<tr><td><a name="9">Page Number 9</a></td></tr>
+<tr>
+<td><span style="font-size:7.3pt;">Credit Suisse Bulletin plus</span></td>
+<td><span>CreditSuisseType 7.3</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">| Internet | 09</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">operatore, bens&#236; a un sito analogo contraffatto.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Nella sua retrospettiva annuale, il Servizio nazionale di coordinazione per la lotta contro la criminalit&#224; su Internet (</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">SCOCI</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">) documenta il costante aumento dei casi di phishing nella criminalit&#224; economica.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Fidarsi &#232; bene, non fidarsi &#232; meglio</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">I produttori di software tentano di proteggere gli utenti dagli attacchi truffaldini grazie a web browser di nuova generazione. Uno di essi &#232; Internet Explorer</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">7</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">di Microsoft, con funzioni avanzate in grado di localizzare i tentativi di phishing con maggior facilit&#224;. Su ogni pagina, anche un semplice menu popup, viene mostrato in sovrimpressione l &#8217; indirizzo web. In tal modo si riducono al minimo i tentativi di caricare il sito originale sullo sfondo di quello contraffatto. Tuttavia &#232; pur sempre l &#8217; utente a doversi avvedere della probabile truffa.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Una delle regole di sicurezza recita infatti: &#171;Non credere ciecamente a Internet, ma dotarsi di un sano scetticismo&#187;. Ogni utente deve agire in piena consapevolezza quando rivela dei dati riservati. Hennekeuser aggiunge: &#171;Concretamente il Credit Suisse non richiede mai informazioni personali o dati confidenziali tramite e-mail o per telefono&#187;. Vale quindi il principio: per nessun motivo rivelare parole d &#8217; ordine e nomi di utente. Il rischio maggiore rimane tuttavia il</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">PC</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">del cliente. La sicurezza dei dati, la protezione virus, i firewall e l &#8217; aggiornamento degli applicativi sono misure indispensabili per ogni utente, come concordano gli esperti. La consapevolezza di un uso sicuro delle informazioni elettroniche non &#232; ancora sufficientemente ancorata nella popolazione. Con la sua campagna di sensibilizzazione il Credit Suisse si rivolge anche ai giovani e giovanissimi. Un esempio in tal senso &#232; l &#8217; iniziativa &#171;Security for Kids&#187;. Il sito security4kids. ch &#232; nato dalla collaborazione tra vari partner del settore dell &#8217; istruzione, Microsoft, Symantec, lo</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">SCOCI</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">e il Credit Suisse. Si rivolge sia agli alunni che agli insegnanti e ai genitori e presenta una serie di suggerimenti pratici per assicurare la protezione dei giovani utenti durante la navigazione su Internet. In ultima analisi si mira ad automatizzare l &#8217; osservanza delle regole di sicurezza per ogni utente. &#171;Chi impara presto a destreggiarsi con circospezione nel mondo virtuale non ha nulla da temere&#187;, commenta Hennekeuser. Una cosa &#232; certa: un atteggiamento responsabile giova sia al cliente che alla banca.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">fva</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">&#65533; Sicurezza a tutto link: www.credit-suisse.com/sicurezza www.melani.admin.ch www.scoci.ch www.security4kids.ch www.infosurance.ch www.symantec.com www.mcafee.com www.antiphishing.org</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">Tutelatevi dagli accessi non autorizzati: le dieci regole del banking in rete</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">1. Con un doppio clic su accertatevi che il certificato verta effettivamente su cs. directnet. com. In tal modo vi assicurate di non essere arrivati sul sito Internet di un malintenzionato.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">2. Le parole d &#8217; ordine non vanno memorizzate sul computer, n&#233; sul disco duro, n&#233; su un foglietto attaccato allo schermo.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">3. Evitate di creare una parola d &#8217; ordine con la data di nascita, il numero di telefono o addirittura il nome. L &#8217; ideale &#232; inventarne una composta da lettere maiuscole e minuscole nonch&#233; cifre.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">4. Installate e aggiornate regolarmente i software di protezione (protezione virus e firewall).</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">5. Connettetevi direttamente con il server del Credit Suisse e durante l &#8217; allacciamento non aprite altre pagine web.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">6. Non cliccate sui link inviati tramite posta elettronica allo scopo di connettervi direttamente con la vostra banca.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">7. Non comunicate mai i dati d &#8217; accesso al vostro online banking al telefono o per e-mail. La vostra banca non segue questa procedura!</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">8. Se durante la connessione online crolla il sistema o compaiono degli strani messaggi d &#8217; errore, uscite immediatamente e informate gli specialisti del Credit Suisse (numero di telefono 0844 800 888). 9. Abbandonate la vostra postazione soltanto dopo aver concluso il collegamento all &#8217; online banking. Direct Net va sempre chiuso con l &#8217; apposita funzione &#171;Uscita&#187; e non semplicemente spegnendo il computer.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">10. Dopo aver concluso le vostre operazioni online vuotate la cartella temporanea (cache) del browser Internet nonch&#233; l &#8217; intera cronologia. Per informazioni al riguardo vi rimandiamo al sito www.credit-suisse.com/sicurezza.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr><td><a name="10">Page Number 10</a></td></tr>
+<tr>
+<td><span style="font-size:7pt;">10 |</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7.3pt;">Credit Suisse Bulletin plus</span></td>
+<td><span>CreditSuisseType 7.3</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">| Internet</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:20pt;">Gli Sherlock Holmes della rete</span></td>
+<td><span>CreditSuisseType 20</span></td>
+</tr>
+<tr>
+<td><span style="font-size:11pt;">Presente in rete dal</span></td>
+<td><span>CreditSuisseType 11</span></td>
+</tr>
+<tr>
+<td><span style="font-size:10.7pt;">1</span></td>
+<td><span>CreditSuisseType 10.7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:11pt;">&#176; gennaio</span></td>
+<td><span>CreditSuisseType 11</span></td>
+</tr>
+<tr>
+<td><span style="font-size:10.7pt;">2003</span></td>
+<td><span>CreditSuisseType 10.7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:11pt;">, il Servizio di coordinazione per la lotta contro la criminalit&#224; su Internet (</span></td>
+<td><span>CreditSuisseType 11</span></td>
+</tr>
+<tr>
+<td><span style="font-size:10.7pt;">SCOCI</span></td>
+<td><span>CreditSuisseType 10.7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:11pt;">) &#232; a disposizione del pubblico, delle autorit&#224; e dei fornitori di servizi Internet in qualit&#224; di centro di competenza per questioni di natura giuridica, tecnica e criminale. La prassi ne conferma la validit&#224;.</span></td>
+<td><span>CreditSuisseType 11</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Ufficio federale di polizia, divisione</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">IMC</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">, sezione</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">OSINT</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">/ Monitoring</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">SCOCI</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">. Il nome sembra un codice criptato. &#200; in un edificio poco appariscente di un quartiere residenziale di Berna, nei pressi dello Stade de Suisse, che lo</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">SCOCI</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">ha eletto il suo domicilio. Chi vuole entrare deve esibire un permes so speciale perch&#233; qui si indaga, a porte chiuse, sugli oscuri meandri di Internet.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Nel mirino dello</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">SCOCI</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">: i contenuti web perseguibili penalmente, quali la diffusione della pornografia dura e delle manifestazioni violente, estremiste o razziste, i reati economici, le violazioni dei diritti d &#8217; autore, il traffico illegale di armi o, dal 1 &#176; aprile</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2007</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">, l &#8217; invio di e-mail indesiderate (spam).</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Reati economici in aumento</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Nel</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2006</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">lo</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">SCOCI</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">ha ricevuto</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">6300</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">segnalazioni da parte della popolazione. Il</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">24,3</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">per cento verteva sulla pornografia dura e infantile, il</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">23,8</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">per cento sulle e-mail indesiderate, il</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">9,6</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">per cento sulla pornografia in generale, il</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">4,4</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">per cento sui reati economici, il</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2,2</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">per cento sugli stupefacenti e il traffico di medicinali e il</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2,1</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">per cento sulla discriminazione razziale.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Colpisce in particolare il costante aumento dei reati di natura economica, il cui numero raddoppia di anno in anno. Questo tipo di criminalit&#224; su Internet pu&#242; assumere diverse forme: phishing, riciclaggio di denaro, servizi fraudolenti con cosiddetti terzi di fiducia (imprese Escrow), abuso di carte di credito, acquisizione illecita di dati e via dicendo. Tutti questi espedienti hanno un unico obiettivo: spiare gli internauti per arricchirsi finanziariamente.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Nove collaboratori del Servizio di coordinazione sono incaricati di intercettare i siti illegali. Suddivisi in tre unit&#224; &#8211; Monitoring, Clearing e Analisi &#8211; possono contare sull &#8217; aiuto di tutti coloro che, tramite il modulo online, segnalano contenuti web sospetti.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Il</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">23</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">per cento circa dei moduli pervenuti riguarda gli invii di spam. Queste e- mail non vengono utilizzate solo per pubbli cizzare prodotti di massa ma &#8211; e la tendenza &#232; in crescita &#8211; anche per attivit&#224; illegali come il phishing o la diffusione della pedopornografia. Per questo tipo di reati, sul sito scoci. ch &#232; ora disponibile un sistema di analisi in grado di identificare con un semplice clic del mouse il provider Internet responsabile. Se quest &#8217; ultimo ha la propria sede in Svizzera, ad esempio la Cablecom, il destinatario dello spam pu&#242; segnalargli il caso direttamente, in quanto la legge obbliga gli offerenti di servizi Internet a tutelare i</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Roger K&#252;ffer Responsabile dell &#8217; unit&#224; Monitoring dello SCOCI</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9pt;">&#171;Abbiamo constatato che proprio nelle chat si riscontrano numerosissimi com portamenti criminali e abbiamo quindi instaurato una stretta collabora zione con i rispettivi operatori.&#187;</span></td>
+<td><span>CreditSuisseType 9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">propri clienti dall &#8217; invio di messaggi indesiderati. &#171;Con questo tool di analisi diamo all &#8217; utente la possibilit&#224; di difendersi e lo indirizziamo verso l &#8217; interlocutore che potr&#224; aiutarlo&#187;, spiega Roger K&#252;ffer, responsabile dell &#8217; unit&#224; Monitoring. Pu&#242; inoltre capitare che, a loro insaputa, le vittime diventino a loro volta autori. Basta che il loro computer venga infettato da un virus o da un cavallo di Troia perch&#233; si metta a inviare automaticamente spam ogni volta che viene acceso. Questi computer comandati a distanza sono anche noti con il nome di &#171;zombie&#187;.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Giri di ronda su Internet</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Il nome &#171;servizio di coordinazione&#187; non rende del tutto giustizia allo</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">SCOCI</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">. &#171;La maggior parte del nostro lavoro consiste nell &#8217; indagare su casi concreti&#187;, afferma Roger K&#252;ffer. Ci&#242; significa passare in rassegna i vari siti Internet alla ricerca di attivit&#224; criminali. Il tema d &#8217; investigazione &#232; stato chiaramente definito dal comitato direttivo: la pornografia infantile. &#171;Sappiamo esattamente cosa cercare e dove&#187;, aggiunge K&#252;ffer. Gli investigatori, per&#242;, non hanno carta bianca: il monitoraggio &#232; infatti limitato agli ambiti pubblici della rete, cosa che esclude le pagine protette da password. Le provocazioni o le inchieste sotto falsi pretesti sono anch &#8217; esse vietate. La sorveglianza dei forum chat richiede quindi tempo e una certa sensibilit&#224;. &#171;Abbiamo constatato che proprio nelle chat si riscontrano numerosissimi</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr><td><a name="11">Page Number 11</a></td></tr>
+<tr>
+<td><span style="font-size:7.3pt;">Credit Suisse Bulletin plus</span></td>
+<td><span>CreditSuisseType 7.3</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">| Internet | 11</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">comportamenti criminali e abbiamo quindi instaurato una stretta collaborazione con i rispettivi operatori. Alla Bluewin, ad esempio, pi&#249; di</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">300</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">collaboratori volontari monitorano intensamente le conversazioni degli utenti di chat&#187;. I casi sospetti vengono poi notificati allo</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">SCOCI</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Ma dove si concentrano questi casi? &#171;Principalmente nelle reti peer-to-peer, come Gnutella, Fast Track o eDonkey&#187;. Su queste &#171;autostrade dell &#8217; informazione&#187; vengono trasmesse moltissime informazioni e immagini, tra cui anche foto di pedopornografia. &#171;Filtriamo tra i</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">30</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">e i</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">40</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">casi al mese&#187;. Una dimostrazione di Roger K&#252;ffer permette di constatare la rapidit&#224; e l &#8217; efficacia del motore di ricerca, nonostante nello stesso istante milioni di utenti siano in rete: una volta ristretta la ricerca alla Svizzera e inserita una parola chiave &#8211; che tiene segreta, &#232; un &#8217; informazione riservata &#8211; ottiene una lunga lista che a prima vista pu&#242; trarre in inganno, dato che non dietro a ogni nome si nasconde un criminale. Scovare e stanare i cattivi fa parte del mestiere e in questo caso l &#8217; esperienza aiuta.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">Segnalazioni della popolazione allo</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.2pt;">SCOCI</span></td>
+<td><span>CreditSuisseType 9.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">(</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.2pt;">2006</span></td>
+<td><span>CreditSuisseType 9.2</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">)</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Le tendenze del 2005 hanno trovato conferma anche nel 2006: la pornografia infantile e le spam costituiscono circa la met&#224; dei casi segnalati.</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">Fonte: SCOCI</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Pornografia dura</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.5pt;">24,3 %</span></td>
+<td><span>CreditSuisseType 6.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Spam</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.5pt;">23,8 %</span></td>
+<td><span>CreditSuisseType 6.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Non verificabile</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.5pt;">13,4 %</span></td>
+<td><span>CreditSuisseType 6.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Pornografia in generale</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.5pt;">9,6 %</span></td>
+<td><span>CreditSuisseType 6.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Reati economici (phishing, ecc.)</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.5pt;">4,4 %</span></td>
+<td><span>CreditSuisseType 6.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Domande</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.5pt;">4,2 %</span></td>
+<td><span>CreditSuisseType 6.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Atti sessuali con fanciulli</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.5pt;">2,3 %</span></td>
+<td><span>CreditSuisseType 6.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Stupefacenti / traffico di medicinali</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.5pt;">2,2 %</span></td>
+<td><span>CreditSuisseType 6.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Discriminazione razziale</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.5pt;">2,1 %</span></td>
+<td><span>CreditSuisseType 6.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Truffa</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.5pt;">1,9 %</span></td>
+<td><span>CreditSuisseType 6.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Estremismo</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.5pt;">1,5 %</span></td>
+<td><span>CreditSuisseType 6.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Violazione dei diritti d &#8217; autore</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.5pt;">1,0 %</span></td>
+<td><span>CreditSuisseType 6.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Altro</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6.5pt;">9,2 %</span></td>
+<td><span>CreditSuisseType 6.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">0 % 5 % 10 % 15 % 20 % 25 %</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Il sospetto c &#8217; &#232;, e ora?</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Una volta salvate tutte le piste e i sospetti concernenti la Svizzera, utilizzabili come prova, i dossier vengono trasmessi all &#8217; unit&#224; Clearing dello</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">SCOCI</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">. Se dalle analisi svolte emergono contenuti rilevanti sul piano penale, i casi sospetti vengono poi inoltrati alle autorit&#224; di perseguimento penale dei rispettivi cantoni.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Lo scorso anno lo</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">SCOCI</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">ha indagato su</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">259</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">casi sospetti. Ogni anno la polizia riesce a dare un nome e un volto al</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">75</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">&#8211;</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">80</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">per cento dei casi di sospetto, arrestando in media circa</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">200</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">persone. In altre parole: i nove collaboratori dello</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">SCOCI</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">smascherano un criminale ogni due giorni. Un lavoro da certosino che d&#224; i suoi frutti.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">fva</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">&#65533;</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Maggiori informazioni e il modulo per segnalare contenuti web sospetti figurano al sito www.scoci.ch</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">I principali termini in sintesi</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">Spam Invio in massa automatizzato di messaggi di posta elettronica non richiesti. Il termine spam designa anche l &#8217; e-mail stessa. L &#8217; invio automatizzato consente di raggiungere un vasto numero di destinatari in tempi brevi e a costi ridotti.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">Phishing Il termine phishing &#8211; che deriva dall &#8217; unione delle parole inglesi &#171;password&#187; e &#171;fishing&#187; &#8211; indica i tentativi dei truffatori di accedere ai dati confidenziali di ignari internauti.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">Sistema a piramide &#200; un sistema di guadagni per gradi. L &#8217; idea di base consiste nell &#8217; ottenere versamenti di denaro in favore della &#171;generazione&#187; attuale tramite il reclutamento ininterrotto di nuovi membri, incaricati a loro volta di trovare i membri della nuova generazione.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">Truffa Il fenomeno delle truffe dell &#8217; anticipo &#232; apparso all &#8217; inizio degli anni Ottanta. Tramite e-mail, fax o lettere personali, alle vittime vengono promessi notevoli guadagni finanziari.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.5pt;">Escrow Le imprese Escrow sono un tramite di fiducia che funge da mediatore e amministratore di pagamenti, soprattutto per le imprese web, dove non &#232; possibile stabilire un contatto fisico tra acquirente e venditore.</span></td>
+<td><span>CreditSuisseType 9.5</span></td>
+</tr>
+<tr><td><a name="12">Page Number 12</a></td></tr>
+<tr>
+<td><span style="font-size:7pt;">12 |</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7.3pt;">Credit Suisse Bulletin plus</span></td>
+<td><span>CreditSuisseType 7.3</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">| Internet</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:20pt;">Cliccando s &#8217; investe</span></td>
+<td><span>CreditSuisseType 20</span></td>
+</tr>
+<tr>
+<td><span style="font-size:11pt;">Per non perdersi nell &#8217; universo dei fondi d &#8217; investimento bisogna essere specialisti o, in alternativa, conoscere il giusto sito web. Con Fund Lab si diventa esperti in un batter d &#8217; occhio.</span></td>
+<td><span>CreditSuisseType 11</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Dall &#8217; inizio degli anni Novanta l &#8217; universo dei fondi d &#8217; investimento &#232; andato sempre pi&#249; diversificandosi. Oggi esistono migliaia di fondi, emessi da diverse societ&#224; di gestione a beneficio di una clientela variegata. Il solo patrimonio di fondi gestito dal Credit Suisse si aggira attualmente intorno ai</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">60</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">miliardi di franchi svizzeri.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Il pensiero alla base di ogni fondo d &#8217; investimento &#232; quello del collocamento collettivo degli averi, affidati sia da pri vati sia da imprese e casse pensioni. Il patrimonio cos&#236; riunito viene investito professionalmente &#8211; a seconda della stra tegia del fondo &#8211; in azioni, obbligazioni, titoli del mercato monetario, immobili e investimenti alternativi. O in un mix di queste categorie. La strategia d &#8217; investimento definisce pure in quali settori, regioni, paesi, monete o temi il fondo impiega il patrimonio raccolto.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">In un portafoglio diversificato il rischio complessivo viene ridotto grazie alla minore correlazione fra i singoli investimenti: il portafoglio &#232; composto in modo tale che frutti un rendimento possibilmente elevato a fronte di un rischio possibilmente contenuto.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">In ogni fondo vi &#232; molto know-how</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Per formare il giusto paniere di un fondo bisogna conoscere le condizioni dei mercati e i loro andamenti, nonch&#233; dedicare molto tempo all &#8217; attivit&#224; di analisi. Gli specialisti dei mercati finanziari visitano le imprese analizzandone lo sviluppo. Per sostenere le sue decisioni d &#8217; investimento il gestore del fondo pu&#242; ricorrere ad analisti ed economisti, i quali esaminano costantemente i mercati finanziari e van&#173; tano un approfondito know&#173;how su specifici settori. In tal modo il gestore dispone delle necessarie e aggiornate informazioni per decidere se acquistare o vendere determinati titoli.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Negli ultimi anni il mercato dei fondi d &#8217; investimento &#232; crescito in tutto il mondo dando vita a una moltitudine di prodotti per ogni categoria d &#8217; investimento, settore e regione. I fondi d &#8217; investimento sono disponibili pressoch&#233; per ogni paese e sfera tematica. Il motivo di questo boom risiede in primis negli indubbi vantaggi offerti dai fondi d &#8217; investimento: diversificazione del rischio, rendimenti allettanti a lungo termine e flessibilit&#224;.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Fund Lab agevola la selezione</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Per scremare il meglio dell &#8217; offerta globale di fondi, nel</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">1999</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">il Credit Suisse ha lanciato Fund Lab, una banca dati interattiva gestita su Internet che copre un ampio spettro di fondi, provenienti da numerosi offerenti che condividono una caratteristica: la solidit&#224; e forza dei loro prodotti. Oggi Fund Lab conta oltre</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Julian K&#246;hler Responsabile Product Management Investment Funds Private Banking</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9pt;">&#171;Con Fund Lab, il Credit Suisse propone un &#8217; architettura di vendita aperta con lo scopo di creare valore aggiunto.&#187;</span></td>
+<td><span>CreditSuisseType 9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2600</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">fondi di</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">60</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">offerenti, fra cui quasi tutti i grandi nomi del settore ma anche molti esponenti di nicchia innovativi.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Fund Lab &#232; sinonimo di apertura. La banca dati, liberamente accessibile all &#8217; indirizzo credit&#173;suisse. com / fundlab, presenta su un &#8217; unica piattaforma tutte le informazioni rilevanti e consente un confronto dei dati, aggiornati a flusso continuo. Con pochi clic del mouse si pu&#242; ottenere una panoramica del mondo dei fondi d &#8217; investimento. In breve: con Fund Lab, il Credit Suisse propone un &#8217; architettura di vendita aperta con lo scopo di creare valore aggiunto. La piattaforma viene cor rentemente ampliata dal Credit Suisse in base a criteri qualitativi e quantitativi. Per essere ammessa a Fund Lab una societ&#224; di gestione deve avere esperienza, una solida reputazione, una determinata dimensione e un management solido. Altri criteri sono la presenza di una vasta gamma di fondi, un reporting re &#173; golare, la notifica di dati di performance e di altro genere, necessari alla trasparenza e alla comparabilit&#224; dei dati. Per quanto riguarda i dati viene peraltro fatto ricorso anche a fornitori esterni; infatti, &#232; solo su una base di dati stabile e affidabile che &#232; possibile ottenere confronti rappresentativi a tutto vantaggio della trasparenza. I singoli fondi dell &#8217; universo di Fund Lab sono inoltre regolarmente valutati da qualificati team di analisti.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">A cadenza mensile, per ogni fondo vengono realizzati dei rapporti (fact sheet) in</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr><td><a name="13">Page Number 13</a></td></tr>
+<tr>
+<td><span style="font-size:7.3pt;">Credit Suisse Bulletin plus</span></td>
+<td><span>CreditSuisseType 7.3</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">| Internet | 13</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">cui sono documentati l &#8217; andamento della performance e l &#8217; attuale composizione del portafoglio. L &#8217; onere per questa trasparenza &#232; enorme: ogni mese, nella banca dati vengono fra l &#8217; altro aggiornati circa</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">50 000</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">fact sheet in formato</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">PDF</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">In Svizzera tutti i fondi offerti in Fund Lab possono essere acquistati alle stesse condizioni a prescindere dall &#8217; offerente. La commissione di emissione ammonta allo</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">0,5</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">&#8211;</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">0,2</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">per cento per i fondi del mercato monetario (graduata secondo l &#8217; importo investito), all &#8217;</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">1</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">per cento per i fondi obbligazionari e al</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">per cento per i fondi azionari e Portfolio. Per l &#8217; emissione di tutti i fondi contenuti in Fund Lab viene applicata una commissione minima di</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">50</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">franchi. Il riscatto delle parti &#232; esente da commissione. Per tutti gli switch all &#8217; interno dell &#8217; universo Fund Lab, oltre che di uno sconto del</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">30</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">per cento sui propri diritti di custodia gli investitori beneficiano di uno sconto del</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">30</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">per cento sulle commissioni di emissione.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">La funzione Buy &amp; Sell consente agli investitori di acquistare o vendere i fondi selezionati attraverso Direct Net, l &#8217; applicazione di online banking del Credit Suisse. Inoltre segnala il limite temporale per il collocamento dell &#8217; ordine, l &#8217; ultimo prezzo e il numero di valore del fondo in questione. Chi acquista parti di un fondo tramite Direct Net riceve uno sconto di</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">25</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">franchi per ogni ordine.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Con Fund Lab sar&#224; possibile anche in futuro soddisfare nel migliore dei modi le pi&#249; disparate esigenze di un &#8217; ampia base di clientela.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">Julian K&#246;hler, responsabile Product Management Investment Funds Private Banking</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Ogni mese, nella banca dati di Fund Lab vengono aggiornati circa 50 000 fact sheet in formato PDF.</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">&#65533;</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Nel Fund Lab del Credit Suisse gli investitori trovano una panoramica di oltre 2500 fondi emessi da oltre 60 societ&#224; di gestione.</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Maggiori informazioni al sito www.credit-suisse.com/fundlab.</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr><td><a name="14">Page Number 14</a></td></tr>
+<tr>
+<td><span style="font-size:7pt;">14 |</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7.3pt;">Credit Suisse Bulletin plus</span></td>
+<td><span>CreditSuisseType 7.3</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">| Internet</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:20pt;">Direct Net per tutti!</span></td>
+<td><span>CreditSuisseType 20</span></td>
+</tr>
+<tr>
+<td><span style="font-size:11pt;">Il Credit Suisse &#232; la prima banca svizzera ad aver strutturato tutte le sue applicazioni di online banking secondo le norme internazionali di accessibilit&#224;. Il</span></td>
+<td><span>CreditSuisseType 11</span></td>
+</tr>
+<tr>
+<td><span style="font-size:10.7pt;">26</span></td>
+<td><span>CreditSuisseType 10.7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:11pt;">aprile</span></td>
+<td><span>CreditSuisseType 11</span></td>
+</tr>
+<tr>
+<td><span style="font-size:10.7pt;">2007</span></td>
+<td><span>CreditSuisseType 10.7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:11pt;">ha ottenuto il marchio di certificazione</span></td>
+<td><span>CreditSuisseType 11</span></td>
+</tr>
+<tr>
+<td><span style="font-size:10.7pt;">AA</span></td>
+<td><span>CreditSuisseType 10.7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:11pt;">. Direct Net &#232; accessibile da subito anche alle persone disabili.</span></td>
+<td><span>CreditSuisseType 11</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Lo sviluppo di Internet &#232; certamente una delle maggiori conquiste tecnologiche dell &#8217; ultimo secolo. Il cyberspazio ci permette di svolgere molte attivit&#224; quotidiane dal computer di casa in modo pi&#249; semplice, rapido e soprattutto comodo. Un grande vantaggio in particolare per le persone pi&#249; anziane o disabili. Ma non sempre: sul piano pratico, infatti, le cose stanno purtroppo diversamente. In Svizzera, viaggiare nel mondo virtuale risulta problematico per circa</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">700 000</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">persone. Una capacit&#224; visiva molto ridotta, disturbi cognitivi e motori o altri tipi di disabilit&#224; rendono pi&#249; difficile l &#8217; accesso al mondo della rete. Anche questi clienti desiderano tuttavia sbrigare le loro operazioni bancarie in modo autonomo. All &#8217; inizio del</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2007</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">il Credit Suisse ha pertanto creato un servizio che si occupa in modo specifico delle esigenze di questi clienti, al fine di facilitare loro l &#8217; accesso ai prodotti e servizi della banca.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">citata fondazione. Questa certificazione, ovvero un marchio di qualit&#224; rilasciato da un ufficio di certificazione riconosciuto su scala nazionale, conferma che Direct Net osserva le norme internazionali di accessibilit&#224; al web. Il</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">26</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">aprile il Credit Suisse ha infine ricevuto, come prima banca svizzera, il certificato di accessibilit&#224;. Fra le altre cose sono stati migliorati i seguenti punti.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:4pt;">&#65533;</span></td>
+<td><span>CreditSuisseType 4</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Il contrasto delle pagine pu&#242; essere aumentato per una maggiore leggibilit&#224;.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:4pt;">&#65533;</span></td>
+<td><span>CreditSuisseType 4</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Tutte le immagini sono state dotate di parole chiave cos&#236; da essere riconosciute anche da persone con capacit&#224; visive molto ridotte.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:4pt;">&#65533;</span></td>
+<td><span>CreditSuisseType 4</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">La funzione di ingrandimento del</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">browser permette una visione pi&#249; chiara di Direct Net.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:4pt;">&#65533;</span></td>
+<td><span>CreditSuisseType 4</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Tutti i titoli di tabelle e colonne sono</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">stati ottimizzati appositamente per lo screen reader. Questo strumento di software trasmette le informazioni normalmente riportate sullo schermo con l &#8217; aiuto di dispositivi non visuali, vale a dire in forma sonora o tattile tramite una barra braille.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Hanspeter Kurzmeyer, responsabile Clientela privata Svizzera, si &#232; detto particolarmente felice che il Credit Suisse svolga in Svizzera un ruolo pionieristico anche in tema di web senza barriere. &#171;Rendendo accessibili i propri prodotti e servizi alle persone disabili, il Credit Suisse contribuisce a una maggiore integrazione di queste persone e si assume cos&#236; la propria responsabilit&#224; sociale&#187;.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">ad</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">&#65533;</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Maggiori informazioni al sito www.credit-suisse.com/directnet.</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Il Credit Suisse elimina le barriere</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Il Credit Suisse ha fatto il primo passo in questa direzione con Direct Net, la sua applicazione di online banking. In collaborazione con la fondazione &#171;Accesso per tutti&#187;, con sede a Zurigo, &#232; stato analizzato lo stato attuale dell &#8217; applicazione in merito all &#8217; osservazione delle norme internazionali di accessibilit&#224;. A tal fine, le pagine rappresentative di Direct Net sono state controllate da persone ipovedenti o affette da un altro disturbo cognitivo. L &#8217; obiettivo era quello di scoprire le lacune, nonch&#233; adottare le misure necessarie alla loro eliminazione, in vista di una certificazione di accessibilit&#224; da parte della</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">I clienti con una forte riduzione della capacit&#224; visiva possono usare l &#8217; online banking del Credit Suisse grazie a speciali strumenti di navigazione.</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr><td><a name="15">Page Number 15</a></td></tr>
+<tr>
+<td><span style="font-size:7.3pt;">Credit Suisse Bulletin plus</span></td>
+<td><span>CreditSuisseType 7.3</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">| Internet | 15</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Daniel Hippenmeyer Responsabile Recruiting Svizzera</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9pt;">&#171;Il 25 per cento di chi si candida per un posto al Credit Suisse lo fa tramite Internet.&#187;</span></td>
+<td><span>CreditSuisseType 9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">l &#8217; esperienza bancaria. Questo metodo &#232; gi&#224; applicato da alcune borse lavoro e aiuta le aziende, in quanto struttura sommariamente l &#8217; elenco dei candidati per ogni posizione. Con oltre</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">4000</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">candidature al mese, tale iter pu&#242; notevolmente ridurre i tempi della ricerca.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:20pt;">Il lavoro dei sogni pescato in rete</span></td>
+<td><span>CreditSuisseType 20</span></td>
+</tr>
+<tr>
+<td><span style="font-size:11pt;">Chi cerca un posto di lavoro su Internet ha buone possibilit&#224; di successo. Il segreto non sta tanto nel cercare, bens&#236; nel farsi trovare. Jobmail rende la ricerca pi&#249; comoda ed efficiente.</span></td>
+<td><span>CreditSuisseType 11</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Il mercato del lavoro online &#232; in piena espansione. Centinaia di borse lavoro affollano Internet alla caccia dei migliori talenti. Oggi, ad esempio, chi si candida per un impiego al Credit Suisse in Svizzera ha maggiori probabilit&#224; di successo se utilizza il canale online. Solo i candidati interni o chi &#232; proposto dalla linea ha opportunit&#224; migliori. &#171;Lo scorso anno il</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">25</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">per cento circa di tutte le nostre assunzioni esterne &#232; stato effettuato tra mite i sistemi telematici&#187;, conferma Daniel Hippenmeyer, responsabile Recruiting Svizzera al Credit Suisse. E la tendenza &#232; in aumento.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">A chi cerca lavoro, come pure alle aziende, Internet offre indubbi vantaggi, primo fra tutti il risparmio di tempo e denaro. Gli annunci su Internet costano una frazione di quelli nei giornali, mentre raggiungono un pubblico infinitamente pi&#249; vasto rispetto alla cerchia dei lettori di una sola testata. Proprio in un mercato a corto di risorse, come quello attuale, un &#8217; ampia diffusione &#232; oltremodo importante. Nel contempo per&#242; l &#8217; offerta di un impiego su Internet comporta il pericolo di una peggiore qualit&#224; delle candidature.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">La qualit&#224; deve essere garantita</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Una soluzione per assicurare la qualit&#224; &#232; l &#8217; assessment online. Tramite un link il candidato riceve uno speciale elenco di domande, volto a metterne in risalto le competenze. Ai datori di lavoro ci&#242; permette di offrire ai candidati un collocamento idoneo in azienda e uno sviluppo consono alle loro capacit&#224;. Oggi gli assessment online rappresentano una componente rilevante del processo di reclutamento. &#171;L &#8217; assessment online ci offre un aiuto importante nell &#8217; inquadramento dei candidati e favorisce la realizzazione della nostra strategia aziendale&#187;, spiega Erich Grimm che, come responsabile del Recruiting Uetlihof, ha una visione d &#8217; insieme di gran parte delle assunzioni in Svizzera.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Un &#8217; altra possibilit&#224; per assicurare la qualit&#224; &#232; rappresentata dalle domande a filtro, che mettono in evidenza le competenze dei candidati, per esempio particolari conoscenze linguistiche oppure</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Chi bene cerca &#232; a met&#224; dell &#8217; opera</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">A chi &#232; alla ricerca di un lavoro, Internet offre la possibilit&#224; di selezionare gli impieghi che corrispondono ai propri desideri. A tal fine la societ&#224; TopJobsScout24 gestisce due portali contemporaneamente: il sito jobscout. ch, che si rivolge a tutti coloro che cercano un lavoro, e topjobs. ch, una piattaforma per il personale specializzato e dirigente. Nel solo settore finanziario su queste due piattaforme vengono offerti in Svizzera oltre</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">900</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">posti di lavoro al mese. Una simile suddivisione dell &#8217; offerta favorisce la visione d &#8217; insieme ai potenziali candidati: &#171;Gli utenti devono potersi orientare rapidamente nella giungla delle offerte online&#187;, giustifica la strategia a due canali Urs L&#252;chinger, direttore della TopJobsScout24: &#171;Se si punta a una determinata posizione oppure a una certa funzione, non ha molto senso esaminare oltre</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">1000</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">posti di lavoro al mese&#187;. TopJobsScout24 &#232; una delle borse lavoro che non solo pubblicano offerte d &#8217; impiego, ma rispondono anche a nuovi requisiti del reclutamento: &#171;Per le aziende con un marchio forte &#232; importante figurare in questi portali per la selezione del personale con il proprio brand&#187;, spiega L&#252;chinger. &#171;Una volta immessi i loro criteri di ricerca, i candidati vengono incanalati non solo verso determinati posti, ma direttamente verso l &#8217; azienda che offre l &#8217; impiego corrispondente&#187;. L &#8217; utente arriva dunque direttamente nel portale delle offerte di lavoro della societ&#224; che interessa e pu&#242; farsene una prima idea. Ormai quasi ogni impresa ha un proprio mercato online dei posti di lavoro. Per Daniel Hippenmeyer, responsabile Recruiting al Credit Suisse, la presenza delle societ&#224; nelle borse lavoro offre un chiaro vantaggio: &#171;Per trovare</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">&gt;</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr><td><a name="16">Page Number 16</a></td></tr>
+<tr>
+<td><span style="font-size:7pt;">16 |</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7.3pt;">Credit Suisse Bulletin plus</span></td>
+<td><span>CreditSuisseType 7.3</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">| Internet</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">i migliori talenti le societ&#224; devono essere pi&#249; innovative e posizionarsi attivamente come aziende e come datori di lavoro&#187;.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Jobmail: la chiave del successo</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Ovviamente non tutte le offerte d &#8217; impiego sono pubblicate sull &#8217; insieme delle piattaforme. Per i potenziali candidati la ricerca quotidiana nelle varie borse lavoro, tra le offerte delle aziende e sui giornali pu&#242; diventare una fatica immane. Oltre alla suddivisione tra posizioni generiche e direttive esistono piattaforme online specializzate su determinati gruppi di professioni, per esempio nel campo del marketing e della comunicazione. Un candidato dovrebbe dunque sapere esattamente in quale settore cerca un posto e filtrare specifici offerenti, in modo da circoscrivere la ricerca a pochi siti Internet al giorno. In virt&#249; della loro specializzazione, i singoli portali offrono spesso posti di lavoro pi&#249; interessanti delle borse online generiche.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Ma che cosa succede se si cerca un posto presso un determinato datore di lavoro? Mentre in passato i potenziali candidati svolgevano lunghe ricerche e si proponevano a un &#8217; azienda con una candidatura spontanea, oggi esistono metodi di gran lunga migliori, tra cui l &#8217; abbonamento a Jobmail. Questo strumento &#232; assai popolare poich&#233; si basa su un &#8217; idea semplice ed efficace: nel sito Internet di una societ&#224; basta ordinare un abbonamento per i posti vacanti e immettere i propri criteri di ricerca come in una borsa lavoro, ed ecco che ogni offerta d &#8217; impiego nel settore auspicato della stessa societ&#224; viene recapitata direttamente per posta elettronica. Le informazioni arrivano dunque contemporaneamente all &#8217; utente, alle borse lavoro e ai giornali. Gli interessati hanno cos&#236; un vantaggio in termini di tempo e possono candidarsi in modo mirato. &#171;Questo metodo &#232; molto pi&#249; proficuo di una candidatura spontanea&#187;, spiega Hippenmeyer. In realt&#224; negli ultimi anni le candidature spontanee sono diminuite. Se nel</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2005</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">oltre</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">10 000</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">persone si erano candidate</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Chi cerca un lavoro su Internet pu&#242; inserire le proprie esigenze come la sfera d &#8217; attivit&#224;, il grado di occupazione e le condizioni contrattuali. Il computer si assume il lavoro dell &#8217; utente e indica i posti di lavoro corrispondenti. In tutta semplicit&#224; e rapidit&#224;.</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">spontaneamente al Credit Suisse, non avendo quindi risposto a un &#8217; offerta d &#8217; impiego specifica, lo scorso anno sono scese a poco meno di</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">7000</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">. E la flessione tende a continuare, perch&#233; le domande di lavoro spontanee comportano un impegno notevole e le statistiche rivelano una percentuale di successo del</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">5</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">per cento appena. &#171;La candidatura mirata a un posto di lavoro pubblicato &#232; pi&#249; proficua per entrambe le parti in causa&#187;, afferma Hippenmeyer confermando questo trend. &#171;L &#8217; abbonamento a Jobmail supera tutte le nostre aspettative&#187;. Nel mese di aprile di quest &#8217; anno il Credit Suisse ha raggiunto quota</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2800</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">sottoscrizioni, pi&#249; del doppio del previsto. Nel &#171;mondo offline&#187; vi erano quindi</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2800</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">persone interessate a un posto al Credit Suisse e in attesa di trovare l &#8217; impiego auspicato. Nel frattempo tale cifra &#232; notevolmente aumentata. Il servizio Jobmail &#232; inoltre utilizzato volentieri dalle agenzie che si sono specializzate su determinati profili professionali e possono cos&#236; rimanere automaticamente aggiornate nel loro settore.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">La ricerca online dell &#8217; impiego pu&#242; dunque avvalersi di numerosi canali, e l &#8217; abbonamento a Jobmail &#232; uno dei metodi pi&#249; efficienti per trovare i posti vacanti. Una volta contattato in questo modo il datore di lavoro preferito si &#232; gi&#224; a buon punto. Poi non resta che attendere!</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">jb</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr><td><a name="17">Page Number 17</a></td></tr>
+<tr>
+<td><span style="font-size:7.3pt;">Credit Suisse Bulletin plus</span></td>
+<td><span>CreditSuisseType 7.3</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">| Internet | 17</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:20pt;">L &#8217; e-business continuer&#224; a fiorire grazie alla banda larga</span></td>
+<td><span>CreditSuisseType 20</span></td>
+</tr>
+<tr>
+<td><span style="font-size:11pt;">L &#8217; e-business continua a far registrare tassi di crescita sostenuti in tutto il mondo, sulla spinta del miglioramento di modalit&#224; di accesso, servizi e contenuti. La contrazione del costo della banda larga dovrebbe incentivare ulteriormente il tasso di penetrazione di Internet, con un conseguente aumento del tempo di navigazione e degli acquisti effettuati online. In base alle stime del Credit Suisse, entro il</span></td>
+<td><span>CreditSuisseType 11</span></td>
+</tr>
+<tr>
+<td><span style="font-size:10.5pt;">2010</span></td>
+<td><span>CreditSuisseType 10.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:11pt;">le spese effettuate in rete passeranno dai</span></td>
+<td><span>CreditSuisseType 11</span></td>
+</tr>
+<tr>
+<td><span style="font-size:10.5pt;">170</span></td>
+<td><span>CreditSuisseType 10.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:11pt;">miliardi di dollari del</span></td>
+<td><span>CreditSuisseType 11</span></td>
+</tr>
+<tr>
+<td><span style="font-size:10.5pt;">2006</span></td>
+<td><span>CreditSuisseType 10.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:11pt;">a</span></td>
+<td><span>CreditSuisseType 11</span></td>
+</tr>
+<tr>
+<td><span style="font-size:10.5pt;">263</span></td>
+<td><span>CreditSuisseType 10.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:11pt;">miliardi.</span></td>
+<td><span>CreditSuisseType 11</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">sul web aumenter&#224; fino a</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">51,6</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">miliardi di dollari. Un tasso di crescita altrettanto sostenuto &#232; registrato dall &#8217; e-commerce, ossia la vendita di beni e servizi in cui un ordine &#232; conferito dall &#8217; acquirente o un prez zo viene negoziato via Internet o e-mail. In base ai dati dello U. S. Census Bureau, negli Stati Uniti si stima che nel</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2006</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">le vendite di e-commerce siano ammontate al</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2,8</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">per cento (pari a</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">109</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">miliardi di dollari) delle vendite totali al dettaglio, con un incremento del</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">24</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">per cento rispetto all &#8217; anno precedente.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Il numero degli utenti attivi di Internet in tutto il mondo ha raggiunto a marzo</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2007</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">la soglia dei</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">763</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">milioni, come rilevato da comScore, azienda specializzata in statistiche del traffico web. Nel solo mese di marzo tali utenti hanno visualizzato pi&#249; di</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2000</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">miliardi di pagine, pari a un incremento del</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">9</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">per cento rispetto al mese precedente. Stati Uniti ed Europa rimangono i maggiori mercati, ma le aree geografiche con i tassi di crescita pi&#249; sostenuti sono America Latina e Asia-Pacifico. Uno studio di PricewaterhouseCoopers (PwC) prevede che fra il</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2005</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">e il</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2010</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">la spesa pubblicitaria globale su Internet e il mercato degli accessi registreranno un tasso di crescita annuo del</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">13</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">per cento.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">La banda larga come catalizzatore</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Nei prossimi anni il settore di Internet si espander&#224; di pari passo con la progressiva conquista di quote di mercato delle connessioni a banda larga. &#171;La crescente penetrazione della banda larga, che non mostra segnali di rallen tamento, funger&#224; da catalizzatore per l &#8217; intero settore&#187;, spiega Heath Terry, analista Internet del Credit Suisse. &#171;La diminuzione dei costi della banda larga e le connessioni sempre pi&#249; veloci dovrebbero incentivare l &#8217; impiego di Internet e delle sue varie applicazioni&#187;. Secondo lo studio PwC, il tasso globale di penetrazione Internet a livello di famiglie dovrebbe raggiungere il</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">47</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">per cento entro il</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2010</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">, in netto progresso rispetto al l &#8217; ancora modesto</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">17</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">per cento del</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2001</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">e al 34 per cento dello scorso anno.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Attualmente i motori di ricerca fanno la parte del leone per quanto concerne le visite sul web. E l &#8217; attrattiva del web continuer&#224; a crescere di pari passo con l &#8217; ulteriore miglioramento delle tecnologie: non a caso, da uno studio di Nielsen // NetRatings risulta che i motori di ricerca sono regolarmente visitati da circa l &#8217; 80 per cento degli internauti.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Boom della pubblicit&#224; online</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">La pubblicit&#224; &#232; chiamata ad adeguarsi a questo trend ponendo un accento sempre pi&#249; marcato sul web. Il Credit Suisse stima che nel</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2006</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">la spesa pubblicitaria online sia cresciuta del</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">35</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">per cento su base annua, raggiungendo la considerevole cifra di</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">17</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">miliardi di dollari. Secondo PwC, entro il</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2010</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">la spesa pubblicitaria</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Heath Terry Analista Internet presso il Credit Suisse</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9pt;">&#171;La crescente penetrazione della banda larga, che non mostra segnali di rallentamento, funger&#224; da catalizzatore per l &#8217; intero settore&#187;.</span></td>
+<td><span>CreditSuisseType 9</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Utenti sempre pi&#249; a loro agio</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">&#171;Il segmento dell &#8217; e-commerce rappresenta il fenomeno di crescita pi&#249; costante in ambito Internet, con un incremento di quasi il 25 per cento annuo nel corso degli ultimi quattro anni&#187;, spiega Heath Terry. &#171;Riteniamo che questo trend proseguir&#224; anche in futuro, poich&#233; gli acquirenti saranno sempre pi&#249; a loro agio nella conduzione di transazioni online di importi anche notevoli. Aziende come eBay, Amazon e operatori retail tradizionali con una forte presenza sul web continueranno quindi a beneficiare di questa crescita. Attualmente i titoli del segmento e-commerce quotano con multipli di</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">29</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">volte l &#8217; utile per azione stimato per il</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2008</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">, leggermente a premio rispetto al settore Internet complessivo; riteniamo pertanto che questi livelli di valutazione siano particolarmente interessanti in rapporto al tasso di crescita&#187;, precisa Heath Terry.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">de</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr><td><a name="18">Page Number 18</a></td></tr>
+<tr>
+<td><span style="font-size:7pt;">18 |</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7.3pt;">Credit Suisse Bulletin plus</span></td>
+<td><span>CreditSuisseType 7.3</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">| Internet</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:20pt;">Una nuova vita nel cyberspazio</span></td>
+<td><span>CreditSuisseType 20</span></td>
+</tr>
+<tr>
+<td><span style="font-size:11pt;">Fare shopping senza dover trascinare pesanti sporte della spesa. Ballare tutta la notte senza doversi svegliare la mattina seguente con il mal di testa. Nella seconda vita virtuale &#232; possibile. Ma nel mondo online di &#171;Second Life&#187; ancora non riesco a trovare una filiale della mia banca. Un mondo virtuale in combinazione con una grande banca? Ma non esisteva gi&#224;?</span></td>
+<td><span>CreditSuisseType 11</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Corre l &#8217; anno</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">2002</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">. Nella cornice idilliaca del lago di Bienne, nel bel mezzo dell &#8217; arteplage della citt&#224; omonima, si trova il padiglione di Cyberhelvetia, un progetto di Expo.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">02</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">. L &#8217; ambiente della citt&#224; Internet &#171;Cy&#187;, il mondo virtuale parallelo al padiglione reale, &#232; decisamente meno imponente ed &#232; ospitato nei server del Credit Suisse. L &#8217; idea della prima citt&#224; virtuale della Confederazione &#232; audace. Le persone si scelgono un &#8217; identit&#224; a loro piacimento e si riuniscono in una comunit&#224; che si autoorganizza. L &#8217; infrastruttura &#232; scarsa, di canalizzazioni e ospedali nemmeno l &#8217; ombra. La citt&#224; &#232; ridotta all &#8217; essenziale, tuttavia vi si insediano circa</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">33 000</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">abitanti per conquistare il mondo virtuale. Trasferirvisi &#232; facile. Non servono n&#233; ditte di traslochi n&#233; licenze edilizie. La naturalizzazione avviene con pochi clic del mouse e nella scelta dei nomi non sono posti limiti alla fantasia. L &#8217; unica condizione da rispettare &#232; che il nome non sia gi&#224; utilizzato da un altro inCyder. Poi tra circa</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">100</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">modelli si sceglie un avatar, ossia un &#8217; immagine virtuale, e si parte alla ricerca di una casa adeguata. La vita virtuale pu&#242; cominciare. Proprio come nella vita reale si deve costruire e curare una rete di amicizie. La community di Internet dispone addirittura di un proprio giornale, il &#171;CyPress&#187;. Oltre a insediarsi nella citt&#224; virtuale Cy, vi &#232; la possibilit&#224; di farsi immortalare da trenta robot-fotografi davanti ad apposite finestre. Complessivamente vengono raccolti oltre un milione di scatti. Al termine dell &#8217; esposizione nazionale il progetto Cyberhelvetia, di durata limitata, &#232; portato avanti autonomamente da alcune centinaia di appassionati inCyder. Solo dopo qualche anno si capisce davvero l &#8217; importanza pionieristica del lavoro svolto allora dal Credit Suisse.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Il fulmineo sviluppo di Internet</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Nel frattempo &#232; trascorso qualche anno. Nuove tecnologie hanno permesso la realizzazione di nuovi progetti web. Ma le idee su cui si basano sono tutt &#8217; altro che inedite. Proprio Cyberhelvetia e diversi altri progetti degli albori di Internet dimostrano che gi&#224; ai tempi della new economy esistevano idee che somigliavano molto agli attuali modelli di successo. Allora l &#8217; euforia per Internet fu seguita da una grande delusione. Le azioni delle aziende dotcom crollarono drasticamente. A uno sguardo pi&#249; attento appare evidente che le idee di quegli anni precorrevano spesso i tempi. Sul piano tecnico le condizioni quadro non erano ancora quelle giuste. Ci voleva un &#8217; eternit&#224; persino per fare le cose pi&#249; semplici, come ordinare una pizza online: dapprima bisognava connettersi con il modem, poi eseguire la procedura di ordinazione navigando a una velocit&#224; decisamente ridotta, e pagare i lunghi tempi di attesa in termini di stress e di elevati costi di connessione.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">L &#8217; interattivit&#224; &#232; sempre pi&#249; importante</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Le cose sono cambiate con l &#8217; introduzione delle tariffe flat, che prevedono il pagamento di un determinato prezzo indipendentemente dalla durata e dalla frequenza della navigazione. Solo la disponibilit&#224; di rapidi e convenienti accessi a banda larga ha reso possibile l &#8217; utilizzo di diverse applicazioni web, sancendo il definitivo trionfo di Internet. E si &#232; cominciato a rispolverare diverse vecchie idee, a modificarle leggermente per poi lanciarle di nuovo. E improvvisamente ci si &#232; accorti che funzionavano. Un esempio paradigmatico &#232; rappresentato dal portale video Youtube. L &#8217; idea &#232; semplice, il successo travolgente: gli utenti caricano i loro video e li mettono a disposizione della community. L &#8217; attenzione del grande pubblico ha il suo prezzo: di recente i due fondatori hanno venduto Youtube a Google per</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">1,65</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">miliardi di dollari. Cinque anni prima progetti analoghi non avevano avuto successo. Gli ostacoli tecnici e di conseguenza finanziari per il consumatore medio erano troppo elevati.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Internet diventa sempre pi&#249; interattiva, e milioni di blog conquistano il cyberspazio. Oltre al vantaggio dello scarso onere di gestione, i blog offrono spesso la possibilit&#224; di scrivere commenti. Si pu&#242; fare cos&#236; direttamente riferimento a un articolo. Il lettore si trasforma in autore. Questa idea di community &#232; tipica della maggior parte dei cosiddetti progetti web2.0. Su di essa si basano anche i vari wiki. Le pagine di questi vocabolari online vengono scritte e modificate dai lettori, consentendo di raccogliere un enorme sapere e renderlo accessibile al grande pubblico. Ma accanto ai molti vantaggi questo nuovo modo di diffondere la conoscenza nasconde anche dei rischi. I wiki sono infatti soggetti a manipolazioni. E tuttavia il codice di autoregolamentazione funziona sorprendentemente bene. In ultima analisi i lettori possono colmare eventuali lacune nei testi e correggere da soli gli errori.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Un nuovo progetto di autorealizzazione virtuale attualmente sulla bocca di tutti &#232; Second Life. A ben guardare, i paralleli con Cyberhelvetia sono evidenti. Anche qui, infatti, ci si pu&#242; costruire da soli il proprio avatar e crearsi una casa virtuale. Dopo aver scaricato il soft-</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr><td><a name="19">Page Number 19</a></td></tr>
+<tr>
+<td><span style="font-size:7.3pt;">Credit Suisse Bulletin plus</span></td>
+<td><span>CreditSuisseType 7.3</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">| Internet | 19</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">ware necessario ci si pu&#242; immergere subito nel mondo virtuale tridimensionale.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Ma anche su questo fronte il progresso tecnologico ha lasciato il segno. Second Life offre funzionalit&#224; decisamente pi&#249; avanzate, ad esempio consentendo di creare case e vestiti su misura o di costruire succursali virtuali della propria azienda. L &#8217; affitto o l &#8217; acquisto del terreno si paga in dollari Linden, moneta virtuale che pu&#242; essere acquistata sborsando dollari reali. Nonostante tutta l &#8217; euforia e il tam tam dei media, rispetto ai sei milioni di utenti registrati i</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.55pt;">30 000</span></td>
+<td><span>CreditSuisseType 8.55</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">user che partecipano ogni giorno al gioco non sono certo un numero entusiasmante.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Ingresso in una nuova dimensione</span></td>
+<td><span>CreditSuisseType 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.8pt;">Da questo punto di vista, quindi, Second Life sembra rappresentare piuttosto un gioco, in quanto non offre funzionalit&#224; sostanzialmente nuove. Di reti di contatti ne esistono gi&#224; a bizzeffe, e su Internet non mancano nemmeno altre possibilit&#224; di comunicazione. La tradizionale pubblicit&#224; tramite banner, gli online shop e i siti aziendali si sono gi&#224; affermati come piattaforme di marketing online. La novit&#224; di Second Life &#232; soprattutto la tridimensionalit&#224;: abbinata al nuovo sistema operativo Vista, questa potrebbe aprire la strada a una nuova tendenza anche per altre applicazioni web. Una cosa &#232; certa: Internet non ha ancora trovato la sua forma definitiva. Chiss&#224;, forse dopo Cyberhelvetia e Second Life un giorno arriver&#224; anche la &#171;terza vita&#187; virtuale.</span></td>
+<td><span>CreditSuisseType 8.8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">sds</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Cy, parte integrante del progetto Cyberhelvetia gestito dal Credit Suisse a Expo. 02, &#232; stata la prima citt&#224; virtuale della Svizzera (immagini in alto). Ci&#242; che allora era considerata un &#8217; idea pionieristica, oggi &#8211; grazie al mondo virtuale di Second Life &#8211; fa ormai quasi parte della vita quotidiana (immagini in basso).</span></td>
+<td><span>CreditSuisseType 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">Sigla editoriale</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">Editore Credit Suisse, Casella postale 2, 8070 Zurigo Redazione Andreas Thomann (ath) (direzione del progetto), Joy Bolli (jb), Alireza Darvishy (ad), Doroth&#233;e Enskog (de), Tanya Fritsche (tf), Mandana Razavi (mr),</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">Sebastian Schiendorfer (sds), Franziska Vonaesch (fva) Internet www.credit-suisse.com/infocus &gt; Dossiers</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">&gt; Internet Marketing Veronica Zimnic Progetto grafico Arnold Design AG, Uerikon ZH: Daniel Peterhans,</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">Monika H&#228;fliger, Michele Iseppi, Urs Arnold, Petra Feusi (gestione del progetto) Lay-out e composizione</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">Arnold Design AG, Uerikon ZH Stampa NZZ Fretz AG, Schlieren Traduzione italiana Servizio linguistico</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">del Credit Suisse: Francesco Di Lena, Michele Bruno, Deborah Cometti, Alessandra Maiocchi, Antonella Montesi Fotografie John Abbott, pagina 17; Andreas Hofer, pagina 19; Jan Potente, Das Fotoarchiv, pagina 14;</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">Martin Stollenwerk, pagine 3, 7, 8, 10, 12, 15; www.coproduktion.ch, copertina.</span></td>
+<td><span>CreditSuisseType 6</span></td>
+</tr>
+<tr><td><a name="20">Page Number 20</a></td></tr>
+<tr>
+<td><span style="font-size:19pt;">TOP OF SWITZERLAND</span></td>
+<td><span>FrutigerBQ 19</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">N2O Informatique Sarl, Grand-Rue 9, 1180 Rolle www.n2oinformatique.ch &#8226; Idea Systems, Route des Avouillons 6, 1196 Gland, www.ideasystems.ch &#8226; VnV computer, Zennaro &amp; Cie, Daniel-Jeanrichard 30, 2400 Le Locle, www.vnv-computer.ch &#8226; PC Lotus GmbH, Neumarktstr. 9, 2502 Biel / Bienne, www.pc-lotus.ch &#8226; B &amp; C Computer GmbH, Lagerhausweg 30, 3018 Bern, www.bc-computer.ch &#8226; Netchange Informatik GmbH, Dorfstr. 12, 3084 Wabern, www.netchange.ch &#8226; Netchange Informatik GmbH, Bernstr. 3-5, 3421 Lyssach, www.netchange.ch &#8226; APS Informatik GmbH, Schlossstr. 1, 3550 Langnau i. E., www.aps-informatik.ch &#8226; BEO-Computer GmbH, Frutigenstr. 6, 3600 Thun, www.beo-computer.ch &#8226; PC-Center, Petersgraben 21, 4051 Basel, www.pccenter-basel.ch &#8226; PCI Computer Systems AG, M&#252;hlemattstr. 48, 4104 Oberwil BL, www.pcicomputer.ch &#8226; RS Computer GmbH, Luzernerstr. 1, 5630 Muri AG, www.rscomputer.ch &#8226; Walker Radio TV und PC GmbH, Attinghauserstr. 130, 6460 Altdorf, www.walkerpc.ch &#8226; Comptel Sagl, Via al Ticino 19, 6514 Sementina, www.comptel.ch &#8226; Foletti Computer, Via Cantonale 16B, 6928 Manno, www.foletti.com &#8226; PC-help. ch GmbH, Richtstr. 19, 7000 Chur, www.pc-help.ch &#8226; Diversimex GmbH, Seestr. 330, 8038 Z&#252;rich, www.diversimex.ch &#8226; Syntron Elektronik &amp; PC, Sch&#252;tzengraben 24, 8200 Schaffhausen &#8226; Bacher Data AG, Ferrachstr. 35, 8630 R&#252;ti ZH, www.bacherdata.ch &#8226; MS Informatik GmbH, Landsgemeindeweg 14, 8853 Lachen, www.msinformatik.ch &#8226; MS Informatik GmbH, Zielstr. 25, 9050 Appenzell, www.msinformatik.ch &#8226; Computer Direct SG AG, Z&#252;rcherstr. 6, 9500 Wil SG, www.computerdirect.ch</span></td>
+<td><span>FrutigerCondensedBQ 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8pt;">Ulteriori fonti d ' acquisto: www.littlebit.ch</span></td>
+<td><span>FrutigerBQ 8</span></td>
+</tr>
+<tr>
+<td><span style="font-size:8.5pt;">LA SVIZZERA E LITTLEBIT: DUE, PER IL MASSIMO DELLA QUALIT&#192;.</span></td>
+<td><span>FrutigerBQ 8.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:15pt;">www.littlebit.ch</span></td>
+<td><span>FrutigerBQ 15</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.12pt;">3 Swiss Quality Assembling</span></td>
+<td><span>FrutigerBQ 9.12</span></td>
+</tr>
+<tr>
+<td><span style="font-size:9.12pt;">Y ears Swiss Warra n t y</span></td>
+<td><span>FrutigerBQ 9.12</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Stingray Z84 Processor: Intel</span></td>
+<td><span>FrutigerBQ 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:3.5pt;">&#174;</span></td>
+<td><span>FrutigerBQ 3.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Core</span></td>
+<td><span>FrutigerBQ 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:3.5pt;">TM</span></td>
+<td><span>FrutigerBQ 3.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">2 Duo Processor T7300 &#8226; Memory: 1 GB &#8226; Graphic: nVidia Geforce 8600M GS, 512 MB &#8226; Harddisk: 120 GB SATA &#8226; Optical: DVD +/ -RW 8x DL &#8226; Operating System: Microsoft</span></td>
+<td><span>FrutigerBQ 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:3.5pt;">&#174;</span></td>
+<td><span>FrutigerBQ 3.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Windows</span></td>
+<td><span>FrutigerBQ 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:3.5pt;">&#174;</span></td>
+<td><span>FrutigerBQ 3.5</span></td>
+</tr>
+<tr>
+<td><span style="font-size:7pt;">Vista Premium</span></td>
+<td><span>FrutigerBQ 7</span></td>
+</tr>
+<tr>
+<td><span style="font-size:22pt;">sFr. 1 &#8217; 990.&#8211;</span></td>
+<td><span>FrutigerBQ 22</span></td>
+</tr>
+<tr>
+<td><span style="font-size:6pt;">IVA incl.</span></td>
+<td><span>FrutigerBQ 6</span></td>
+</tr>
+<tr>
+<td><span style="font-size:4.96pt;">Centrino, Centrino Logo, Intel, Intel Logo, Intel Core, Intel Inside, Intel Inside Logo are trademarks or registered trademarks of Intel Corporation or its subsidiaries in the United States and other countries.</span></td>
+<td><span>FrutigerBQ 4.96</span></td>
+</tr>
+<tr>
+<td><span style="font-size:4.5pt;">wiedenbach-design. com</span></td>
+<td><span>FrutigerBQ 4.5</span></td>
+</tr>
+</table></div>
+  <div id="pdfImage">
+    <div id="outerContainer">
+
+      <div id="sidebarContainer">
+        <div id="toolbarSidebar">
+          <div class="splitToolbarButton toggled">
+            <button id="viewThumbnail" class="toolbarButton group toggled" title="Show Thumbnails" tabindex="2" data-l10n-id="thumbs">
+               <span data-l10n-id="thumbs_label">Thumbnails</span>
+            </button>
+            <button id="viewOutline" class="toolbarButton group" title="Show Document Outline" tabindex="3" data-l10n-id="outline">
+               <span data-l10n-id="outline_label">Document Outline</span>
+            </button>
+            <button id="viewAttachments" class="toolbarButton group" title="Show Attachments" tabindex="4" data-l10n-id="attachments">
+               <span data-l10n-id="attachments_label">Attachments</span>
+            </button>
+          </div>
+        </div>
+        <div id="sidebarContent">
+          <div id="thumbnailView">
+          </div>
+          <div id="outlineView" class="hidden">
+          </div>
+          <div id="attachmentsView" class="hidden">
+          </div>
+        </div>
+      </div>  <!-- sidebarContainer -->
+
+      <div id="mainContainer">
+        <div class="findbar hidden doorHanger hiddenSmallView" id="findbar">
+          <label for="findInput" class="toolbarLabel" data-l10n-id="find_label">Find:</label>
+          <input id="findInput" class="toolbarField" tabindex="91">
+          <div class="splitToolbarButton">
+            <button class="toolbarButton findPrevious" title="" id="findPrevious" tabindex="92" data-l10n-id="find_previous">
+              <span data-l10n-id="find_previous_label">Previous</span>
+            </button>
+            <div class="splitToolbarButtonSeparator"></div>
+            <button class="toolbarButton findNext" title="" id="findNext" tabindex="93" data-l10n-id="find_next">
+              <span data-l10n-id="find_next_label">Next</span>
+            </button>
+          </div>
+          <input type="checkbox" id="findHighlightAll" class="toolbarField">
+          <label for="findHighlightAll" class="toolbarLabel" tabindex="94" data-l10n-id="find_highlight">Highlight all</label>
+          <input type="checkbox" id="findMatchCase" class="toolbarField">
+          <label for="findMatchCase" class="toolbarLabel" tabindex="95" data-l10n-id="find_match_case_label">Match case</label>
+          <span id="findMsg" class="toolbarLabel"></span>
+        </div>  <!-- findbar -->
+
+        <div id="secondaryToolbar" class="secondaryToolbar hidden doorHangerRight">
+          <div id="secondaryToolbarButtonContainer">
+            <button id="secondaryPresentationMode" class="secondaryToolbarButton presentationMode visibleLargeView" title="Switch to Presentation Mode" tabindex="51" data-l10n-id="presentation_mode">
+              <span data-l10n-id="presentation_mode_label">Presentation Mode</span>
+            </button>
+
+            <button id="secondaryOpenFile" class="secondaryToolbarButton openFile visibleLargeView" title="Open File" tabindex="52" data-l10n-id="open_file">
+              <span data-l10n-id="open_file_label">Open</span>
+            </button>
+
+            <button id="secondaryPrint" class="secondaryToolbarButton print visibleMediumView" title="Print" tabindex="53" data-l10n-id="print">
+              <span data-l10n-id="print_label">Print</span>
+            </button>
+
+            <button id="secondaryDownload" class="secondaryToolbarButton download visibleMediumView" title="Download" tabindex="54" data-l10n-id="download">
+              <span data-l10n-id="download_label">Download</span>
+            </button>
+
+            <a href="#" id="secondaryViewBookmark" class="secondaryToolbarButton bookmark visibleSmallView" title="Current view (copy or open in new window)" tabindex="55" data-l10n-id="bookmark">
+              <span data-l10n-id="bookmark_label">Current View</span>
+            </a>
+
+            <div class="horizontalToolbarSeparator visibleLargeView"></div>
+
+            <button id="firstPage" class="secondaryToolbarButton firstPage" title="Go to First Page" tabindex="56" data-l10n-id="first_page">
+              <span data-l10n-id="first_page_label">Go to First Page</span>
+            </button>
+            <button id="lastPage" class="secondaryToolbarButton lastPage" title="Go to Last Page" tabindex="57" data-l10n-id="last_page">
+              <span data-l10n-id="last_page_label">Go to Last Page</span>
+            </button>
+
+            <div class="horizontalToolbarSeparator"></div>
+
+            <button id="pageRotateCw" class="secondaryToolbarButton rotateCw" title="Rotate Clockwise" tabindex="58" data-l10n-id="page_rotate_cw">
+              <span data-l10n-id="page_rotate_cw_label">Rotate Clockwise</span>
+            </button>
+            <button id="pageRotateCcw" class="secondaryToolbarButton rotateCcw" title="Rotate Counterclockwise" tabindex="59" data-l10n-id="page_rotate_ccw">
+              <span data-l10n-id="page_rotate_ccw_label">Rotate Counterclockwise</span>
+            </button>
+
+            <div class="horizontalToolbarSeparator"></div>
+
+            <button id="toggleHandTool" class="secondaryToolbarButton handTool" title="Enable hand tool" tabindex="60" data-l10n-id="hand_tool_enable">
+              <span data-l10n-id="hand_tool_enable_label">Enable hand tool</span>
+            </button>
+            
+            <div class="horizontalToolbarSeparator"></div>
+
+            <button id="documentProperties" class="secondaryToolbarButton documentProperties" title="Document Properties&#8230;" tabindex="61" data-l10n-id="document_properties">
+              <span data-l10n-id="document_properties_label">Document Properties&#8230;</span>
+            </button>
+          </div>
+        </div>  <!-- secondaryToolbar -->
+
+        <div class="toolbar">
+          <div id="toolbarContainer">
+            <div id="toolbarViewer">
+              <div id="toolbarViewerLeft">
+                <button id="sidebarToggle" class="toolbarButton" title="Toggle Sidebar" tabindex="11" data-l10n-id="toggle_sidebar">
+                  <span data-l10n-id="toggle_sidebar_label">Toggle Sidebar</span>
+                </button>
+                <div class="toolbarButtonSpacer"></div>
+                <button id="viewFind" class="toolbarButton group hiddenSmallView" title="Find in Document" tabindex="12" data-l10n-id="findbar">
+                   <span data-l10n-id="findbar_label">Find</span>
+                </button>
+                <div class="splitToolbarButton">
+                  <button class="toolbarButton pageUp" title="Previous Page" id="previous" tabindex="13" data-l10n-id="previous">
+                    <span data-l10n-id="previous_label">Previous</span>
+                  </button>
+                  <div class="splitToolbarButtonSeparator"></div>
+                  <button class="toolbarButton pageDown" title="Next Page" id="next" tabindex="14" data-l10n-id="next">
+                    <span data-l10n-id="next_label">Next</span>
+                  </button>
+                </div>
+                <label id="pageNumberLabel" class="toolbarLabel" for="pageNumber" data-l10n-id="page_label">Page: </label>
+                <input type="number" id="pageNumber" class="toolbarField pageNumber" value="1" size="4" min="1" tabindex="15">
+                <span id="numPages" class="toolbarLabel"></span>
+              </div>
+              <div id="toolbarViewerRight">
+                <button id="presentationMode" class="toolbarButton presentationMode hiddenLargeView" title="Switch to Presentation Mode" tabindex="31" data-l10n-id="presentation_mode">
+                  <span data-l10n-id="presentation_mode_label">Presentation Mode</span>
+                </button>
+
+                <button id="openFile" class="toolbarButton openFile hiddenLargeView" title="Open File" tabindex="32" data-l10n-id="open_file">
+                  <span data-l10n-id="open_file_label">Open</span>
+                </button>
+
+                <button id="print" class="toolbarButton print hiddenMediumView" title="Print" tabindex="33" data-l10n-id="print">
+                  <span data-l10n-id="print_label">Print</span>
+                </button>
+
+                <button id="download" class="toolbarButton download hiddenMediumView" title="Download" tabindex="34" data-l10n-id="download">
+                  <span data-l10n-id="download_label">Download</span>
+                </button>
+                <!-- <div class="toolbarButtonSpacer"></div> -->
+                <a href="#" id="viewBookmark" class="toolbarButton bookmark hiddenSmallView" title="Current view (copy or open in new window)" tabindex="35" data-l10n-id="bookmark">
+                  <span data-l10n-id="bookmark_label">Current View</span>
+                </a>
+
+                <div class="verticalToolbarSeparator hiddenSmallView"></div>
+                
+                <button id="secondaryToolbarToggle" class="toolbarButton" title="Tools" tabindex="36" data-l10n-id="tools">
+                  <span data-l10n-id="tools_label">Tools</span>
+                </button> 
+              </div>
+              <div class="outerCenter">
+                <div class="innerCenter" id="toolbarViewerMiddle">
+                  <div class="splitToolbarButton">
+                    <button id="zoomOut" class="toolbarButton zoomOut" title="Zoom Out" tabindex="21" data-l10n-id="zoom_out">
+                      <span data-l10n-id="zoom_out_label">Zoom Out</span>
+                    </button>
+                    <div class="splitToolbarButtonSeparator"></div>
+                    <button id="zoomIn" class="toolbarButton zoomIn" title="Zoom In" tabindex="22" data-l10n-id="zoom_in">
+                      <span data-l10n-id="zoom_in_label">Zoom In</span>
+                     </button>
+                  </div>
+                  <span id="scaleSelectContainer" class="dropdownToolbarButton">
+                     <select id="scaleSelect" title="Zoom" tabindex="23" data-l10n-id="zoom">
+                      <option id="pageAutoOption" title="" value="auto" selected data-l10n-id="page_scale_auto">Automatic Zoom</option>
+                      <option id="pageActualOption" title="" value="page-actual" data-l10n-id="page_scale_actual">Actual Size</option>
+                      <option id="pageFitOption" title="" value="page-fit" data-l10n-id="page_scale_fit">Fit Page</option>
+                      <option id="pageWidthOption" title="" value="page-width" data-l10n-id="page_scale_width">Full Width</option>
+                      <option id="customScaleOption" title="" value="custom"></option>
+                      <option title="" value="0.5" data-l10n-id="page_scale_percent" data-l10n-args='{ "scale": 50 }'>50%</option>
+                      <option title="" value="0.75" data-l10n-id="page_scale_percent" data-l10n-args='{ "scale": 75 }'>75%</option>
+                      <option title="" value="1" data-l10n-id="page_scale_percent" data-l10n-args='{ "scale": 100 }'>100%</option>
+                      <option title="" value="1.25" data-l10n-id="page_scale_percent" data-l10n-args='{ "scale": 125 }'>125%</option>
+                      <option title="" value="1.5" data-l10n-id="page_scale_percent" data-l10n-args='{ "scale": 150 }'>150%</option>
+                      <option title="" value="2" data-l10n-id="page_scale_percent" data-l10n-args='{ "scale": 200 }'>200%</option>
+                      <option title="" value="3" data-l10n-id="page_scale_percent" data-l10n-args='{ "scale": 300 }'>300%</option>
+                      <option title="" value="4" data-l10n-id="page_scale_percent" data-l10n-args='{ "scale": 400 }'>400%</option>
+                    </select>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div id="loadingBar">
+              <div class="progress">
+                <div class="glimmer">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <menu type="context" id="viewerContextMenu">
+          <menuitem id="contextFirstPage" label="First Page" data-l10n-id="first_page"></menuitem>
+          <menuitem id="contextLastPage" label="Last Page" data-l10n-id="last_page"></menuitem>
+          <menuitem id="contextPageRotateCw" label="Rotate Clockwise" data-l10n-id="page_rotate_cw"></menuitem>
+          <menuitem id="contextPageRotateCcw" label="Rotate Counter-Clockwise" data-l10n-id="page_rotate_ccw"></menuitem>
+        </menu>
+
+        <div id="viewerContainer" tabindex="0">
+          <div id="viewer" class="pdfViewer"></div>
+        </div>
+
+        <div id="errorWrapper" hidden="true">
+          <div id="errorMessageLeft">
+            <span id="errorMessage"></span>
+            <button id="errorShowMore" data-l10n-id="error_more_info">
+              More Information
+            </button>
+            <button id="errorShowLess" data-l10n-id="error_less_info" hidden="true">
+              Less Information
+            </button>
+          </div>
+          <div id="errorMessageRight">
+            <button id="errorClose" data-l10n-id="error_close">
+              Close
+            </button>
+          </div>
+          <div class="clearBoth"></div>
+          <textarea id="errorMoreInfo" hidden="true" readonly></textarea>
+        </div>
+      </div> <!-- mainContainer -->
+
+      <div id="overlayContainer" class="hidden">
+        <div id="passwordOverlay" class="container hidden">
+          <div class="dialog">
+            <div class="row">
+              <p id="passwordText" data-l10n-id="password_label">Enter the password to open this PDF file:</p>
+            </div>
+            <div class="row">
+              <input type="password" id="password" class="toolbarField">
+            </div>
+            <div class="buttonRow">
+              <button id="passwordCancel" class="overlayButton"><span data-l10n-id="password_cancel">Cancel</span></button>
+              <button id="passwordSubmit" class="overlayButton"><span data-l10n-id="password_ok">OK</span></button>
+            </div>
+          </div>
+        </div>
+        <div id="documentPropertiesOverlay" class="container hidden">
+          <div class="dialog">
+            <div class="row">
+              <span data-l10n-id="document_properties_file_name">File name:</span> <p id="fileNameField">-</p>
+            </div>
+            <div class="row">
+              <span data-l10n-id="document_properties_file_size">File size:</span> <p id="fileSizeField">-</p>
+            </div>
+            <div class="separator"></div>
+            <div class="row">
+              <span data-l10n-id="document_properties_title">Title:</span> <p id="titleField">-</p>
+            </div>
+            <div class="row">
+              <span data-l10n-id="document_properties_author">Author:</span> <p id="authorField">-</p>
+            </div>
+            <div class="row">
+              <span data-l10n-id="document_properties_subject">Subject:</span> <p id="subjectField">-</p>
+            </div>
+            <div class="row">
+              <span data-l10n-id="document_properties_keywords">Keywords:</span> <p id="keywordsField">-</p>
+            </div>
+            <div class="row">
+              <span data-l10n-id="document_properties_creation_date">Creation Date:</span> <p id="creationDateField">-</p>
+            </div>
+            <div class="row">
+              <span data-l10n-id="document_properties_modification_date">Modification Date:</span> <p id="modificationDateField">-</p>
+            </div>
+            <div class="row">
+              <span data-l10n-id="document_properties_creator">Creator:</span> <p id="creatorField">-</p>
+            </div>
+            <div class="separator"></div>
+            <div class="row">
+              <span data-l10n-id="document_properties_producer">PDF Producer:</span> <p id="producerField">-</p>
+            </div>
+            <div class="row">
+              <span data-l10n-id="document_properties_version">PDF Version:</span> <p id="versionField">-</p>
+            </div>
+            <div class="row">
+              <span data-l10n-id="document_properties_page_count">Page Count:</span> <p id="pageCountField">-</p>
+            </div>
+            <div class="buttonRow">
+              <button id="documentPropertiesClose" class="overlayButton"><span data-l10n-id="document_properties_close">Close</span></button>
+            </div>
+          </div>
+        </div>
+      </div>  <!-- overlayContainer -->
+
+    </div> <!-- outerContainer -->
+  </div>
+    <div id="printContainer"></div>
+
+<div id="mozPrintCallback-shim" hidden>
+  <style scoped>
+#mozPrintCallback-shim {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999999;
+
+  display: block;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#mozPrintCallback-shim[hidden] {
+  display: none;
+}
+@media print {
+  #mozPrintCallback-shim {
+    display: none;
+  }
+}
+
+#mozPrintCallback-shim .mozPrintCallback-dialog-box {
+  display: inline-block;
+  margin: -50px auto 0;
+  position: relative;
+  top: 45%;
+  left: 0;
+  min-width: 220px;
+  max-width: 400px;
+
+  padding: 9px;
+
+  border: 1px solid hsla(0, 0%, 0%, .5);
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+
+  background-color: #474747;
+
+  color: hsl(0, 0%, 85%);
+  font-size: 16px;
+  line-height: 20px;
+}
+#mozPrintCallback-shim .progress-row {
+  clear: both;
+  padding: 1em 0;
+}
+#mozPrintCallback-shim progress {
+  width: 100%;
+}
+#mozPrintCallback-shim .relative-progress {
+  clear: both;
+  float: right;
+}
+#mozPrintCallback-shim .progress-actions {
+  clear: both;
+}
+  </style>
+  <div class="mozPrintCallback-dialog-box">
+    <!-- TODO: Localise the following strings -->
+    Preparing document for printing...
+    <div class="progress-row">
+      <progress value="0" max="100"></progress>
+      <span class="relative-progress">0%</span>
+    </div>
+    <div class="progress-actions">
+      <input type="button" value="Cancel" class="mozPrintCallback-cancel">
+    </div>
+  </div>
+</div>
+
+  <div id="dialog-message" title="Headings file created" style="display: none">
+    <p id="p_url" class="export_popup">
+      <span class="ui-icon ui-icon-circle-check" style="float:left; margin:0 7px 50px 0;"></span>
+      Your headings file has been created.
+    </p>
+      <textarea id="exportTextarea"></textarea>
+  </div>
+
+  </body>
+</html>
