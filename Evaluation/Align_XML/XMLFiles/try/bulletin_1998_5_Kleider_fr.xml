@@ -1,0 +1,38 @@
+<book lang="fr">
+  <article n="0">
+    <div> FR </div>
+    <div> FR </div>
+    <pb>1</pb>
+  </article>
+  
+  <article n="1">
+    <div heading="article">FR TITEL 1</div>
+    <div> FR </div>
+    <pb>2</pb>
+    <pb>3</pb>
+  </article>
+  
+  <article n="2">
+    <div heading="article"> FR TITEL 2</div>
+    <div> FR </div>
+    <pb>4</pb>
+    <pb>5</pb>
+  </article>
+  
+    <article n="3">
+    <div heading="article"> FR TITEL 3</div>
+    <div> FR </div>
+    <pb>6</pb>
+  </article>
+
+    <article n="4">
+    <div heading="article"> FR TITEL 3</div>
+    <div> FR </div>
+    <pb>6</pb>
+  </article>
+  
+<article n="5">
+    <div heading="article"> FR TITEL 3</div>
+    <div> FR </div>
+  </article>
+</book>

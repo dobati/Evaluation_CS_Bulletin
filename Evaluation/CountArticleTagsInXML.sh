@@ -1,5 +1,5 @@
 #!/bin/bash
-# @ Dolores
+# @ Dolores Batinic
 # Program to count the <article> tags in XML output Files
 
 # remove the output file if it exist
