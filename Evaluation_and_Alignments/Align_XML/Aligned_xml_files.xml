@@ -1,0 +1,2352 @@
+<TEI>
+  <teiHeader>bulletin_1999_2_Grenzen</teiHeader>
+  <linkGrp lang="de;fr" targType="yearbook" xtargets="bulletin_1999_2_Grenzen_de.xml;bulletin_1999_2_Grenzen_fr.xml">
+    <linkGrp targType="article" xtargets="a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11"/>
+    <linkGrp targType="article" xtargets="a12;a13"/>
+    <linkGrp targType="article" xtargets="a13;a14"/>
+    <linkGrp targType="article" xtargets="a14;a15"/>
+    <linkGrp targType="article" xtargets="a16;a17"/>
+    <linkGrp targType="article" xtargets="a18;a19"/>
+    <linkGrp targType="article" xtargets="a19;a20"/>
+    <linkGrp targType="article" xtargets="a20;a21"/>
+    <linkGrp targType="article" xtargets="a21;a22"/>
+    <linkGrp targType="article" xtargets="a22;a23"/>
+    <linkGrp targType="article" xtargets="a23;a24"/>
+    <linkGrp targType="article" xtargets="a24;a25"/>
+    <linkGrp targType="article" xtargets="a25;a26"/>
+    <linkGrp targType="article" xtargets="a26;a27"/>
+    <linkGrp targType="article" xtargets="a27;a28"/>
+    <linkGrp targType="article" xtargets="a28;a29"/>
+    <linkGrp targType="article" xtargets="a29;a30"/>
+    <linkGrp targType="article" xtargets="a31;a32"/>
+    <linkGrp targType="article" xtargets="a32;a33"/>
+    <linkGrp targType="article" xtargets="a33;a33"/>
+    <linkGrp targType="article" xtargets="a34;a34"/>
+  </linkGrp>
+  <teiHeader>bulletin_2007_special_Value</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2007_special_Value_de.xml;bulletin_2007_special_Value_en.xml;bulletin_2007_special_Value_fr.xml;bulletin_2007_special_Value_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10;a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11;a11;a11"/>
+    <linkGrp targType="article" xtargets="a12;a12;a12;a12"/>
+    <linkGrp targType="article" xtargets="a13;a13;a13;a13"/>
+    <linkGrp targType="article" xtargets="a14;a14;a14;a14"/>
+    <linkGrp targType="article" xtargets="a15;a15;a15;a15"/>
+  </linkGrp>
+  <teiHeader>bulletin_2013_5_Identity</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2013_5_Identity_de.xml;bulletin_2013_5_Identity_en.xml;bulletin_2013_5_Identity_fr.xml;bulletin_2013_5_Identity_it.xml">
+    <linkGrp targType="article" xtargets="a2;a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a9;a9;a10;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10;a11;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11;a12;a11"/>
+    <linkGrp targType="article" xtargets="a12;a12;a13;a12"/>
+    <linkGrp targType="article" xtargets="a14;a14;a13;a14"/>
+    <linkGrp targType="article" xtargets="a15;a15;a14;a15"/>
+    <linkGrp targType="article" xtargets="a16;a16;a14;a16"/>
+    <linkGrp targType="article" xtargets="a17;a18;a15;a17"/>
+    <linkGrp targType="article" xtargets="a18;a19;a16;a18"/>
+    <linkGrp targType="article" xtargets="a19;a20;a17;a19"/>
+    <linkGrp targType="article" xtargets="a20;a21;a18;a20"/>
+    <linkGrp targType="article" xtargets="a21;a22;a19;a21"/>
+    <linkGrp targType="article" xtargets="a22;a23;a20;a22"/>
+    <linkGrp targType="article" xtargets="a23;a24;a21;a23"/>
+    <linkGrp targType="article" xtargets="a24;a25;a22;a24"/>
+    <linkGrp targType="article" xtargets="a25;a26;a23;a25"/>
+  </linkGrp>
+  <teiHeader>bulletin_2003_special_Wohnen</teiHeader>
+  <linkGrp lang="fr;it" targType="yearbook" xtargets="bulletin_2003_special_Wohnen_fr.xml;bulletin_2003_special_Wohnen_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2"/>
+    <linkGrp targType="article" xtargets="a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8"/>
+    <linkGrp targType="article" xtargets="a11;a11"/>
+    <linkGrp targType="article" xtargets="a17;a17"/>
+    <linkGrp targType="article" xtargets="a19;a18"/>
+    <linkGrp targType="article" xtargets="a20;a18"/>
+    <linkGrp targType="article" xtargets="a21;a19"/>
+    <linkGrp targType="article" xtargets="a22;a20"/>
+    <linkGrp targType="article" xtargets="a23;a21"/>
+    <linkGrp targType="article" xtargets="a24;a22"/>
+    <linkGrp targType="article" xtargets="a25;a23"/>
+    <linkGrp targType="article" xtargets="a26;a24"/>
+  </linkGrp>
+  <teiHeader>bulletin_2012_2_Air</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2012_2_Air_de.xml;bulletin_2012_2_Air_en.xml;bulletin_2012_2_Air_fr.xml;bulletin_2012_2_Air_it.xml">
+    <linkGrp targType="article" xtargets="a1;a3;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a6;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a9;a5;a5"/>
+    <linkGrp targType="article" xtargets="a5;a10;a6;a6"/>
+    <linkGrp targType="article" xtargets="a6;a11;a7;a7"/>
+    <linkGrp targType="article" xtargets="a9;a14;a10;a10"/>
+    <linkGrp targType="article" xtargets="a10;a14;a12;a12"/>
+    <linkGrp targType="article" xtargets="a13;a14;a16;a13"/>
+    <linkGrp targType="article" xtargets="a13;a20;a16;a13"/>
+    <linkGrp targType="article" xtargets="a14;a21;a17;a14"/>
+    <linkGrp targType="article" xtargets="a14;a22;a19;a16"/>
+    <linkGrp targType="article" xtargets="a15;a22;a20;a17"/>
+    <linkGrp targType="article" xtargets="a15;a23;a21;a18"/>
+    <linkGrp targType="article" xtargets="a16;a24;a21;a18"/>
+    <linkGrp targType="article" xtargets="a18;a35;a21;a18"/>
+    <linkGrp targType="article" xtargets="a19;a35;a21;a18"/>
+    <linkGrp targType="article" xtargets="a20;a36;a22;a19"/>
+    <linkGrp targType="article" xtargets="a20;a39;a22;a19"/>
+    <linkGrp targType="article" xtargets="a20;a39;a23;a20"/>
+    <linkGrp targType="article" xtargets="a20;a40;a24;a21"/>
+    <linkGrp targType="article" xtargets="a21;a40;a25;a22"/>
+    <linkGrp targType="article" xtargets="a21;a41;a35;a28"/>
+    <linkGrp targType="article" xtargets="a22;a42;a35;a28"/>
+    <linkGrp targType="article" xtargets="a23;a42;a40;a33"/>
+    <linkGrp targType="article" xtargets="a24;a42;a41;a34"/>
+    <linkGrp targType="article" xtargets="a35;a42;a44;a36"/>
+    <linkGrp targType="article" xtargets="a35;a43;a44;a36"/>
+    <linkGrp targType="article" xtargets="a40;a44;a45;a37"/>
+    <linkGrp targType="article" xtargets="a41;a47;a46;a38"/>
+    <linkGrp targType="article" xtargets="a43;a47;a47;a39"/>
+    <linkGrp targType="article" xtargets="a43;a47;a52;a44"/>
+    <linkGrp targType="article" xtargets="a44;a49;a54;a46"/>
+    <linkGrp targType="article" xtargets="a45;a53;a55;a47"/>
+    <linkGrp targType="article" xtargets="a46;a56;a56;a47"/>
+    <linkGrp targType="article" xtargets="a51;a56;a57;a48"/>
+    <linkGrp targType="article" xtargets="a53;a56;a58;a49"/>
+    <linkGrp targType="article" xtargets="a54;a57;a59;a50"/>
+    <linkGrp targType="article" xtargets="a54;a58;a59;a50"/>
+    <linkGrp targType="article" xtargets="a55;a58;a60;a51"/>
+    <linkGrp targType="article" xtargets="a56;a58;a61;a52"/>
+    <linkGrp targType="article" xtargets="a57;a62;a53"/>
+    <linkGrp targType="article" xtargets="a61;a66;a57"/>
+    <linkGrp targType="article" xtargets="a62;a67;a58"/>
+    <linkGrp targType="article" xtargets="a64;a69;a61"/>
+    <linkGrp targType="article" xtargets="a67;a72;a64"/>
+    <linkGrp targType="article" xtargets="a68;a73;a65"/>
+  </linkGrp>
+  <teiHeader>bulletin_2014_3_Move</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2014_3_Move_de.xml;bulletin_2014_3_Move_en.xml;bulletin_2014_3_Move_fr.xml;bulletin_2014_3_Move_it.xml">
+    <linkGrp targType="article" xtargets="a1;a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a4;a3;a3;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a3;a4"/>
+    <linkGrp targType="article" xtargets="a6;a6;a4;a5"/>
+    <linkGrp targType="article" xtargets="a7;a7;a5;a6"/>
+    <linkGrp targType="article" xtargets="a8;a8;a6;a7"/>
+    <linkGrp targType="article" xtargets="a10;a10;a7;a8"/>
+    <linkGrp targType="article" xtargets="a11;a11;a8;a9"/>
+    <linkGrp targType="article" xtargets="a12;a12;a9;a10"/>
+    <linkGrp targType="article" xtargets="a14;a14;a11;a12"/>
+    <linkGrp targType="article" xtargets="a15;a15;a12;a13"/>
+    <linkGrp targType="article" xtargets="a15;a16;a13;a13"/>
+    <linkGrp targType="article" xtargets="a16;a17;a14;a14"/>
+    <linkGrp targType="article" xtargets="a17;a18;a15;a15"/>
+    <linkGrp targType="article" xtargets="a18;a19;a16;a16"/>
+    <linkGrp targType="article" xtargets="a19;a20;a17;a17"/>
+    <linkGrp targType="article" xtargets="a20;a21;a17;a17"/>
+    <linkGrp targType="article" xtargets="a21;a22;a17;a17"/>
+    <linkGrp targType="article" xtargets="a22;a23;a18;a18"/>
+    <linkGrp targType="article" xtargets="a23;a24;a19;a18"/>
+    <linkGrp targType="article" xtargets="a23;a25;a20;a18"/>
+    <linkGrp targType="article" xtargets="a24;a26;a21;a19"/>
+    <linkGrp targType="article" xtargets="a25;a26;a21;a19"/>
+  </linkGrp>
+  <teiHeader>bulletin_2002_2_Ordnung</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2002_2_Ordnung_de.xml;bulletin_2002_2_Ordnung_fr.xml;bulletin_2002_2_Ordnung_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11;a11"/>
+    <linkGrp targType="article" xtargets="a12;a12;a12"/>
+    <linkGrp targType="article" xtargets="a13;a13;a13"/>
+    <linkGrp targType="article" xtargets="a14;a14;a14"/>
+    <linkGrp targType="article" xtargets="a16;a16;a16"/>
+    <linkGrp targType="article" xtargets="a17;a16;a17"/>
+    <linkGrp targType="article" xtargets="a18;a17;a18"/>
+    <linkGrp targType="article" xtargets="a19;a18;a19"/>
+    <linkGrp targType="article" xtargets="a20;a19;a20"/>
+    <linkGrp targType="article" xtargets="a21;a20;a21"/>
+    <linkGrp targType="article" xtargets="a22;a21;a22"/>
+    <linkGrp targType="article" xtargets="a23;a22;a23"/>
+    <linkGrp targType="article" xtargets="a24;a23;a24"/>
+    <linkGrp targType="article" xtargets="a25;a24;a25"/>
+    <linkGrp targType="article" xtargets="a26;a25;a26"/>
+    <linkGrp targType="article" xtargets="a27;a26;a27"/>
+    <linkGrp targType="article" xtargets="a28;a27;a28"/>
+  </linkGrp>
+  <teiHeader>bulletin_2012_1_Looking_East</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2012_1_Looking_East_de.xml;bulletin_2012_1_Looking_East_en.xml;bulletin_2012_1_Looking_East_fr.xml;bulletin_2012_1_Looking_East_it.xml">
+    <linkGrp targType="article" xtargets="a2;a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a3;a1;a1"/>
+    <linkGrp targType="article" xtargets="a3;a4;a1;a1"/>
+    <linkGrp targType="article" xtargets="a6;a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a8;a4;a6;a7"/>
+    <linkGrp targType="article" xtargets="a10;a4;a7;a8"/>
+    <linkGrp targType="article" xtargets="a10;a5;a7;a8"/>
+    <linkGrp targType="article" xtargets="a10;a6;a7;a8"/>
+    <linkGrp targType="article" xtargets="a12;a6;a9;a10"/>
+    <linkGrp targType="article" xtargets="a12;a8;a9;a10"/>
+    <linkGrp targType="article" xtargets="a12;a9;a9;a10"/>
+    <linkGrp targType="article" xtargets="a12;a10;a9;a10"/>
+    <linkGrp targType="article" xtargets="a12;a11;a9;a10"/>
+    <linkGrp targType="article" xtargets="a12;a14;a9;a10"/>
+    <linkGrp targType="article" xtargets="a12;a15;a9;a10"/>
+    <linkGrp targType="article" xtargets="a15;a16;a11;a12"/>
+    <linkGrp targType="article" xtargets="a15;a17;a11;a12"/>
+    <linkGrp targType="article" xtargets="a15;a20;a11;a12"/>
+    <linkGrp targType="article" xtargets="a17;a20;a12;a13"/>
+    <linkGrp targType="article" xtargets="a17;a21;a12;a13"/>
+    <linkGrp targType="article" xtargets="a18;a22;a13;a14"/>
+    <linkGrp targType="article" xtargets="a18;a23;a13;a14"/>
+    <linkGrp targType="article" xtargets="a19;a14;a15"/>
+    <linkGrp targType="article" xtargets="a20;a15;a16"/>
+    <linkGrp targType="article" xtargets="a21;a16;a17"/>
+    <linkGrp targType="article" xtargets="a22;a17;a18"/>
+    <linkGrp targType="article" xtargets="a23;a18;a20"/>
+    <linkGrp targType="article" xtargets="a24;a19;a21"/>
+    <linkGrp targType="article" xtargets="a25;a20;a22"/>
+    <linkGrp targType="article" xtargets="a29;a24;a26"/>
+    <linkGrp targType="article" xtargets="a30;a25;a27"/>
+    <linkGrp targType="article" xtargets="a33;a27;a29"/>
+    <linkGrp targType="article" xtargets="a34;a28;a30"/>
+    <linkGrp targType="article" xtargets="a34;a30;a33"/>
+    <linkGrp targType="article" xtargets="a40;a36;a39"/>
+    <linkGrp targType="article" xtargets="a41;a37;a40"/>
+    <linkGrp targType="article" xtargets="a42;a38;a41"/>
+    <linkGrp targType="article" xtargets="a44;a38;a41"/>
+    <linkGrp targType="article" xtargets="a45;a40;a43"/>
+    <linkGrp targType="article" xtargets="a49;a45;a47"/>
+    <linkGrp targType="article" xtargets="a52;a47;a49"/>
+    <linkGrp targType="article" xtargets="a55;a50;a52"/>
+    <linkGrp targType="article" xtargets="a56;a50;a52"/>
+    <linkGrp targType="article" xtargets="a58;a50;a52"/>
+    <linkGrp targType="article" xtargets="a59;a50;a52"/>
+    <linkGrp targType="article" xtargets="a60;a51;a53"/>
+    <linkGrp targType="article" xtargets="a61;a51;a53"/>
+    <linkGrp targType="article" xtargets="a62;a52;a54"/>
+    <linkGrp targType="article" xtargets="a63;a53;a55"/>
+  </linkGrp>
+  <teiHeader>bulletin_2001_1_Amerika</teiHeader>
+  <linkGrp lang="de;fr" targType="yearbook" xtargets="bulletin_2001_1_Amerika_de.xml;bulletin_2001_1_Amerika_fr.xml">
+    <linkGrp targType="article" xtargets="a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11"/>
+    <linkGrp targType="article" xtargets="a12;a12"/>
+    <linkGrp targType="article" xtargets="a14;a13"/>
+    <linkGrp targType="article" xtargets="a15;a14"/>
+    <linkGrp targType="article" xtargets="a16;a15"/>
+    <linkGrp targType="article" xtargets="a17;a16"/>
+    <linkGrp targType="article" xtargets="a18;a17"/>
+    <linkGrp targType="article" xtargets="a19;a18"/>
+    <linkGrp targType="article" xtargets="a20;a19"/>
+    <linkGrp targType="article" xtargets="a21;a20"/>
+    <linkGrp targType="article" xtargets="a22;a21"/>
+    <linkGrp targType="article" xtargets="a23;a22"/>
+    <linkGrp targType="article" xtargets="a24;a23"/>
+    <linkGrp targType="article" xtargets="a25;a24"/>
+    <linkGrp targType="article" xtargets="a26;a25"/>
+    <linkGrp targType="article" xtargets="a27;a27"/>
+    <linkGrp targType="article" xtargets="a28;a27"/>
+    <linkGrp targType="article" xtargets="a29;a28"/>
+  </linkGrp>
+  <teiHeader>bulletin_2001_6_Reichtum</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2001_6_Reichtum_de.xml;bulletin_2001_6_Reichtum_fr.xml;bulletin_2001_6_Reichtum_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11;a11"/>
+    <linkGrp targType="article" xtargets="a12;a12;a12"/>
+    <linkGrp targType="article" xtargets="a13;a13;a13"/>
+    <linkGrp targType="article" xtargets="a14;a14;a14"/>
+    <linkGrp targType="article" xtargets="a15;a15;a15"/>
+    <linkGrp targType="article" xtargets="a16;a16;a16"/>
+    <linkGrp targType="article" xtargets="a16;a17;a16"/>
+    <linkGrp targType="article" xtargets="a17;a18;a17"/>
+    <linkGrp targType="article" xtargets="a18;a19;a18"/>
+    <linkGrp targType="article" xtargets="a19;a20;a19"/>
+    <linkGrp targType="article" xtargets="a20;a21;a20"/>
+    <linkGrp targType="article" xtargets="a21;a22;a21"/>
+    <linkGrp targType="article" xtargets="a22;a23;a22"/>
+  </linkGrp>
+  <teiHeader>bulletin_2007_plus_Internet</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2007_plus_Internet_de.xml;bulletin_2007_plus_Internet_en.xml;bulletin_2007_plus_Internet_fr.xml;bulletin_2007_plus_Internet_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9;a9"/>
+  </linkGrp>
+  <teiHeader>bulletin_2013_3_Freedom</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2013_3_Freedom_de.xml;bulletin_2013_3_Freedom_en.xml;bulletin_2013_3_Freedom_fr.xml;bulletin_2013_3_Freedom_it.xml">
+    <linkGrp targType="article" xtargets="a1;a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a10;a10;a9;a9"/>
+    <linkGrp targType="article" xtargets="a12;a12;a11;a11"/>
+    <linkGrp targType="article" xtargets="a14;a14;a13;a12"/>
+    <linkGrp targType="article" xtargets="a16;a16;a15;a14"/>
+    <linkGrp targType="article" xtargets="a17;a17;a16;a15"/>
+    <linkGrp targType="article" xtargets="a18;a18;a17;a16"/>
+    <linkGrp targType="article" xtargets="a19;a19;a18;a17"/>
+    <linkGrp targType="article" xtargets="a20;a20;a22;a18"/>
+    <linkGrp targType="article" xtargets="a21;a21;a23;a19"/>
+    <linkGrp targType="article" xtargets="a23;a23;a25;a21"/>
+    <linkGrp targType="article" xtargets="a25;a25;a27;a23"/>
+    <linkGrp targType="article" xtargets="a27;a27;a29;a25"/>
+    <linkGrp targType="article" xtargets="a29;a29;a31;a27"/>
+    <linkGrp targType="article" xtargets="a33;a32;a34;a30"/>
+    <linkGrp targType="article" xtargets="a34;a33;a35;a31"/>
+    <linkGrp targType="article" xtargets="a35;a34;a36;a32"/>
+    <linkGrp targType="article" xtargets="a36;a35;a37;a33"/>
+    <linkGrp targType="article" xtargets="a37;a36;a38;a34"/>
+    <linkGrp targType="article" xtargets="a38;a37;a39;a35"/>
+    <linkGrp targType="article" xtargets="a39;a38;a40;a36"/>
+    <linkGrp targType="article" xtargets="a40;a39;a41;a37"/>
+    <linkGrp targType="article" xtargets="a41;a40;a42;a38"/>
+    <linkGrp targType="article" xtargets="a43;a41;a43;a40"/>
+    <linkGrp targType="article" xtargets="a44;a42;a44;a41"/>
+    <linkGrp targType="article" xtargets="a45;a43;a45;a42"/>
+  </linkGrp>
+  <teiHeader>bulletin_2001_3_Tradition</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2001_3_Tradition_de.xml;bulletin_2001_3_Tradition_fr.xml;bulletin_2001_3_Tradition_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a6;a1;a6"/>
+    <linkGrp targType="article" xtargets="a7;a2;a7"/>
+    <linkGrp targType="article" xtargets="a8;a3;a8"/>
+    <linkGrp targType="article" xtargets="a9;a4;a9"/>
+    <linkGrp targType="article" xtargets="a10;a5;a10"/>
+    <linkGrp targType="article" xtargets="a11;a5;a11"/>
+    <linkGrp targType="article" xtargets="a13;a6;a13"/>
+    <linkGrp targType="article" xtargets="a14;a7;a14"/>
+    <linkGrp targType="article" xtargets="a15;a8;a15"/>
+    <linkGrp targType="article" xtargets="a16;a9;a16"/>
+    <linkGrp targType="article" xtargets="a17;a10;a17"/>
+    <linkGrp targType="article" xtargets="a18;a11;a18"/>
+    <linkGrp targType="article" xtargets="a19;a12;a19"/>
+    <linkGrp targType="article" xtargets="a20;a13;a20"/>
+    <linkGrp targType="article" xtargets="a21;a14;a21"/>
+    <linkGrp targType="article" xtargets="a22;a16;a22"/>
+    <linkGrp targType="article" xtargets="a23;a17;a23"/>
+    <linkGrp targType="article" xtargets="a24;a17;a23"/>
+    <linkGrp targType="article" xtargets="a25;a18;a24"/>
+    <linkGrp targType="article" xtargets="a25;a19;a25"/>
+    <linkGrp targType="article" xtargets="a26;a20;a26"/>
+    <linkGrp targType="article" xtargets="a27;a21;a27"/>
+  </linkGrp>
+  <teiHeader>bulletin_2000_6_Alte</teiHeader>
+  <linkGrp lang="de;fr" targType="yearbook" xtargets="bulletin_2000_6_Alte_de.xml;bulletin_2000_6_Alte_fr.xml">
+    <linkGrp targType="article" xtargets="a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11"/>
+    <linkGrp targType="article" xtargets="a12;a12"/>
+    <linkGrp targType="article" xtargets="a14;a14"/>
+    <linkGrp targType="article" xtargets="a15;a15"/>
+    <linkGrp targType="article" xtargets="a16;a16"/>
+    <linkGrp targType="article" xtargets="a17;a17"/>
+    <linkGrp targType="article" xtargets="a18;a18"/>
+    <linkGrp targType="article" xtargets="a19;a19"/>
+    <linkGrp targType="article" xtargets="a20;a20"/>
+    <linkGrp targType="article" xtargets="a21;a21"/>
+    <linkGrp targType="article" xtargets="a22;a22"/>
+    <linkGrp targType="article" xtargets="a23;a23"/>
+    <linkGrp targType="article" xtargets="a24;a24"/>
+    <linkGrp targType="article" xtargets="a25;a25"/>
+    <linkGrp targType="article" xtargets="a26;a26"/>
+    <linkGrp targType="article" xtargets="a27;a27"/>
+    <linkGrp targType="article" xtargets="a28;a28"/>
+    <linkGrp targType="article" xtargets="a29;a29"/>
+  </linkGrp>
+  <teiHeader>bulletin_1999_3_Kontakt</teiHeader>
+  <linkGrp lang="de;fr" targType="yearbook" xtargets="bulletin_1999_3_Kontakt_de.xml;bulletin_1999_3_Kontakt_fr.xml">
+    <linkGrp targType="article" xtargets="a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6"/>
+    <linkGrp targType="article" xtargets="a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11"/>
+    <linkGrp targType="article" xtargets="a12;a12"/>
+    <linkGrp targType="article" xtargets="a13;a13"/>
+    <linkGrp targType="article" xtargets="a14;a14"/>
+    <linkGrp targType="article" xtargets="a15;a15"/>
+    <linkGrp targType="article" xtargets="a16;a16"/>
+    <linkGrp targType="article" xtargets="a17;a17"/>
+    <linkGrp targType="article" xtargets="a18;a18"/>
+    <linkGrp targType="article" xtargets="a19;a19"/>
+    <linkGrp targType="article" xtargets="a20;a20"/>
+    <linkGrp targType="article" xtargets="a21;a21"/>
+    <linkGrp targType="article" xtargets="a22;a22"/>
+  </linkGrp>
+  <teiHeader>bulletin_2013_2_Risk</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2013_2_Risk_de.xml;bulletin_2013_2_Risk_en.xml;bulletin_2013_2_Risk_fr.xml;bulletin_2013_2_Risk_it.xml">
+    <linkGrp targType="article" xtargets="a0;a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a1;a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a2;a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a3;a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a3;a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a3;a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a4;a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a5;a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a6;a10;a10;a10"/>
+    <linkGrp targType="article" xtargets="a7;a11;a11;a11"/>
+    <linkGrp targType="article" xtargets="a8;a12;a12;a12"/>
+    <linkGrp targType="article" xtargets="a8;a13;a13;a13"/>
+    <linkGrp targType="article" xtargets="a8;a15;a15;a15"/>
+    <linkGrp targType="article" xtargets="a8;a16;a16;a16"/>
+    <linkGrp targType="article" xtargets="a9;a17;a17;a17"/>
+    <linkGrp targType="article" xtargets="a9;a18;a18;a18"/>
+    <linkGrp targType="article" xtargets="a9;a19;a19;a19"/>
+    <linkGrp targType="article" xtargets="a10;a20;a20;a20"/>
+    <linkGrp targType="article" xtargets="a11;a23;a23;a23"/>
+    <linkGrp targType="article" xtargets="a11;a24;a25;a24"/>
+    <linkGrp targType="article" xtargets="a11;a26;a27;a26"/>
+    <linkGrp targType="article" xtargets="a11;a29;a30;a29"/>
+    <linkGrp targType="article" xtargets="a11;a30;a31;a30"/>
+    <linkGrp targType="article" xtargets="a11;a33;a35;a34"/>
+    <linkGrp targType="article" xtargets="a11;a37;a39;a38"/>
+    <linkGrp targType="article" xtargets="a11;a39;a40;a39"/>
+    <linkGrp targType="article" xtargets="a12;a40;a41;a40"/>
+    <linkGrp targType="article" xtargets="a12;a42;a43;a42"/>
+    <linkGrp targType="article" xtargets="a12;a43;a44;a43"/>
+    <linkGrp targType="article" xtargets="a12;a45;a46;a45"/>
+    <linkGrp targType="article" xtargets="a12;a48;a49;a48"/>
+    <linkGrp targType="article" xtargets="a13;a49;a50;a49"/>
+    <linkGrp targType="article" xtargets="a14;a50;a51;a50"/>
+  </linkGrp>
+  <teiHeader>bulletin_2003_6_Luxus</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2003_6_Luxus_de.xml;bulletin_2003_6_Luxus_fr.xml;bulletin_2003_6_Luxus_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10;a10"/>
+    <linkGrp targType="article" xtargets="a12;a12;a12"/>
+    <linkGrp targType="article" xtargets="a13;a13;a13"/>
+    <linkGrp targType="article" xtargets="a16;a19;a19"/>
+    <linkGrp targType="article" xtargets="a17;a20;a20"/>
+    <linkGrp targType="article" xtargets="a20;a22;a22"/>
+    <linkGrp targType="article" xtargets="a21;a23;a23"/>
+    <linkGrp targType="article" xtargets="a22;a24;a24"/>
+    <linkGrp targType="article" xtargets="a25;a25;a27"/>
+    <linkGrp targType="article" xtargets="a27;a27;a29"/>
+    <linkGrp targType="article" xtargets="a30;a29;a32"/>
+    <linkGrp targType="article" xtargets="a35;a34;a37"/>
+    <linkGrp targType="article" xtargets="a36;a35;a38"/>
+    <linkGrp targType="article" xtargets="a39;a38;a41"/>
+    <linkGrp targType="article" xtargets="a40;a39;a42"/>
+    <linkGrp targType="article" xtargets="a41;a40;a43"/>
+    <linkGrp targType="article" xtargets="a42;a41;a44"/>
+    <linkGrp targType="article" xtargets="a43;a42;a45"/>
+    <linkGrp targType="article" xtargets="a44;a43;a46"/>
+    <linkGrp targType="article" xtargets="a45;a44;a47"/>
+  </linkGrp>
+  <teiHeader>bulletin_2012_3_Heroes</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2012_3_Heroes_de.xml;bulletin_2012_3_Heroes_en.xml;bulletin_2012_3_Heroes_fr.xml;bulletin_2012_3_Heroes_it.xml">
+    <linkGrp targType="article" xtargets="a2;a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a3;a6;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a7;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a8;a5;a5"/>
+    <linkGrp targType="article" xtargets="a7;a10;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a10;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a11;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a11;a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11;a11;a11"/>
+    <linkGrp targType="article" xtargets="a13;a13;a13;a13"/>
+    <linkGrp targType="article" xtargets="a14;a14;a14;a14"/>
+    <linkGrp targType="article" xtargets="a15;a15;a15;a15"/>
+    <linkGrp targType="article" xtargets="a17;a17;a17;a17"/>
+    <linkGrp targType="article" xtargets="a21;a21;a21;a21"/>
+    <linkGrp targType="article" xtargets="a22;a22;a22;a22"/>
+    <linkGrp targType="article" xtargets="a23;a23;a23;a23"/>
+    <linkGrp targType="article" xtargets="a24;a24;a24;a24"/>
+    <linkGrp targType="article" xtargets="a26;a26;a26;a26"/>
+    <linkGrp targType="article" xtargets="a27;a27;a27;a27"/>
+    <linkGrp targType="article" xtargets="a28;a28;a28;a28"/>
+    <linkGrp targType="article" xtargets="a30;a30;a30;a30"/>
+    <linkGrp targType="article" xtargets="a31;a31;a31;a31"/>
+    <linkGrp targType="article" xtargets="a32;a32;a32;a32"/>
+    <linkGrp targType="article" xtargets="a34;a34;a34;a34"/>
+    <linkGrp targType="article" xtargets="a35;a35;a35;a35"/>
+    <linkGrp targType="article" xtargets="a36;a36;a36;a36"/>
+    <linkGrp targType="article" xtargets="a37;a37;a37;a37"/>
+    <linkGrp targType="article" xtargets="a38;a38;a38;a38"/>
+    <linkGrp targType="article" xtargets="a39;a39;a39;a39"/>
+    <linkGrp targType="article" xtargets="a39;a40;a39;a39"/>
+    <linkGrp targType="article" xtargets="a40;a41;a40;a40"/>
+    <linkGrp targType="article" xtargets="a41;a42;a41;a41"/>
+    <linkGrp targType="article" xtargets="a42;a43;a42;a42"/>
+    <linkGrp targType="article" xtargets="a43;a44;a43;a43"/>
+    <linkGrp targType="article" xtargets="a44;a45;a44;a44"/>
+    <linkGrp targType="article" xtargets="a45;a46;a46;a46"/>
+    <linkGrp targType="article" xtargets="a46;a47;a47;a47"/>
+    <linkGrp targType="article" xtargets="a47;a48;a48;a48"/>
+    <linkGrp targType="article" xtargets="a48;a49;a49;a49"/>
+  </linkGrp>
+  <teiHeader>bulletin_2004_5_Schweiz</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2004_5_Schweiz_de.xml;bulletin_2004_5_Schweiz_fr.xml;bulletin_2004_5_Schweiz_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a12;a11;a10"/>
+    <linkGrp targType="article" xtargets="a15;a13;a13"/>
+    <linkGrp targType="article" xtargets="a16;a14;a14"/>
+    <linkGrp targType="article" xtargets="a17;a15;a15"/>
+    <linkGrp targType="article" xtargets="a20;a17;a16"/>
+    <linkGrp targType="article" xtargets="a21;a18;a17"/>
+    <linkGrp targType="article" xtargets="a23;a20;a18"/>
+    <linkGrp targType="article" xtargets="a24;a21;a19"/>
+    <linkGrp targType="article" xtargets="a25;a22;a20"/>
+    <linkGrp targType="article" xtargets="a25;a22;a21"/>
+    <linkGrp targType="article" xtargets="a26;a23;a22"/>
+    <linkGrp targType="article" xtargets="a27;a24;a23"/>
+    <linkGrp targType="article" xtargets="a27;a24;a24"/>
+    <linkGrp targType="article" xtargets="a28;a25;a25"/>
+    <linkGrp targType="article" xtargets="a29;a26;a26"/>
+    <linkGrp targType="article" xtargets="a30;a27;a27"/>
+    <linkGrp targType="article" xtargets="a30;a27;a28"/>
+    <linkGrp targType="article" xtargets="a31;a28;a29"/>
+    <linkGrp targType="article" xtargets="a32;a29;a30"/>
+    <linkGrp targType="article" xtargets="a33;a30;a31"/>
+  </linkGrp>
+  <teiHeader>bulletin_2014_5_Switzerland</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2014_5_Switzerland_de.xml;bulletin_2014_5_Switzerland_en.xml;bulletin_2014_5_Switzerland_fr.xml;bulletin_2014_5_Switzerland_it.xml">
+    <linkGrp targType="article" xtargets="a1;a1;a2;a2"/>
+    <linkGrp targType="article" xtargets="a2;a2;a4;a4"/>
+    <linkGrp targType="article" xtargets="a10;a7;a12;a12"/>
+    <linkGrp targType="article" xtargets="a14;a11;a16;a16"/>
+    <linkGrp targType="article" xtargets="a16;a12;a17;a16"/>
+    <linkGrp targType="article" xtargets="a17;a13;a18;a17"/>
+    <linkGrp targType="article" xtargets="a18;a14;a19;a18"/>
+    <linkGrp targType="article" xtargets="a19;a15;a20;a19"/>
+    <linkGrp targType="article" xtargets="a20;a16;a21;a20"/>
+    <linkGrp targType="article" xtargets="a21;a17;a22;a21"/>
+    <linkGrp targType="article" xtargets="a22;a18;a23;a22"/>
+    <linkGrp targType="article" xtargets="a23;a19;a24;a23"/>
+    <linkGrp targType="article" xtargets="a24;a20;a25;a24"/>
+    <linkGrp targType="article" xtargets="a25;a21;a26;a25"/>
+    <linkGrp targType="article" xtargets="a26;a22;a27;a26"/>
+    <linkGrp targType="article" xtargets="a27;a23;a28;a27"/>
+    <linkGrp targType="article" xtargets="a28;a24;a29;a28"/>
+    <linkGrp targType="article" xtargets="a29;a25;a30;a29"/>
+    <linkGrp targType="article" xtargets="a30;a26;a31;a30"/>
+    <linkGrp targType="article" xtargets="a31;a27;a32;a31"/>
+    <linkGrp targType="article" xtargets="a32;a28;a33;a32"/>
+    <linkGrp targType="article" xtargets="a32;a28;a34;a33"/>
+    <linkGrp targType="article" xtargets="a34;a30;a34;a33"/>
+    <linkGrp targType="article" xtargets="a35;a31;a35;a34"/>
+    <linkGrp targType="article" xtargets="a36;a32;a36;a35"/>
+    <linkGrp targType="article" xtargets="a37;a33;a37;a36"/>
+    <linkGrp targType="article" xtargets="a38;a34;a38;a37"/>
+    <linkGrp targType="article" xtargets="a39;a35;a39;a38"/>
+    <linkGrp targType="article" xtargets="a40;a36;a40;a39"/>
+    <linkGrp targType="article" xtargets="a41;a37;a41;a40"/>
+    <linkGrp targType="article" xtargets="a42;a38;a42;a41"/>
+    <linkGrp targType="article" xtargets="a43;a39;a43;a42"/>
+    <linkGrp targType="article" xtargets="a44;a40;a44;a43"/>
+  </linkGrp>
+  <teiHeader>bulletin_2004_special_Anlagen</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2004_special_Anlagen_de.xml;bulletin_2004_special_Anlagen_en.xml;bulletin_2004_special_Anlagen_fr.xml;bulletin_2004_special_Anlagen_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a1;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a2;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a3;a4;a4"/>
+    <linkGrp targType="article" xtargets="a4;a4;a6;a6"/>
+    <linkGrp targType="article" xtargets="a4;a5;a7;a7"/>
+    <linkGrp targType="article" xtargets="a5;a8;a10;a10"/>
+    <linkGrp targType="article" xtargets="a6;a9;a11;a11"/>
+    <linkGrp targType="article" xtargets="a7;a10;a12;a12"/>
+    <linkGrp targType="article" xtargets="a8;a11;a13;a13"/>
+    <linkGrp targType="article" xtargets="a9;a12;a14;a14"/>
+    <linkGrp targType="article" xtargets="a10;a13;a15;a15"/>
+    <linkGrp targType="article" xtargets="a11;a14;a16;a16"/>
+    <linkGrp targType="article" xtargets="a12;a15;a17;a17"/>
+    <linkGrp targType="article" xtargets="a13;a16;a18;a18"/>
+    <linkGrp targType="article" xtargets="a14;a17;a19;a19"/>
+    <linkGrp targType="article" xtargets="a15;a18;a20;a20"/>
+    <linkGrp targType="article" xtargets="a16;a19;a21;a21"/>
+    <linkGrp targType="article" xtargets="a17;a20;a22;a22"/>
+    <linkGrp targType="article" xtargets="a18;a21;a23;a23"/>
+    <linkGrp targType="article" xtargets="a19;a22;a24;a24"/>
+  </linkGrp>
+  <teiHeader>bulletin_2004_1_Mobilitaet</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2004_1_Mobilitaet_de.xml;bulletin_2004_1_Mobilitaet_fr.xml;bulletin_2004_1_Mobilitaet_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11;a11"/>
+    <linkGrp targType="article" xtargets="a13;a12;a14"/>
+    <linkGrp targType="article" xtargets="a14;a13;a17"/>
+    <linkGrp targType="article" xtargets="a15;a14;a18"/>
+    <linkGrp targType="article" xtargets="a18;a16;a20"/>
+    <linkGrp targType="article" xtargets="a19;a17;a21"/>
+    <linkGrp targType="article" xtargets="a20;a18;a22"/>
+    <linkGrp targType="article" xtargets="a21;a19;a23"/>
+    <linkGrp targType="article" xtargets="a22;a20;a24"/>
+    <linkGrp targType="article" xtargets="a23;a22;a25"/>
+    <linkGrp targType="article" xtargets="a24;a23;a26"/>
+    <linkGrp targType="article" xtargets="a25;a24;a27"/>
+    <linkGrp targType="article" xtargets="a26;a25;a28"/>
+    <linkGrp targType="article" xtargets="a27;a26;a29"/>
+    <linkGrp targType="article" xtargets="a28;a27;a30"/>
+    <linkGrp targType="article" xtargets="a29;a28;a31"/>
+    <linkGrp targType="article" xtargets="a30;a29;a32"/>
+    <linkGrp targType="article" xtargets="a30;a32;a35"/>
+    <linkGrp targType="article" xtargets="a31;a34;a36"/>
+    <linkGrp targType="article" xtargets="a32;a35;a37"/>
+  </linkGrp>
+  <teiHeader>bulletin_2005_special_Orchester</teiHeader>
+  <linkGrp lang="de;en" targType="yearbook" xtargets="bulletin_2005_special_Orchester_de.xml;bulletin_2005_special_Orchester_en.xml">
+    <linkGrp targType="article" xtargets="a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8"/>
+    <linkGrp targType="article" xtargets="a10;a9"/>
+    <linkGrp targType="article" xtargets="a11;a10"/>
+    <linkGrp targType="article" xtargets="a12;a11"/>
+    <linkGrp targType="article" xtargets="a13;a12"/>
+    <linkGrp targType="article" xtargets="a14;a13"/>
+    <linkGrp targType="article" xtargets="a15;a14"/>
+  </linkGrp>
+  <teiHeader>bulletin_2014_1_Work</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2014_1_Work_de.xml;bulletin_2014_1_Work_en.xml;bulletin_2014_1_Work_fr.xml;bulletin_2014_1_Work_it.xml">
+    <linkGrp targType="article" xtargets="a2;a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10;a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11;a11;a11"/>
+    <linkGrp targType="article" xtargets="a12;a12;a12;a12"/>
+    <linkGrp targType="article" xtargets="a13;a13;a13;a13"/>
+    <linkGrp targType="article" xtargets="a14;a14;a14;a14"/>
+    <linkGrp targType="article" xtargets="a15;a15;a15;a15"/>
+    <linkGrp targType="article" xtargets="a16;a16;a16;a16"/>
+    <linkGrp targType="article" xtargets="a17;a17;a17;a17"/>
+    <linkGrp targType="article" xtargets="a18;a18;a18;a18"/>
+    <linkGrp targType="article" xtargets="a19;a19;a19;a19"/>
+    <linkGrp targType="article" xtargets="a20;a20;a20;a20"/>
+    <linkGrp targType="article" xtargets="a21;a21;a21;a21"/>
+    <linkGrp targType="article" xtargets="a22;a22;a22;a22"/>
+    <linkGrp targType="article" xtargets="a23;a23;a23;a23"/>
+  </linkGrp>
+  <teiHeader>bulletin_1999_4_Zeit</teiHeader>
+  <linkGrp lang="de;fr" targType="yearbook" xtargets="bulletin_1999_4_Zeit_de.xml;bulletin_1999_4_Zeit_fr.xml">
+    <linkGrp targType="article" xtargets="a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a0"/>
+    <linkGrp targType="article" xtargets="a2;a1"/>
+    <linkGrp targType="article" xtargets="a3;a2"/>
+    <linkGrp targType="article" xtargets="a4;a3"/>
+    <linkGrp targType="article" xtargets="a5;a4"/>
+    <linkGrp targType="article" xtargets="a6;a5"/>
+    <linkGrp targType="article" xtargets="a7;a6"/>
+    <linkGrp targType="article" xtargets="a8;a7"/>
+    <linkGrp targType="article" xtargets="a9;a8"/>
+    <linkGrp targType="article" xtargets="a10;a9"/>
+    <linkGrp targType="article" xtargets="a11;a10"/>
+    <linkGrp targType="article" xtargets="a12;a11"/>
+    <linkGrp targType="article" xtargets="a13;a12"/>
+    <linkGrp targType="article" xtargets="a14;a13"/>
+    <linkGrp targType="article" xtargets="a15;a14"/>
+    <linkGrp targType="article" xtargets="a15;a15"/>
+    <linkGrp targType="article" xtargets="a16;a16"/>
+    <linkGrp targType="article" xtargets="a17;a19"/>
+    <linkGrp targType="article" xtargets="a19;a20"/>
+    <linkGrp targType="article" xtargets="a20;a21"/>
+    <linkGrp targType="article" xtargets="a20;a22"/>
+    <linkGrp targType="article" xtargets="a21;a23"/>
+    <linkGrp targType="article" xtargets="a22;a24"/>
+    <linkGrp targType="article" xtargets="a23;a25"/>
+    <linkGrp targType="article" xtargets="a24;a26"/>
+    <linkGrp targType="article" xtargets="a24;a28"/>
+  </linkGrp>
+  <teiHeader>bulletin_2003_5_Raum</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2003_5_Raum_de.xml;bulletin_2003_5_Raum_fr.xml;bulletin_2003_5_Raum_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11;a11"/>
+    <linkGrp targType="article" xtargets="a12;a12;a12"/>
+    <linkGrp targType="article" xtargets="a13;a13;a13"/>
+    <linkGrp targType="article" xtargets="a14;a14;a14"/>
+    <linkGrp targType="article" xtargets="a15;a15;a15"/>
+    <linkGrp targType="article" xtargets="a16;a16;a16"/>
+    <linkGrp targType="article" xtargets="a18;a18;a19"/>
+    <linkGrp targType="article" xtargets="a19;a19;a20"/>
+    <linkGrp targType="article" xtargets="a20;a20;a21"/>
+    <linkGrp targType="article" xtargets="a21;a21;a22"/>
+    <linkGrp targType="article" xtargets="a22;a22;a23"/>
+    <linkGrp targType="article" xtargets="a23;a23;a24"/>
+    <linkGrp targType="article" xtargets="a26;a26;a27"/>
+    <linkGrp targType="article" xtargets="a27;a27;a28"/>
+    <linkGrp targType="article" xtargets="a28;a28;a29"/>
+    <linkGrp targType="article" xtargets="a29;a29;a30"/>
+    <linkGrp targType="article" xtargets="a30;a30;a31"/>
+    <linkGrp targType="article" xtargets="a31;a31;a32"/>
+    <linkGrp targType="article" xtargets="a32;a32;a33"/>
+    <linkGrp targType="article" xtargets="a33;a33;a34"/>
+    <linkGrp targType="article" xtargets="a34;a34;a35"/>
+    <linkGrp targType="article" xtargets="a35;a35;a36"/>
+    <linkGrp targType="article" xtargets="a36;a36;a37"/>
+  </linkGrp>
+  <teiHeader>bulletin_2005_1_Aufbruch</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2005_1_Aufbruch_de.xml;bulletin_2005_1_Aufbruch_fr.xml;bulletin_2005_1_Aufbruch_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10;a10"/>
+    <linkGrp targType="article" xtargets="a12;a12;a12"/>
+    <linkGrp targType="article" xtargets="a13;a13;a13"/>
+    <linkGrp targType="article" xtargets="a14;a14;a14"/>
+    <linkGrp targType="article" xtargets="a15;a15;a15"/>
+    <linkGrp targType="article" xtargets="a18;a18;a18"/>
+    <linkGrp targType="article" xtargets="a19;a19;a19"/>
+    <linkGrp targType="article" xtargets="a20;a20;a20"/>
+    <linkGrp targType="article" xtargets="a21;a21;a21"/>
+    <linkGrp targType="article" xtargets="a22;a22;a22"/>
+    <linkGrp targType="article" xtargets="a23;a23;a23"/>
+    <linkGrp targType="article" xtargets="a24;a24;a24"/>
+  </linkGrp>
+  <teiHeader>bulletin_2012_4_Elegance</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2012_4_Elegance_de.xml;bulletin_2012_4_Elegance_en.xml;bulletin_2012_4_Elegance_fr.xml;bulletin_2012_4_Elegance_it.xml">
+    <linkGrp targType="article" xtargets="a1;a1;a0;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a0;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a1;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a3;a5"/>
+    <linkGrp targType="article" xtargets="a5;a5;a4;a6"/>
+    <linkGrp targType="article" xtargets="a6;a7;a4;a7"/>
+    <linkGrp targType="article" xtargets="a7;a8;a5;a8"/>
+    <linkGrp targType="article" xtargets="a9;a10;a5;a10"/>
+    <linkGrp targType="article" xtargets="a9;a10;a7;a10"/>
+    <linkGrp targType="article" xtargets="a10;a11;a8;a11"/>
+    <linkGrp targType="article" xtargets="a11;a12;a9;a12"/>
+    <linkGrp targType="article" xtargets="a12;a13;a10;a13"/>
+    <linkGrp targType="article" xtargets="a14;a15;a12;a15"/>
+    <linkGrp targType="article" xtargets="a15;a16;a13;a16"/>
+    <linkGrp targType="article" xtargets="a16;a17;a14;a17"/>
+    <linkGrp targType="article" xtargets="a18;a19;a16;a19"/>
+    <linkGrp targType="article" xtargets="a19;a19;a16;a20"/>
+    <linkGrp targType="article" xtargets="a20;a20;a17;a21"/>
+    <linkGrp targType="article" xtargets="a21;a21;a18;a22"/>
+    <linkGrp targType="article" xtargets="a26;a26;a23;a27"/>
+    <linkGrp targType="article" xtargets="a27;a27;a24;a28"/>
+    <linkGrp targType="article" xtargets="a28;a28;a25;a29"/>
+    <linkGrp targType="article" xtargets="a33;a34;a29;a34"/>
+    <linkGrp targType="article" xtargets="a34;a35;a30;a35"/>
+    <linkGrp targType="article" xtargets="a35;a36;a31;a36"/>
+    <linkGrp targType="article" xtargets="a36;a37;a32;a37"/>
+    <linkGrp targType="article" xtargets="a40;a41;a36;a41"/>
+    <linkGrp targType="article" xtargets="a42;a42;a38;a43"/>
+    <linkGrp targType="article" xtargets="a43;a43;a38;a44"/>
+    <linkGrp targType="article" xtargets="a44;a44;a39;a45"/>
+    <linkGrp targType="article" xtargets="a45;a45;a40;a46"/>
+    <linkGrp targType="article" xtargets="a46;a46;a41;a47"/>
+    <linkGrp targType="article" xtargets="a47;a47;a42;a48"/>
+    <linkGrp targType="article" xtargets="a48;a48;a43;a49"/>
+    <linkGrp targType="article" xtargets="a48;a48;a44;a49"/>
+    <linkGrp targType="article" xtargets="a48;a48;a45;a49"/>
+    <linkGrp targType="article" xtargets="a48;a48;a46;a49"/>
+  </linkGrp>
+  <teiHeader>bulletin_1999_5_Konkurrenz</teiHeader>
+  <linkGrp lang="de;fr" targType="yearbook" xtargets="bulletin_1999_5_Konkurrenz_de.xml;bulletin_1999_5_Konkurrenz_fr.xml">
+    <linkGrp targType="article" xtargets="a1;a0"/>
+    <linkGrp targType="article" xtargets="a2;a1"/>
+    <linkGrp targType="article" xtargets="a3;a2"/>
+    <linkGrp targType="article" xtargets="a4;a3"/>
+    <linkGrp targType="article" xtargets="a5;a4"/>
+    <linkGrp targType="article" xtargets="a6;a5"/>
+    <linkGrp targType="article" xtargets="a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10"/>
+    <linkGrp targType="article" xtargets="a17;a17"/>
+    <linkGrp targType="article" xtargets="a18;a18"/>
+    <linkGrp targType="article" xtargets="a19;a19"/>
+    <linkGrp targType="article" xtargets="a20;a20"/>
+    <linkGrp targType="article" xtargets="a21;a21"/>
+    <linkGrp targType="article" xtargets="a22;a22"/>
+    <linkGrp targType="article" xtargets="a23;a23"/>
+    <linkGrp targType="article" xtargets="a24;a24"/>
+    <linkGrp targType="article" xtargets="a25;a24"/>
+    <linkGrp targType="article" xtargets="a26;a25"/>
+    <linkGrp targType="article" xtargets="a27;a26"/>
+    <linkGrp targType="article" xtargets="a28;a27"/>
+    <linkGrp targType="article" xtargets="a29;a28"/>
+    <linkGrp targType="article" xtargets="a30;a29"/>
+    <linkGrp targType="article" xtargets="a31;a30"/>
+    <linkGrp targType="article" xtargets="a32;a31"/>
+  </linkGrp>
+  <teiHeader>bulletin_2001_4_Wandel</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2001_4_Wandel_de.xml;bulletin_2001_4_Wandel_fr.xml;bulletin_2001_4_Wandel_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a13;a13"/>
+    <linkGrp targType="article" xtargets="a12;a13;a13"/>
+    <linkGrp targType="article" xtargets="a12;a14;a14"/>
+    <linkGrp targType="article" xtargets="a13;a15;a15"/>
+    <linkGrp targType="article" xtargets="a14;a16;a15"/>
+    <linkGrp targType="article" xtargets="a14;a16;a16"/>
+    <linkGrp targType="article" xtargets="a15;a17;a17"/>
+    <linkGrp targType="article" xtargets="a16;a18;a18"/>
+    <linkGrp targType="article" xtargets="a17;a19;a19"/>
+    <linkGrp targType="article" xtargets="a18;a20;a20"/>
+    <linkGrp targType="article" xtargets="a19;a21;a21"/>
+    <linkGrp targType="article" xtargets="a21;a23;a23"/>
+    <linkGrp targType="article" xtargets="a22;a24;a24"/>
+    <linkGrp targType="article" xtargets="a23;a25;a25"/>
+    <linkGrp targType="article" xtargets="a24;a26;a26"/>
+    <linkGrp targType="article" xtargets="a25;a27;a27"/>
+  </linkGrp>
+  <teiHeader>bulletin_2004_2_Fussball</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2004_2_Fussball_de.xml;bulletin_2004_2_Fussball_fr.xml;bulletin_2004_2_Fussball_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a0;a1;a1"/>
+    <linkGrp targType="article" xtargets="a1;a2;a2"/>
+    <linkGrp targType="article" xtargets="a2;a3;a3"/>
+    <linkGrp targType="article" xtargets="a3;a4;a4"/>
+    <linkGrp targType="article" xtargets="a6;a6;a7"/>
+    <linkGrp targType="article" xtargets="a7;a7;a8"/>
+    <linkGrp targType="article" xtargets="a8;a8;a9"/>
+    <linkGrp targType="article" xtargets="a10;a11;a10"/>
+    <linkGrp targType="article" xtargets="a11;a12;a11"/>
+    <linkGrp targType="article" xtargets="a12;a13;a12"/>
+    <linkGrp targType="article" xtargets="a13;a14;a13"/>
+    <linkGrp targType="article" xtargets="a14;a15;a14"/>
+    <linkGrp targType="article" xtargets="a15;a16;a15"/>
+    <linkGrp targType="article" xtargets="a16;a17;a16"/>
+    <linkGrp targType="article" xtargets="a17;a18;a17"/>
+    <linkGrp targType="article" xtargets="a18;a18;a17"/>
+    <linkGrp targType="article" xtargets="a20;a21;a20"/>
+    <linkGrp targType="article" xtargets="a21;a22;a21"/>
+    <linkGrp targType="article" xtargets="a23;a24;a24"/>
+    <linkGrp targType="article" xtargets="a24;a25;a25"/>
+    <linkGrp targType="article" xtargets="a25;a26;a26"/>
+    <linkGrp targType="article" xtargets="a26;a27;a27"/>
+    <linkGrp targType="article" xtargets="a27;a28;a28"/>
+    <linkGrp targType="article" xtargets="a28;a29;a29"/>
+    <linkGrp targType="article" xtargets="a30;a30;a32"/>
+    <linkGrp targType="article" xtargets="a31;a31;a33"/>
+    <linkGrp targType="article" xtargets="a32;a32;a34"/>
+    <linkGrp targType="article" xtargets="a33;a33;a35"/>
+    <linkGrp targType="article" xtargets="a34;a34;a36"/>
+    <linkGrp targType="article" xtargets="a35;a35;a37"/>
+    <linkGrp targType="article" xtargets="a36;a35;a37"/>
+    <linkGrp targType="article" xtargets="a37;a36;a38"/>
+    <linkGrp targType="article" xtargets="a38;a37;a39"/>
+    <linkGrp targType="article" xtargets="a39;a38;a40"/>
+  </linkGrp>
+  <teiHeader>bulletin_2000_2_Querdenker</teiHeader>
+  <linkGrp lang="de;fr" targType="yearbook" xtargets="bulletin_2000_2_Querdenker_de.xml;bulletin_2000_2_Querdenker_fr.xml">
+    <linkGrp targType="article" xtargets="a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a3"/>
+    <linkGrp targType="article" xtargets="a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11"/>
+    <linkGrp targType="article" xtargets="a13;a13"/>
+    <linkGrp targType="article" xtargets="a14;a14"/>
+    <linkGrp targType="article" xtargets="a15;a15"/>
+    <linkGrp targType="article" xtargets="a16;a16"/>
+    <linkGrp targType="article" xtargets="a17;a17"/>
+    <linkGrp targType="article" xtargets="a18;a18"/>
+    <linkGrp targType="article" xtargets="a19;a19"/>
+    <linkGrp targType="article" xtargets="a20;a20"/>
+    <linkGrp targType="article" xtargets="a21;a21"/>
+    <linkGrp targType="article" xtargets="a22;a22"/>
+    <linkGrp targType="article" xtargets="a23;a23"/>
+    <linkGrp targType="article" xtargets="a24;a24"/>
+    <linkGrp targType="article" xtargets="a25;a25"/>
+    <linkGrp targType="article" xtargets="a26;a26"/>
+    <linkGrp targType="article" xtargets="a27;a27"/>
+    <linkGrp targType="article" xtargets="a28;a28"/>
+    <linkGrp targType="article" xtargets="a29;a29"/>
+  </linkGrp>
+  <teiHeader>bulletin_1998_6_Wohnen</teiHeader>
+  <linkGrp lang="de;fr" targType="yearbook" xtargets="bulletin_1998_6_Wohnen_de.xml;bulletin_1998_6_Wohnen_fr.xml">
+    <linkGrp targType="article" xtargets="a0;a0"/>
+    <linkGrp targType="article" xtargets="a0;a1"/>
+    <linkGrp targType="article" xtargets="a1;a2"/>
+    <linkGrp targType="article" xtargets="a2;a3"/>
+    <linkGrp targType="article" xtargets="a3;a4"/>
+    <linkGrp targType="article" xtargets="a4;a6"/>
+    <linkGrp targType="article" xtargets="a5;a7"/>
+    <linkGrp targType="article" xtargets="a6;a8"/>
+    <linkGrp targType="article" xtargets="a7;a9"/>
+    <linkGrp targType="article" xtargets="a8;a10"/>
+    <linkGrp targType="article" xtargets="a9;a11"/>
+    <linkGrp targType="article" xtargets="a10;a14"/>
+    <linkGrp targType="article" xtargets="a11;a15"/>
+    <linkGrp targType="article" xtargets="a12;a16"/>
+    <linkGrp targType="article" xtargets="a13;a17"/>
+    <linkGrp targType="article" xtargets="a14;a18"/>
+    <linkGrp targType="article" xtargets="a15;a19"/>
+    <linkGrp targType="article" xtargets="a17;a20"/>
+    <linkGrp targType="article" xtargets="a18;a21"/>
+    <linkGrp targType="article" xtargets="a19;a22"/>
+    <linkGrp targType="article" xtargets="a19;a23"/>
+    <linkGrp targType="article" xtargets="a19;a24"/>
+    <linkGrp targType="article" xtargets="a20;a25"/>
+    <linkGrp targType="article" xtargets="a21;a28"/>
+  </linkGrp>
+  <teiHeader>bulletin_2000_5_Humankapital</teiHeader>
+  <linkGrp lang="de;fr" targType="yearbook" xtargets="bulletin_2000_5_Humankapital_de.xml;bulletin_2000_5_Humankapital_fr.xml">
+    <linkGrp targType="article" xtargets="a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3"/>
+    <linkGrp targType="article" xtargets="a3;a5"/>
+    <linkGrp targType="article" xtargets="a4;a6"/>
+    <linkGrp targType="article" xtargets="a6;a8"/>
+    <linkGrp targType="article" xtargets="a7;a9"/>
+    <linkGrp targType="article" xtargets="a8;a10"/>
+    <linkGrp targType="article" xtargets="a9;a11"/>
+    <linkGrp targType="article" xtargets="a10;a12"/>
+    <linkGrp targType="article" xtargets="a11;a13"/>
+    <linkGrp targType="article" xtargets="a12;a14"/>
+    <linkGrp targType="article" xtargets="a13;a15"/>
+    <linkGrp targType="article" xtargets="a14;a16"/>
+    <linkGrp targType="article" xtargets="a15;a17"/>
+    <linkGrp targType="article" xtargets="a16;a18"/>
+    <linkGrp targType="article" xtargets="a17;a19"/>
+    <linkGrp targType="article" xtargets="a18;a20"/>
+    <linkGrp targType="article" xtargets="a19;a21"/>
+    <linkGrp targType="article" xtargets="a20;a22"/>
+    <linkGrp targType="article" xtargets="a22;a25"/>
+    <linkGrp targType="article" xtargets="a23;a26"/>
+    <linkGrp targType="article" xtargets="a24;a27"/>
+    <linkGrp targType="article" xtargets="a25;a28"/>
+  </linkGrp>
+  <teiHeader>bulletin_2003_4_Leistung</teiHeader>
+  <linkGrp lang="fr;it" targType="yearbook" xtargets="bulletin_2003_4_Leistung_fr.xml;bulletin_2003_4_Leistung_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8"/>
+    <linkGrp targType="article" xtargets="a12;a9"/>
+    <linkGrp targType="article" xtargets="a13;a10"/>
+    <linkGrp targType="article" xtargets="a15;a12"/>
+    <linkGrp targType="article" xtargets="a16;a13"/>
+    <linkGrp targType="article" xtargets="a17;a14"/>
+    <linkGrp targType="article" xtargets="a18;a15"/>
+    <linkGrp targType="article" xtargets="a19;a16"/>
+    <linkGrp targType="article" xtargets="a20;a17"/>
+    <linkGrp targType="article" xtargets="a21;a18"/>
+    <linkGrp targType="article" xtargets="a22;a19"/>
+    <linkGrp targType="article" xtargets="a23;a20"/>
+    <linkGrp targType="article" xtargets="a24;a21"/>
+    <linkGrp targType="article" xtargets="a25;a22"/>
+    <linkGrp targType="article" xtargets="a26;a23"/>
+    <linkGrp targType="article" xtargets="a27;a24"/>
+    <linkGrp targType="article" xtargets="a28;a25"/>
+    <linkGrp targType="article" xtargets="a29;a26"/>
+  </linkGrp>
+  <teiHeader>bulletin_2014_special_Football</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2014_special_Football_de.xml;bulletin_2014_special_Football_en.xml;bulletin_2014_special_Football_fr.xml;bulletin_2014_special_Football_it.xml">
+    <linkGrp targType="article" xtargets="a0;a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a1;a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a2;a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a3;a3;a4;a4"/>
+    <linkGrp targType="article" xtargets="a4;a4;a5;a5"/>
+    <linkGrp targType="article" xtargets="a5;a5;a6;a6"/>
+    <linkGrp targType="article" xtargets="a6;a6;a7;a7"/>
+  </linkGrp>
+  <teiHeader>bulletin_2006_special_Online</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2006_special_Online_de.xml;bulletin_2006_special_Online_fr.xml;bulletin_2006_special_Online_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a2;a4;a3"/>
+    <linkGrp targType="article" xtargets="a2;a5;a4"/>
+    <linkGrp targType="article" xtargets="a2;a6;a5"/>
+    <linkGrp targType="article" xtargets="a2;a7;a6"/>
+    <linkGrp targType="article" xtargets="a3;a8;a7"/>
+    <linkGrp targType="article" xtargets="a4;a9;a8"/>
+    <linkGrp targType="article" xtargets="a5;a10;a9"/>
+    <linkGrp targType="article" xtargets="a5;a11;a11"/>
+  </linkGrp>
+  <teiHeader>bulletin_2006_3_Maenner</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2006_3_Maenner_de.xml;bulletin_2006_3_Maenner_fr.xml;bulletin_2006_3_Maenner_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11;a11"/>
+    <linkGrp targType="article" xtargets="a12;a12;a12"/>
+    <linkGrp targType="article" xtargets="a13;a13;a13"/>
+    <linkGrp targType="article" xtargets="a14;a14;a14"/>
+    <linkGrp targType="article" xtargets="a15;a15;a15"/>
+    <linkGrp targType="article" xtargets="a16;a16;a16"/>
+    <linkGrp targType="article" xtargets="a17;a17;a17"/>
+    <linkGrp targType="article" xtargets="a18;a18;a18"/>
+    <linkGrp targType="article" xtargets="a19;a19;a19"/>
+    <linkGrp targType="article" xtargets="a20;a20;a20"/>
+    <linkGrp targType="article" xtargets="a21;a21;a21"/>
+    <linkGrp targType="article" xtargets="a22;a22;a22"/>
+    <linkGrp targType="article" xtargets="a23;a23;a23"/>
+    <linkGrp targType="article" xtargets="a24;a24;a24"/>
+    <linkGrp targType="article" xtargets="a25;a25;a25"/>
+    <linkGrp targType="article" xtargets="a26;a26;a26"/>
+    <linkGrp targType="article" xtargets="a27;a27;a27"/>
+    <linkGrp targType="article" xtargets="a28;a28;a28"/>
+  </linkGrp>
+  <teiHeader>bulletin_2007_3_Adrenalin</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2007_3_Adrenalin_de.xml;bulletin_2007_3_Adrenalin_en.xml;bulletin_2007_3_Adrenalin_fr.xml;bulletin_2007_3_Adrenalin_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10;a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11;a11;a11"/>
+    <linkGrp targType="article" xtargets="a12;a11;a12;a12"/>
+    <linkGrp targType="article" xtargets="a13;a12;a13;a13"/>
+    <linkGrp targType="article" xtargets="a14;a13;a14;a14"/>
+    <linkGrp targType="article" xtargets="a15;a15;a15;a15"/>
+    <linkGrp targType="article" xtargets="a16;a16;a16;a16"/>
+    <linkGrp targType="article" xtargets="a17;a16;a17;a17"/>
+    <linkGrp targType="article" xtargets="a17;a17;a17;a17"/>
+    <linkGrp targType="article" xtargets="a18;a17;a18;a18"/>
+    <linkGrp targType="article" xtargets="a19;a18;a19;a19"/>
+    <linkGrp targType="article" xtargets="a21;a18;a20;a22"/>
+    <linkGrp targType="article" xtargets="a21;a19;a20;a22"/>
+    <linkGrp targType="article" xtargets="a22;a19;a21;a23"/>
+    <linkGrp targType="article" xtargets="a23;a19;a22;a24"/>
+    <linkGrp targType="article" xtargets="a24;a19;a23;a25"/>
+    <linkGrp targType="article" xtargets="a24;a20;a23;a25"/>
+    <linkGrp targType="article" xtargets="a24;a21;a23;a25"/>
+    <linkGrp targType="article" xtargets="a25;a21;a24;a26"/>
+    <linkGrp targType="article" xtargets="a25;a22;a24;a26"/>
+    <linkGrp targType="article" xtargets="a25;a24;a26"/>
+    <linkGrp targType="article" xtargets="a26;a25;a27"/>
+    <linkGrp targType="article" xtargets="a27;a26;a28"/>
+    <linkGrp targType="article" xtargets="a28;a27;a29"/>
+  </linkGrp>
+  <teiHeader>bulletin_2007_2_Cities</teiHeader>
+  <linkGrp lang="de;en;fr" targType="yearbook" xtargets="bulletin_2007_2_Cities_de.xml;bulletin_2007_2_Cities_en.xml;bulletin_2007_2_Cities_fr.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a0;a1"/>
+    <linkGrp targType="article" xtargets="a2;a1;a2"/>
+    <linkGrp targType="article" xtargets="a3;a2;a3"/>
+    <linkGrp targType="article" xtargets="a4;a3;a4"/>
+    <linkGrp targType="article" xtargets="a5;a4;a5"/>
+    <linkGrp targType="article" xtargets="a6;a5;a6"/>
+    <linkGrp targType="article" xtargets="a7;a6;a7"/>
+    <linkGrp targType="article" xtargets="a8;a7;a8"/>
+    <linkGrp targType="article" xtargets="a9;a7;a9"/>
+    <linkGrp targType="article" xtargets="a10;a8;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11;a11"/>
+    <linkGrp targType="article" xtargets="a11;a12;a11"/>
+    <linkGrp targType="article" xtargets="a11;a13;a11"/>
+    <linkGrp targType="article" xtargets="a12;a14;a12"/>
+    <linkGrp targType="article" xtargets="a12;a15;a12"/>
+    <linkGrp targType="article" xtargets="a13;a15;a13"/>
+    <linkGrp targType="article" xtargets="a13;a16;a13"/>
+    <linkGrp targType="article" xtargets="a16;a16;a16"/>
+    <linkGrp targType="article" xtargets="a16;a17;a16"/>
+    <linkGrp targType="article" xtargets="a17;a17;a17"/>
+    <linkGrp targType="article" xtargets="a18;a17;a18"/>
+    <linkGrp targType="article" xtargets="a19;a18;a19"/>
+    <linkGrp targType="article" xtargets="a20;a19;a20"/>
+    <linkGrp targType="article" xtargets="a20;a20;a20"/>
+    <linkGrp targType="article" xtargets="a21;a20;a21"/>
+    <linkGrp targType="article" xtargets="a22;a21;a22"/>
+    <linkGrp targType="article" xtargets="a23;a21;a23"/>
+    <linkGrp targType="article" xtargets="a24;a21;a24"/>
+    <linkGrp targType="article" xtargets="a24;a22;a24"/>
+    <linkGrp targType="article" xtargets="a24;a24"/>
+    <linkGrp targType="article" xtargets="a25;a25"/>
+  </linkGrp>
+  <teiHeader>bulletin_2012_5_Youth</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2012_5_Youth_de.xml;bulletin_2012_5_Youth_en.xml;bulletin_2012_5_Youth_fr.xml;bulletin_2012_5_Youth_it.xml">
+    <linkGrp targType="article" xtargets="a1;a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a7;a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a8;a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a9;a10;a11;a10"/>
+    <linkGrp targType="article" xtargets="a10;a11;a12;a11"/>
+    <linkGrp targType="article" xtargets="a11;a12;a13;a12"/>
+    <linkGrp targType="article" xtargets="a12;a13;a14;a13"/>
+    <linkGrp targType="article" xtargets="a13;a14;a15;a14"/>
+    <linkGrp targType="article" xtargets="a14;a15;a16;a15"/>
+    <linkGrp targType="article" xtargets="a15;a16;a17;a16"/>
+    <linkGrp targType="article" xtargets="a15;a16;a19;a18"/>
+    <linkGrp targType="article" xtargets="a16;a17;a19;a18"/>
+    <linkGrp targType="article" xtargets="a17;a18;a20;a19"/>
+    <linkGrp targType="article" xtargets="a20;a20;a23;a22"/>
+    <linkGrp targType="article" xtargets="a22;a22;a25;a24"/>
+    <linkGrp targType="article" xtargets="a23;a23;a26;a25"/>
+    <linkGrp targType="article" xtargets="a24;a24;a27;a26"/>
+    <linkGrp targType="article" xtargets="a25;a25;a28;a27"/>
+    <linkGrp targType="article" xtargets="a26;a26;a29;a28"/>
+  </linkGrp>
+  <teiHeader>bulletin_2006_special_Rohstoffe</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2006_special_Rohstoffe_de.xml;bulletin_2006_special_Rohstoffe_en.xml;bulletin_2006_special_Rohstoffe_fr.xml;bulletin_2006_special_Rohstoffe_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a3;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a4;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a5;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a5;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a6;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a7;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a8;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a9;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a10;a9"/>
+    <linkGrp targType="article" xtargets="a11;a11;a12;a11"/>
+    <linkGrp targType="article" xtargets="a12;a12;a13;a13"/>
+    <linkGrp targType="article" xtargets="a14;a14;a15;a16"/>
+    <linkGrp targType="article" xtargets="a15;a15;a16;a17"/>
+    <linkGrp targType="article" xtargets="a15;a16;a19;a18"/>
+    <linkGrp targType="article" xtargets="a16;a17;a20;a19"/>
+    <linkGrp targType="article" xtargets="a17;a18;a21;a20"/>
+  </linkGrp>
+  <teiHeader>bulletin_2007_4_East</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2007_4_East_de.xml;bulletin_2007_4_East_en.xml;bulletin_2007_4_East_fr.xml;bulletin_2007_4_East_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a2;a2;a3"/>
+    <linkGrp targType="article" xtargets="a4;a3;a3;a4"/>
+    <linkGrp targType="article" xtargets="a5;a4;a4;a5"/>
+    <linkGrp targType="article" xtargets="a6;a5;a5;a6"/>
+    <linkGrp targType="article" xtargets="a7;a6;a6;a7"/>
+    <linkGrp targType="article" xtargets="a8;a7;a7;a8"/>
+    <linkGrp targType="article" xtargets="a9;a8;a8;a9"/>
+    <linkGrp targType="article" xtargets="a10;a9;a9;a10"/>
+    <linkGrp targType="article" xtargets="a11;a10;a10;a11"/>
+    <linkGrp targType="article" xtargets="a12;a11;a11;a12"/>
+    <linkGrp targType="article" xtargets="a13;a12;a12;a13"/>
+    <linkGrp targType="article" xtargets="a13;a13;a12;a13"/>
+    <linkGrp targType="article" xtargets="a14;a14;a13;a14"/>
+    <linkGrp targType="article" xtargets="a15;a14;a14;a15"/>
+    <linkGrp targType="article" xtargets="a16;a15;a15;a16"/>
+    <linkGrp targType="article" xtargets="a17;a16;a16;a17"/>
+    <linkGrp targType="article" xtargets="a17;a17;a16;a17"/>
+    <linkGrp targType="article" xtargets="a18;a18;a17;a18"/>
+    <linkGrp targType="article" xtargets="a19;a18;a17;a19"/>
+    <linkGrp targType="article" xtargets="a20;a18;a18;a20"/>
+    <linkGrp targType="article" xtargets="a21;a18;a19;a21"/>
+    <linkGrp targType="article" xtargets="a22;a18;a20;a22"/>
+    <linkGrp targType="article" xtargets="a22;a20;a22"/>
+    <linkGrp targType="article" xtargets="a23;a21;a22"/>
+    <linkGrp targType="article" xtargets="a24;a21;a23"/>
+  </linkGrp>
+  <teiHeader>bulletin_2001_5_Inseln</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2001_5_Inseln_de.xml;bulletin_2001_5_Inseln_fr.xml;bulletin_2001_5_Inseln_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11;a11"/>
+    <linkGrp targType="article" xtargets="a12;a12;a12"/>
+    <linkGrp targType="article" xtargets="a13;a13;a13"/>
+    <linkGrp targType="article" xtargets="a14;a14;a14"/>
+    <linkGrp targType="article" xtargets="a15;a15;a15"/>
+    <linkGrp targType="article" xtargets="a16;a16;a16"/>
+    <linkGrp targType="article" xtargets="a17;a17;a17"/>
+    <linkGrp targType="article" xtargets="a18;a18;a18"/>
+    <linkGrp targType="article" xtargets="a19;a19;a19"/>
+    <linkGrp targType="article" xtargets="a20;a20;a20"/>
+  </linkGrp>
+  <teiHeader>bulletin_1998_2_Innovation_Schweiz</teiHeader>
+  <linkGrp lang="de" targType="yearbook" xtargets="bulletin_1998_2_Innovation_Schweiz_de.xml">
+    <linkGrp targType="article" xtargets="a0"/>
+    <linkGrp targType="article" xtargets="a1"/>
+    <linkGrp targType="article" xtargets="a2"/>
+    <linkGrp targType="article" xtargets="a3"/>
+    <linkGrp targType="article" xtargets="a4"/>
+    <linkGrp targType="article" xtargets="a5"/>
+    <linkGrp targType="article" xtargets="a6"/>
+    <linkGrp targType="article" xtargets="a7"/>
+    <linkGrp targType="article" xtargets="a8"/>
+  </linkGrp>
+  <teiHeader>bulletin_1998_5_Kleider</teiHeader>
+  <linkGrp lang="de;fr" targType="yearbook" xtargets="bulletin_1998_5_Kleider_de.xml;bulletin_1998_5_Kleider_fr.xml">
+    <linkGrp targType="article" xtargets="a1;a0"/>
+    <linkGrp targType="article" xtargets="a2;a0"/>
+    <linkGrp targType="article" xtargets="a3;a1"/>
+    <linkGrp targType="article" xtargets="a4;a2"/>
+    <linkGrp targType="article" xtargets="a5;a3"/>
+    <linkGrp targType="article" xtargets="a6;a3"/>
+    <linkGrp targType="article" xtargets="a7;a4"/>
+    <linkGrp targType="article" xtargets="a8;a5"/>
+    <linkGrp targType="article" xtargets="a9;a6"/>
+    <linkGrp targType="article" xtargets="a10;a7"/>
+    <linkGrp targType="article" xtargets="a11;a8"/>
+    <linkGrp targType="article" xtargets="a12;a9"/>
+    <linkGrp targType="article" xtargets="a13;a10"/>
+    <linkGrp targType="article" xtargets="a14;a11"/>
+    <linkGrp targType="article" xtargets="a15;a12"/>
+    <linkGrp targType="article" xtargets="a16;a13"/>
+    <linkGrp targType="article" xtargets="a17;a14"/>
+    <linkGrp targType="article" xtargets="a18;a15"/>
+    <linkGrp targType="article" xtargets="a19;a16"/>
+    <linkGrp targType="article" xtargets="a21;a18"/>
+    <linkGrp targType="article" xtargets="a22;a19"/>
+    <linkGrp targType="article" xtargets="a23;a20"/>
+    <linkGrp targType="article" xtargets="a24;a21"/>
+  </linkGrp>
+  <teiHeader>bulletin_2005_3_Spiele</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2005_3_Spiele_de.xml;bulletin_2005_3_Spiele_fr.xml;bulletin_2005_3_Spiele_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a10;a10;a10"/>
+    <linkGrp targType="article" xtargets="a12;a12;a12"/>
+    <linkGrp targType="article" xtargets="a13;a13;a13"/>
+    <linkGrp targType="article" xtargets="a14;a14;a14"/>
+    <linkGrp targType="article" xtargets="a15;a15;a15"/>
+    <linkGrp targType="article" xtargets="a16;a16;a16"/>
+    <linkGrp targType="article" xtargets="a17;a17;a17"/>
+    <linkGrp targType="article" xtargets="a19;a19;a19"/>
+    <linkGrp targType="article" xtargets="a20;a20;a20"/>
+    <linkGrp targType="article" xtargets="a21;a21;a21"/>
+    <linkGrp targType="article" xtargets="a22;a22;a22"/>
+    <linkGrp targType="article" xtargets="a23;a23;a23"/>
+    <linkGrp targType="article" xtargets="a24;a24;a24"/>
+    <linkGrp targType="article" xtargets="a25;a25;a25"/>
+  </linkGrp>
+  <teiHeader>bulletin_2006_1_150_Jahre</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2006_1_150_Jahre_de.xml;bulletin_2006_1_150_Jahre_fr.xml;bulletin_2006_1_150_Jahre_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11;a11"/>
+    <linkGrp targType="article" xtargets="a13;a13;a13"/>
+    <linkGrp targType="article" xtargets="a14;a14;a14"/>
+    <linkGrp targType="article" xtargets="a15;a15;a15"/>
+    <linkGrp targType="article" xtargets="a16;a16;a16"/>
+    <linkGrp targType="article" xtargets="a17;a17;a17"/>
+    <linkGrp targType="article" xtargets="a18;a18;a18"/>
+    <linkGrp targType="article" xtargets="a19;a19;a19"/>
+  </linkGrp>
+  <teiHeader>bulletin_2005_4_Feuer</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2005_4_Feuer_de.xml;bulletin_2005_4_Feuer_fr.xml;bulletin_2005_4_Feuer_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10;a10"/>
+    <linkGrp targType="article" xtargets="a12;a12;a12"/>
+    <linkGrp targType="article" xtargets="a13;a13;a13"/>
+    <linkGrp targType="article" xtargets="a14;a14;a14"/>
+    <linkGrp targType="article" xtargets="a15;a15;a15"/>
+    <linkGrp targType="article" xtargets="a16;a16;a16"/>
+    <linkGrp targType="article" xtargets="a17;a17;a17"/>
+    <linkGrp targType="article" xtargets="a19;a19;a19"/>
+    <linkGrp targType="article" xtargets="a20;a20;a20"/>
+    <linkGrp targType="article" xtargets="a21;a21;a21"/>
+    <linkGrp targType="article" xtargets="a22;a22;a22"/>
+    <linkGrp targType="article" xtargets="a23;a23;a23"/>
+    <linkGrp targType="article" xtargets="a24;a24;a24"/>
+    <linkGrp targType="article" xtargets="a25;a25;a25"/>
+  </linkGrp>
+  <teiHeader>bulletin_1998_1_Schweiz</teiHeader>
+  <linkGrp lang="de" targType="yearbook" xtargets="bulletin_1998_1_Schweiz_de.xml">
+    <linkGrp targType="article" xtargets="a0"/>
+    <linkGrp targType="article" xtargets="a2"/>
+    <linkGrp targType="article" xtargets="a3"/>
+    <linkGrp targType="article" xtargets="a4"/>
+    <linkGrp targType="article" xtargets="a5"/>
+    <linkGrp targType="article" xtargets="a6"/>
+    <linkGrp targType="article" xtargets="a7"/>
+    <linkGrp targType="article" xtargets="a8"/>
+    <linkGrp targType="article" xtargets="a9"/>
+    <linkGrp targType="article" xtargets="a10"/>
+  </linkGrp>
+  <teiHeader>bulletin_2006_5_Switzerland</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2006_5_Switzerland_de.xml;bulletin_2006_5_Switzerland_en.xml;bulletin_2006_5_Switzerland_fr.xml;bulletin_2006_5_Switzerland_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a12;a11;a11"/>
+    <linkGrp targType="article" xtargets="a11;a13;a12;a12"/>
+    <linkGrp targType="article" xtargets="a12;a14;a13;a13"/>
+    <linkGrp targType="article" xtargets="a13;a15;a14;a14"/>
+    <linkGrp targType="article" xtargets="a14;a16;a15;a15"/>
+    <linkGrp targType="article" xtargets="a17;a17;a18;a18"/>
+    <linkGrp targType="article" xtargets="a18;a18;a19;a19"/>
+    <linkGrp targType="article" xtargets="a19;a19;a20;a20"/>
+    <linkGrp targType="article" xtargets="a20;a20;a21;a21"/>
+    <linkGrp targType="article" xtargets="a21;a21;a22;a22"/>
+    <linkGrp targType="article" xtargets="a22;a22;a23;a23"/>
+    <linkGrp targType="article" xtargets="a23;a23;a24;a24"/>
+    <linkGrp targType="article" xtargets="a24;a24;a25;a26"/>
+    <linkGrp targType="article" xtargets="a25;a25;a26;a27"/>
+    <linkGrp targType="article" xtargets="a26;a27;a27;a30"/>
+    <linkGrp targType="article" xtargets="a27;a28;a28;a31"/>
+    <linkGrp targType="article" xtargets="a28;a29;a29;a32"/>
+    <linkGrp targType="article" xtargets="a29;a30;a30;a33"/>
+    <linkGrp targType="article" xtargets="a30;a31;a31;a34"/>
+  </linkGrp>
+  <teiHeader>bulletin_2002_1_Bruecken</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2002_1_Bruecken_de.xml;bulletin_2002_1_Bruecken_fr.xml;bulletin_2002_1_Bruecken_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11;a11"/>
+    <linkGrp targType="article" xtargets="a12;a12;a12"/>
+    <linkGrp targType="article" xtargets="a13;a13;a13"/>
+    <linkGrp targType="article" xtargets="a14;a14;a14"/>
+    <linkGrp targType="article" xtargets="a15;a15;a15"/>
+    <linkGrp targType="article" xtargets="a16;a16;a16"/>
+    <linkGrp targType="article" xtargets="a17;a17;a17"/>
+    <linkGrp targType="article" xtargets="a18;a18;a18"/>
+    <linkGrp targType="article" xtargets="a19;a19;a19"/>
+    <linkGrp targType="article" xtargets="a20;a20;a20"/>
+    <linkGrp targType="article" xtargets="a21;a21;a21"/>
+    <linkGrp targType="article" xtargets="a23;a22;a22"/>
+    <linkGrp targType="article" xtargets="a24;a23;a23"/>
+  </linkGrp>
+  <teiHeader>bulletin_2001_2_Tempo</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2001_2_Tempo_de.xml;bulletin_2001_2_Tempo_fr.xml;bulletin_2001_2_Tempo_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a6;a1;a1"/>
+    <linkGrp targType="article" xtargets="a7;a2;a2"/>
+    <linkGrp targType="article" xtargets="a8;a3;a3"/>
+    <linkGrp targType="article" xtargets="a9;a4;a4"/>
+    <linkGrp targType="article" xtargets="a10;a5;a5"/>
+    <linkGrp targType="article" xtargets="a13;a6;a6"/>
+    <linkGrp targType="article" xtargets="a14;a7;a7"/>
+    <linkGrp targType="article" xtargets="a15;a8;a8"/>
+    <linkGrp targType="article" xtargets="a16;a9;a9"/>
+    <linkGrp targType="article" xtargets="a17;a10;a10"/>
+    <linkGrp targType="article" xtargets="a18;a10;a11"/>
+    <linkGrp targType="article" xtargets="a19;a10;a12"/>
+    <linkGrp targType="article" xtargets="a20;a11;a13"/>
+    <linkGrp targType="article" xtargets="a21;a12;a14"/>
+    <linkGrp targType="article" xtargets="a22;a13;a15"/>
+    <linkGrp targType="article" xtargets="a23;a14;a16"/>
+    <linkGrp targType="article" xtargets="a24;a15;a17"/>
+    <linkGrp targType="article" xtargets="a25;a16;a18"/>
+    <linkGrp targType="article" xtargets="a26;a17;a19"/>
+    <linkGrp targType="article" xtargets="a27;a18;a20"/>
+    <linkGrp targType="article" xtargets="a28;a19;a21"/>
+    <linkGrp targType="article" xtargets="a29;a20;a22"/>
+    <linkGrp targType="article" xtargets="a30;a21;a23"/>
+    <linkGrp targType="article" xtargets="a31;a22;a24"/>
+    <linkGrp targType="article" xtargets="a33;a24;a26"/>
+    <linkGrp targType="article" xtargets="a34;a25;a27"/>
+    <linkGrp targType="article" xtargets="a35;a26;a28"/>
+    <linkGrp targType="article" xtargets="a36;a27;a29"/>
+    <linkGrp targType="article" xtargets="a37;a28;a30"/>
+  </linkGrp>
+  <teiHeader>bulletin_2002_3_Klima</teiHeader>
+  <linkGrp lang="de" targType="yearbook" xtargets="bulletin_2002_3_Klima_de.xml">
+    <linkGrp targType="article" xtargets="a0"/>
+    <linkGrp targType="article" xtargets="a1"/>
+    <linkGrp targType="article" xtargets="a2"/>
+    <linkGrp targType="article" xtargets="a3"/>
+    <linkGrp targType="article" xtargets="a4"/>
+    <linkGrp targType="article" xtargets="a5"/>
+    <linkGrp targType="article" xtargets="a6"/>
+    <linkGrp targType="article" xtargets="a7"/>
+    <linkGrp targType="article" xtargets="a9"/>
+    <linkGrp targType="article" xtargets="a10"/>
+    <linkGrp targType="article" xtargets="a11"/>
+    <linkGrp targType="article" xtargets="a12"/>
+    <linkGrp targType="article" xtargets="a13"/>
+    <linkGrp targType="article" xtargets="a14"/>
+    <linkGrp targType="article" xtargets="a15"/>
+    <linkGrp targType="article" xtargets="a16"/>
+    <linkGrp targType="article" xtargets="a17"/>
+    <linkGrp targType="article" xtargets="a18"/>
+    <linkGrp targType="article" xtargets="a19"/>
+    <linkGrp targType="article" xtargets="a20"/>
+    <linkGrp targType="article" xtargets="a21"/>
+    <linkGrp targType="article" xtargets="a22"/>
+    <linkGrp targType="article" xtargets="a23"/>
+    <linkGrp targType="article" xtargets="a24"/>
+    <linkGrp targType="article" xtargets="a25"/>
+    <linkGrp targType="article" xtargets="a26"/>
+    <linkGrp targType="article" xtargets="a27"/>
+    <linkGrp targType="article" xtargets="a28"/>
+    <linkGrp targType="article" xtargets="a29"/>
+    <linkGrp targType="article" xtargets="a30"/>
+    <linkGrp targType="article" xtargets="a31"/>
+    <linkGrp targType="article" xtargets="a32"/>
+    <linkGrp targType="article" xtargets="a33"/>
+    <linkGrp targType="article" xtargets="a34"/>
+  </linkGrp>
+  <teiHeader>bulletin_2013_1_Middle_Class</teiHeader>
+  <linkGrp lang="de;en;fr" targType="yearbook" xtargets="bulletin_2013_1_Middle_Class_de.xml;bulletin_2013_1_Middle_Class_en.xml;bulletin_2013_1_Middle_Class_fr.xml">
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a3"/>
+    <linkGrp targType="article" xtargets="a3;a3;a4"/>
+    <linkGrp targType="article" xtargets="a4;a4;a5"/>
+    <linkGrp targType="article" xtargets="a5;a4;a6"/>
+    <linkGrp targType="article" xtargets="a6;a5;a7"/>
+    <linkGrp targType="article" xtargets="a7;a6;a8"/>
+    <linkGrp targType="article" xtargets="a8;a7;a9"/>
+    <linkGrp targType="article" xtargets="a9;a8;a10"/>
+    <linkGrp targType="article" xtargets="a10;a9;a11"/>
+    <linkGrp targType="article" xtargets="a11;a10;a12"/>
+    <linkGrp targType="article" xtargets="a12;a11;a13"/>
+    <linkGrp targType="article" xtargets="a13;a12;a14"/>
+    <linkGrp targType="article" xtargets="a14;a13;a15"/>
+    <linkGrp targType="article" xtargets="a15;a14;a16"/>
+    <linkGrp targType="article" xtargets="a16;a15;a17"/>
+    <linkGrp targType="article" xtargets="a20;a19;a21"/>
+    <linkGrp targType="article" xtargets="a21;a20;a22"/>
+    <linkGrp targType="article" xtargets="a22;a21;a23"/>
+    <linkGrp targType="article" xtargets="a23;a22;a24"/>
+    <linkGrp targType="article" xtargets="a24;a23;a25"/>
+    <linkGrp targType="article" xtargets="a25;a24;a26"/>
+    <linkGrp targType="article" xtargets="a26;a25;a27"/>
+    <linkGrp targType="article" xtargets="a27;a26;a28"/>
+    <linkGrp targType="article" xtargets="a28;a27;a29"/>
+    <linkGrp targType="article" xtargets="a29;a28;a30"/>
+  </linkGrp>
+  <teiHeader>bulletin_2006_2_Gesundheit</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2006_2_Gesundheit_de.xml;bulletin_2006_2_Gesundheit_fr.xml;bulletin_2006_2_Gesundheit_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a12;a11"/>
+    <linkGrp targType="article" xtargets="a12;a13;a12"/>
+    <linkGrp targType="article" xtargets="a13;a14;a13"/>
+    <linkGrp targType="article" xtargets="a14;a15;a14"/>
+    <linkGrp targType="article" xtargets="a15;a16;a15"/>
+    <linkGrp targType="article" xtargets="a16;a17;a16"/>
+    <linkGrp targType="article" xtargets="a17;a18;a17"/>
+    <linkGrp targType="article" xtargets="a18;a19;a18"/>
+    <linkGrp targType="article" xtargets="a19;a20;a19"/>
+    <linkGrp targType="article" xtargets="a20;a21;a20"/>
+    <linkGrp targType="article" xtargets="a21;a22;a21"/>
+    <linkGrp targType="article" xtargets="a22;a23;a22"/>
+    <linkGrp targType="article" xtargets="a23;a24;a23"/>
+    <linkGrp targType="article" xtargets="a24;a25;a24"/>
+  </linkGrp>
+  <teiHeader>bulletin_2000_4_Vertrauen</teiHeader>
+  <linkGrp lang="de;fr" targType="yearbook" xtargets="bulletin_2000_4_Vertrauen_de.xml;bulletin_2000_4_Vertrauen_fr.xml">
+    <linkGrp targType="article" xtargets="a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11"/>
+    <linkGrp targType="article" xtargets="a12;a12"/>
+    <linkGrp targType="article" xtargets="a13;a13"/>
+    <linkGrp targType="article" xtargets="a14;a14"/>
+    <linkGrp targType="article" xtargets="a15;a15"/>
+    <linkGrp targType="article" xtargets="a16;a16"/>
+    <linkGrp targType="article" xtargets="a17;a17"/>
+    <linkGrp targType="article" xtargets="a18;a18"/>
+    <linkGrp targType="article" xtargets="a19;a19"/>
+    <linkGrp targType="article" xtargets="a20;a20"/>
+    <linkGrp targType="article" xtargets="a21;a21"/>
+    <linkGrp targType="article" xtargets="a22;a22"/>
+    <linkGrp targType="article" xtargets="a23;a23"/>
+    <linkGrp targType="article" xtargets="a24;a24"/>
+  </linkGrp>
+  <teiHeader>bulletin_2000_1_Risiko</teiHeader>
+  <linkGrp lang="de;fr" targType="yearbook" xtargets="bulletin_2000_1_Risiko_de.xml;bulletin_2000_1_Risiko_fr.xml">
+    <linkGrp targType="article" xtargets="a0;a0"/>
+    <linkGrp targType="article" xtargets="a0;a1"/>
+    <linkGrp targType="article" xtargets="a1;a2"/>
+    <linkGrp targType="article" xtargets="a2;a3"/>
+    <linkGrp targType="article" xtargets="a3;a4"/>
+    <linkGrp targType="article" xtargets="a4;a5"/>
+    <linkGrp targType="article" xtargets="a5;a6"/>
+    <linkGrp targType="article" xtargets="a6;a7"/>
+    <linkGrp targType="article" xtargets="a7;a8"/>
+    <linkGrp targType="article" xtargets="a8;a9"/>
+    <linkGrp targType="article" xtargets="a10;a11"/>
+    <linkGrp targType="article" xtargets="a11;a12"/>
+    <linkGrp targType="article" xtargets="a12;a14"/>
+    <linkGrp targType="article" xtargets="a13;a15"/>
+    <linkGrp targType="article" xtargets="a14;a16"/>
+    <linkGrp targType="article" xtargets="a15;a17"/>
+    <linkGrp targType="article" xtargets="a16;a18"/>
+    <linkGrp targType="article" xtargets="a17;a19"/>
+    <linkGrp targType="article" xtargets="a18;a20"/>
+    <linkGrp targType="article" xtargets="a19;a21"/>
+  </linkGrp>
+  <teiHeader>bulletin_2012_6_Switzerland</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2012_6_Switzerland_de.xml;bulletin_2012_6_Switzerland_en.xml;bulletin_2012_6_Switzerland_fr.xml;bulletin_2012_6_Switzerland_it.xml">
+    <linkGrp targType="article" xtargets="a2;a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a3;a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a4;a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a5;a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a6;a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a7;a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a9;a10;a8;a8"/>
+    <linkGrp targType="article" xtargets="a10;a11;a9;a9"/>
+    <linkGrp targType="article" xtargets="a12;a13;a12;a11"/>
+    <linkGrp targType="article" xtargets="a13;a14;a13;a12"/>
+    <linkGrp targType="article" xtargets="a18;a17;a17;a16"/>
+    <linkGrp targType="article" xtargets="a19;a18;a18;a17"/>
+    <linkGrp targType="article" xtargets="a20;a19;a19;a18"/>
+    <linkGrp targType="article" xtargets="a22;a21;a21;a20"/>
+    <linkGrp targType="article" xtargets="a23;a22;a22;a21"/>
+    <linkGrp targType="article" xtargets="a24;a23;a23;a22"/>
+    <linkGrp targType="article" xtargets="a25;a24;a24;a23"/>
+    <linkGrp targType="article" xtargets="a26;a25;a25;a24"/>
+    <linkGrp targType="article" xtargets="a27;a26;a26;a25"/>
+    <linkGrp targType="article" xtargets="a28;a27;a27;a26"/>
+    <linkGrp targType="article" xtargets="a29;a28;a28;a27"/>
+    <linkGrp targType="article" xtargets="a30;a28;a29;a28"/>
+    <linkGrp targType="article" xtargets="a31;a29;a30;a29"/>
+    <linkGrp targType="article" xtargets="a32;a30;a31;a30"/>
+    <linkGrp targType="article" xtargets="a33;a31;a32;a31"/>
+    <linkGrp targType="article" xtargets="a34;a32;a33;a32"/>
+    <linkGrp targType="article" xtargets="a35;a33;a34;a33"/>
+    <linkGrp targType="article" xtargets="a36;a34;a35;a34"/>
+    <linkGrp targType="article" xtargets="a37;a35;a36;a35"/>
+    <linkGrp targType="article" xtargets="a39;a37;a38;a37"/>
+    <linkGrp targType="article" xtargets="a40;a38;a39;a38"/>
+    <linkGrp targType="article" xtargets="a41;a39;a41;a40"/>
+    <linkGrp targType="article" xtargets="a42;a40;a42;a41"/>
+    <linkGrp targType="article" xtargets="a43;a41;a43;a42"/>
+    <linkGrp targType="article" xtargets="a44;a43;a44;a43"/>
+    <linkGrp targType="article" xtargets="a46;a45;a46;a44"/>
+    <linkGrp targType="article" xtargets="a47;a46;a47;a45"/>
+    <linkGrp targType="article" xtargets="a50;a50;a50;a48"/>
+    <linkGrp targType="article" xtargets="a51;a51;a51;a49"/>
+    <linkGrp targType="article" xtargets="a51;a52;a52;a50"/>
+  </linkGrp>
+  <teiHeader>bulletin_2002_5_Schoenheit</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2002_5_Schoenheit_de.xml;bulletin_2002_5_Schoenheit_fr.xml;bulletin_2002_5_Schoenheit_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a12;a12"/>
+    <linkGrp targType="article" xtargets="a12;a13;a13"/>
+    <linkGrp targType="article" xtargets="a13;a14;a14"/>
+    <linkGrp targType="article" xtargets="a14;a15;a15"/>
+    <linkGrp targType="article" xtargets="a15;a16;a16"/>
+    <linkGrp targType="article" xtargets="a16;a17;a17"/>
+    <linkGrp targType="article" xtargets="a17;a18;a18"/>
+    <linkGrp targType="article" xtargets="a18;a19;a19"/>
+    <linkGrp targType="article" xtargets="a19;a20;a20"/>
+    <linkGrp targType="article" xtargets="a20;a21;a21"/>
+    <linkGrp targType="article" xtargets="a21;a22;a22"/>
+    <linkGrp targType="article" xtargets="a22;a23;a23"/>
+    <linkGrp targType="article" xtargets="a23;a24;a24"/>
+    <linkGrp targType="article" xtargets="a25;a26;a25"/>
+    <linkGrp targType="article" xtargets="a26;a27;a26"/>
+  </linkGrp>
+  <teiHeader>bulletin_2007_5_Switzerland</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2007_5_Switzerland_de.xml;bulletin_2007_5_Switzerland_en.xml;bulletin_2007_5_Switzerland_fr.xml;bulletin_2007_5_Switzerland_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a1;a4;a2"/>
+    <linkGrp targType="article" xtargets="a3;a2;a5;a3"/>
+    <linkGrp targType="article" xtargets="a4;a3;a6;a4"/>
+    <linkGrp targType="article" xtargets="a5;a4;a7;a5"/>
+    <linkGrp targType="article" xtargets="a6;a5;a8;a6"/>
+    <linkGrp targType="article" xtargets="a7;a6;a9;a7"/>
+    <linkGrp targType="article" xtargets="a8;a7;a10;a8"/>
+    <linkGrp targType="article" xtargets="a9;a8;a11;a9"/>
+    <linkGrp targType="article" xtargets="a10;a9;a12;a10"/>
+    <linkGrp targType="article" xtargets="a11;a10;a13;a11"/>
+    <linkGrp targType="article" xtargets="a12;a10;a14;a12"/>
+    <linkGrp targType="article" xtargets="a12;a11;a14;a12"/>
+    <linkGrp targType="article" xtargets="a13;a12;a15;a13"/>
+    <linkGrp targType="article" xtargets="a14;a13;a16;a14"/>
+    <linkGrp targType="article" xtargets="a15;a13;a17;a15"/>
+    <linkGrp targType="article" xtargets="a15;a15;a17;a15"/>
+    <linkGrp targType="article" xtargets="a16;a16;a18;a19"/>
+    <linkGrp targType="article" xtargets="a17;a17;a19;a20"/>
+    <linkGrp targType="article" xtargets="a18;a17;a20;a21"/>
+    <linkGrp targType="article" xtargets="a19;a18;a21;a22"/>
+    <linkGrp targType="article" xtargets="a20;a19;a22;a23"/>
+    <linkGrp targType="article" xtargets="a21;a19;a23;a24"/>
+    <linkGrp targType="article" xtargets="a21;a20;a23;a24"/>
+    <linkGrp targType="article" xtargets="a23;a21;a25;a26"/>
+    <linkGrp targType="article" xtargets="a24;a21;a26;a27"/>
+    <linkGrp targType="article" xtargets="a24;a22;a26;a27"/>
+    <linkGrp targType="article" xtargets="a25;a22;a27;a28"/>
+    <linkGrp targType="article" xtargets="a26;a22;a28;a29"/>
+    <linkGrp targType="article" xtargets="a26;a24;a28;a29"/>
+    <linkGrp targType="article" xtargets="a26;a28;a29"/>
+    <linkGrp targType="article" xtargets="a27;a29;a30"/>
+    <linkGrp targType="article" xtargets="a29;a31;a32"/>
+  </linkGrp>
+  <teiHeader>bulletin_2002_6_Perspektiven</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2002_6_Perspektiven_de.xml;bulletin_2002_6_Perspektiven_fr.xml;bulletin_2002_6_Perspektiven_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a11;a11;a11"/>
+    <linkGrp targType="article" xtargets="a12;a12;a12"/>
+    <linkGrp targType="article" xtargets="a13;a13;a13"/>
+    <linkGrp targType="article" xtargets="a14;a14;a14"/>
+    <linkGrp targType="article" xtargets="a17;a16;a16"/>
+    <linkGrp targType="article" xtargets="a18;a17;a17"/>
+    <linkGrp targType="article" xtargets="a19;a18;a18"/>
+    <linkGrp targType="article" xtargets="a20;a19;a19"/>
+    <linkGrp targType="article" xtargets="a21;a20;a20"/>
+    <linkGrp targType="article" xtargets="a23;a22;a22"/>
+    <linkGrp targType="article" xtargets="a24;a23;a23"/>
+    <linkGrp targType="article" xtargets="a27;a26;a26"/>
+    <linkGrp targType="article" xtargets="a28;a27;a27"/>
+    <linkGrp targType="article" xtargets="a29;a28;a28"/>
+    <linkGrp targType="article" xtargets="a30;a29;a29"/>
+    <linkGrp targType="article" xtargets="a31;a30;a30"/>
+    <linkGrp targType="article" xtargets="a32;a31;a31"/>
+    <linkGrp targType="article" xtargets="a33;a32;a32"/>
+    <linkGrp targType="article" xtargets="a34;a33;a33"/>
+    <linkGrp targType="article" xtargets="a35;a34;a34"/>
+  </linkGrp>
+  <teiHeader>bulletin_2004_4_Sicherheit</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2004_4_Sicherheit_de.xml;bulletin_2004_4_Sicherheit_fr.xml;bulletin_2004_4_Sicherheit_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11;a11"/>
+    <linkGrp targType="article" xtargets="a12;a12;a12"/>
+    <linkGrp targType="article" xtargets="a13;a15;a13"/>
+    <linkGrp targType="article" xtargets="a14;a16;a14"/>
+    <linkGrp targType="article" xtargets="a17;a18;a17"/>
+    <linkGrp targType="article" xtargets="a18;a19;a18"/>
+    <linkGrp targType="article" xtargets="a19;a20;a19"/>
+    <linkGrp targType="article" xtargets="a21;a22;a22"/>
+    <linkGrp targType="article" xtargets="a22;a23;a23"/>
+    <linkGrp targType="article" xtargets="a23;a24;a24"/>
+    <linkGrp targType="article" xtargets="a24;a25;a25"/>
+    <linkGrp targType="article" xtargets="a26;a27;a26"/>
+    <linkGrp targType="article" xtargets="a27;a28;a27"/>
+    <linkGrp targType="article" xtargets="a28;a29;a28"/>
+    <linkGrp targType="article" xtargets="a29;a30;a29"/>
+    <linkGrp targType="article" xtargets="a30;a31;a30"/>
+    <linkGrp targType="article" xtargets="a31;a32;a31"/>
+    <linkGrp targType="article" xtargets="a32;a33;a32"/>
+  </linkGrp>
+  <teiHeader>bulletin_1998_3_Fussball</teiHeader>
+  <linkGrp lang="de" targType="yearbook" xtargets="bulletin_1998_3_Fussball_de.xml">
+    <linkGrp targType="article" xtargets="a2"/>
+    <linkGrp targType="article" xtargets="a3"/>
+    <linkGrp targType="article" xtargets="a4"/>
+    <linkGrp targType="article" xtargets="a5"/>
+    <linkGrp targType="article" xtargets="a6"/>
+    <linkGrp targType="article" xtargets="a7"/>
+    <linkGrp targType="article" xtargets="a8"/>
+    <linkGrp targType="article" xtargets="a9"/>
+    <linkGrp targType="article" xtargets="a10"/>
+    <linkGrp targType="article" xtargets="a11"/>
+    <linkGrp targType="article" xtargets="a12"/>
+    <linkGrp targType="article" xtargets="a13"/>
+    <linkGrp targType="article" xtargets="a14"/>
+    <linkGrp targType="article" xtargets="a15"/>
+    <linkGrp targType="article" xtargets="a16"/>
+    <linkGrp targType="article" xtargets="a17"/>
+    <linkGrp targType="article" xtargets="a18"/>
+    <linkGrp targType="article" xtargets="a19"/>
+    <linkGrp targType="article" xtargets="a20"/>
+    <linkGrp targType="article" xtargets="a22"/>
+    <linkGrp targType="article" xtargets="a23"/>
+    <linkGrp targType="article" xtargets="a24"/>
+    <linkGrp targType="article" xtargets="a25"/>
+    <linkGrp targType="article" xtargets="a26"/>
+  </linkGrp>
+  <teiHeader>bulletin_2006_4_Perfektion</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2006_4_Perfektion_de.xml;bulletin_2006_4_Perfektion_en.xml;bulletin_2006_4_Perfektion_fr.xml;bulletin_2006_4_Perfektion_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a0;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a1;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a2;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a3;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a4;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a5;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a6;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a7;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a8;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10;a9;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11;a10;a11"/>
+    <linkGrp targType="article" xtargets="a12;a12;a11;a12"/>
+    <linkGrp targType="article" xtargets="a13;a13;a12;a13"/>
+    <linkGrp targType="article" xtargets="a14;a14;a13;a14"/>
+    <linkGrp targType="article" xtargets="a15;a15;a14;a15"/>
+    <linkGrp targType="article" xtargets="a16;a17;a15;a19"/>
+    <linkGrp targType="article" xtargets="a16;a17;a18;a21"/>
+    <linkGrp targType="article" xtargets="a17;a18;a19;a22"/>
+    <linkGrp targType="article" xtargets="a18;a19;a20;a23"/>
+    <linkGrp targType="article" xtargets="a19;a20;a21;a24"/>
+    <linkGrp targType="article" xtargets="a20;a21;a22;a25"/>
+    <linkGrp targType="article" xtargets="a21;a22;a23;a26"/>
+    <linkGrp targType="article" xtargets="a22;a23;a24;a27"/>
+    <linkGrp targType="article" xtargets="a23;a24;a24;a30"/>
+    <linkGrp targType="article" xtargets="a24;a25;a25;a31"/>
+    <linkGrp targType="article" xtargets="a25;a26;a26;a32"/>
+    <linkGrp targType="article" xtargets="a26;a27;a27;a33"/>
+  </linkGrp>
+  <teiHeader>bulletin_2000_3_Frauenpower</teiHeader>
+  <linkGrp lang="de;fr" targType="yearbook" xtargets="bulletin_2000_3_Frauenpower_de.xml;bulletin_2000_3_Frauenpower_fr.xml">
+    <linkGrp targType="article" xtargets="a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3"/>
+    <linkGrp targType="article" xtargets="a3;a5"/>
+    <linkGrp targType="article" xtargets="a4;a6"/>
+    <linkGrp targType="article" xtargets="a5;a7"/>
+    <linkGrp targType="article" xtargets="a6;a8"/>
+    <linkGrp targType="article" xtargets="a7;a9"/>
+    <linkGrp targType="article" xtargets="a8;a10"/>
+    <linkGrp targType="article" xtargets="a9;a11"/>
+    <linkGrp targType="article" xtargets="a10;a12"/>
+    <linkGrp targType="article" xtargets="a11;a13"/>
+    <linkGrp targType="article" xtargets="a12;a14"/>
+    <linkGrp targType="article" xtargets="a13;a15"/>
+    <linkGrp targType="article" xtargets="a14;a16"/>
+    <linkGrp targType="article" xtargets="a16;a18"/>
+    <linkGrp targType="article" xtargets="a17;a19"/>
+    <linkGrp targType="article" xtargets="a18;a20"/>
+    <linkGrp targType="article" xtargets="a20;a22"/>
+    <linkGrp targType="article" xtargets="a21;a23"/>
+    <linkGrp targType="article" xtargets="a22;a24"/>
+    <linkGrp targType="article" xtargets="a23;a25"/>
+    <linkGrp targType="article" xtargets="a24;a26"/>
+    <linkGrp targType="article" xtargets="a25;a27"/>
+  </linkGrp>
+  <teiHeader>bulletin_2007_special_Succession</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2007_special_Succession_de.xml;bulletin_2007_special_Succession_en.xml;bulletin_2007_special_Succession_fr.xml;bulletin_2007_special_Succession_it.xml">
+    <linkGrp targType="article" xtargets="a1;a1;a1;a0"/>
+    <linkGrp targType="article" xtargets="a1;a2;a1;a0"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2;a1"/>
+    <linkGrp targType="article" xtargets="a2;a3;a2;a1"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3;a2"/>
+    <linkGrp targType="article" xtargets="a3;a4;a3;a2"/>
+    <linkGrp targType="article" xtargets="a4;a5;a4;a3"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5;a4"/>
+    <linkGrp targType="article" xtargets="a5;a6;a5;a4"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6;a5"/>
+    <linkGrp targType="article" xtargets="a6;a7;a6;a5"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a8;a6"/>
+    <linkGrp targType="article" xtargets="a7;a8;a8;a6"/>
+    <linkGrp targType="article" xtargets="a8;a9;a9;a7"/>
+    <linkGrp targType="article" xtargets="a9;a9;a10;a8"/>
+    <linkGrp targType="article" xtargets="a9;a10;a10;a8"/>
+    <linkGrp targType="article" xtargets="a10;a11;a11;a9"/>
+    <linkGrp targType="article" xtargets="a11;a13;a12;a10"/>
+    <linkGrp targType="article" xtargets="a13;a13;a14;a12"/>
+    <linkGrp targType="article" xtargets="a13;a14;a14;a12"/>
+    <linkGrp targType="article" xtargets="a14;a14;a15;a13"/>
+    <linkGrp targType="article" xtargets="a14;a15;a15;a13"/>
+    <linkGrp targType="article" xtargets="a15;a15;a16;a14"/>
+    <linkGrp targType="article" xtargets="a15;a16;a16;a14"/>
+    <linkGrp targType="article" xtargets="a16;a17;a17;a15"/>
+    <linkGrp targType="article" xtargets="a17;a18;a18;a16"/>
+    <linkGrp targType="article" xtargets="a18;a18;a19;a17"/>
+    <linkGrp targType="article" xtargets="a18;a19;a17"/>
+  </linkGrp>
+  <teiHeader>bulletin_2003_3_Verfuehrung</teiHeader>
+  <linkGrp lang="fr;it" targType="yearbook" xtargets="bulletin_2003_3_Verfuehrung_fr.xml;bulletin_2003_3_Verfuehrung_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8"/>
+    <linkGrp targType="article" xtargets="a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11"/>
+    <linkGrp targType="article" xtargets="a12;a12"/>
+    <linkGrp targType="article" xtargets="a13;a13"/>
+    <linkGrp targType="article" xtargets="a15;a16"/>
+    <linkGrp targType="article" xtargets="a16;a17"/>
+    <linkGrp targType="article" xtargets="a17;a18"/>
+    <linkGrp targType="article" xtargets="a18;a19"/>
+    <linkGrp targType="article" xtargets="a19;a20"/>
+    <linkGrp targType="article" xtargets="a20;a21"/>
+    <linkGrp targType="article" xtargets="a21;a22"/>
+    <linkGrp targType="article" xtargets="a22;a23"/>
+    <linkGrp targType="article" xtargets="a23;a24"/>
+    <linkGrp targType="article" xtargets="a24;a25"/>
+    <linkGrp targType="article" xtargets="a27;a26"/>
+    <linkGrp targType="article" xtargets="a28;a27"/>
+    <linkGrp targType="article" xtargets="a29;a28"/>
+    <linkGrp targType="article" xtargets="a30;a29"/>
+    <linkGrp targType="article" xtargets="a31;a30"/>
+  </linkGrp>
+  <teiHeader>bulletin_2005_5_Schweiz</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2005_5_Schweiz_de.xml;bulletin_2005_5_Schweiz_fr.xml;bulletin_2005_5_Schweiz_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a1"/>
+    <linkGrp targType="article" xtargets="a3;a3;a2"/>
+    <linkGrp targType="article" xtargets="a4;a4;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a10;a10;a8"/>
+    <linkGrp targType="article" xtargets="a12;a12;a8"/>
+    <linkGrp targType="article" xtargets="a14;a14;a9"/>
+    <linkGrp targType="article" xtargets="a15;a15;a11"/>
+    <linkGrp targType="article" xtargets="a15;a15;a13"/>
+    <linkGrp targType="article" xtargets="a16;a16;a14"/>
+    <linkGrp targType="article" xtargets="a17;a17;a15"/>
+    <linkGrp targType="article" xtargets="a18;a18;a16"/>
+    <linkGrp targType="article" xtargets="a20;a20;a17"/>
+    <linkGrp targType="article" xtargets="a21;a21;a19"/>
+    <linkGrp targType="article" xtargets="a22;a22;a20"/>
+    <linkGrp targType="article" xtargets="a22;a22;a21"/>
+    <linkGrp targType="article" xtargets="a23;a23;a21"/>
+    <linkGrp targType="article" xtargets="a23;a23;a22"/>
+    <linkGrp targType="article" xtargets="a24;a24;a22"/>
+    <linkGrp targType="article" xtargets="a25;a25;a23"/>
+    <linkGrp targType="article" xtargets="a26;a26;a24"/>
+    <linkGrp targType="article" xtargets="a26;a26;a25"/>
+    <linkGrp targType="article" xtargets="a27"/>
+    <linkGrp targType="article" xtargets="a27;a27;a25"/>
+    <linkGrp targType="article" xtargets="a28;a28;a26"/>
+    <linkGrp targType="article" xtargets="a28;a28;a27"/>
+  </linkGrp>
+  <teiHeader>bulletin_2007_1_Careers</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2007_1_Careers_de.xml;bulletin_2007_1_Careers_en.xml;bulletin_2007_1_Careers_fr.xml;bulletin_2007_1_Careers_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a10;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a11;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a11;a10;a10"/>
+    <linkGrp targType="article" xtargets="a10;a12;a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a13;a11;a11"/>
+    <linkGrp targType="article" xtargets="a14;a14;a14;a14"/>
+    <linkGrp targType="article" xtargets="a15;a15;a15;a15"/>
+    <linkGrp targType="article" xtargets="a16;a15;a16;a16"/>
+    <linkGrp targType="article" xtargets="a16;a16;a16;a16"/>
+    <linkGrp targType="article" xtargets="a17;a16;a17;a17"/>
+    <linkGrp targType="article" xtargets="a18;a16;a18;a18"/>
+    <linkGrp targType="article" xtargets="a19;a17;a19;a19"/>
+    <linkGrp targType="article" xtargets="a19;a18;a19;a19"/>
+    <linkGrp targType="article" xtargets="a20;a18;a20;a20"/>
+    <linkGrp targType="article" xtargets="a20;a19;a20;a20"/>
+    <linkGrp targType="article" xtargets="a21;a19;a21;a21"/>
+    <linkGrp targType="article" xtargets="a21;a20;a21;a21"/>
+    <linkGrp targType="article" xtargets="a22;a20;a22;a22"/>
+    <linkGrp targType="article" xtargets="a22;a22;a22"/>
+    <linkGrp targType="article" xtargets="a23;a23;a23"/>
+    <linkGrp targType="article" xtargets="a23;a24;a23"/>
+  </linkGrp>
+  <teiHeader>bulletin_2014_2_What_lasts</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2014_2_What_lasts_de.xml;bulletin_2014_2_What_lasts_en.xml;bulletin_2014_2_What_lasts_fr.xml;bulletin_2014_2_What_lasts_it.xml">
+    <linkGrp targType="article" xtargets="a1;a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a4;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a5;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a6;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a8;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a9;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a10;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a11;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a12;a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a13;a11;a11"/>
+    <linkGrp targType="article" xtargets="a12;a14;a12;a12"/>
+    <linkGrp targType="article" xtargets="a13;a15;a13;a13"/>
+    <linkGrp targType="article" xtargets="a14;a16;a14;a14"/>
+    <linkGrp targType="article" xtargets="a15;a17;a15;a15"/>
+    <linkGrp targType="article" xtargets="a16;a18;a16;a16"/>
+    <linkGrp targType="article" xtargets="a17;a19;a17;a17"/>
+    <linkGrp targType="article" xtargets="a18;a20;a18;a18"/>
+    <linkGrp targType="article" xtargets="a19;a21;a19;a19"/>
+    <linkGrp targType="article" xtargets="a20;a22;a20;a20"/>
+    <linkGrp targType="article" xtargets="a21;a23;a21;a21"/>
+    <linkGrp targType="article" xtargets="a22;a24;a22;a22"/>
+    <linkGrp targType="article" xtargets="a23;a25;a23;a23"/>
+    <linkGrp targType="article" xtargets="a24;a26;a24;a24"/>
+    <linkGrp targType="article" xtargets="a25;a27;a25;a25"/>
+  </linkGrp>
+  <teiHeader>bulletin_2005_2_Technik</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2005_2_Technik_de.xml;bulletin_2005_2_Technik_fr.xml;bulletin_2005_2_Technik_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a4;a2"/>
+    <linkGrp targType="article" xtargets="a3;a5;a3"/>
+    <linkGrp targType="article" xtargets="a4;a6;a4"/>
+    <linkGrp targType="article" xtargets="a5;a7;a5"/>
+    <linkGrp targType="article" xtargets="a6;a8;a6"/>
+    <linkGrp targType="article" xtargets="a7;a9;a7"/>
+    <linkGrp targType="article" xtargets="a8;a10;a8"/>
+    <linkGrp targType="article" xtargets="a9;a11;a9"/>
+    <linkGrp targType="article" xtargets="a12;a14;a12"/>
+    <linkGrp targType="article" xtargets="a13;a18;a13"/>
+    <linkGrp targType="article" xtargets="a14;a21;a14"/>
+    <linkGrp targType="article" xtargets="a15;a22;a15"/>
+    <linkGrp targType="article" xtargets="a16;a23;a16"/>
+    <linkGrp targType="article" xtargets="a17;a24;a17"/>
+    <linkGrp targType="article" xtargets="a18;a25;a18"/>
+    <linkGrp targType="article" xtargets="a19;a26;a19"/>
+    <linkGrp targType="article" xtargets="a20;a27;a20"/>
+    <linkGrp targType="article" xtargets="a21;a28;a21"/>
+    <linkGrp targType="article" xtargets="a22;a29;a22"/>
+    <linkGrp targType="article" xtargets="a23;a30;a23"/>
+    <linkGrp targType="article" xtargets="a24;a31;a24"/>
+    <linkGrp targType="article" xtargets="a25;a34;a25"/>
+  </linkGrp>
+  <teiHeader>bulletin_2003_2_Fluesse</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2003_2_Fluesse_de.xml;bulletin_2003_2_Fluesse_fr.xml;bulletin_2003_2_Fluesse_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11;a11"/>
+    <linkGrp targType="article" xtargets="a12;a12;a12"/>
+    <linkGrp targType="article" xtargets="a13;a13;a13"/>
+    <linkGrp targType="article" xtargets="a14;a14;a14"/>
+    <linkGrp targType="article" xtargets="a16;a16;a16"/>
+    <linkGrp targType="article" xtargets="a17;a17;a17"/>
+    <linkGrp targType="article" xtargets="a18;a18;a18"/>
+    <linkGrp targType="article" xtargets="a19;a19;a19"/>
+    <linkGrp targType="article" xtargets="a20;a20;a20"/>
+    <linkGrp targType="article" xtargets="a21;a21;a21"/>
+    <linkGrp targType="article" xtargets="a22;a22;a22"/>
+    <linkGrp targType="article" xtargets="a24;a24;a24"/>
+    <linkGrp targType="article" xtargets="a25;a25;a25"/>
+    <linkGrp targType="article" xtargets="a26;a26;a26"/>
+    <linkGrp targType="article" xtargets="a27;a27;a27"/>
+    <linkGrp targType="article" xtargets="a28;a28;a28"/>
+    <linkGrp targType="article" xtargets="a29;a29;a29"/>
+    <linkGrp targType="article" xtargets="a30;a30;a30"/>
+    <linkGrp targType="article" xtargets="a31;a31;a31"/>
+    <linkGrp targType="article" xtargets="a32;a32;a32"/>
+    <linkGrp targType="article" xtargets="a33;a33;a33"/>
+    <linkGrp targType="article" xtargets="a34;a34;a34"/>
+    <linkGrp targType="article" xtargets="a35;a35;a35"/>
+    <linkGrp targType="article" xtargets="a35;a36;a36"/>
+    <linkGrp targType="article" xtargets="a36;a37;a37"/>
+    <linkGrp targType="article" xtargets="a37;a38;a38"/>
+    <linkGrp targType="article" xtargets="a38;a39;a39"/>
+    <linkGrp targType="article" xtargets="a39;a40;a40"/>
+  </linkGrp>
+  <teiHeader>bulletin_2004_3_Mythen</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2004_3_Mythen_de.xml;bulletin_2004_3_Mythen_fr.xml;bulletin_2004_3_Mythen_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a0"/>
+    <linkGrp targType="article" xtargets="a2;a2;a1"/>
+    <linkGrp targType="article" xtargets="a3;a3;a2"/>
+    <linkGrp targType="article" xtargets="a4;a4;a3"/>
+    <linkGrp targType="article" xtargets="a5;a5;a4"/>
+    <linkGrp targType="article" xtargets="a6;a6;a5"/>
+    <linkGrp targType="article" xtargets="a7;a7;a6"/>
+    <linkGrp targType="article" xtargets="a8;a8;a7"/>
+    <linkGrp targType="article" xtargets="a9;a9;a8"/>
+    <linkGrp targType="article" xtargets="a10;a10;a9"/>
+    <linkGrp targType="article" xtargets="a11;a11;a10"/>
+    <linkGrp targType="article" xtargets="a14;a14;a13"/>
+    <linkGrp targType="article" xtargets="a15;a15;a14"/>
+    <linkGrp targType="article" xtargets="a16;a16;a15"/>
+    <linkGrp targType="article" xtargets="a17;a17;a16"/>
+    <linkGrp targType="article" xtargets="a18;a18;a17"/>
+    <linkGrp targType="article" xtargets="a19;a19;a18"/>
+    <linkGrp targType="article" xtargets="a20;a20;a19"/>
+    <linkGrp targType="article" xtargets="a21;a21;a20"/>
+    <linkGrp targType="article" xtargets="a22;a22;a21"/>
+    <linkGrp targType="article" xtargets="a23;a23;a22"/>
+    <linkGrp targType="article" xtargets="a24;a24;a23"/>
+    <linkGrp targType="article" xtargets="a25;a25;a24"/>
+    <linkGrp targType="article" xtargets="a26;a26;a25"/>
+    <linkGrp targType="article" xtargets="a27;a27;a26"/>
+    <linkGrp targType="article" xtargets="a28"/>
+    <linkGrp targType="article" xtargets="a28;a28;a27"/>
+  </linkGrp>
+  <teiHeader>bulletin_2004_special_Fussball</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2004_special_Fussball_de.xml;bulletin_2004_special_Fussball_fr.xml;bulletin_2004_special_Fussball_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a7;a6;a7"/>
+    <linkGrp targType="article" xtargets="a8;a7;a8"/>
+    <linkGrp targType="article" xtargets="a9;a8;a9"/>
+    <linkGrp targType="article" xtargets="a10;a9;a10"/>
+    <linkGrp targType="article" xtargets="a11;a10;a11"/>
+    <linkGrp targType="article" xtargets="a12;a11;a12"/>
+    <linkGrp targType="article" xtargets="a13;a12;a13"/>
+    <linkGrp targType="article" xtargets="a14;a13;a14"/>
+    <linkGrp targType="article" xtargets="a18;a16;a17"/>
+    <linkGrp targType="article" xtargets="a19;a17;a18"/>
+    <linkGrp targType="article" xtargets="a21;a19;a19"/>
+    <linkGrp targType="article" xtargets="a25;a19;a23"/>
+    <linkGrp targType="article" xtargets="a25;a23;a23"/>
+    <linkGrp targType="article" xtargets="a27;a25;a24"/>
+    <linkGrp targType="article" xtargets="a28;a26;a25"/>
+    <linkGrp targType="article" xtargets="a29;a27;a26"/>
+    <linkGrp targType="article" xtargets="a30;a28;a29"/>
+    <linkGrp targType="article" xtargets="a31;a29;a30"/>
+    <linkGrp targType="article" xtargets="a32;a30;a31"/>
+    <linkGrp targType="article" xtargets="a33;a31;a32"/>
+    <linkGrp targType="article" xtargets="a34;a36;a37"/>
+    <linkGrp targType="article" xtargets="a36;a39;a38"/>
+    <linkGrp targType="article" xtargets="a37;a40;a39"/>
+    <linkGrp targType="article" xtargets="a38;a41;a40"/>
+    <linkGrp targType="article" xtargets="a39;a42;a41"/>
+    <linkGrp targType="article" xtargets="a42;a44;a42"/>
+    <linkGrp targType="article" xtargets="a43;a45;a43"/>
+    <linkGrp targType="article" xtargets="a44;a46;a44"/>
+    <linkGrp targType="article" xtargets="a45;a47;a44"/>
+  </linkGrp>
+  <teiHeader>bulletin_1999_6_Glueck</teiHeader>
+  <linkGrp lang="de;fr" targType="yearbook" xtargets="bulletin_1999_6_Glueck_de.xml;bulletin_1999_6_Glueck_fr.xml">
+    <linkGrp targType="article" xtargets="a0;a0"/>
+    <linkGrp targType="article" xtargets="a0;a1"/>
+    <linkGrp targType="article" xtargets="a0;a2"/>
+    <linkGrp targType="article" xtargets="a1;a3"/>
+    <linkGrp targType="article" xtargets="a2;a4"/>
+    <linkGrp targType="article" xtargets="a3;a5"/>
+    <linkGrp targType="article" xtargets="a3;a6"/>
+    <linkGrp targType="article" xtargets="a4;a7"/>
+    <linkGrp targType="article" xtargets="a5;a7"/>
+    <linkGrp targType="article" xtargets="a6;a8"/>
+    <linkGrp targType="article" xtargets="a8;a10"/>
+    <linkGrp targType="article" xtargets="a9;a11"/>
+    <linkGrp targType="article" xtargets="a10;a12"/>
+    <linkGrp targType="article" xtargets="a11;a13"/>
+    <linkGrp targType="article" xtargets="a12;a14"/>
+    <linkGrp targType="article" xtargets="a13;a15"/>
+    <linkGrp targType="article" xtargets="a14;a16"/>
+    <linkGrp targType="article" xtargets="a14;a17"/>
+    <linkGrp targType="article" xtargets="a15;a18"/>
+    <linkGrp targType="article" xtargets="a16;a19"/>
+    <linkGrp targType="article" xtargets="a17;a19"/>
+  </linkGrp>
+  <teiHeader>bulletin_2002_4_Jugend</teiHeader>
+  <linkGrp lang="de;fr;it" targType="yearbook" xtargets="bulletin_2002_4_Jugend_de.xml;bulletin_2002_4_Jugend_fr.xml;bulletin_2002_4_Jugend_it.xml">
+    <linkGrp targType="article" xtargets="a0;a0;a0"/>
+    <linkGrp targType="article" xtargets="a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a12;a11"/>
+    <linkGrp targType="article" xtargets="a12;a13;a12"/>
+    <linkGrp targType="article" xtargets="a14;a15;a14"/>
+    <linkGrp targType="article" xtargets="a15;a16;a15"/>
+    <linkGrp targType="article" xtargets="a16;a17;a16"/>
+    <linkGrp targType="article" xtargets="a17;a18;a17"/>
+    <linkGrp targType="article" xtargets="a18;a19;a18"/>
+    <linkGrp targType="article" xtargets="a19;a20;a19"/>
+    <linkGrp targType="article" xtargets="a20;a21;a20"/>
+    <linkGrp targType="article" xtargets="a21;a22;a21"/>
+    <linkGrp targType="article" xtargets="a22;a23;a22"/>
+    <linkGrp targType="article" xtargets="a23;a24;a23"/>
+    <linkGrp targType="article" xtargets="a24;a25;a24"/>
+    <linkGrp targType="article" xtargets="a25;a26;a25"/>
+    <linkGrp targType="article" xtargets="a26;a27;a26"/>
+    <linkGrp targType="article" xtargets="a27;a28;a27"/>
+    <linkGrp targType="article" xtargets="a28;a29;a28"/>
+    <linkGrp targType="article" xtargets="a29;a30;a29"/>
+    <linkGrp targType="article" xtargets="a30;a31;a30"/>
+    <linkGrp targType="article" xtargets="a31;a32;a31"/>
+    <linkGrp targType="article" xtargets="a32;a33;a32"/>
+    <linkGrp targType="article" xtargets="a33;a34;a33"/>
+    <linkGrp targType="article" xtargets="a34;a35;a34"/>
+  </linkGrp>
+  <teiHeader>bulletin_2013_4_School</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2013_4_School_de.xml;bulletin_2013_4_School_en.xml;bulletin_2013_4_School_fr.xml;bulletin_2013_4_School_it.xml">
+    <linkGrp targType="article" xtargets="a2;a0;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a1;a3;a3"/>
+    <linkGrp targType="article" xtargets="a3;a1;a3;a11"/>
+    <linkGrp targType="article" xtargets="a4;a2;a4;a12"/>
+    <linkGrp targType="article" xtargets="a5;a3;a5;a13"/>
+    <linkGrp targType="article" xtargets="a6;a4;a6;a14"/>
+    <linkGrp targType="article" xtargets="a7;a5;a7;a15"/>
+    <linkGrp targType="article" xtargets="a8;a6;a8;a16"/>
+    <linkGrp targType="article" xtargets="a9;a7;a9;a17"/>
+    <linkGrp targType="article" xtargets="a10;a7;a11;a18"/>
+    <linkGrp targType="article" xtargets="a11;a8;a12;a19"/>
+    <linkGrp targType="article" xtargets="a11;a8;a20;a19"/>
+    <linkGrp targType="article" xtargets="a13;a10;a22;a21"/>
+    <linkGrp targType="article" xtargets="a14;a11;a23;a22"/>
+    <linkGrp targType="article" xtargets="a16;a13;a24;a23"/>
+    <linkGrp targType="article" xtargets="a17;a14;a25;a24"/>
+    <linkGrp targType="article" xtargets="a18;a15;a26;a25"/>
+    <linkGrp targType="article" xtargets="a19;a16;a27;a26"/>
+    <linkGrp targType="article" xtargets="a20;a17;a27;a26"/>
+    <linkGrp targType="article" xtargets="a21;a18;a28;a27"/>
+    <linkGrp targType="article" xtargets="a23;a20;a30;a29"/>
+    <linkGrp targType="article" xtargets="a23;a20;a30;a31"/>
+    <linkGrp targType="article" xtargets="a24;a21;a31;a32"/>
+    <linkGrp targType="article" xtargets="a25;a22;a32;a33"/>
+    <linkGrp targType="article" xtargets="a26;a23;a33;a34"/>
+    <linkGrp targType="article" xtargets="a27;a24;a34;a35"/>
+    <linkGrp targType="article" xtargets="a28;a25;a35;a36"/>
+    <linkGrp targType="article" xtargets="a29;a26;a36;a37"/>
+    <linkGrp targType="article" xtargets="a30;a27;a37;a38"/>
+    <linkGrp targType="article" xtargets="a31;a28;a38;a39"/>
+    <linkGrp targType="article" xtargets="a32;a29;a39;a40"/>
+    <linkGrp targType="article" xtargets="a33;a30;a40;a41"/>
+    <linkGrp targType="article" xtargets="a34;a31;a41;a42"/>
+  </linkGrp>
+  <teiHeader>bulletin_2014_4_Next_Generation</teiHeader>
+  <linkGrp lang="de;en;fr;it" targType="yearbook" xtargets="bulletin_2014_4_Next_Generation_de.xml;bulletin_2014_4_Next_Generation_en.xml;bulletin_2014_4_Next_Generation_fr.xml;bulletin_2014_4_Next_Generation_it.xml">
+    <linkGrp targType="article" xtargets="a1;a1;a1;a1"/>
+    <linkGrp targType="article" xtargets="a2;a2;a2;a2"/>
+    <linkGrp targType="article" xtargets="a3;a3;a3;a3"/>
+    <linkGrp targType="article" xtargets="a4;a4;a4;a4"/>
+    <linkGrp targType="article" xtargets="a5;a5;a5;a5"/>
+    <linkGrp targType="article" xtargets="a6;a6;a6;a6"/>
+    <linkGrp targType="article" xtargets="a7;a7;a7;a7"/>
+    <linkGrp targType="article" xtargets="a8;a8;a8;a8"/>
+    <linkGrp targType="article" xtargets="a9;a9;a9;a9"/>
+    <linkGrp targType="article" xtargets="a10;a10;a10;a10"/>
+    <linkGrp targType="article" xtargets="a11;a11;a11;a11"/>
+    <linkGrp targType="article" xtargets="a12;a12;a12;a12"/>
+    <linkGrp targType="article" xtargets="a13;a13;a13;a13"/>
+    <linkGrp targType="article" xtargets="a14;a14;a14;a14"/>
+    <linkGrp targType="article" xtargets="a15;a15;a15;a15"/>
+    <linkGrp targType="article" xtargets="a16;a16;a16;a16"/>
+    <linkGrp targType="article" xtargets="a17;a17;a17;a17"/>
+    <linkGrp targType="article" xtargets="a18;a18;a18;a18"/>
+    <linkGrp targType="article" xtargets="a19;a19;a19;a19"/>
+    <linkGrp targType="article" xtargets="a20;a20;a20;a20"/>
+    <linkGrp targType="article" xtargets="a21;a21;a21;a21"/>
+    <linkGrp targType="article" xtargets="a22;a22;a22;a22"/>
+  </linkGrp>
+</TEI>

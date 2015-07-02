@@ -1,0 +1,80 @@
+# @ Dolores Batinic
+# 6.5.2015
+#
+# Manuelle Markierung der Überschriften 
+#**********************************************
+
+# 1. Verifizieren, dass du die Dateien-Namen von den Ausgaben, die du markieren willst, in  Ordner Input/BulletinPDFs und Input/Headings bzw. in Output TETML hast. Wenn das nicht der Fall ist, hole die PDF Dateien aus hal2/home/salinger und erzeuge in hal2 die tetml Dateien:
+
+
+# Um die TETML Dateien zu erzeugen:
+
+### 1.  In hal2: die PDFs in Input/BulletinPDFs packen.
+
+### 2. Produziere TETML (In hal2)
+
+$ python  start.py -p  
+
+-p produziert pdf2tet 
+
+######################################################################################
+ 
+# Einmal, dass du die TETML Dateien hast, produziere die html
+
+### 3. Produziere prettyprint  html Dateien (hal2 oder local)
+
+$ python start.py -y 
+
+ (-y produziert html prettyprint)
+
+
+# Wenn die html Dateien schon erzeugt sind:
+#########################################################################################
+
+### 4. Start Webserver 
+
+# (Eventuell Paths anpassen)
+
+
+$ python StartWebserver.py
+
+### 6. Wenn es um einen Titel geht, klicke auf die Font vom Titel
+
+### 7. Wenn du alle Titel hast, klicke auf Export und speichere die XML Datei vom Heading unter dem gleichen Namen wie in der dazugehörigen PDF Datei + Suffix “-Heading” in Input/Headings
+
+### 8. Produziere die intermediate XML Dateien (hal2 oder lokal)
+
+$ python start.py -t
+
+ (-t produziert html xml)
+
+### 9.1. Vergleiche ob die Anzhal Artikel in parallelen XML übereinstimmt 
+### 9.2. Vergleiche ob die Anzhal Artikel von PDF zu XML übereinstimmt (dieser Schritt ist nicht Einfach, weil das Inhaltsvereichnis nicht immer alle Artikel auflistet (vgl. Kurzberichte), weil die Titel über mehrere Seiten gehen können und weil mache Artikel gar keinen Namen haben!)
+
+### 10. Einmal, dass du eine Datei von deiner Gruppe erledigt hast, wenn du das nächste mal zu html kommst, lade eine von den zwei Dateien, damit die Evaluation schneller erfolgt:
+
+#    Logic/PrettyPrinter/Data/headings_name_and_size.txt
+#    Logic/PrettyPrinter/Data/headings_size.txt
+
+
+# Gruppen von ähnlichen Layouts (inclusive):
+
+# 1998-2000
+# 2001-2002_1
+# 2002_2-2005
+# 2006-2007
+# 2012-2012_4
+# 2012_5-2004
+
+# Zu erwarten ist, dass die ähnlichen Schriftgrössen, die für das erste Bulletin manuell definiert werden, für alle andere in der gleichen Gruppe zu verwenden sind.
+
+# run the file:
+
+$ CountArticleTagsInXML.sh
+
+# perfect prediction = Anzahl <article> in XML_a = Anzahl <article> in XML_b
+# good prediction: Anzahl <article> in XML_a >= Anzahl <article> * 4/5 in XML_b
+
+
+
+

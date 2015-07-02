@@ -1,0 +1,28 @@
+<book lang="fr">
+  <article n="0">
+    <div> FR </div>
+    <div> FR </div>
+   <pb number="1"/>  
+   </article>
+  
+  <article n="1">
+    <div heading="article">FR TITEL 1</div>
+    <div> FR </div>
+    <pb number="2"/>  
+  </article>
+  
+  <article n="2">
+    <div heading="article"> FR TITEL 2</div>
+    <div> FR </div>
+    <div> FR </div>
+    <pb number="3"/>  
+  </article>
+  
+    <article n="3">
+    <div heading="article"> FR TITEL 2</div>
+    <div> FR </div>
+    <div> FR </div>
+    <pb number="3"/>  
+  </article>
+  
+</book>
