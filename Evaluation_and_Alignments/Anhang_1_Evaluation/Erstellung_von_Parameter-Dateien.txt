@@ -1,0 +1,110 @@
+# @ Dolores Batinic
+# 6.5.2015
+#
+# Markierung der Überschriften und Evaluation der PDF2XML Pipeline
+#*****************************************************************
+
+### 1. Verifizieren, dass du die Dateien-Namen von den Ausgaben, die du markieren willst, in  Ordner Input/BulletinPDFs und Input/Headings bzw. in Output TETML hast. Wenn das nicht der Fall ist, hole die PDF-Dateien aus hal2/home/salinger und erzeuge in hal2 die TETML Dateien:
+
+
+# Um die TETML-Dateien zu erzeugen:
+
+### 1.1  In hal2: die PDFs in Input/BulletinPDFs packen.
+
+### 1.2. Produziere TETML (In hal2)
+
+$ python  start.py -p  
+
+# -p produziert pdf2tet 
+ 
+# Einmal, dass du die TETML-Dateien hast, produziere die HTML
+
+######################################################################################
+
+
+### 2. Produziere prettyprint HTML- Dateien (hal2 oder local)
+
+$ python start.py -y 
+
+# -y produziert HTML prettyprint
+
+
+# Wenn die HTML-Dateien schon erzeugt sind:
+
+#########################################################################################
+
+### 3. Start Webserver 
+
+# (Eventuell Paths anpassen)
+
+$ python StartWebserver.py
+
+######################################################################################
+
+
+### 4. Öffne die HTML-Dateien mit Chrome
+# 4.1. Einstellungen auf der Webplattform: Min font size: 20/Higlight Font Size/Filter table
+# Suche die Titel aus
+# Klicke auf die Fonts der Titel
+
+######################################################################################
+
+
+### 5. Wenn du alle Titel markiert hast:
+
+# 5.1. Speichere die Anzahl Klicks in den Spreadsheet <https://docs.google.com/spreadsheets/d/1sH4cfW3cYK39TbpFQXhETkl2aE6mzjF3cCsv8T-NTk8/edit#gid=0>  
+
+# 5.2. Klicke auf Export und speichere die XML-Datei vom Heading unter dem gleichen Namen wie in der dazugehörigen PDF Datei + Suffix “-Heading” in Input/Headings
+
+######################################################################################
+
+
+### 6. Produziere die intermediate XML-Dateien (hal2 oder lokal)
+
+$ python start.py -t
+
+ # (-t produziert html xml)
+
+######################################################################################
+
+
+### 7. Einmal, dass du eine Datei von deiner Gruppe erledigt hast, wenn du das nächste mal zu html kommst, lade eine von den zwei Dateien, damit die Evaluation schneller erfolgt:
+
+#    Logic/PrettyPrinter/Data/headings_name_and_size.txt
+#    Logic/PrettyPrinter/Data/headings_size.txt
+
+
+######################################################################################
+
+### EVALUATION
+
+######################################################################################
+
+
+### 8. Vergleiche ob die Anzahl Artikel in den PDF-Dateien mit der Anzahl Artikel in den XML-Dateien übereinstimmt 
+
+# 8.1 für PDF-Dateien: Zähle die Anzahl Artikel im Inhaltsverzeichnis und speichere sie im Spreadsheet <https://docs.google.com/spreadsheets/d/1sH4cfW3cYK39TbpFQXhETkl2aE6mzjF3cCsv8T-NTk8/edit#gid=0>
+
+# 8.1 für XML-Dateien: Zähle die Anzahl <article> Tags mit dem Skript CountArticleTagsInXML.sh und speichere sie im Spreadsheet <https://docs.google.com/spreadsheets/d/1sH4cfW3cYK39TbpFQXhETkl2aE6mzjF3cCsv8T-NTk8/edit#gid=0>
+
+$ bash CountArticleTagsInXML.sh
+
+
+### Für unsere Information:
+
+# Gruppen von ähnlichen Layouts (inclusive):
+
+# 1998-2000
+# 2001-2002_1
+# 2002_2-2005
+# 2006-2007
+# 2012-2012_4
+# 2012_5-2004
+
+# Zu erwarten ist, dass die ähnlichen Schriftgrössen, die für das erste Bulletin manuell definiert werden, für alle andere in der gleichen Gruppe zu verwenden sind.
+
+
+
+
+
+
