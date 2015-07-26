@@ -6,9 +6,10 @@
 
 
 # in oldxml/ are stored tokenized.tagged.xmls which we need to convert to t&b format and rename
-# change the path for oldxml/ to the path where the xml files in the old id format are stored
+# change the path for oldxml/ to the folder where you saved your tokenized.tagged xml files in the old id format are stored (in hal2 they are in TB3/output in /mnt/storage/clfiles/users/batinic) 
 
 # eliminate files if they are already there
+
 
 rm -f oldxml/*{en,fr,it,de}.xml
 rm -f sentence_alignment/*{en,fr,it,de}.xml
