@@ -1,0 +1,2766 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<linkGrp targType="yearbook" xtargets="bulletin_2001_1_Amerika_de.xml;bulletin_2001_1_Amerika_fr.xml" lang="de;fr">
+  <linkGrp targType="article" xtargets="a0;a0">
+    <link targType="sentence" type="1-1" xtargets="s1;s1"/>
+    <link targType="sentence" type="1-1" xtargets="s2;s2"/>
+    <link targType="sentence" type="2-1" xtargets="s3 s4;s3"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s4"/>
+    <link targType="sentence" type="1-1" xtargets="s6;s5"/>
+    <link targType="sentence" type="1-1" xtargets="s7;s7"/>
+    <link targType="sentence" type="1-1" xtargets="s8;s8"/>
+    <link targType="sentence" type="1-1" xtargets="s9;s9"/>
+    <link targType="sentence" type="1-1" xtargets="s10;s10"/>
+    <link targType="sentence" type="1-1" xtargets="s11;s11"/>
+    <link targType="sentence" type="1-1" xtargets="s12;s12"/>
+    <link targType="sentence" type="1-2" xtargets="s13;s13 s14"/>
+    <link targType="sentence" type="1-1" xtargets="s15;s15"/>
+    <link targType="sentence" type="1-1" xtargets="s16;s16"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a1;a1">
+    <link targType="sentence" type="1-1" xtargets="s1;s1"/>
+    <link targType="sentence" type="2-1" xtargets="s2 s3;s2"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s3"/>
+    <link targType="sentence" type="3-1" xtargets="s5 s6 s7;s4"/>
+    <link targType="sentence" type="1-1" xtargets="s8;s5"/>
+    <link targType="sentence" type="1-1" xtargets="s9;s6"/>
+    <link targType="sentence" type="1-1" xtargets="s10;s7"/>
+    <link targType="sentence" type="1-1" xtargets="s11;s8"/>
+    <link targType="sentence" type="1-1" xtargets="s12;s9"/>
+    <link targType="sentence" type="2-1" xtargets="s14 s15;s10"/>
+    <link targType="sentence" type="1-1" xtargets="s16;s11"/>
+    <link targType="sentence" type="1-2" xtargets="s17;s12 s13"/>
+    <link targType="sentence" type="1-1" xtargets="s18;s14"/>
+    <link targType="sentence" type="1-1" xtargets="s19;s16"/>
+    <link targType="sentence" type="2-1" xtargets="s20 s21;s17"/>
+    <link targType="sentence" type="2-1" xtargets="s22 s23;s18"/>
+    <link targType="sentence" type="1-1" xtargets="s24;s19"/>
+    <link targType="sentence" type="1-1" xtargets="s25;s21"/>
+    <link targType="sentence" type="1-1" xtargets="s26;s22"/>
+    <link targType="sentence" type="1-1" xtargets="s27;s23"/>
+    <link targType="sentence" type="1-1" xtargets="s28;s24"/>
+    <link targType="sentence" type="1-1" xtargets="s29;s25"/>
+    <link targType="sentence" type="1-1" xtargets="s30;s26"/>
+    <link targType="sentence" type="1-1" xtargets="s31;s27"/>
+    <link targType="sentence" type="1-1" xtargets="s32;s28"/>
+    <link targType="sentence" type="1-1" xtargets="s33;s29"/>
+    <link targType="sentence" type="1-1" xtargets="s34;s30"/>
+    <link targType="sentence" type="1-1" xtargets="s35;s31"/>
+    <link targType="sentence" type="1-1" xtargets="s36;s32"/>
+    <link targType="sentence" type="1-1" xtargets="s37;s33"/>
+    <link targType="sentence" type="1-1" xtargets="s38;s34"/>
+    <link targType="sentence" type="1-1" xtargets="s39;s35"/>
+    <link targType="sentence" type="1-1" xtargets="s40;s36"/>
+    <link targType="sentence" type="1-1" xtargets="s41;s37"/>
+    <link targType="sentence" type="1-1" xtargets="s42;s38"/>
+    <link targType="sentence" type="1-2" xtargets="s43;s39 s40"/>
+    <link targType="sentence" type="1-1" xtargets="s44;s41"/>
+    <link targType="sentence" type="1-1" xtargets="s45;s42"/>
+    <link targType="sentence" type="1-1" xtargets="s46;s43"/>
+    <link targType="sentence" type="1-1" xtargets="s47;s44"/>
+    <link targType="sentence" type="1-1" xtargets="s48;s45"/>
+    <link targType="sentence" type="1-1" xtargets="s49;s46"/>
+    <link targType="sentence" type="1-1" xtargets="s50;s47"/>
+    <link targType="sentence" type="1-1" xtargets="s51;s48"/>
+    <link targType="sentence" type="1-1" xtargets="s52;s49"/>
+    <link targType="sentence" type="1-1" xtargets="s53;s50"/>
+    <link targType="sentence" type="1-1" xtargets="s54;s51"/>
+    <link targType="sentence" type="1-1" xtargets="s55;s52"/>
+    <link targType="sentence" type="1-1" xtargets="s56;s53"/>
+    <link targType="sentence" type="1-1" xtargets="s57;s54"/>
+    <link targType="sentence" type="1-1" xtargets="s58;s55"/>
+    <link targType="sentence" type="1-1" xtargets="s59;s56"/>
+    <link targType="sentence" type="1-1" xtargets="s60;s57"/>
+    <link targType="sentence" type="1-2" xtargets="s61;s58 s59"/>
+    <link targType="sentence" type="1-1" xtargets="s62;s60"/>
+    <link targType="sentence" type="1-1" xtargets="s63;s61"/>
+    <link targType="sentence" type="1-1" xtargets="s64;s62"/>
+    <link targType="sentence" type="1-1" xtargets="s65;s63"/>
+    <link targType="sentence" type="1-1" xtargets="s66;s64"/>
+    <link targType="sentence" type="1-1" xtargets="s67;s65"/>
+    <link targType="sentence" type="1-1" xtargets="s69;s66"/>
+    <link targType="sentence" type="1-1" xtargets="s70;s67"/>
+    <link targType="sentence" type="1-2" xtargets="s71;s68 s69"/>
+    <link targType="sentence" type="1-1" xtargets="s72;s70"/>
+    <link targType="sentence" type="1-1" xtargets="s73;s71"/>
+    <link targType="sentence" type="1-1" xtargets="s74;s72"/>
+    <link targType="sentence" type="1-1" xtargets="s75;s73"/>
+    <link targType="sentence" type="1-1" xtargets="s76;s74"/>
+    <link targType="sentence" type="1-1" xtargets="s77;s75"/>
+    <link targType="sentence" type="1-1" xtargets="s78;s76"/>
+    <link targType="sentence" type="1-1" xtargets="s79;s77"/>
+    <link targType="sentence" type="1-1" xtargets="s80;s78"/>
+    <link targType="sentence" type="1-1" xtargets="s81;s79"/>
+    <link targType="sentence" type="1-1" xtargets="s82;s80"/>
+    <link targType="sentence" type="1-1" xtargets="s83;s81"/>
+    <link targType="sentence" type="1-1" xtargets="s84;s82"/>
+    <link targType="sentence" type="1-1" xtargets="s85;s83"/>
+    <link targType="sentence" type="1-1" xtargets="s86;s84"/>
+    <link targType="sentence" type="1-1" xtargets="s87;s85"/>
+    <link targType="sentence" type="1-1" xtargets="s88;s86"/>
+    <link targType="sentence" type="1-1" xtargets="s89;s87"/>
+    <link targType="sentence" type="1-1" xtargets="s90;s88"/>
+    <link targType="sentence" type="1-1" xtargets="s91;s89"/>
+    <link targType="sentence" type="1-1" xtargets="s92;s90"/>
+    <link targType="sentence" type="1-1" xtargets="s93;s91"/>
+    <link targType="sentence" type="1-1" xtargets="s94;s92"/>
+    <link targType="sentence" type="1-1" xtargets="s95;s93"/>
+    <link targType="sentence" type="1-1" xtargets="s96;s94"/>
+    <link targType="sentence" type="1-1" xtargets="s97;s95"/>
+    <link targType="sentence" type="2-1" xtargets="s98 s99;s96"/>
+    <link targType="sentence" type="1-1" xtargets="s100;s97"/>
+    <link targType="sentence" type="1-2" xtargets="s101;s98 s99"/>
+    <link targType="sentence" type="1-1" xtargets="s102;s100"/>
+    <link targType="sentence" type="1-1" xtargets="s103;s101"/>
+    <link targType="sentence" type="1-1" xtargets="s104;s102"/>
+    <link targType="sentence" type="1-1" xtargets="s105;s103"/>
+    <link targType="sentence" type="1-1" xtargets="s106;s104"/>
+    <link targType="sentence" type="1-1" xtargets="s107;s105"/>
+    <link targType="sentence" type="1-1" xtargets="s108;s106"/>
+    <link targType="sentence" type="1-1" xtargets="s109;s107"/>
+    <link targType="sentence" type="1-1" xtargets="s110;s108"/>
+    <link targType="sentence" type="1-1" xtargets="s111;s109"/>
+    <link targType="sentence" type="1-1" xtargets="s112;s110"/>
+    <link targType="sentence" type="1-1" xtargets="s113;s111"/>
+    <link targType="sentence" type="1-1" xtargets="s114;s112"/>
+    <link targType="sentence" type="1-1" xtargets="s115;s113"/>
+    <link targType="sentence" type="1-1" xtargets="s116;s114"/>
+    <link targType="sentence" type="1-1" xtargets="s117;s115"/>
+    <link targType="sentence" type="1-1" xtargets="s118;s116"/>
+    <link targType="sentence" type="1-1" xtargets="s119;s117"/>
+    <link targType="sentence" type="1-1" xtargets="s120;s118"/>
+    <link targType="sentence" type="1-1" xtargets="s121;s119"/>
+    <link targType="sentence" type="1-1" xtargets="s122;s120"/>
+    <link targType="sentence" type="1-1" xtargets="s123;s121"/>
+    <link targType="sentence" type="1-1" xtargets="s124;s122"/>
+    <link targType="sentence" type="1-1" xtargets="s125;s123"/>
+    <link targType="sentence" type="1-1" xtargets="s126;s124"/>
+    <link targType="sentence" type="1-1" xtargets="s127;s125"/>
+    <link targType="sentence" type="1-1" xtargets="s128;s126"/>
+    <link targType="sentence" type="1-1" xtargets="s129;s127"/>
+    <link targType="sentence" type="1-1" xtargets="s130;s128"/>
+    <link targType="sentence" type="1-1" xtargets="s131;s129"/>
+    <link targType="sentence" type="1-1" xtargets="s133;s134"/>
+    <link targType="sentence" type="1-1" xtargets="s136;s135"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a2;a2">
+    <link targType="sentence" type="1-1" xtargets="s1;s1"/>
+    <link targType="sentence" type="1-1" xtargets="s2;s2"/>
+    <link targType="sentence" type="1-1" xtargets="s3;s3"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s4"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s5"/>
+    <link targType="sentence" type="1-1" xtargets="s6;s6"/>
+    <link targType="sentence" type="1-1" xtargets="s7;s7"/>
+    <link targType="sentence" type="1-1" xtargets="s8;s8"/>
+    <link targType="sentence" type="1-1" xtargets="s9;s9"/>
+    <link targType="sentence" type="1-1" xtargets="s10;s10"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a3;a3">
+    <link targType="sentence" type="2-3" xtargets="s1 s2;s1 s2 s3"/>
+    <link targType="sentence" type="1-1" xtargets="s3;s4"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s5"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s6"/>
+    <link targType="sentence" type="1-1" xtargets="s6;s7"/>
+    <link targType="sentence" type="1-1" xtargets="s7;s8"/>
+    <link targType="sentence" type="1-1" xtargets="s8;s9"/>
+    <link targType="sentence" type="1-1" xtargets="s9;s10"/>
+    <link targType="sentence" type="1-1" xtargets="s10;s11"/>
+    <link targType="sentence" type="1-1" xtargets="s11;s12"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a4;a4">
+    <link targType="sentence" type="2-3" xtargets="s1 s2;s1 s2 s3"/>
+    <link targType="sentence" type="1-2" xtargets="s3;s4 s5"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s6"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s7"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a5;a5">
+    <link targType="sentence" type="1-1" xtargets="s1;s1"/>
+    <link targType="sentence" type="1-1" xtargets="s2;s2"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s3"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s4"/>
+    <link targType="sentence" type="1-1" xtargets="s6;s5"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a6;a6">
+    <link targType="sentence" type="1-3" xtargets="s2;s1 s2 s3"/>
+    <link targType="sentence" type="1-1" xtargets="s3;s4"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s5"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s6"/>
+    <link targType="sentence" type="1-1" xtargets="s6;s7"/>
+    <link targType="sentence" type="1-1" xtargets="s7;s8"/>
+    <link targType="sentence" type="1-1" xtargets="s8;s9"/>
+    <link targType="sentence" type="1-1" xtargets="s9;s10"/>
+    <link targType="sentence" type="1-1" xtargets="s10;s11"/>
+    <link targType="sentence" type="1-1" xtargets="s12;s12"/>
+    <link targType="sentence" type="1-1" xtargets="s13;s13"/>
+    <link targType="sentence" type="1-1" xtargets="s14;s14"/>
+    <link targType="sentence" type="1-1" xtargets="s15;s15"/>
+    <link targType="sentence" type="1-1" xtargets="s16;s16"/>
+    <link targType="sentence" type="1-1" xtargets="s17;s17"/>
+    <link targType="sentence" type="1-1" xtargets="s18;s18"/>
+    <link targType="sentence" type="2-1" xtargets="s19 s20;s19"/>
+    <link targType="sentence" type="1-1" xtargets="s23;s20"/>
+    <link targType="sentence" type="1-1" xtargets="s25;s21"/>
+    <link targType="sentence" type="1-1" xtargets="s26;s22"/>
+    <link targType="sentence" type="1-1" xtargets="s27;s23"/>
+    <link targType="sentence" type="1-1" xtargets="s28;s24"/>
+    <link targType="sentence" type="1-1" xtargets="s39;s29"/>
+    <link targType="sentence" type="2-1" xtargets="s40 s41;s30"/>
+    <link targType="sentence" type="1-1" xtargets="s43;s31"/>
+    <link targType="sentence" type="2-1" xtargets="s47 s48;s32"/>
+    <link targType="sentence" type="2-1" xtargets="s51 s52;s37"/>
+    <link targType="sentence" type="1-1" xtargets="s53;s38"/>
+    <link targType="sentence" type="1-1" xtargets="s55;s39"/>
+    <link targType="sentence" type="1-1" xtargets="s56;s40"/>
+    <link targType="sentence" type="1-1" xtargets="s57;s41"/>
+    <link targType="sentence" type="2-1" xtargets="s58 s59;s42"/>
+    <link targType="sentence" type="2-1" xtargets="s66 s67;s45"/>
+    <link targType="sentence" type="2-1" xtargets="s68 s69;s46"/>
+    <link targType="sentence" type="3-1" xtargets="s70 s71 s72;s47"/>
+    <link targType="sentence" type="1-1" xtargets="s79;s48"/>
+    <link targType="sentence" type="1-1" xtargets="s80;s49"/>
+    <link targType="sentence" type="1-2" xtargets="s81;s50 s51"/>
+    <link targType="sentence" type="1-1" xtargets="s82;s52"/>
+    <link targType="sentence" type="1-1" xtargets="s83;s53"/>
+    <link targType="sentence" type="1-1" xtargets="s84;s54"/>
+    <link targType="sentence" type="1-1" xtargets="s85;s55"/>
+    <link targType="sentence" type="1-1" xtargets="s86;s56"/>
+    <link targType="sentence" type="2-2" xtargets="s88 s89;s57 s58"/>
+    <link targType="sentence" type="1-1" xtargets="s90;s59"/>
+    <link targType="sentence" type="1-1" xtargets="s91;s60"/>
+    <link targType="sentence" type="1-1" xtargets="s92;s62"/>
+    <link targType="sentence" type="1-1" xtargets="s93;s63"/>
+    <link targType="sentence" type="1-1" xtargets="s94;s64"/>
+    <link targType="sentence" type="1-1" xtargets="s95;s65"/>
+    <link targType="sentence" type="1-1" xtargets="s96;s66"/>
+    <link targType="sentence" type="1-1" xtargets="s97;s67"/>
+    <link targType="sentence" type="1-1" xtargets="s98;s68"/>
+    <link targType="sentence" type="1-1" xtargets="s99;s69"/>
+    <link targType="sentence" type="1-1" xtargets="s100;s70"/>
+    <link targType="sentence" type="1-1" xtargets="s101;s71"/>
+    <link targType="sentence" type="1-1" xtargets="s102;s72"/>
+    <link targType="sentence" type="1-1" xtargets="s105;s73"/>
+    <link targType="sentence" type="2-2" xtargets="s107 s108;s74 s75"/>
+    <link targType="sentence" type="1-1" xtargets="s109;s77"/>
+    <link targType="sentence" type="1-1" xtargets="s110;s78"/>
+    <link targType="sentence" type="2-1" xtargets="s115 s116;s81"/>
+    <link targType="sentence" type="1-1" xtargets="s118;s82"/>
+    <link targType="sentence" type="1-1" xtargets="s119;s83"/>
+    <link targType="sentence" type="1-1" xtargets="s120;s84"/>
+    <link targType="sentence" type="2-1" xtargets="s121 s122;s85"/>
+    <link targType="sentence" type="2-1" xtargets="s125 s126;s86"/>
+    <link targType="sentence" type="1-1" xtargets="s127;s88"/>
+    <link targType="sentence" type="1-1" xtargets="s130;s89"/>
+    <link targType="sentence" type="1-1" xtargets="s132;s90"/>
+    <link targType="sentence" type="1-1" xtargets="s133;s91"/>
+    <link targType="sentence" type="2-1" xtargets="s134 s135;s92"/>
+    <link targType="sentence" type="1-1" xtargets="s136;s93"/>
+    <link targType="sentence" type="1-1" xtargets="s138;s99"/>
+    <link targType="sentence" type="1-1" xtargets="s139;s100"/>
+    <link targType="sentence" type="1-1" xtargets="s140;s101"/>
+    <link targType="sentence" type="2-1" xtargets="s141 s142;s102"/>
+    <link targType="sentence" type="2-1" xtargets="s143 s144;s103"/>
+    <link targType="sentence" type="1-1" xtargets="s145;s104"/>
+    <link targType="sentence" type="1-1" xtargets="s146;s108"/>
+    <link targType="sentence" type="2-1" xtargets="s156 s157;s109"/>
+    <link targType="sentence" type="1-2" xtargets="s162;s111 s112"/>
+    <link targType="sentence" type="1-1" xtargets="s165;s119"/>
+    <link targType="sentence" type="1-1" xtargets="s166;s120"/>
+    <link targType="sentence" type="1-1" xtargets="s167;s121"/>
+    <link targType="sentence" type="1-1" xtargets="s168;s122"/>
+    <link targType="sentence" type="1-1" xtargets="s169;s123"/>
+    <link targType="sentence" type="1-1" xtargets="s170;s124"/>
+    <link targType="sentence" type="1-1" xtargets="s171;s127"/>
+    <link targType="sentence" type="1-1" xtargets="s172;s128"/>
+    <link targType="sentence" type="1-1" xtargets="s173;s129"/>
+    <link targType="sentence" type="1-1" xtargets="s174;s130"/>
+    <link targType="sentence" type="1-1" xtargets="s175;s131"/>
+    <link targType="sentence" type="1-1" xtargets="s176;s132"/>
+    <link targType="sentence" type="1-1" xtargets="s177;s133"/>
+    <link targType="sentence" type="1-1" xtargets="s178;s134"/>
+    <link targType="sentence" type="1-1" xtargets="s179;s135"/>
+    <link targType="sentence" type="1-1" xtargets="s180;s136"/>
+    <link targType="sentence" type="1-1" xtargets="s181;s137"/>
+    <link targType="sentence" type="1-1" xtargets="s182;s138"/>
+    <link targType="sentence" type="1-1" xtargets="s183;s139"/>
+    <link targType="sentence" type="1-1" xtargets="s184;s140"/>
+    <link targType="sentence" type="2-1" xtargets="s185 s186;s141"/>
+    <link targType="sentence" type="1-1" xtargets="s187;s142"/>
+    <link targType="sentence" type="1-1" xtargets="s188;s143"/>
+    <link targType="sentence" type="3-1" xtargets="s189 s190 s191;s145"/>
+    <link targType="sentence" type="1-1" xtargets="s192;s146"/>
+    <link targType="sentence" type="1-1" xtargets="s193;s147"/>
+    <link targType="sentence" type="2-1" xtargets="s194 s195;s148"/>
+    <link targType="sentence" type="3-1" xtargets="s205 s206 s207;s149"/>
+    <link targType="sentence" type="2-1" xtargets="s218 s219;s153"/>
+    <link targType="sentence" type="1-1" xtargets="s220;s154"/>
+    <link targType="sentence" type="1-1" xtargets="s221;s155"/>
+    <link targType="sentence" type="1-1" xtargets="s222;s156"/>
+    <link targType="sentence" type="1-1" xtargets="s223;s157"/>
+    <link targType="sentence" type="1-1" xtargets="s224;s158"/>
+    <link targType="sentence" type="2-1" xtargets="s226 s227;s159"/>
+    <link targType="sentence" type="2-1" xtargets="s230 s231;s160"/>
+    <link targType="sentence" type="2-1" xtargets="s237 s238;s162"/>
+    <link targType="sentence" type="2-2" xtargets="s239 s240;s164 s165"/>
+    <link targType="sentence" type="1-1" xtargets="s241;s166"/>
+    <link targType="sentence" type="1-1" xtargets="s242;s167"/>
+    <link targType="sentence" type="2-1" xtargets="s243 s244;s168"/>
+    <link targType="sentence" type="1-2" xtargets="s245;s169 s170"/>
+    <link targType="sentence" type="1-1" xtargets="s246;s171"/>
+    <link targType="sentence" type="2-2" xtargets="s247 s248;s172 s173"/>
+    <link targType="sentence" type="1-1" xtargets="s249;s174"/>
+    <link targType="sentence" type="1-1" xtargets="s254;s177"/>
+    <link targType="sentence" type="1-1" xtargets="s255;s178"/>
+    <link targType="sentence" type="1-1" xtargets="s257;s179"/>
+    <link targType="sentence" type="1-1" xtargets="s258;s180"/>
+    <link targType="sentence" type="2-1" xtargets="s259 s260;s181"/>
+    <link targType="sentence" type="1-1" xtargets="s261;s182"/>
+    <link targType="sentence" type="2-1" xtargets="s263 s264;s183"/>
+    <link targType="sentence" type="1-1" xtargets="s265;s184"/>
+    <link targType="sentence" type="1-1" xtargets="s266;s185"/>
+    <link targType="sentence" type="1-1" xtargets="s267;s187"/>
+    <link targType="sentence" type="1-1" xtargets="s268;s188"/>
+    <link targType="sentence" type="1-1" xtargets="s269;s189"/>
+    <link targType="sentence" type="1-1" xtargets="s270;s190"/>
+    <link targType="sentence" type="1-1" xtargets="s271;s191"/>
+    <link targType="sentence" type="1-2" xtargets="s272;s192 s193"/>
+    <link targType="sentence" type="1-1" xtargets="s273;s194"/>
+    <link targType="sentence" type="1-1" xtargets="s274;s195"/>
+    <link targType="sentence" type="1-1" xtargets="s275;s196"/>
+    <link targType="sentence" type="1-1" xtargets="s276;s198"/>
+    <link targType="sentence" type="1-1" xtargets="s277;s199"/>
+    <link targType="sentence" type="1-1" xtargets="s278;s200"/>
+    <link targType="sentence" type="1-1" xtargets="s279;s201"/>
+    <link targType="sentence" type="1-1" xtargets="s280;s202"/>
+    <link targType="sentence" type="1-1" xtargets="s281;s203"/>
+    <link targType="sentence" type="1-1" xtargets="s282;s204"/>
+    <link targType="sentence" type="1-1" xtargets="s283;s205"/>
+    <link targType="sentence" type="1-1" xtargets="s284;s206"/>
+    <link targType="sentence" type="1-1" xtargets="s285;s207"/>
+    <link targType="sentence" type="1-1" xtargets="s286;s208"/>
+    <link targType="sentence" type="1-1" xtargets="s287;s209"/>
+    <link targType="sentence" type="1-1" xtargets="s288;s210"/>
+    <link targType="sentence" type="1-1" xtargets="s289;s211"/>
+    <link targType="sentence" type="1-1" xtargets="s290;s213"/>
+    <link targType="sentence" type="1-1" xtargets="s292;s214"/>
+    <link targType="sentence" type="2-1" xtargets="s293 s294;s216"/>
+    <link targType="sentence" type="1-1" xtargets="s295;s217"/>
+    <link targType="sentence" type="1-1" xtargets="s296;s218"/>
+    <link targType="sentence" type="1-1" xtargets="s297;s219"/>
+    <link targType="sentence" type="1-1" xtargets="s303;s222"/>
+    <link targType="sentence" type="2-1" xtargets="s306 s307;s223"/>
+    <link targType="sentence" type="1-1" xtargets="s308;s224"/>
+    <link targType="sentence" type="1-2" xtargets="s309;s225 s226"/>
+    <link targType="sentence" type="1-1" xtargets="s310;s227"/>
+    <link targType="sentence" type="1-1" xtargets="s311;s228"/>
+    <link targType="sentence" type="1-1" xtargets="s313;s229"/>
+    <link targType="sentence" type="1-1" xtargets="s314;s230"/>
+    <link targType="sentence" type="1-1" xtargets="s315;s231"/>
+    <link targType="sentence" type="2-1" xtargets="s316 s317;s232"/>
+    <link targType="sentence" type="1-1" xtargets="s319;s233"/>
+    <link targType="sentence" type="1-1" xtargets="s320;s234"/>
+    <link targType="sentence" type="1-1" xtargets="s323;s235"/>
+    <link targType="sentence" type="1-1" xtargets="s324;s236"/>
+    <link targType="sentence" type="1-1" xtargets="s325;s237"/>
+    <link targType="sentence" type="2-1" xtargets="s326 s327;s238"/>
+    <link targType="sentence" type="1-1" xtargets="s328;s239"/>
+    <link targType="sentence" type="1-1" xtargets="s329;s240"/>
+    <link targType="sentence" type="2-1" xtargets="s330 s331;s241"/>
+    <link targType="sentence" type="1-1" xtargets="s332;s242"/>
+    <link targType="sentence" type="1-1" xtargets="s333;s243"/>
+    <link targType="sentence" type="1-1" xtargets="s334;s244"/>
+    <link targType="sentence" type="1-1" xtargets="s335;s245"/>
+    <link targType="sentence" type="1-1" xtargets="s336;s246"/>
+    <link targType="sentence" type="1-1" xtargets="s337;s247"/>
+    <link targType="sentence" type="2-2" xtargets="s338 s339;s248 s249"/>
+    <link targType="sentence" type="1-1" xtargets="s341;s250"/>
+    <link targType="sentence" type="1-1" xtargets="s342;s251"/>
+    <link targType="sentence" type="1-1" xtargets="s343;s252"/>
+    <link targType="sentence" type="1-1" xtargets="s344;s253"/>
+    <link targType="sentence" type="1-1" xtargets="s347;s254"/>
+    <link targType="sentence" type="2-1" xtargets="s348 s349;s255"/>
+    <link targType="sentence" type="1-1" xtargets="s350;s256"/>
+    <link targType="sentence" type="1-2" xtargets="s356;s257 s258"/>
+    <link targType="sentence" type="1-1" xtargets="s357;s259"/>
+    <link targType="sentence" type="2-1" xtargets="s359 s360;s260"/>
+    <link targType="sentence" type="1-1" xtargets="s362;s261"/>
+    <link targType="sentence" type="2-2" xtargets="s363 s364;s262 s263"/>
+    <link targType="sentence" type="1-1" xtargets="s365;s264"/>
+    <link targType="sentence" type="1-1" xtargets="s366;s265"/>
+    <link targType="sentence" type="1-1" xtargets="s367;s267"/>
+    <link targType="sentence" type="1-1" xtargets="s368;s268"/>
+    <link targType="sentence" type="1-1" xtargets="s369;s269"/>
+    <link targType="sentence" type="1-1" xtargets="s370;s270"/>
+    <link targType="sentence" type="1-1" xtargets="s371;s271"/>
+    <link targType="sentence" type="1-1" xtargets="s372;s272"/>
+    <link targType="sentence" type="1-1" xtargets="s373;s273"/>
+    <link targType="sentence" type="1-1" xtargets="s374;s274"/>
+    <link targType="sentence" type="1-1" xtargets="s375;s275"/>
+    <link targType="sentence" type="1-1" xtargets="s376;s276"/>
+    <link targType="sentence" type="1-1" xtargets="s377;s277"/>
+    <link targType="sentence" type="1-1" xtargets="s378;s278"/>
+    <link targType="sentence" type="1-1" xtargets="s379;s280"/>
+    <link targType="sentence" type="1-1" xtargets="s381;s281"/>
+    <link targType="sentence" type="1-2" xtargets="s384;s282 s283"/>
+    <link targType="sentence" type="2-1" xtargets="s385 s386;s284"/>
+    <link targType="sentence" type="1-1" xtargets="s387;s285"/>
+    <link targType="sentence" type="1-1" xtargets="s388;s286"/>
+    <link targType="sentence" type="1-1" xtargets="s389;s287"/>
+    <link targType="sentence" type="1-1" xtargets="s390;s288"/>
+    <link targType="sentence" type="2-1" xtargets="s391 s392;s289"/>
+    <link targType="sentence" type="1-1" xtargets="s393;s290"/>
+    <link targType="sentence" type="1-1" xtargets="s394;s292"/>
+    <link targType="sentence" type="2-1" xtargets="s395 s396;s293"/>
+    <link targType="sentence" type="1-1" xtargets="s397;s294"/>
+    <link targType="sentence" type="2-1" xtargets="s398 s399;s296"/>
+    <link targType="sentence" type="2-1" xtargets="s400 s401;s297"/>
+    <link targType="sentence" type="2-2" xtargets="s402 s403;s300 s301"/>
+    <link targType="sentence" type="1-1" xtargets="s404;s302"/>
+    <link targType="sentence" type="1-1" xtargets="s405;s303"/>
+    <link targType="sentence" type="1-1" xtargets="s406;s304"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a7;a7">
+    <link targType="sentence" type="1-1" xtargets="s1;s1"/>
+    <link targType="sentence" type="1-1" xtargets="s2;s2"/>
+    <link targType="sentence" type="1-1" xtargets="s3;s3"/>
+    <link targType="sentence" type="1-2" xtargets="s4;s4 s5"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s7"/>
+    <link targType="sentence" type="3-2" xtargets="s6 s7 s8;s8 s9"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a8;a8">
+    <link targType="sentence" type="1-1" xtargets="s1;s1"/>
+    <link targType="sentence" type="1-1" xtargets="s2;s2"/>
+    <link targType="sentence" type="1-1" xtargets="s3;s3"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s4"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s5"/>
+    <link targType="sentence" type="1-2" xtargets="s6;s6 s7"/>
+    <link targType="sentence" type="1-1" xtargets="s7;s8"/>
+    <link targType="sentence" type="1-1" xtargets="s8;s9"/>
+    <link targType="sentence" type="1-1" xtargets="s9;s11"/>
+    <link targType="sentence" type="2-1" xtargets="s10 s11;s12"/>
+    <link targType="sentence" type="1-1" xtargets="s12;s13"/>
+    <link targType="sentence" type="1-1" xtargets="s13;s14"/>
+    <link targType="sentence" type="1-1" xtargets="s14;s15"/>
+    <link targType="sentence" type="1-1" xtargets="s15;s16"/>
+    <link targType="sentence" type="1-1" xtargets="s16;s17"/>
+    <link targType="sentence" type="1-1" xtargets="s17;s18"/>
+    <link targType="sentence" type="1-1" xtargets="s18;s20"/>
+    <link targType="sentence" type="1-1" xtargets="s19;s21"/>
+    <link targType="sentence" type="1-1" xtargets="s20;s22"/>
+    <link targType="sentence" type="2-1" xtargets="s21 s22;s23"/>
+    <link targType="sentence" type="1-1" xtargets="s23;s24"/>
+    <link targType="sentence" type="1-1" xtargets="s25;s25"/>
+    <link targType="sentence" type="1-1" xtargets="s26;s26"/>
+    <link targType="sentence" type="1-1" xtargets="s27;s27"/>
+    <link targType="sentence" type="1-1" xtargets="s28;s28"/>
+    <link targType="sentence" type="1-1" xtargets="s29;s29"/>
+    <link targType="sentence" type="1-1" xtargets="s30;s30"/>
+    <link targType="sentence" type="1-1" xtargets="s31;s31"/>
+    <link targType="sentence" type="1-1" xtargets="s32;s32"/>
+    <link targType="sentence" type="1-1" xtargets="s33;s33"/>
+    <link targType="sentence" type="1-1" xtargets="s34;s34"/>
+    <link targType="sentence" type="1-1" xtargets="s35;s35"/>
+    <link targType="sentence" type="1-1" xtargets="s36;s36"/>
+    <link targType="sentence" type="1-1" xtargets="s37;s37"/>
+    <link targType="sentence" type="1-1" xtargets="s38;s38"/>
+    <link targType="sentence" type="1-1" xtargets="s39;s39"/>
+    <link targType="sentence" type="1-1" xtargets="s40;s40"/>
+    <link targType="sentence" type="1-1" xtargets="s41;s41"/>
+    <link targType="sentence" type="1-1" xtargets="s42;s42"/>
+    <link targType="sentence" type="1-1" xtargets="s43;s43"/>
+    <link targType="sentence" type="1-1" xtargets="s44;s44"/>
+    <link targType="sentence" type="1-1" xtargets="s45;s45"/>
+    <link targType="sentence" type="2-2" xtargets="s46 s47;s46 s47"/>
+    <link targType="sentence" type="1-1" xtargets="s48;s48"/>
+    <link targType="sentence" type="2-1" xtargets="s49 s50;s50"/>
+    <link targType="sentence" type="1-1" xtargets="s51;s51"/>
+    <link targType="sentence" type="1-1" xtargets="s52;s52"/>
+    <link targType="sentence" type="1-2" xtargets="s53;s53 s54"/>
+    <link targType="sentence" type="1-1" xtargets="s54;s55"/>
+    <link targType="sentence" type="1-1" xtargets="s55;s56"/>
+    <link targType="sentence" type="2-2" xtargets="s56 s57;s57 s58"/>
+    <link targType="sentence" type="1-1" xtargets="s58;s59"/>
+    <link targType="sentence" type="1-1" xtargets="s59;s60"/>
+    <link targType="sentence" type="1-1" xtargets="s60;s61"/>
+    <link targType="sentence" type="1-1" xtargets="s61;s62"/>
+    <link targType="sentence" type="1-2" xtargets="s62;s63 s64"/>
+    <link targType="sentence" type="1-1" xtargets="s63;s65"/>
+    <link targType="sentence" type="1-1" xtargets="s68;s68"/>
+    <link targType="sentence" type="1-2" xtargets="s69;s97 s98"/>
+    <link targType="sentence" type="3-1" xtargets="s74 s75 s76;s100"/>
+    <link targType="sentence" type="2-1" xtargets="s77 s78;s101"/>
+    <link targType="sentence" type="2-2" xtargets="s79 s80;s103 s104"/>
+    <link targType="sentence" type="1-1" xtargets="s81;s105"/>
+    <link targType="sentence" type="1-1" xtargets="s82;s106"/>
+    <link targType="sentence" type="1-1" xtargets="s83;s107"/>
+    <link targType="sentence" type="1-1" xtargets="s84;s108"/>
+    <link targType="sentence" type="1-1" xtargets="s86;s109"/>
+    <link targType="sentence" type="1-1" xtargets="s87;s110"/>
+    <link targType="sentence" type="1-1" xtargets="s88;s111"/>
+    <link targType="sentence" type="1-1" xtargets="s92;s112"/>
+    <link targType="sentence" type="1-2" xtargets="s93;s114 s115"/>
+    <link targType="sentence" type="1-1" xtargets="s94;s116"/>
+    <link targType="sentence" type="1-1" xtargets="s95;s117"/>
+    <link targType="sentence" type="1-1" xtargets="s96;s118"/>
+    <link targType="sentence" type="1-2" xtargets="s97;s119 s120"/>
+    <link targType="sentence" type="1-1" xtargets="s98;s121"/>
+    <link targType="sentence" type="1-1" xtargets="s99;s122"/>
+    <link targType="sentence" type="1-1" xtargets="s100;s123"/>
+    <link targType="sentence" type="1-1" xtargets="s101;s124"/>
+    <link targType="sentence" type="1-1" xtargets="s102;s126"/>
+    <link targType="sentence" type="1-1" xtargets="s133;s130"/>
+    <link targType="sentence" type="1-1" xtargets="s134;s131"/>
+    <link targType="sentence" type="1-1" xtargets="s135;s132"/>
+    <link targType="sentence" type="1-1" xtargets="s136;s133"/>
+    <link targType="sentence" type="1-1" xtargets="s137;s134"/>
+    <link targType="sentence" type="1-1" xtargets="s138;s135"/>
+    <link targType="sentence" type="1-1" xtargets="s139;s136"/>
+    <link targType="sentence" type="1-1" xtargets="s140;s137"/>
+    <link targType="sentence" type="1-1" xtargets="s141;s138"/>
+    <link targType="sentence" type="1-1" xtargets="s142;s139"/>
+    <link targType="sentence" type="1-1" xtargets="s143;s140"/>
+    <link targType="sentence" type="1-1" xtargets="s144;s141"/>
+    <link targType="sentence" type="1-1" xtargets="s145;s142"/>
+    <link targType="sentence" type="1-1" xtargets="s146;s143"/>
+    <link targType="sentence" type="1-1" xtargets="s147;s144"/>
+    <link targType="sentence" type="1-1" xtargets="s148;s145"/>
+    <link targType="sentence" type="1-1" xtargets="s149;s146"/>
+    <link targType="sentence" type="1-1" xtargets="s150;s147"/>
+    <link targType="sentence" type="1-1" xtargets="s151;s148"/>
+    <link targType="sentence" type="1-1" xtargets="s152;s149"/>
+    <link targType="sentence" type="1-1" xtargets="s153;s150"/>
+    <link targType="sentence" type="1-1" xtargets="s154;s151"/>
+    <link targType="sentence" type="1-1" xtargets="s155;s152"/>
+    <link targType="sentence" type="1-2" xtargets="s159;s160 s161"/>
+    <link targType="sentence" type="1-1" xtargets="s160;s162"/>
+    <link targType="sentence" type="1-1" xtargets="s161;s163"/>
+    <link targType="sentence" type="1-1" xtargets="s162;s164"/>
+    <link targType="sentence" type="1-1" xtargets="s163;s165"/>
+    <link targType="sentence" type="1-1" xtargets="s164;s166"/>
+    <link targType="sentence" type="1-1" xtargets="s165;s167"/>
+    <link targType="sentence" type="1-1" xtargets="s166;s169"/>
+    <link targType="sentence" type="1-1" xtargets="s167;s170"/>
+    <link targType="sentence" type="1-1" xtargets="s168;s171"/>
+    <link targType="sentence" type="1-1" xtargets="s169;s172"/>
+    <link targType="sentence" type="2-1" xtargets="s170 s171;s173"/>
+    <link targType="sentence" type="1-1" xtargets="s172;s174"/>
+    <link targType="sentence" type="1-1" xtargets="s173;s175"/>
+    <link targType="sentence" type="1-1" xtargets="s174;s176"/>
+    <link targType="sentence" type="1-1" xtargets="s180;s179"/>
+    <link targType="sentence" type="1-1" xtargets="s182;s180"/>
+    <link targType="sentence" type="1-1" xtargets="s183;s182"/>
+    <link targType="sentence" type="1-1" xtargets="s184;s183"/>
+    <link targType="sentence" type="2-1" xtargets="s185 s186;s184"/>
+    <link targType="sentence" type="1-1" xtargets="s187;s185"/>
+    <link targType="sentence" type="1-2" xtargets="s188;s186 s187"/>
+    <link targType="sentence" type="1-1" xtargets="s189;s188"/>
+    <link targType="sentence" type="1-1" xtargets="s190;s189"/>
+    <link targType="sentence" type="1-1" xtargets="s193;s203"/>
+    <link targType="sentence" type="1-1" xtargets="s194;s204"/>
+    <link targType="sentence" type="1-1" xtargets="s195;s205"/>
+    <link targType="sentence" type="1-2" xtargets="s196;s206 s207"/>
+    <link targType="sentence" type="1-1" xtargets="s197;s208"/>
+    <link targType="sentence" type="1-1" xtargets="s198;s209"/>
+    <link targType="sentence" type="2-1" xtargets="s199 s200;s210"/>
+    <link targType="sentence" type="1-1" xtargets="s202;s211"/>
+    <link targType="sentence" type="1-1" xtargets="s203;s212"/>
+    <link targType="sentence" type="1-1" xtargets="s204;s213"/>
+    <link targType="sentence" type="1-1" xtargets="s205;s214"/>
+    <link targType="sentence" type="1-1" xtargets="s206;s215"/>
+    <link targType="sentence" type="1-1" xtargets="s207;s216"/>
+    <link targType="sentence" type="2-2" xtargets="s208 s209;s217 s218"/>
+    <link targType="sentence" type="1-1" xtargets="s210;s219"/>
+    <link targType="sentence" type="1-1" xtargets="s212;s220"/>
+    <link targType="sentence" type="2-1" xtargets="s213 s214;s221"/>
+    <link targType="sentence" type="2-1" xtargets="s215 s216;s222"/>
+    <link targType="sentence" type="2-1" xtargets="s217 s218;s223"/>
+    <link targType="sentence" type="1-1" xtargets="s219;s224"/>
+    <link targType="sentence" type="2-1" xtargets="s220 s221;s225"/>
+    <link targType="sentence" type="2-1" xtargets="s222 s223;s226"/>
+    <link targType="sentence" type="1-1" xtargets="s224;s227"/>
+    <link targType="sentence" type="1-1" xtargets="s225;s228"/>
+    <link targType="sentence" type="2-1" xtargets="s226 s227;s229"/>
+    <link targType="sentence" type="1-1" xtargets="s228;s230"/>
+    <link targType="sentence" type="1-1" xtargets="s229;s231"/>
+    <link targType="sentence" type="1-1" xtargets="s230;s232"/>
+    <link targType="sentence" type="2-1" xtargets="s231 s232;s233"/>
+    <link targType="sentence" type="2-1" xtargets="s233 s234;s234"/>
+    <link targType="sentence" type="1-1" xtargets="s235;s235"/>
+    <link targType="sentence" type="1-1" xtargets="s236;s236"/>
+    <link targType="sentence" type="1-1" xtargets="s237;s237"/>
+    <link targType="sentence" type="1-2" xtargets="s238;s238 s239"/>
+    <link targType="sentence" type="1-1" xtargets="s239;s240"/>
+    <link targType="sentence" type="1-1" xtargets="s240;s241"/>
+    <link targType="sentence" type="1-1" xtargets="s241;s242"/>
+    <link targType="sentence" type="1-1" xtargets="s243;s243"/>
+    <link targType="sentence" type="1-1" xtargets="s244;s244"/>
+    <link targType="sentence" type="1-1" xtargets="s245;s245"/>
+    <link targType="sentence" type="1-1" xtargets="s248;s246"/>
+    <link targType="sentence" type="2-1" xtargets="s251 s252;s247"/>
+    <link targType="sentence" type="2-2" xtargets="s253 s254;s248 s249"/>
+    <link targType="sentence" type="1-2" xtargets="s256;s250 s251"/>
+    <link targType="sentence" type="1-1" xtargets="s257;s252"/>
+    <link targType="sentence" type="1-1" xtargets="s258;s253"/>
+    <link targType="sentence" type="1-1" xtargets="s259;s254"/>
+    <link targType="sentence" type="1-1" xtargets="s260;s255"/>
+    <link targType="sentence" type="2-1" xtargets="s261 s262;s256"/>
+    <link targType="sentence" type="1-1" xtargets="s263;s257"/>
+    <link targType="sentence" type="1-1" xtargets="s264;s258"/>
+    <link targType="sentence" type="2-1" xtargets="s265 s266;s259"/>
+    <link targType="sentence" type="1-2" xtargets="s267;s260 s261"/>
+    <link targType="sentence" type="1-1" xtargets="s271;s262"/>
+    <link targType="sentence" type="1-1" xtargets="s274;s272"/>
+    <link targType="sentence" type="1-1" xtargets="s275;s273"/>
+    <link targType="sentence" type="2-1" xtargets="s276 s277;s274"/>
+    <link targType="sentence" type="2-1" xtargets="s278 s279;s275"/>
+    <link targType="sentence" type="1-1" xtargets="s280;s276"/>
+    <link targType="sentence" type="1-2" xtargets="s282;s277 s278"/>
+    <link targType="sentence" type="1-1" xtargets="s283;s279"/>
+    <link targType="sentence" type="1-1" xtargets="s284;s280"/>
+    <link targType="sentence" type="1-1" xtargets="s285;s281"/>
+    <link targType="sentence" type="1-1" xtargets="s286;s282"/>
+    <link targType="sentence" type="1-1" xtargets="s287;s283"/>
+    <link targType="sentence" type="1-1" xtargets="s288;s284"/>
+    <link targType="sentence" type="1-1" xtargets="s289;s285"/>
+    <link targType="sentence" type="1-1" xtargets="s290;s286"/>
+    <link targType="sentence" type="1-1" xtargets="s291;s287"/>
+    <link targType="sentence" type="1-1" xtargets="s292;s288"/>
+    <link targType="sentence" type="1-1" xtargets="s293;s289"/>
+    <link targType="sentence" type="1-1" xtargets="s294;s290"/>
+    <link targType="sentence" type="1-1" xtargets="s295;s291"/>
+    <link targType="sentence" type="1-1" xtargets="s296;s292"/>
+    <link targType="sentence" type="1-1" xtargets="s297;s293"/>
+    <link targType="sentence" type="1-1" xtargets="s298;s294"/>
+    <link targType="sentence" type="1-1" xtargets="s299;s295"/>
+    <link targType="sentence" type="1-1" xtargets="s300;s297"/>
+    <link targType="sentence" type="1-1" xtargets="s301;s298"/>
+    <link targType="sentence" type="1-1" xtargets="s302;s299"/>
+    <link targType="sentence" type="1-1" xtargets="s303;s300"/>
+    <link targType="sentence" type="1-1" xtargets="s304;s301"/>
+    <link targType="sentence" type="1-2" xtargets="s305;s302 s303"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a9;a9">
+    <link targType="sentence" type="2-1" xtargets="s1 s2;s2"/>
+    <link targType="sentence" type="1-1" xtargets="s3;s3"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s4"/>
+    <link targType="sentence" type="1-1" xtargets="s6;s5"/>
+    <link targType="sentence" type="1-1" xtargets="s7;s7"/>
+    <link targType="sentence" type="1-1" xtargets="s8;s8"/>
+    <link targType="sentence" type="1-1" xtargets="s9;s9"/>
+    <link targType="sentence" type="1-1" xtargets="s10;s10"/>
+    <link targType="sentence" type="1-1" xtargets="s11;s11"/>
+    <link targType="sentence" type="1-1" xtargets="s12;s12"/>
+    <link targType="sentence" type="1-1" xtargets="s13;s13"/>
+    <link targType="sentence" type="1-1" xtargets="s17;s14"/>
+    <link targType="sentence" type="1-1" xtargets="s18;s15"/>
+    <link targType="sentence" type="1-1" xtargets="s19;s16"/>
+    <link targType="sentence" type="1-1" xtargets="s20;s17"/>
+    <link targType="sentence" type="1-1" xtargets="s21;s18"/>
+    <link targType="sentence" type="1-1" xtargets="s22;s20"/>
+    <link targType="sentence" type="1-1" xtargets="s23;s21"/>
+    <link targType="sentence" type="1-2" xtargets="s24;s22 s23"/>
+    <link targType="sentence" type="1-2" xtargets="s25;s24 s25"/>
+    <link targType="sentence" type="1-1" xtargets="s26;s26"/>
+    <link targType="sentence" type="1-1" xtargets="s27;s27"/>
+    <link targType="sentence" type="1-1" xtargets="s28;s28"/>
+    <link targType="sentence" type="2-1" xtargets="s30 s31;s29"/>
+    <link targType="sentence" type="3-1" xtargets="s36 s37 s38;s30"/>
+    <link targType="sentence" type="3-1" xtargets="s41 s42 s43;s31"/>
+    <link targType="sentence" type="1-1" xtargets="s44;s32"/>
+    <link targType="sentence" type="2-1" xtargets="s45 s46;s33"/>
+    <link targType="sentence" type="3-1" xtargets="s47 s48 s49;s35"/>
+    <link targType="sentence" type="1-1" xtargets="s59;s39"/>
+    <link targType="sentence" type="1-1" xtargets="s68;s43"/>
+    <link targType="sentence" type="1-1" xtargets="s69;s44"/>
+    <link targType="sentence" type="1-1" xtargets="s70;s45"/>
+    <link targType="sentence" type="1-1" xtargets="s71;s46"/>
+    <link targType="sentence" type="1-1" xtargets="s72;s47"/>
+    <link targType="sentence" type="1-1" xtargets="s73;s48"/>
+    <link targType="sentence" type="1-1" xtargets="s74;s49"/>
+    <link targType="sentence" type="1-1" xtargets="s75;s50"/>
+    <link targType="sentence" type="1-1" xtargets="s76;s51"/>
+    <link targType="sentence" type="1-1" xtargets="s77;s52"/>
+    <link targType="sentence" type="1-1" xtargets="s83;s54"/>
+    <link targType="sentence" type="1-1" xtargets="s91;s70"/>
+    <link targType="sentence" type="1-1" xtargets="s92;s71"/>
+    <link targType="sentence" type="1-1" xtargets="s93;s72"/>
+    <link targType="sentence" type="1-1" xtargets="s94;s73"/>
+    <link targType="sentence" type="1-1" xtargets="s95;s74"/>
+    <link targType="sentence" type="1-1" xtargets="s96;s75"/>
+    <link targType="sentence" type="1-1" xtargets="s97;s76"/>
+    <link targType="sentence" type="1-1" xtargets="s98;s77"/>
+    <link targType="sentence" type="1-1" xtargets="s99;s78"/>
+    <link targType="sentence" type="1-1" xtargets="s100;s79"/>
+    <link targType="sentence" type="1-1" xtargets="s101;s80"/>
+    <link targType="sentence" type="3-3" xtargets="s102 s103 s104;s81 s82 s83"/>
+    <link targType="sentence" type="1-1" xtargets="s105;s84"/>
+    <link targType="sentence" type="1-1" xtargets="s106;s85"/>
+    <link targType="sentence" type="1-1" xtargets="s107;s86"/>
+    <link targType="sentence" type="1-1" xtargets="s109;s87"/>
+    <link targType="sentence" type="2-2" xtargets="s110 s111;s88 s89"/>
+    <link targType="sentence" type="1-1" xtargets="s112;s90"/>
+    <link targType="sentence" type="1-1" xtargets="s113;s91"/>
+    <link targType="sentence" type="1-1" xtargets="s114;s92"/>
+    <link targType="sentence" type="1-1" xtargets="s115;s93"/>
+    <link targType="sentence" type="1-1" xtargets="s129;s95"/>
+    <link targType="sentence" type="1-1" xtargets="s130;s96"/>
+    <link targType="sentence" type="3-1" xtargets="s135 s136 s137;s98"/>
+    <link targType="sentence" type="3-1" xtargets="s140 s141 s142;s99"/>
+    <link targType="sentence" type="2-1" xtargets="s143 s144;s100"/>
+    <link targType="sentence" type="2-1" xtargets="s146 s147;s101"/>
+    <link targType="sentence" type="1-2" xtargets="s149;s102 s103"/>
+    <link targType="sentence" type="2-1" xtargets="s159 s160;s106"/>
+    <link targType="sentence" type="1-1" xtargets="s161;s107"/>
+    <link targType="sentence" type="1-1" xtargets="s170;s109"/>
+    <link targType="sentence" type="2-1" xtargets="s172 s173;s110"/>
+    <link targType="sentence" type="1-1" xtargets="s174;s111"/>
+    <link targType="sentence" type="1-1" xtargets="s175;s112"/>
+    <link targType="sentence" type="1-1" xtargets="s183;s146"/>
+    <link targType="sentence" type="1-1" xtargets="s186;s147"/>
+    <link targType="sentence" type="1-1" xtargets="s187;s148"/>
+    <link targType="sentence" type="1-1" xtargets="s189;s149"/>
+    <link targType="sentence" type="1-1" xtargets="s190;s150"/>
+    <link targType="sentence" type="1-1" xtargets="s191;s151"/>
+    <link targType="sentence" type="2-1" xtargets="s196 s197;s153"/>
+    <link targType="sentence" type="2-1" xtargets="s199 s200;s154"/>
+    <link targType="sentence" type="1-1" xtargets="s201;s155"/>
+    <link targType="sentence" type="1-1" xtargets="s239;s156"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a10;a10">
+    <link targType="sentence" type="1-1" xtargets="s2;s1"/>
+    <link targType="sentence" type="2-1" xtargets="s3 s4;s2"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s4"/>
+    <link targType="sentence" type="1-1" xtargets="s6;s5"/>
+    <link targType="sentence" type="1-1" xtargets="s7;s6"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a11;a11">
+    <link targType="sentence" type="1-1" xtargets="s1;s2"/>
+    <link targType="sentence" type="1-1" xtargets="s2;s3"/>
+    <link targType="sentence" type="1-1" xtargets="s3;s4"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s5"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s6"/>
+    <link targType="sentence" type="1-1" xtargets="s6;s7"/>
+    <link targType="sentence" type="1-1" xtargets="s7;s8"/>
+    <link targType="sentence" type="1-1" xtargets="s8;s9"/>
+    <link targType="sentence" type="2-1" xtargets="s9 s10;s10"/>
+    <link targType="sentence" type="1-1" xtargets="s11;s11"/>
+    <link targType="sentence" type="1-1" xtargets="s19;s12"/>
+    <link targType="sentence" type="1-1" xtargets="s20;s14"/>
+    <link targType="sentence" type="2-1" xtargets="s25 s26;s15"/>
+    <link targType="sentence" type="2-1" xtargets="s27 s28;s19"/>
+    <link targType="sentence" type="1-1" xtargets="s29;s21"/>
+    <link targType="sentence" type="1-1" xtargets="s30;s22"/>
+    <link targType="sentence" type="1-1" xtargets="s31;s23"/>
+    <link targType="sentence" type="1-1" xtargets="s32;s24"/>
+    <link targType="sentence" type="1-1" xtargets="s33;s25"/>
+    <link targType="sentence" type="1-1" xtargets="s34;s26"/>
+    <link targType="sentence" type="1-1" xtargets="s35;s27"/>
+    <link targType="sentence" type="1-1" xtargets="s36;s28"/>
+    <link targType="sentence" type="1-1" xtargets="s41;s29"/>
+    <link targType="sentence" type="1-1" xtargets="s42;s30"/>
+    <link targType="sentence" type="2-1" xtargets="s43 s44;s31"/>
+    <link targType="sentence" type="1-1" xtargets="s45;s32"/>
+    <link targType="sentence" type="1-1" xtargets="s46;s33"/>
+    <link targType="sentence" type="1-1" xtargets="s47;s34"/>
+    <link targType="sentence" type="1-1" xtargets="s48;s35"/>
+    <link targType="sentence" type="1-1" xtargets="s49;s36"/>
+    <link targType="sentence" type="1-1" xtargets="s50;s39"/>
+    <link targType="sentence" type="1-1" xtargets="s51;s40"/>
+    <link targType="sentence" type="1-1" xtargets="s52;s41"/>
+    <link targType="sentence" type="1-1" xtargets="s53;s42"/>
+    <link targType="sentence" type="2-1" xtargets="s61 s62;s46"/>
+    <link targType="sentence" type="2-1" xtargets="s65 s66;s47"/>
+    <link targType="sentence" type="1-1" xtargets="s68;s48"/>
+    <link targType="sentence" type="1-1" xtargets="s69;s49"/>
+    <link targType="sentence" type="1-1" xtargets="s74;s52"/>
+    <link targType="sentence" type="1-1" xtargets="s75;s53"/>
+    <link targType="sentence" type="2-1" xtargets="s77 s78;s54"/>
+    <link targType="sentence" type="1-1" xtargets="s79;s55"/>
+    <link targType="sentence" type="1-1" xtargets="s80;s56"/>
+    <link targType="sentence" type="2-1" xtargets="s81 s82;s57"/>
+    <link targType="sentence" type="1-1" xtargets="s83;s59"/>
+    <link targType="sentence" type="1-1" xtargets="s84;s60"/>
+    <link targType="sentence" type="1-1" xtargets="s85;s61"/>
+    <link targType="sentence" type="1-1" xtargets="s87;s62"/>
+    <link targType="sentence" type="1-2" xtargets="s88;s63 s64"/>
+    <link targType="sentence" type="1-1" xtargets="s92;s65"/>
+    <link targType="sentence" type="1-1" xtargets="s93;s66"/>
+    <link targType="sentence" type="1-1" xtargets="s103;s70"/>
+    <link targType="sentence" type="1-1" xtargets="s104;s71"/>
+    <link targType="sentence" type="1-1" xtargets="s105;s72"/>
+    <link targType="sentence" type="2-1" xtargets="s106 s107;s73"/>
+    <link targType="sentence" type="1-1" xtargets="s108;s74"/>
+    <link targType="sentence" type="1-1" xtargets="s109;s75"/>
+    <link targType="sentence" type="2-1" xtargets="s110 s111;s76"/>
+    <link targType="sentence" type="1-1" xtargets="s112;s77"/>
+    <link targType="sentence" type="1-1" xtargets="s113;s78"/>
+    <link targType="sentence" type="1-1" xtargets="s114;s80"/>
+    <link targType="sentence" type="1-1" xtargets="s115;s81"/>
+    <link targType="sentence" type="1-1" xtargets="s116;s82"/>
+    <link targType="sentence" type="1-1" xtargets="s117;s83"/>
+    <link targType="sentence" type="1-1" xtargets="s118;s84"/>
+    <link targType="sentence" type="1-1" xtargets="s119;s85"/>
+    <link targType="sentence" type="1-1" xtargets="s120;s86"/>
+    <link targType="sentence" type="2-1" xtargets="s131 s132;s90"/>
+    <link targType="sentence" type="1-1" xtargets="s133;s92"/>
+    <link targType="sentence" type="1-1" xtargets="s134;s93"/>
+    <link targType="sentence" type="2-1" xtargets="s135 s136;s94"/>
+    <link targType="sentence" type="1-1" xtargets="s137;s95"/>
+    <link targType="sentence" type="1-1" xtargets="s138;s96"/>
+    <link targType="sentence" type="1-1" xtargets="s139;s97"/>
+    <link targType="sentence" type="1-1" xtargets="s140;s98"/>
+    <link targType="sentence" type="1-2" xtargets="s141;s99 s100"/>
+    <link targType="sentence" type="1-2" xtargets="s142;s101 s102"/>
+    <link targType="sentence" type="1-2" xtargets="s143;s103 s104"/>
+    <link targType="sentence" type="1-1" xtargets="s144;s105"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a12;a12">
+    <link targType="sentence" type="2-2" xtargets="s2 s3;s1 s2"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s3"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s5"/>
+    <link targType="sentence" type="1-1" xtargets="s6;s6"/>
+    <link targType="sentence" type="1-2" xtargets="s7;s7 s8"/>
+    <link targType="sentence" type="1-1" xtargets="s8;s9"/>
+    <link targType="sentence" type="1-1" xtargets="s10;s10"/>
+    <link targType="sentence" type="2-1" xtargets="s11 s12;s11"/>
+    <link targType="sentence" type="1-1" xtargets="s13;s12"/>
+    <link targType="sentence" type="1-2" xtargets="s14;s13 s14"/>
+    <link targType="sentence" type="1-1" xtargets="s15;s15"/>
+    <link targType="sentence" type="1-1" xtargets="s16;s16"/>
+    <link targType="sentence" type="1-1" xtargets="s17;s17"/>
+    <link targType="sentence" type="1-1" xtargets="s18;s18"/>
+    <link targType="sentence" type="1-1" xtargets="s19;s19"/>
+    <link targType="sentence" type="1-1" xtargets="s20;s20"/>
+    <link targType="sentence" type="1-1" xtargets="s21;s21"/>
+    <link targType="sentence" type="2-1" xtargets="s22 s23;s22"/>
+    <link targType="sentence" type="1-1" xtargets="s26;s23"/>
+    <link targType="sentence" type="1-1" xtargets="s27;s24"/>
+    <link targType="sentence" type="1-1" xtargets="s28;s25"/>
+    <link targType="sentence" type="1-1" xtargets="s29;s26"/>
+    <link targType="sentence" type="1-1" xtargets="s30;s27"/>
+    <link targType="sentence" type="1-1" xtargets="s31;s28"/>
+    <link targType="sentence" type="1-1" xtargets="s32;s29"/>
+    <link targType="sentence" type="1-1" xtargets="s33;s30"/>
+    <link targType="sentence" type="1-2" xtargets="s34;s31 s32"/>
+    <link targType="sentence" type="2-1" xtargets="s35 s36;s33"/>
+    <link targType="sentence" type="1-2" xtargets="s37;s34 s35"/>
+    <link targType="sentence" type="1-1" xtargets="s38;s36"/>
+    <link targType="sentence" type="1-1" xtargets="s39;s37"/>
+    <link targType="sentence" type="1-1" xtargets="s40;s38"/>
+    <link targType="sentence" type="1-1" xtargets="s41;s39"/>
+    <link targType="sentence" type="1-1" xtargets="s42;s40"/>
+    <link targType="sentence" type="1-1" xtargets="s43;s41"/>
+    <link targType="sentence" type="1-1" xtargets="s44;s42"/>
+    <link targType="sentence" type="1-1" xtargets="s47;s43"/>
+    <link targType="sentence" type="1-1" xtargets="s48;s44"/>
+    <link targType="sentence" type="1-1" xtargets="s60;s47"/>
+    <link targType="sentence" type="1-1" xtargets="s61;s48"/>
+    <link targType="sentence" type="1-1" xtargets="s62;s49"/>
+    <link targType="sentence" type="1-1" xtargets="s63;s50"/>
+    <link targType="sentence" type="1-2" xtargets="s64;s51 s52"/>
+    <link targType="sentence" type="1-1" xtargets="s65;s53"/>
+    <link targType="sentence" type="1-1" xtargets="s66;s54"/>
+    <link targType="sentence" type="1-1" xtargets="s67;s55"/>
+    <link targType="sentence" type="2-1" xtargets="s69 s70;s56"/>
+    <link targType="sentence" type="2-1" xtargets="s73 s74;s57"/>
+    <link targType="sentence" type="1-1" xtargets="s75;s58"/>
+    <link targType="sentence" type="1-1" xtargets="s76;s59"/>
+    <link targType="sentence" type="1-1" xtargets="s77;s60"/>
+    <link targType="sentence" type="1-1" xtargets="s78;s61"/>
+    <link targType="sentence" type="1-1" xtargets="s79;s62"/>
+    <link targType="sentence" type="1-1" xtargets="s80;s63"/>
+    <link targType="sentence" type="1-1" xtargets="s81;s64"/>
+    <link targType="sentence" type="2-1" xtargets="s82 s83;s65"/>
+    <link targType="sentence" type="1-1" xtargets="s84;s66"/>
+    <link targType="sentence" type="1-1" xtargets="s85;s67"/>
+    <link targType="sentence" type="1-1" xtargets="s86;s68"/>
+    <link targType="sentence" type="1-2" xtargets="s87;s69 s70"/>
+    <link targType="sentence" type="1-1" xtargets="s88;s71"/>
+    <link targType="sentence" type="1-2" xtargets="s89;s72 s73"/>
+    <link targType="sentence" type="2-1" xtargets="s90 s91;s74"/>
+    <link targType="sentence" type="1-1" xtargets="s92;s75"/>
+    <link targType="sentence" type="1-1" xtargets="s93;s76"/>
+    <link targType="sentence" type="1-1" xtargets="s94;s77"/>
+    <link targType="sentence" type="1-1" xtargets="s95;s78"/>
+    <link targType="sentence" type="1-1" xtargets="s96;s79"/>
+    <link targType="sentence" type="1-1" xtargets="s97;s81"/>
+    <link targType="sentence" type="1-1" xtargets="s98;s82"/>
+    <link targType="sentence" type="1-1" xtargets="s99;s83"/>
+    <link targType="sentence" type="1-1" xtargets="s100;s84"/>
+    <link targType="sentence" type="1-1" xtargets="s101;s85"/>
+    <link targType="sentence" type="1-1" xtargets="s102;s86"/>
+    <link targType="sentence" type="2-1" xtargets="s103 s104;s87"/>
+    <link targType="sentence" type="2-1" xtargets="s105 s106;s88"/>
+    <link targType="sentence" type="2-1" xtargets="s107 s108;s89"/>
+    <link targType="sentence" type="1-1" xtargets="s109;s90"/>
+    <link targType="sentence" type="1-1" xtargets="s110;s91"/>
+    <link targType="sentence" type="1-1" xtargets="s111;s92"/>
+    <link targType="sentence" type="1-1" xtargets="s112;s93"/>
+    <link targType="sentence" type="2-1" xtargets="s113 s114;s94"/>
+    <link targType="sentence" type="2-2" xtargets="s115 s116;s95 s96"/>
+    <link targType="sentence" type="1-2" xtargets="s117;s97 s98"/>
+    <link targType="sentence" type="1-1" xtargets="s124;s99"/>
+    <link targType="sentence" type="2-2" xtargets="s128 s129;s102 s103"/>
+    <link targType="sentence" type="1-1" xtargets="s130;s104"/>
+    <link targType="sentence" type="1-1" xtargets="s131;s105"/>
+    <link targType="sentence" type="1-1" xtargets="s132;s106"/>
+    <link targType="sentence" type="1-1" xtargets="s133;s107"/>
+    <link targType="sentence" type="1-1" xtargets="s134;s108"/>
+    <link targType="sentence" type="1-1" xtargets="s135;s109"/>
+    <link targType="sentence" type="1-1" xtargets="s136;s110"/>
+    <link targType="sentence" type="2-1" xtargets="s171 s172;s127"/>
+    <link targType="sentence" type="1-1" xtargets="s173;s128"/>
+    <link targType="sentence" type="1-1" xtargets="s174;s129"/>
+    <link targType="sentence" type="1-1" xtargets="s175;s130"/>
+    <link targType="sentence" type="1-1" xtargets="s176;s131"/>
+    <link targType="sentence" type="1-1" xtargets="s177;s132"/>
+    <link targType="sentence" type="1-1" xtargets="s178;s133"/>
+    <link targType="sentence" type="1-1" xtargets="s179;s134"/>
+    <link targType="sentence" type="1-1" xtargets="s180;s135"/>
+    <link targType="sentence" type="1-1" xtargets="s181;s136"/>
+    <link targType="sentence" type="1-1" xtargets="s182;s137"/>
+    <link targType="sentence" type="1-1" xtargets="s183;s138"/>
+    <link targType="sentence" type="1-1" xtargets="s184;s139"/>
+    <link targType="sentence" type="1-1" xtargets="s185;s140"/>
+    <link targType="sentence" type="1-1" xtargets="s186;s141"/>
+    <link targType="sentence" type="1-1" xtargets="s187;s142"/>
+    <link targType="sentence" type="1-1" xtargets="s188;s143"/>
+    <link targType="sentence" type="1-1" xtargets="s189;s144"/>
+    <link targType="sentence" type="1-1" xtargets="s190;s145"/>
+    <link targType="sentence" type="2-1" xtargets="s191 s192;s146"/>
+    <link targType="sentence" type="1-1" xtargets="s193;s148"/>
+    <link targType="sentence" type="1-1" xtargets="s194;s149"/>
+    <link targType="sentence" type="2-1" xtargets="s195 s196;s150"/>
+    <link targType="sentence" type="1-1" xtargets="s197;s151"/>
+    <link targType="sentence" type="1-1" xtargets="s204;s164"/>
+    <link targType="sentence" type="1-1" xtargets="s205;s165"/>
+    <link targType="sentence" type="1-1" xtargets="s206;s166"/>
+    <link targType="sentence" type="1-1" xtargets="s207;s167"/>
+    <link targType="sentence" type="1-2" xtargets="s208;s168 s169"/>
+    <link targType="sentence" type="2-1" xtargets="s210 s211;s170"/>
+    <link targType="sentence" type="1-1" xtargets="s212;s171"/>
+    <link targType="sentence" type="1-1" xtargets="s213;s172"/>
+    <link targType="sentence" type="1-1" xtargets="s214;s173"/>
+    <link targType="sentence" type="2-1" xtargets="s215 s216;s174"/>
+    <link targType="sentence" type="2-1" xtargets="s217 s218;s175"/>
+    <link targType="sentence" type="2-1" xtargets="s219 s220;s176"/>
+    <link targType="sentence" type="2-1" xtargets="s221 s222;s177"/>
+    <link targType="sentence" type="2-1" xtargets="s223 s224;s178"/>
+    <link targType="sentence" type="1-1" xtargets="s225;s179"/>
+    <link targType="sentence" type="2-1" xtargets="s226 s227;s180"/>
+    <link targType="sentence" type="1-1" xtargets="s228;s181"/>
+    <link targType="sentence" type="1-1" xtargets="s229;s182"/>
+    <link targType="sentence" type="1-1" xtargets="s230;s183"/>
+    <link targType="sentence" type="1-1" xtargets="s231;s184"/>
+    <link targType="sentence" type="1-1" xtargets="s232;s185"/>
+    <link targType="sentence" type="1-1" xtargets="s234;s186"/>
+    <link targType="sentence" type="1-1" xtargets="s235;s187"/>
+    <link targType="sentence" type="1-1" xtargets="s236;s188"/>
+    <link targType="sentence" type="1-1" xtargets="s237;s189"/>
+    <link targType="sentence" type="1-1" xtargets="s238;s190"/>
+    <link targType="sentence" type="1-1" xtargets="s239;s191"/>
+    <link targType="sentence" type="1-1" xtargets="s240;s192"/>
+    <link targType="sentence" type="1-1" xtargets="s241;s193"/>
+    <link targType="sentence" type="1-1" xtargets="s242;s194"/>
+    <link targType="sentence" type="1-1" xtargets="s243;s195"/>
+    <link targType="sentence" type="1-1" xtargets="s244;s196"/>
+    <link targType="sentence" type="1-1" xtargets="s245;s197"/>
+    <link targType="sentence" type="1-2" xtargets="s246;s198 s199"/>
+    <link targType="sentence" type="1-2" xtargets="s247;s200 s201"/>
+    <link targType="sentence" type="2-1" xtargets="s248 s249;s202"/>
+    <link targType="sentence" type="1-2" xtargets="s250;s203 s204"/>
+    <link targType="sentence" type="1-2" xtargets="s251;s205 s206"/>
+    <link targType="sentence" type="1-2" xtargets="s252;s207 s208"/>
+    <link targType="sentence" type="1-3" xtargets="s253;s211 s212 s213"/>
+    <link targType="sentence" type="1-1" xtargets="s260;s231"/>
+    <link targType="sentence" type="1-1" xtargets="s261;s232"/>
+    <link targType="sentence" type="1-1" xtargets="s264;s233"/>
+    <link targType="sentence" type="1-2" xtargets="s271;s236 s237"/>
+    <link targType="sentence" type="1-1" xtargets="s272;s239"/>
+    <link targType="sentence" type="1-1" xtargets="s273;s240"/>
+    <link targType="sentence" type="2-2" xtargets="s274 s275;s241 s242"/>
+    <link targType="sentence" type="1-1" xtargets="s277;s243"/>
+    <link targType="sentence" type="1-1" xtargets="s278;s244"/>
+    <link targType="sentence" type="3-1" xtargets="s279 s280 s281;s245"/>
+    <link targType="sentence" type="1-2" xtargets="s286;s248 s249"/>
+    <link targType="sentence" type="1-1" xtargets="s287;s250"/>
+    <link targType="sentence" type="1-1" xtargets="s288;s251"/>
+    <link targType="sentence" type="1-1" xtargets="s289;s252"/>
+    <link targType="sentence" type="1-1" xtargets="s290;s253"/>
+    <link targType="sentence" type="2-2" xtargets="s291 s292;s254 s255"/>
+    <link targType="sentence" type="1-1" xtargets="s293;s256"/>
+    <link targType="sentence" type="1-1" xtargets="s294;s257"/>
+    <link targType="sentence" type="1-1" xtargets="s295;s258"/>
+    <link targType="sentence" type="1-1" xtargets="s297;s259"/>
+    <link targType="sentence" type="1-1" xtargets="s304;s263"/>
+    <link targType="sentence" type="2-1" xtargets="s305 s306;s264"/>
+    <link targType="sentence" type="1-1" xtargets="s309;s265"/>
+    <link targType="sentence" type="2-1" xtargets="s310 s311;s266"/>
+    <link targType="sentence" type="2-1" xtargets="s319 s320;s269"/>
+    <link targType="sentence" type="1-1" xtargets="s321;s271"/>
+    <link targType="sentence" type="1-1" xtargets="s322;s272"/>
+    <link targType="sentence" type="1-1" xtargets="s323;s273"/>
+    <link targType="sentence" type="1-1" xtargets="s324;s274"/>
+    <link targType="sentence" type="1-1" xtargets="s325;s275"/>
+    <link targType="sentence" type="1-1" xtargets="s326;s276"/>
+    <link targType="sentence" type="1-1" xtargets="s327;s277"/>
+    <link targType="sentence" type="1-1" xtargets="s328;s278"/>
+    <link targType="sentence" type="1-1" xtargets="s329;s280"/>
+    <link targType="sentence" type="1-1" xtargets="s330;s281"/>
+    <link targType="sentence" type="1-1" xtargets="s331;s282"/>
+    <link targType="sentence" type="1-1" xtargets="s332;s283"/>
+    <link targType="sentence" type="1-1" xtargets="s333;s284"/>
+    <link targType="sentence" type="1-1" xtargets="s334;s285"/>
+    <link targType="sentence" type="1-1" xtargets="s335;s286"/>
+    <link targType="sentence" type="1-1" xtargets="s338;s287"/>
+    <link targType="sentence" type="1-1" xtargets="s339;s288"/>
+    <link targType="sentence" type="1-1" xtargets="s340;s289"/>
+    <link targType="sentence" type="1-1" xtargets="s341;s290"/>
+    <link targType="sentence" type="1-2" xtargets="s342;s291 s292"/>
+    <link targType="sentence" type="1-1" xtargets="s343;s293"/>
+    <link targType="sentence" type="1-1" xtargets="s344;s294"/>
+    <link targType="sentence" type="1-1" xtargets="s345;s295"/>
+    <link targType="sentence" type="1-1" xtargets="s346;s297"/>
+    <link targType="sentence" type="1-1" xtargets="s347;s298"/>
+    <link targType="sentence" type="1-1" xtargets="s348;s299"/>
+    <link targType="sentence" type="1-2" xtargets="s349;s300 s301"/>
+    <link targType="sentence" type="1-1" xtargets="s350;s302"/>
+    <link targType="sentence" type="1-2" xtargets="s353;s307 s308"/>
+    <link targType="sentence" type="1-2" xtargets="s356;s311 s312"/>
+    <link targType="sentence" type="1-1" xtargets="s357;s314"/>
+    <link targType="sentence" type="1-2" xtargets="s358;s315 s316"/>
+    <link targType="sentence" type="1-2" xtargets="s359;s317 s318"/>
+    <link targType="sentence" type="2-2" xtargets="s360 s361;s319 s320"/>
+    <link targType="sentence" type="2-1" xtargets="s362 s363;s321"/>
+    <link targType="sentence" type="1-2" xtargets="s364;s322 s323"/>
+    <link targType="sentence" type="1-2" xtargets="s365;s311 s312"/>
+    <link targType="sentence" type="1-2" xtargets="s366;s314 s315"/>
+    <link targType="sentence" type="1-2" xtargets="s367;s316 s317"/>
+    <link targType="sentence" type="1-2" xtargets="s368;s318 s319"/>
+    <link targType="sentence" type="1-1" xtargets="s369;s320"/>
+    <link targType="sentence" type="1-1" xtargets="s370;s321"/>
+    <link targType="sentence" type="1-1" xtargets="s371;s322"/>
+    <link targType="sentence" type="1-1" xtargets="s372;s323"/>
+    <link targType="sentence" type="1-1" xtargets="s373;s324"/>
+    <link targType="sentence" type="1-1" xtargets="s374;s325"/>
+    <link targType="sentence" type="1-1" xtargets="s375;s326"/>
+    <link targType="sentence" type="1-1" xtargets="s376;s327"/>
+    <link targType="sentence" type="1-1" xtargets="s377;s328"/>
+    <link targType="sentence" type="1-1" xtargets="s378;s329"/>
+    <link targType="sentence" type="1-1" xtargets="s379;s330"/>
+    <link targType="sentence" type="1-2" xtargets="s380;s331 s332"/>
+    <link targType="sentence" type="1-1" xtargets="s381;s333"/>
+    <link targType="sentence" type="1-1" xtargets="s382;s334"/>
+    <link targType="sentence" type="1-1" xtargets="s383;s335"/>
+    <link targType="sentence" type="1-1" xtargets="s384;s337"/>
+    <link targType="sentence" type="1-2" xtargets="s385;s338 s339"/>
+    <link targType="sentence" type="2-1" xtargets="s386 s387;s340"/>
+    <link targType="sentence" type="1-2" xtargets="s388;s341 s342"/>
+    <link targType="sentence" type="2-1" xtargets="s389 s390;s343"/>
+    <link targType="sentence" type="2-1" xtargets="s391 s392;s344"/>
+    <link targType="sentence" type="2-1" xtargets="s393 s394;s345"/>
+    <link targType="sentence" type="1-1" xtargets="s395;s346"/>
+    <link targType="sentence" type="1-3" xtargets="s401;s349 s350 s351"/>
+    <link targType="sentence" type="1-1" xtargets="s402;s353"/>
+    <link targType="sentence" type="1-1" xtargets="s403;s354"/>
+    <link targType="sentence" type="1-1" xtargets="s404;s355"/>
+    <link targType="sentence" type="1-2" xtargets="s406;s356 s357"/>
+    <link targType="sentence" type="1-1" xtargets="s407;s358"/>
+    <link targType="sentence" type="2-1" xtargets="s410 s411;s363"/>
+    <link targType="sentence" type="1-1" xtargets="s412;s364"/>
+    <link targType="sentence" type="2-1" xtargets="s414 s415;s365"/>
+    <link targType="sentence" type="1-1" xtargets="s416;s366"/>
+    <link targType="sentence" type="3-1" xtargets="s417 s418 s419;s369"/>
+    <link targType="sentence" type="2-2" xtargets="s423 s424;s370 s371"/>
+    <link targType="sentence" type="1-1" xtargets="s425;s372"/>
+    <link targType="sentence" type="1-1" xtargets="s426;s373"/>
+    <link targType="sentence" type="1-1" xtargets="s428;s374"/>
+    <link targType="sentence" type="1-1" xtargets="s429;s375"/>
+    <link targType="sentence" type="1-1" xtargets="s430;s376"/>
+    <link targType="sentence" type="1-1" xtargets="s431;s377"/>
+    <link targType="sentence" type="1-1" xtargets="s432;s378"/>
+    <link targType="sentence" type="1-1" xtargets="s433;s379"/>
+    <link targType="sentence" type="1-1" xtargets="s434;s380"/>
+    <link targType="sentence" type="1-1" xtargets="s435;s381"/>
+    <link targType="sentence" type="1-1" xtargets="s436;s382"/>
+    <link targType="sentence" type="2-1" xtargets="s437 s438;s383"/>
+    <link targType="sentence" type="1-1" xtargets="s439;s384"/>
+    <link targType="sentence" type="1-1" xtargets="s440;s385"/>
+    <link targType="sentence" type="1-2" xtargets="s441;s386 s387"/>
+    <link targType="sentence" type="1-1" xtargets="s448;s388"/>
+    <link targType="sentence" type="1-2" xtargets="s449;s389 s390"/>
+    <link targType="sentence" type="2-1" xtargets="s450 s451;s391"/>
+    <link targType="sentence" type="1-2" xtargets="s452;s392 s393"/>
+    <link targType="sentence" type="1-1" xtargets="s463;s398"/>
+    <link targType="sentence" type="2-1" xtargets="s464 s465;s399"/>
+    <link targType="sentence" type="1-1" xtargets="s466;s401"/>
+    <link targType="sentence" type="1-2" xtargets="s472;s402 s403"/>
+    <link targType="sentence" type="2-1" xtargets="s473 s474;s404"/>
+    <link targType="sentence" type="1-1" xtargets="s476;s405"/>
+    <link targType="sentence" type="1-1" xtargets="s477;s406"/>
+    <link targType="sentence" type="1-1" xtargets="s478;s409"/>
+    <link targType="sentence" type="2-1" xtargets="s483 s484;s409"/>
+    <link targType="sentence" type="1-1" xtargets="s485;s412"/>
+    <link targType="sentence" type="1-1" xtargets="s486;s413"/>
+    <link targType="sentence" type="1-1" xtargets="s487;s415"/>
+    <link targType="sentence" type="1-1" xtargets="s488;s416"/>
+    <link targType="sentence" type="1-1" xtargets="s489;s417"/>
+    <link targType="sentence" type="1-1" xtargets="s490;s418"/>
+    <link targType="sentence" type="1-1" xtargets="s491;s419"/>
+    <link targType="sentence" type="1-1" xtargets="s492;s420"/>
+    <link targType="sentence" type="1-1" xtargets="s493;s421"/>
+    <link targType="sentence" type="1-1" xtargets="s494;s422"/>
+    <link targType="sentence" type="1-1" xtargets="s495;s423"/>
+    <link targType="sentence" type="1-1" xtargets="s496;s424"/>
+    <link targType="sentence" type="2-1" xtargets="s498 s499;s425"/>
+    <link targType="sentence" type="1-1" xtargets="s500;s426"/>
+    <link targType="sentence" type="1-1" xtargets="s501;s427"/>
+    <link targType="sentence" type="1-1" xtargets="s502;s428"/>
+    <link targType="sentence" type="1-1" xtargets="s503;s429"/>
+    <link targType="sentence" type="1-1" xtargets="s504;s430"/>
+    <link targType="sentence" type="1-1" xtargets="s505;s432"/>
+    <link targType="sentence" type="1-1" xtargets="s506;s433"/>
+    <link targType="sentence" type="1-1" xtargets="s507;s434"/>
+    <link targType="sentence" type="1-2" xtargets="s508;s435 s436"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a14;a13">
+    <link targType="sentence" type="1-1" xtargets="s1;s1"/>
+    <link targType="sentence" type="1-1" xtargets="s2;s2"/>
+    <link targType="sentence" type="1-2" xtargets="s3;s3 s4"/>
+    <link targType="sentence" type="1-2" xtargets="s4;s5 s6"/>
+    <link targType="sentence" type="1-2" xtargets="s5;s7 s8"/>
+    <link targType="sentence" type="1-3" xtargets="s6;s9 s10 s11"/>
+    <link targType="sentence" type="1-1" xtargets="s9;s30"/>
+    <link targType="sentence" type="1-2" xtargets="s10;s31 s32"/>
+    <link targType="sentence" type="1-1" xtargets="s15;s33"/>
+    <link targType="sentence" type="1-1" xtargets="s25;s35"/>
+    <link targType="sentence" type="1-1" xtargets="s38;s38"/>
+    <link targType="sentence" type="1-1" xtargets="s39;s39"/>
+    <link targType="sentence" type="2-2" xtargets="s40 s41;s40 s41"/>
+    <link targType="sentence" type="1-1" xtargets="s42;s42"/>
+    <link targType="sentence" type="1-1" xtargets="s43;s43"/>
+    <link targType="sentence" type="1-1" xtargets="s44;s44"/>
+    <link targType="sentence" type="1-1" xtargets="s45;s45"/>
+    <link targType="sentence" type="1-1" xtargets="s46;s46"/>
+    <link targType="sentence" type="1-1" xtargets="s47;s47"/>
+    <link targType="sentence" type="2-1" xtargets="s48 s49;s48"/>
+    <link targType="sentence" type="1-1" xtargets="s50;s50"/>
+    <link targType="sentence" type="1-1" xtargets="s54;s57"/>
+    <link targType="sentence" type="1-1" xtargets="s55;s58"/>
+    <link targType="sentence" type="1-2" xtargets="s56;s60 s61"/>
+    <link targType="sentence" type="1-1" xtargets="s57;s62"/>
+    <link targType="sentence" type="1-1" xtargets="s205;s65"/>
+    <link targType="sentence" type="1-1" xtargets="s206;s66"/>
+    <link targType="sentence" type="2-1" xtargets="s207 s208;s234"/>
+    <link targType="sentence" type="2-1" xtargets="s210 s211;s235"/>
+    <link targType="sentence" type="1-1" xtargets="s212;s236"/>
+    <link targType="sentence" type="2-1" xtargets="s213 s214;s237"/>
+    <link targType="sentence" type="1-1" xtargets="s215;s238"/>
+    <link targType="sentence" type="1-1" xtargets="s216;s239"/>
+    <link targType="sentence" type="1-1" xtargets="s217;s240"/>
+    <link targType="sentence" type="1-1" xtargets="s218;s241"/>
+    <link targType="sentence" type="1-1" xtargets="s219;s242"/>
+    <link targType="sentence" type="2-1" xtargets="s220 s221;s244"/>
+    <link targType="sentence" type="1-1" xtargets="s222;s245"/>
+    <link targType="sentence" type="1-1" xtargets="s223;s246"/>
+    <link targType="sentence" type="1-1" xtargets="s224;s247"/>
+    <link targType="sentence" type="2-3" xtargets="s225 s226;s248 s249 s250"/>
+    <link targType="sentence" type="1-1" xtargets="s227;s251"/>
+    <link targType="sentence" type="1-1" xtargets="s228;s252"/>
+    <link targType="sentence" type="1-1" xtargets="s229;s253"/>
+    <link targType="sentence" type="2-1" xtargets="s230 s231;s254"/>
+    <link targType="sentence" type="1-1" xtargets="s232;s255"/>
+    <link targType="sentence" type="1-1" xtargets="s233;s256"/>
+    <link targType="sentence" type="1-1" xtargets="s234;s257"/>
+    <link targType="sentence" type="1-1" xtargets="s235;s259"/>
+    <link targType="sentence" type="1-1" xtargets="s236;s260"/>
+    <link targType="sentence" type="1-1" xtargets="s237;s261"/>
+    <link targType="sentence" type="1-1" xtargets="s238;s262"/>
+    <link targType="sentence" type="1-1" xtargets="s239;s263"/>
+    <link targType="sentence" type="1-1" xtargets="s240;s264"/>
+    <link targType="sentence" type="1-1" xtargets="s241;s265"/>
+    <link targType="sentence" type="2-1" xtargets="s242 s243;s266"/>
+    <link targType="sentence" type="1-1" xtargets="s244;s267"/>
+    <link targType="sentence" type="1-1" xtargets="s245;s269"/>
+    <link targType="sentence" type="1-1" xtargets="s246;s270"/>
+    <link targType="sentence" type="1-1" xtargets="s248;s271"/>
+    <link targType="sentence" type="1-1" xtargets="s249;s272"/>
+    <link targType="sentence" type="1-1" xtargets="s250;s273"/>
+    <link targType="sentence" type="1-1" xtargets="s251;s274"/>
+    <link targType="sentence" type="1-1" xtargets="s252;s275"/>
+    <link targType="sentence" type="1-1" xtargets="s253;s276"/>
+    <link targType="sentence" type="1-1" xtargets="s254;s277"/>
+    <link targType="sentence" type="1-1" xtargets="s255;s278"/>
+    <link targType="sentence" type="1-1" xtargets="s256;s279"/>
+    <link targType="sentence" type="1-1" xtargets="s257;s280"/>
+    <link targType="sentence" type="1-1" xtargets="s258;s281"/>
+    <link targType="sentence" type="1-1" xtargets="s259;s282"/>
+    <link targType="sentence" type="1-1" xtargets="s260;s283"/>
+    <link targType="sentence" type="1-1" xtargets="s261;s284"/>
+    <link targType="sentence" type="1-1" xtargets="s262;s286"/>
+    <link targType="sentence" type="1-1" xtargets="s263;s287"/>
+    <link targType="sentence" type="1-1" xtargets="s264;s288"/>
+    <link targType="sentence" type="1-1" xtargets="s265;s289"/>
+    <link targType="sentence" type="1-1" xtargets="s266;s290"/>
+    <link targType="sentence" type="1-1" xtargets="s267;s291"/>
+    <link targType="sentence" type="2-1" xtargets="s268 s269;s292"/>
+    <link targType="sentence" type="1-1" xtargets="s270;s293"/>
+    <link targType="sentence" type="1-1" xtargets="s271;s294"/>
+    <link targType="sentence" type="1-1" xtargets="s272;s295"/>
+    <link targType="sentence" type="1-1" xtargets="s273;s296"/>
+    <link targType="sentence" type="1-1" xtargets="s274;s297"/>
+    <link targType="sentence" type="2-1" xtargets="s275 s276;s298"/>
+    <link targType="sentence" type="1-1" xtargets="s277;s299"/>
+    <link targType="sentence" type="1-1" xtargets="s278;s300"/>
+    <link targType="sentence" type="1-2" xtargets="s279;s301 s302"/>
+    <link targType="sentence" type="1-1" xtargets="s280;s303"/>
+    <link targType="sentence" type="1-1" xtargets="s281;s304"/>
+    <link targType="sentence" type="1-1" xtargets="s282;s305"/>
+    <link targType="sentence" type="1-1" xtargets="s283;s306"/>
+    <link targType="sentence" type="1-1" xtargets="s284;s307"/>
+    <link targType="sentence" type="1-1" xtargets="s285;s308"/>
+    <link targType="sentence" type="1-1" xtargets="s286;s309"/>
+    <link targType="sentence" type="1-1" xtargets="s287;s310"/>
+    <link targType="sentence" type="1-1" xtargets="s288;s311"/>
+    <link targType="sentence" type="1-1" xtargets="s289;s312"/>
+    <link targType="sentence" type="1-1" xtargets="s290;s313"/>
+    <link targType="sentence" type="1-1" xtargets="s291;s314"/>
+    <link targType="sentence" type="1-1" xtargets="s292;s315"/>
+    <link targType="sentence" type="1-1" xtargets="s293;s316"/>
+    <link targType="sentence" type="1-1" xtargets="s294;s317"/>
+    <link targType="sentence" type="1-1" xtargets="s295;s318"/>
+    <link targType="sentence" type="1-1" xtargets="s296;s319"/>
+    <link targType="sentence" type="2-1" xtargets="s297 s298;s320"/>
+    <link targType="sentence" type="2-1" xtargets="s299 s300;s321"/>
+    <link targType="sentence" type="1-1" xtargets="s301;s322"/>
+    <link targType="sentence" type="2-2" xtargets="s302 s303;s323 s324"/>
+    <link targType="sentence" type="1-1" xtargets="s304;s325"/>
+    <link targType="sentence" type="1-1" xtargets="s305;s326"/>
+    <link targType="sentence" type="2-2" xtargets="s306 s307;s327 s328"/>
+    <link targType="sentence" type="1-1" xtargets="s308;s330"/>
+    <link targType="sentence" type="1-1" xtargets="s328;s332"/>
+    <link targType="sentence" type="1-1" xtargets="s330;s347"/>
+    <link targType="sentence" type="2-1" xtargets="s331 s332;s348"/>
+    <link targType="sentence" type="1-1" xtargets="s333;s349"/>
+    <link targType="sentence" type="1-1" xtargets="s334;s350"/>
+    <link targType="sentence" type="2-1" xtargets="s335 s336;s351"/>
+    <link targType="sentence" type="1-1" xtargets="s337;s352"/>
+    <link targType="sentence" type="1-1" xtargets="s338;s353"/>
+    <link targType="sentence" type="1-1" xtargets="s339;s354"/>
+    <link targType="sentence" type="2-1" xtargets="s340 s341;s355"/>
+    <link targType="sentence" type="2-2" xtargets="s342 s343;s356 s357"/>
+    <link targType="sentence" type="1-1" xtargets="s344;s358"/>
+    <link targType="sentence" type="1-1" xtargets="s345;s359"/>
+    <link targType="sentence" type="2-1" xtargets="s346 s347;s360"/>
+    <link targType="sentence" type="2-1" xtargets="s348 s349;s361"/>
+    <link targType="sentence" type="2-1" xtargets="s350 s351;s362"/>
+    <link targType="sentence" type="1-1" xtargets="s352;s363"/>
+    <link targType="sentence" type="1-1" xtargets="s353;s364"/>
+    <link targType="sentence" type="1-1" xtargets="s354;s365"/>
+    <link targType="sentence" type="1-1" xtargets="s356;s366"/>
+    <link targType="sentence" type="2-1" xtargets="s357 s358;s367"/>
+    <link targType="sentence" type="1-1" xtargets="s359;s369"/>
+    <link targType="sentence" type="1-1" xtargets="s360;s370"/>
+    <link targType="sentence" type="1-1" xtargets="s361;s371"/>
+    <link targType="sentence" type="1-2" xtargets="s362;s373 s374"/>
+    <link targType="sentence" type="1-1" xtargets="s363;s375"/>
+    <link targType="sentence" type="1-1" xtargets="s364;s376"/>
+    <link targType="sentence" type="1-1" xtargets="s365;s377"/>
+    <link targType="sentence" type="1-1" xtargets="s366;s378"/>
+    <link targType="sentence" type="1-1" xtargets="s367;s379"/>
+    <link targType="sentence" type="2-1" xtargets="s368 s369;s380"/>
+    <link targType="sentence" type="1-1" xtargets="s370;s381"/>
+    <link targType="sentence" type="2-1" xtargets="s371 s372;s382"/>
+    <link targType="sentence" type="1-1" xtargets="s373;s383"/>
+    <link targType="sentence" type="1-1" xtargets="s374;s384"/>
+    <link targType="sentence" type="1-1" xtargets="s375;s385"/>
+    <link targType="sentence" type="1-1" xtargets="s376;s386"/>
+    <link targType="sentence" type="1-1" xtargets="s377;s387"/>
+    <link targType="sentence" type="1-2" xtargets="s378;s388 s389"/>
+    <link targType="sentence" type="1-1" xtargets="s379;s390"/>
+    <link targType="sentence" type="1-1" xtargets="s380;s391"/>
+    <link targType="sentence" type="1-1" xtargets="s381;s392"/>
+    <link targType="sentence" type="1-1" xtargets="s382;s393"/>
+    <link targType="sentence" type="1-1" xtargets="s383;s395"/>
+    <link targType="sentence" type="2-1" xtargets="s384 s385;s396"/>
+    <link targType="sentence" type="2-1" xtargets="s386 s387;s397"/>
+    <link targType="sentence" type="1-2" xtargets="s388;s398 s399"/>
+    <link targType="sentence" type="2-1" xtargets="s390 s391;s400"/>
+    <link targType="sentence" type="1-1" xtargets="s392;s401"/>
+    <link targType="sentence" type="1-1" xtargets="s393;s402"/>
+    <link targType="sentence" type="1-1" xtargets="s394;s403"/>
+    <link targType="sentence" type="1-1" xtargets="s395;s404"/>
+    <link targType="sentence" type="1-1" xtargets="s396;s405"/>
+    <link targType="sentence" type="1-2" xtargets="s397;s406 s407"/>
+    <link targType="sentence" type="1-1" xtargets="s398;s409"/>
+    <link targType="sentence" type="1-1" xtargets="s399;s410"/>
+    <link targType="sentence" type="1-1" xtargets="s400;s411"/>
+    <link targType="sentence" type="1-1" xtargets="s401;s412"/>
+    <link targType="sentence" type="1-1" xtargets="s402;s413"/>
+    <link targType="sentence" type="1-1" xtargets="s403;s414"/>
+    <link targType="sentence" type="1-1" xtargets="s404;s415"/>
+    <link targType="sentence" type="1-1" xtargets="s405;s416"/>
+    <link targType="sentence" type="1-1" xtargets="s406;s417"/>
+    <link targType="sentence" type="2-1" xtargets="s409 s410;s418"/>
+    <link targType="sentence" type="1-1" xtargets="s412;s419"/>
+    <link targType="sentence" type="1-1" xtargets="s413;s420"/>
+    <link targType="sentence" type="1-1" xtargets="s414;s421"/>
+    <link targType="sentence" type="1-1" xtargets="s415;s422"/>
+    <link targType="sentence" type="1-2" xtargets="s416;s423 s424"/>
+    <link targType="sentence" type="1-1" xtargets="s418;s425"/>
+    <link targType="sentence" type="1-1" xtargets="s420;s426"/>
+    <link targType="sentence" type="1-2" xtargets="s421;s427 s428"/>
+    <link targType="sentence" type="1-1" xtargets="s422;s429"/>
+    <link targType="sentence" type="1-1" xtargets="s423;s430"/>
+    <link targType="sentence" type="1-1" xtargets="s424;s431"/>
+    <link targType="sentence" type="2-1" xtargets="s425 s426;s432"/>
+    <link targType="sentence" type="1-1" xtargets="s427;s433"/>
+    <link targType="sentence" type="1-1" xtargets="s428;s434"/>
+    <link targType="sentence" type="1-1" xtargets="s429;s435"/>
+    <link targType="sentence" type="2-1" xtargets="s430 s431;s436"/>
+    <link targType="sentence" type="1-1" xtargets="s432;s437"/>
+    <link targType="sentence" type="1-1" xtargets="s433;s438"/>
+    <link targType="sentence" type="1-1" xtargets="s434;s439"/>
+    <link targType="sentence" type="2-2" xtargets="s435 s436;s440 s441"/>
+    <link targType="sentence" type="1-1" xtargets="s437;s442"/>
+    <link targType="sentence" type="2-1" xtargets="s438 s439;s443"/>
+    <link targType="sentence" type="1-1" xtargets="s441;s444"/>
+    <link targType="sentence" type="1-1" xtargets="s442;s445"/>
+    <link targType="sentence" type="1-1" xtargets="s443;s446"/>
+    <link targType="sentence" type="1-1" xtargets="s444;s447"/>
+    <link targType="sentence" type="1-1" xtargets="s445;s448"/>
+    <link targType="sentence" type="1-1" xtargets="s446;s449"/>
+    <link targType="sentence" type="1-1" xtargets="s447;s450"/>
+    <link targType="sentence" type="1-1" xtargets="s448;s451"/>
+    <link targType="sentence" type="1-1" xtargets="s449;s452"/>
+    <link targType="sentence" type="1-1" xtargets="s450;s453"/>
+    <link targType="sentence" type="1-1" xtargets="s457;s457"/>
+    <link targType="sentence" type="1-1" xtargets="s458;s459"/>
+    <link targType="sentence" type="1-1" xtargets="s459;s460"/>
+    <link targType="sentence" type="2-3" xtargets="s460 s461;s469 s470 s471"/>
+    <link targType="sentence" type="2-1" xtargets="s472 s473;s474"/>
+    <link targType="sentence" type="1-1" xtargets="s474;s475"/>
+    <link targType="sentence" type="1-2" xtargets="s484;s480 s481"/>
+    <link targType="sentence" type="1-1" xtargets="s485;s483"/>
+    <link targType="sentence" type="1-1" xtargets="s486;s484"/>
+    <link targType="sentence" type="1-1" xtargets="s487;s485"/>
+    <link targType="sentence" type="1-1" xtargets="s488;s487"/>
+    <link targType="sentence" type="2-1" xtargets="s489 s490;s488"/>
+    <link targType="sentence" type="1-1" xtargets="s491;s489"/>
+    <link targType="sentence" type="1-1" xtargets="s492;s490"/>
+    <link targType="sentence" type="1-1" xtargets="s493;s491"/>
+    <link targType="sentence" type="1-1" xtargets="s494;s492"/>
+    <link targType="sentence" type="1-1" xtargets="s495;s493"/>
+    <link targType="sentence" type="1-1" xtargets="s496;s494"/>
+    <link targType="sentence" type="1-1" xtargets="s497;s495"/>
+    <link targType="sentence" type="1-1" xtargets="s498;s496"/>
+    <link targType="sentence" type="1-1" xtargets="s499;s497"/>
+    <link targType="sentence" type="1-1" xtargets="s500;s498"/>
+    <link targType="sentence" type="1-1" xtargets="s501;s499"/>
+    <link targType="sentence" type="1-1" xtargets="s502;s500"/>
+    <link targType="sentence" type="1-1" xtargets="s503;s501"/>
+    <link targType="sentence" type="1-1" xtargets="s504;s502"/>
+    <link targType="sentence" type="1-1" xtargets="s505;s503"/>
+    <link targType="sentence" type="1-1" xtargets="s506;s504"/>
+    <link targType="sentence" type="1-1" xtargets="s507;s505"/>
+    <link targType="sentence" type="1-1" xtargets="s508;s506"/>
+    <link targType="sentence" type="1-1" xtargets="s509;s507"/>
+    <link targType="sentence" type="1-1" xtargets="s510;s508"/>
+    <link targType="sentence" type="1-1" xtargets="s511;s509"/>
+    <link targType="sentence" type="1-1" xtargets="s512;s510"/>
+    <link targType="sentence" type="1-1" xtargets="s513;s511"/>
+    <link targType="sentence" type="1-1" xtargets="s514;s512"/>
+    <link targType="sentence" type="1-1" xtargets="s515;s513"/>
+    <link targType="sentence" type="1-1" xtargets="s516;s514"/>
+    <link targType="sentence" type="1-1" xtargets="s517;s516"/>
+    <link targType="sentence" type="1-1" xtargets="s518;s517"/>
+    <link targType="sentence" type="1-1" xtargets="s519;s518"/>
+    <link targType="sentence" type="1-1" xtargets="s520;s519"/>
+    <link targType="sentence" type="1-2" xtargets="s521;s520 s521"/>
+    <link targType="sentence" type="1-1" xtargets="s522;s522"/>
+    <link targType="sentence" type="1-1" xtargets="s523;s523"/>
+    <link targType="sentence" type="1-1" xtargets="s524;s524"/>
+    <link targType="sentence" type="1-1" xtargets="s525;s525"/>
+    <link targType="sentence" type="1-1" xtargets="s526;s526"/>
+    <link targType="sentence" type="1-1" xtargets="s527;s527"/>
+    <link targType="sentence" type="1-1" xtargets="s528;s528"/>
+    <link targType="sentence" type="1-1" xtargets="s529;s529"/>
+    <link targType="sentence" type="1-2" xtargets="s530;s530 s531"/>
+    <link targType="sentence" type="1-1" xtargets="s531;s532"/>
+    <link targType="sentence" type="1-1" xtargets="s532;s533"/>
+    <link targType="sentence" type="1-1" xtargets="s533;s534"/>
+    <link targType="sentence" type="1-1" xtargets="s534;s535"/>
+    <link targType="sentence" type="1-1" xtargets="s535;s536"/>
+    <link targType="sentence" type="1-1" xtargets="s536;s537"/>
+    <link targType="sentence" type="1-1" xtargets="s537;s538"/>
+    <link targType="sentence" type="1-1" xtargets="s538;s539"/>
+    <link targType="sentence" type="1-1" xtargets="s539;s540"/>
+    <link targType="sentence" type="1-1" xtargets="s540;s541"/>
+    <link targType="sentence" type="1-1" xtargets="s541;s542"/>
+    <link targType="sentence" type="1-1" xtargets="s542;s543"/>
+    <link targType="sentence" type="1-1" xtargets="s543;s544"/>
+    <link targType="sentence" type="1-1" xtargets="s544;s545"/>
+    <link targType="sentence" type="1-1" xtargets="s545;s546"/>
+    <link targType="sentence" type="1-1" xtargets="s546;s547"/>
+    <link targType="sentence" type="1-1" xtargets="s547;s548"/>
+    <link targType="sentence" type="1-1" xtargets="s548;s549"/>
+    <link targType="sentence" type="1-1" xtargets="s549;s550"/>
+    <link targType="sentence" type="1-1" xtargets="s550;s551"/>
+    <link targType="sentence" type="1-1" xtargets="s551;s552"/>
+    <link targType="sentence" type="1-1" xtargets="s552;s553"/>
+    <link targType="sentence" type="1-1" xtargets="s553;s554"/>
+    <link targType="sentence" type="1-1" xtargets="s554;s555"/>
+    <link targType="sentence" type="1-1" xtargets="s555;s556"/>
+    <link targType="sentence" type="1-1" xtargets="s556;s557"/>
+    <link targType="sentence" type="1-1" xtargets="s557;s558"/>
+    <link targType="sentence" type="1-1" xtargets="s558;s559"/>
+    <link targType="sentence" type="2-1" xtargets="s559 s560;s560"/>
+    <link targType="sentence" type="1-3" xtargets="s561;s561 s562 s563"/>
+    <link targType="sentence" type="1-1" xtargets="s562;s564"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a15;a14">
+    <link targType="sentence" type="1-1" xtargets="s1;s1"/>
+    <link targType="sentence" type="1-1" xtargets="s2;s2"/>
+    <link targType="sentence" type="1-1" xtargets="s3;s3"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s4"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s5"/>
+    <link targType="sentence" type="1-1" xtargets="s7;s6"/>
+    <link targType="sentence" type="1-1" xtargets="s8;s7"/>
+    <link targType="sentence" type="1-1" xtargets="s10;s8"/>
+    <link targType="sentence" type="1-1" xtargets="s11;s9"/>
+    <link targType="sentence" type="1-1" xtargets="s12;s10"/>
+    <link targType="sentence" type="1-1" xtargets="s13;s11"/>
+    <link targType="sentence" type="1-1" xtargets="s14;s12"/>
+    <link targType="sentence" type="1-1" xtargets="s17;s13"/>
+    <link targType="sentence" type="1-1" xtargets="s18;s14"/>
+    <link targType="sentence" type="1-1" xtargets="s19;s15"/>
+    <link targType="sentence" type="2-1" xtargets="s25 s26;s16"/>
+    <link targType="sentence" type="1-1" xtargets="s28;s17"/>
+    <link targType="sentence" type="1-1" xtargets="s29;s18"/>
+    <link targType="sentence" type="1-1" xtargets="s30;s19"/>
+    <link targType="sentence" type="1-1" xtargets="s31;s20"/>
+    <link targType="sentence" type="1-1" xtargets="s32;s21"/>
+    <link targType="sentence" type="1-1" xtargets="s33;s22"/>
+    <link targType="sentence" type="1-1" xtargets="s35;s23"/>
+    <link targType="sentence" type="1-2" xtargets="s36;s24 s25"/>
+    <link targType="sentence" type="1-1" xtargets="s37;s26"/>
+    <link targType="sentence" type="1-1" xtargets="s38;s27"/>
+    <link targType="sentence" type="1-1" xtargets="s39;s28"/>
+    <link targType="sentence" type="1-1" xtargets="s40;s29"/>
+    <link targType="sentence" type="1-1" xtargets="s41;s30"/>
+    <link targType="sentence" type="1-1" xtargets="s42;s32"/>
+    <link targType="sentence" type="1-1" xtargets="s43;s33"/>
+    <link targType="sentence" type="1-1" xtargets="s46;s34"/>
+    <link targType="sentence" type="1-1" xtargets="s48;s35"/>
+    <link targType="sentence" type="1-1" xtargets="s50;s36"/>
+    <link targType="sentence" type="1-1" xtargets="s51;s37"/>
+    <link targType="sentence" type="1-1" xtargets="s52;s38"/>
+    <link targType="sentence" type="2-1" xtargets="s53 s54;s40"/>
+    <link targType="sentence" type="1-1" xtargets="s55;s41"/>
+    <link targType="sentence" type="1-1" xtargets="s56;s42"/>
+    <link targType="sentence" type="1-1" xtargets="s57;s43"/>
+    <link targType="sentence" type="1-1" xtargets="s58;s44"/>
+    <link targType="sentence" type="2-1" xtargets="s59 s60;s45"/>
+    <link targType="sentence" type="2-1" xtargets="s61 s62;s46"/>
+    <link targType="sentence" type="1-1" xtargets="s63;s48"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a16;a15">
+    <link targType="sentence" type="1-1" xtargets="s1;s1"/>
+    <link targType="sentence" type="1-2" xtargets="s2;s2 s3"/>
+    <link targType="sentence" type="1-1" xtargets="s3;s4"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s5"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s6"/>
+    <link targType="sentence" type="1-2" xtargets="s6;s7 s8"/>
+    <link targType="sentence" type="1-1" xtargets="s7;s9"/>
+    <link targType="sentence" type="1-1" xtargets="s8;s10"/>
+    <link targType="sentence" type="1-1" xtargets="s9;s11"/>
+    <link targType="sentence" type="1-1" xtargets="s11;s12"/>
+    <link targType="sentence" type="1-2" xtargets="s12;s13 s14"/>
+    <link targType="sentence" type="1-1" xtargets="s13;s15"/>
+    <link targType="sentence" type="1-1" xtargets="s14;s16"/>
+    <link targType="sentence" type="1-1" xtargets="s15;s17"/>
+    <link targType="sentence" type="1-1" xtargets="s16;s18"/>
+    <link targType="sentence" type="1-1" xtargets="s17;s19"/>
+    <link targType="sentence" type="1-1" xtargets="s18;s20"/>
+    <link targType="sentence" type="1-2" xtargets="s19;s21 s22"/>
+    <link targType="sentence" type="1-1" xtargets="s20;s23"/>
+    <link targType="sentence" type="1-1" xtargets="s21;s25"/>
+    <link targType="sentence" type="1-1" xtargets="s22;s26"/>
+    <link targType="sentence" type="1-1" xtargets="s23;s27"/>
+    <link targType="sentence" type="1-1" xtargets="s24;s28"/>
+    <link targType="sentence" type="1-1" xtargets="s25;s29"/>
+    <link targType="sentence" type="1-1" xtargets="s26;s30"/>
+    <link targType="sentence" type="1-1" xtargets="s27;s31"/>
+    <link targType="sentence" type="1-1" xtargets="s28;s32"/>
+    <link targType="sentence" type="1-1" xtargets="s29;s33"/>
+    <link targType="sentence" type="1-1" xtargets="s30;s34"/>
+    <link targType="sentence" type="1-1" xtargets="s31;s35"/>
+    <link targType="sentence" type="1-1" xtargets="s32;s36"/>
+    <link targType="sentence" type="2-1" xtargets="s33 s34;s37"/>
+    <link targType="sentence" type="1-1" xtargets="s35;s38"/>
+    <link targType="sentence" type="1-1" xtargets="s36;s39"/>
+    <link targType="sentence" type="1-1" xtargets="s37;s40"/>
+    <link targType="sentence" type="1-1" xtargets="s38;s41"/>
+    <link targType="sentence" type="1-1" xtargets="s39;s42"/>
+    <link targType="sentence" type="1-1" xtargets="s40;s43"/>
+    <link targType="sentence" type="1-1" xtargets="s41;s44"/>
+    <link targType="sentence" type="1-1" xtargets="s43;s45"/>
+    <link targType="sentence" type="1-1" xtargets="s44;s46"/>
+    <link targType="sentence" type="1-1" xtargets="s45;s47"/>
+    <link targType="sentence" type="2-1" xtargets="s46 s47;s48"/>
+    <link targType="sentence" type="1-1" xtargets="s48;s49"/>
+    <link targType="sentence" type="1-1" xtargets="s52;s66"/>
+    <link targType="sentence" type="1-1" xtargets="s53;s67"/>
+    <link targType="sentence" type="1-1" xtargets="s64;s68"/>
+    <link targType="sentence" type="2-1" xtargets="s66 s67;s69"/>
+    <link targType="sentence" type="2-1" xtargets="s68 s69;s70"/>
+    <link targType="sentence" type="1-1" xtargets="s70;s71"/>
+    <link targType="sentence" type="1-1" xtargets="s71;s72"/>
+    <link targType="sentence" type="1-1" xtargets="s72;s73"/>
+    <link targType="sentence" type="1-1" xtargets="s74;s74"/>
+    <link targType="sentence" type="1-1" xtargets="s75;s75"/>
+    <link targType="sentence" type="1-1" xtargets="s76;s76"/>
+    <link targType="sentence" type="1-1" xtargets="s77;s77"/>
+    <link targType="sentence" type="1-1" xtargets="s78;s78"/>
+    <link targType="sentence" type="1-1" xtargets="s79;s79"/>
+    <link targType="sentence" type="1-1" xtargets="s80;s80"/>
+    <link targType="sentence" type="1-1" xtargets="s81;s81"/>
+    <link targType="sentence" type="1-1" xtargets="s82;s82"/>
+    <link targType="sentence" type="1-1" xtargets="s83;s83"/>
+    <link targType="sentence" type="1-1" xtargets="s84;s84"/>
+    <link targType="sentence" type="1-1" xtargets="s85;s85"/>
+    <link targType="sentence" type="1-1" xtargets="s86;s86"/>
+    <link targType="sentence" type="1-1" xtargets="s87;s87"/>
+    <link targType="sentence" type="1-1" xtargets="s88;s88"/>
+    <link targType="sentence" type="1-1" xtargets="s89;s89"/>
+    <link targType="sentence" type="1-1" xtargets="s90;s90"/>
+    <link targType="sentence" type="1-1" xtargets="s92;s91"/>
+    <link targType="sentence" type="1-1" xtargets="s93;s92"/>
+    <link targType="sentence" type="1-2" xtargets="s94;s93 s94"/>
+    <link targType="sentence" type="1-1" xtargets="s99;s97"/>
+    <link targType="sentence" type="1-1" xtargets="s100;s98"/>
+    <link targType="sentence" type="1-1" xtargets="s101;s99"/>
+    <link targType="sentence" type="1-1" xtargets="s102;s101"/>
+    <link targType="sentence" type="1-1" xtargets="s103;s102"/>
+    <link targType="sentence" type="1-1" xtargets="s104;s103"/>
+    <link targType="sentence" type="1-1" xtargets="s105;s104"/>
+    <link targType="sentence" type="1-1" xtargets="s106;s105"/>
+    <link targType="sentence" type="1-1" xtargets="s107;s106"/>
+    <link targType="sentence" type="1-1" xtargets="s108;s107"/>
+    <link targType="sentence" type="1-1" xtargets="s109;s108"/>
+    <link targType="sentence" type="1-1" xtargets="s110;s109"/>
+    <link targType="sentence" type="1-1" xtargets="s111;s110"/>
+    <link targType="sentence" type="1-1" xtargets="s112;s111"/>
+    <link targType="sentence" type="1-1" xtargets="s113;s112"/>
+    <link targType="sentence" type="1-1" xtargets="s114;s113"/>
+    <link targType="sentence" type="2-1" xtargets="s115 s116;s114"/>
+    <link targType="sentence" type="1-1" xtargets="s117;s115"/>
+    <link targType="sentence" type="1-1" xtargets="s118;s116"/>
+    <link targType="sentence" type="2-1" xtargets="s120 s121;s117"/>
+    <link targType="sentence" type="1-1" xtargets="s122;s118"/>
+    <link targType="sentence" type="2-1" xtargets="s123 s124;s119"/>
+    <link targType="sentence" type="1-1" xtargets="s125;s120"/>
+    <link targType="sentence" type="1-1" xtargets="s126;s121"/>
+    <link targType="sentence" type="1-1" xtargets="s127;s122"/>
+    <link targType="sentence" type="1-1" xtargets="s128;s123"/>
+    <link targType="sentence" type="1-1" xtargets="s129;s124"/>
+    <link targType="sentence" type="1-1" xtargets="s130;s125"/>
+    <link targType="sentence" type="1-1" xtargets="s131;s126"/>
+    <link targType="sentence" type="1-1" xtargets="s132;s127"/>
+    <link targType="sentence" type="1-1" xtargets="s133;s128"/>
+    <link targType="sentence" type="1-1" xtargets="s134;s129"/>
+    <link targType="sentence" type="1-1" xtargets="s135;s130"/>
+    <link targType="sentence" type="1-2" xtargets="s136;s131 s132"/>
+    <link targType="sentence" type="1-1" xtargets="s137;s133"/>
+    <link targType="sentence" type="1-1" xtargets="s138;s134"/>
+    <link targType="sentence" type="1-1" xtargets="s143;s135"/>
+    <link targType="sentence" type="1-1" xtargets="s144;s139"/>
+    <link targType="sentence" type="2-1" xtargets="s148 s149;s147"/>
+    <link targType="sentence" type="2-1" xtargets="s155 s156;s150"/>
+    <link targType="sentence" type="1-1" xtargets="s157;s152"/>
+    <link targType="sentence" type="1-1" xtargets="s158;s153"/>
+    <link targType="sentence" type="1-2" xtargets="s159;s154 s155"/>
+    <link targType="sentence" type="1-1" xtargets="s160;s156"/>
+    <link targType="sentence" type="1-1" xtargets="s161;s157"/>
+    <link targType="sentence" type="1-1" xtargets="s162;s158"/>
+    <link targType="sentence" type="2-2" xtargets="s163 s164;s159 s160"/>
+    <link targType="sentence" type="1-1" xtargets="s165;s161"/>
+    <link targType="sentence" type="1-1" xtargets="s166;s162"/>
+    <link targType="sentence" type="1-1" xtargets="s167;s163"/>
+    <link targType="sentence" type="1-2" xtargets="s168;s164 s165"/>
+    <link targType="sentence" type="1-1" xtargets="s169;s166"/>
+    <link targType="sentence" type="1-1" xtargets="s170;s168"/>
+    <link targType="sentence" type="1-1" xtargets="s171;s169"/>
+    <link targType="sentence" type="1-1" xtargets="s172;s170"/>
+    <link targType="sentence" type="1-1" xtargets="s173;s171"/>
+    <link targType="sentence" type="1-1" xtargets="s174;s172"/>
+    <link targType="sentence" type="1-1" xtargets="s175;s173"/>
+    <link targType="sentence" type="1-1" xtargets="s176;s174"/>
+    <link targType="sentence" type="1-1" xtargets="s177;s175"/>
+    <link targType="sentence" type="1-1" xtargets="s178;s176"/>
+    <link targType="sentence" type="1-1" xtargets="s179;s177"/>
+    <link targType="sentence" type="1-1" xtargets="s181;s178"/>
+    <link targType="sentence" type="1-1" xtargets="s182;s180"/>
+    <link targType="sentence" type="1-1" xtargets="s183;s182"/>
+    <link targType="sentence" type="1-1" xtargets="s184;s183"/>
+    <link targType="sentence" type="1-1" xtargets="s185;s184"/>
+    <link targType="sentence" type="1-2" xtargets="s186;s185 s186"/>
+    <link targType="sentence" type="1-1" xtargets="s187;s188"/>
+    <link targType="sentence" type="1-1" xtargets="s188;s189"/>
+    <link targType="sentence" type="1-1" xtargets="s189;s190"/>
+    <link targType="sentence" type="1-1" xtargets="s190;s191"/>
+    <link targType="sentence" type="1-1" xtargets="s191;s192"/>
+    <link targType="sentence" type="1-1" xtargets="s192;s193"/>
+    <link targType="sentence" type="1-1" xtargets="s193;s194"/>
+    <link targType="sentence" type="1-1" xtargets="s194;s195"/>
+    <link targType="sentence" type="1-1" xtargets="s195;s196"/>
+    <link targType="sentence" type="2-1" xtargets="s197 s198;s197"/>
+    <link targType="sentence" type="1-1" xtargets="s199;s198"/>
+    <link targType="sentence" type="2-1" xtargets="s200 s201;s199"/>
+    <link targType="sentence" type="1-1" xtargets="s202;s200"/>
+    <link targType="sentence" type="1-1" xtargets="s203;s201"/>
+    <link targType="sentence" type="1-2" xtargets="s204;s202 s203"/>
+    <link targType="sentence" type="1-1" xtargets="s205;s204"/>
+    <link targType="sentence" type="1-1" xtargets="s206;s205"/>
+    <link targType="sentence" type="1-2" xtargets="s207;s206 s207"/>
+    <link targType="sentence" type="1-1" xtargets="s208;s208"/>
+    <link targType="sentence" type="1-2" xtargets="s238;s215 s216"/>
+    <link targType="sentence" type="1-1" xtargets="s240;s217"/>
+    <link targType="sentence" type="1-1" xtargets="s241;s218"/>
+    <link targType="sentence" type="1-1" xtargets="s242;s219"/>
+    <link targType="sentence" type="1-1" xtargets="s243;s220"/>
+    <link targType="sentence" type="1-1" xtargets="s244;s222"/>
+    <link targType="sentence" type="1-1" xtargets="s245;s223"/>
+    <link targType="sentence" type="1-1" xtargets="s246;s224"/>
+    <link targType="sentence" type="1-1" xtargets="s247;s225"/>
+    <link targType="sentence" type="1-1" xtargets="s248;s226"/>
+    <link targType="sentence" type="1-1" xtargets="s249;s227"/>
+    <link targType="sentence" type="1-1" xtargets="s250;s228"/>
+    <link targType="sentence" type="1-2" xtargets="s251;s229 s230"/>
+    <link targType="sentence" type="1-1" xtargets="s252;s231"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a17;a16">
+    <link targType="sentence" type="1-1" xtargets="s1;s1"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s2"/>
+    <link targType="sentence" type="1-1" xtargets="s6;s3"/>
+    <link targType="sentence" type="1-1" xtargets="s8;s4"/>
+    <link targType="sentence" type="1-1" xtargets="s9;s5"/>
+    <link targType="sentence" type="2-1" xtargets="s10 s11;s6"/>
+    <link targType="sentence" type="2-1" xtargets="s12 s13;s7"/>
+    <link targType="sentence" type="1-1" xtargets="s14;s8"/>
+    <link targType="sentence" type="1-1" xtargets="s15;s9"/>
+    <link targType="sentence" type="1-1" xtargets="s16;s10"/>
+    <link targType="sentence" type="1-1" xtargets="s18;s11"/>
+    <link targType="sentence" type="1-2" xtargets="s19;s12 s13"/>
+    <link targType="sentence" type="1-1" xtargets="s20;s14"/>
+    <link targType="sentence" type="1-1" xtargets="s21;s15"/>
+    <link targType="sentence" type="2-1" xtargets="s22 s23;s16"/>
+    <link targType="sentence" type="1-1" xtargets="s24;s18"/>
+    <link targType="sentence" type="1-1" xtargets="s25;s19"/>
+    <link targType="sentence" type="1-1" xtargets="s26;s20"/>
+    <link targType="sentence" type="1-1" xtargets="s28;s21"/>
+    <link targType="sentence" type="1-1" xtargets="s29;s22"/>
+    <link targType="sentence" type="1-1" xtargets="s30;s23"/>
+    <link targType="sentence" type="1-1" xtargets="s31;s24"/>
+    <link targType="sentence" type="1-1" xtargets="s32;s25"/>
+    <link targType="sentence" type="1-1" xtargets="s33;s26"/>
+    <link targType="sentence" type="1-1" xtargets="s34;s27"/>
+    <link targType="sentence" type="1-1" xtargets="s35;s28"/>
+    <link targType="sentence" type="2-1" xtargets="s36 s37;s29"/>
+    <link targType="sentence" type="1-1" xtargets="s38;s30"/>
+    <link targType="sentence" type="1-1" xtargets="s39;s31"/>
+    <link targType="sentence" type="1-1" xtargets="s40;s32"/>
+    <link targType="sentence" type="1-1" xtargets="s41;s33"/>
+    <link targType="sentence" type="1-1" xtargets="s42;s34"/>
+    <link targType="sentence" type="1-1" xtargets="s43;s35"/>
+    <link targType="sentence" type="1-1" xtargets="s44;s36"/>
+    <link targType="sentence" type="1-1" xtargets="s52;s40"/>
+    <link targType="sentence" type="1-1" xtargets="s53;s41"/>
+    <link targType="sentence" type="2-1" xtargets="s54 s55;s42"/>
+    <link targType="sentence" type="2-1" xtargets="s56 s57;s45"/>
+    <link targType="sentence" type="2-1" xtargets="s58 s59;s46"/>
+    <link targType="sentence" type="1-1" xtargets="s60;s47"/>
+    <link targType="sentence" type="1-1" xtargets="s61;s48"/>
+    <link targType="sentence" type="1-1" xtargets="s62;s49"/>
+    <link targType="sentence" type="1-1" xtargets="s63;s50"/>
+    <link targType="sentence" type="2-1" xtargets="s69 s70;s53"/>
+    <link targType="sentence" type="1-1" xtargets="s71;s55"/>
+    <link targType="sentence" type="1-2" xtargets="s72;s56 s57"/>
+    <link targType="sentence" type="1-1" xtargets="s78;s59"/>
+    <link targType="sentence" type="1-1" xtargets="s79;s60"/>
+    <link targType="sentence" type="1-1" xtargets="s80;s61"/>
+    <link targType="sentence" type="1-1" xtargets="s81;s62"/>
+    <link targType="sentence" type="1-1" xtargets="s82;s63"/>
+    <link targType="sentence" type="1-1" xtargets="s83;s64"/>
+    <link targType="sentence" type="1-1" xtargets="s84;s65"/>
+    <link targType="sentence" type="1-1" xtargets="s85;s66"/>
+    <link targType="sentence" type="1-1" xtargets="s86;s67"/>
+    <link targType="sentence" type="1-1" xtargets="s87;s68"/>
+    <link targType="sentence" type="1-1" xtargets="s88;s69"/>
+    <link targType="sentence" type="1-1" xtargets="s89;s70"/>
+    <link targType="sentence" type="2-1" xtargets="s90 s91;s71"/>
+    <link targType="sentence" type="1-1" xtargets="s92;s72"/>
+    <link targType="sentence" type="1-1" xtargets="s93;s73"/>
+    <link targType="sentence" type="1-1" xtargets="s94;s74"/>
+    <link targType="sentence" type="1-1" xtargets="s95;s75"/>
+    <link targType="sentence" type="1-1" xtargets="s96;s76"/>
+    <link targType="sentence" type="2-1" xtargets="s97 s98;s77"/>
+    <link targType="sentence" type="1-1" xtargets="s99;s78"/>
+    <link targType="sentence" type="2-1" xtargets="s100 s101;s79"/>
+    <link targType="sentence" type="1-1" xtargets="s103;s80"/>
+    <link targType="sentence" type="1-1" xtargets="s104;s81"/>
+    <link targType="sentence" type="1-1" xtargets="s105;s83"/>
+    <link targType="sentence" type="2-1" xtargets="s109 s110;s84"/>
+    <link targType="sentence" type="1-1" xtargets="s112;s85"/>
+    <link targType="sentence" type="1-1" xtargets="s113;s86"/>
+    <link targType="sentence" type="2-1" xtargets="s114 s115;s87"/>
+    <link targType="sentence" type="2-1" xtargets="s116 s117;s88"/>
+    <link targType="sentence" type="1-1" xtargets="s128;s90"/>
+    <link targType="sentence" type="2-2" xtargets="s129 s130;s92 s93"/>
+    <link targType="sentence" type="1-1" xtargets="s131;s94"/>
+    <link targType="sentence" type="1-1" xtargets="s132;s95"/>
+    <link targType="sentence" type="1-1" xtargets="s133;s96"/>
+    <link targType="sentence" type="1-1" xtargets="s134;s97"/>
+    <link targType="sentence" type="1-1" xtargets="s135;s98"/>
+    <link targType="sentence" type="1-1" xtargets="s136;s99"/>
+    <link targType="sentence" type="1-1" xtargets="s137;s100"/>
+    <link targType="sentence" type="1-1" xtargets="s138;s101"/>
+    <link targType="sentence" type="2-1" xtargets="s139 s140;s103"/>
+    <link targType="sentence" type="1-1" xtargets="s141;s104"/>
+    <link targType="sentence" type="1-1" xtargets="s142;s105"/>
+    <link targType="sentence" type="1-1" xtargets="s143;s106"/>
+    <link targType="sentence" type="1-1" xtargets="s146;s107"/>
+    <link targType="sentence" type="1-1" xtargets="s147;s108"/>
+    <link targType="sentence" type="1-1" xtargets="s148;s109"/>
+    <link targType="sentence" type="1-1" xtargets="s149;s110"/>
+    <link targType="sentence" type="1-1" xtargets="s150;s111"/>
+    <link targType="sentence" type="1-1" xtargets="s151;s112"/>
+    <link targType="sentence" type="1-1" xtargets="s159;s115"/>
+    <link targType="sentence" type="1-1" xtargets="s162;s116"/>
+    <link targType="sentence" type="1-1" xtargets="s164;s117"/>
+    <link targType="sentence" type="2-1" xtargets="s165 s166;s118"/>
+    <link targType="sentence" type="1-1" xtargets="s167;s119"/>
+    <link targType="sentence" type="1-1" xtargets="s168;s120"/>
+    <link targType="sentence" type="1-1" xtargets="s169;s121"/>
+    <link targType="sentence" type="1-1" xtargets="s170;s122"/>
+    <link targType="sentence" type="1-1" xtargets="s171;s123"/>
+    <link targType="sentence" type="1-1" xtargets="s172;s124"/>
+    <link targType="sentence" type="1-1" xtargets="s173;s125"/>
+    <link targType="sentence" type="1-1" xtargets="s174;s126"/>
+    <link targType="sentence" type="1-1" xtargets="s175;s127"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a18;a17">
+    <link targType="sentence" type="1-1" xtargets="s1;s1"/>
+    <link targType="sentence" type="1-1" xtargets="s2;s2"/>
+    <link targType="sentence" type="1-2" xtargets="s3;s3 s4"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s6"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s7"/>
+    <link targType="sentence" type="1-1" xtargets="s6;s8"/>
+    <link targType="sentence" type="1-1" xtargets="s7;s9"/>
+    <link targType="sentence" type="2-1" xtargets="s13 s14;s10"/>
+    <link targType="sentence" type="1-1" xtargets="s18;s11"/>
+    <link targType="sentence" type="2-1" xtargets="s19 s20;s12"/>
+    <link targType="sentence" type="2-1" xtargets="s29 s30;s15"/>
+    <link targType="sentence" type="1-1" xtargets="s37;s16"/>
+    <link targType="sentence" type="1-1" xtargets="s38;s17"/>
+    <link targType="sentence" type="2-1" xtargets="s40 s41;s18"/>
+    <link targType="sentence" type="1-1" xtargets="s42;s19"/>
+    <link targType="sentence" type="1-1" xtargets="s43;s20"/>
+    <link targType="sentence" type="1-1" xtargets="s44;s21"/>
+    <link targType="sentence" type="2-1" xtargets="s45 s46;s23"/>
+    <link targType="sentence" type="3-1" xtargets="s47 s48 s49;s24"/>
+    <link targType="sentence" type="1-1" xtargets="s51;s25"/>
+    <link targType="sentence" type="1-1" xtargets="s53;s26"/>
+    <link targType="sentence" type="1-1" xtargets="s54;s27"/>
+    <link targType="sentence" type="1-1" xtargets="s55;s28"/>
+    <link targType="sentence" type="1-2" xtargets="s56;s30 s31"/>
+    <link targType="sentence" type="3-1" xtargets="s57 s58 s59;s32"/>
+    <link targType="sentence" type="2-2" xtargets="s60 s61;s33 s34"/>
+    <link targType="sentence" type="1-1" xtargets="s62;s35"/>
+    <link targType="sentence" type="1-1" xtargets="s64;s36"/>
+    <link targType="sentence" type="1-1" xtargets="s65;s37"/>
+    <link targType="sentence" type="1-1" xtargets="s66;s38"/>
+    <link targType="sentence" type="1-1" xtargets="s67;s39"/>
+    <link targType="sentence" type="1-1" xtargets="s68;s40"/>
+    <link targType="sentence" type="1-1" xtargets="s69;s41"/>
+    <link targType="sentence" type="1-1" xtargets="s70;s42"/>
+    <link targType="sentence" type="1-1" xtargets="s71;s43"/>
+    <link targType="sentence" type="1-1" xtargets="s72;s44"/>
+    <link targType="sentence" type="1-1" xtargets="s73;s45"/>
+    <link targType="sentence" type="1-1" xtargets="s74;s46"/>
+    <link targType="sentence" type="1-1" xtargets="s75;s47"/>
+    <link targType="sentence" type="1-1" xtargets="s76;s48"/>
+    <link targType="sentence" type="1-1" xtargets="s77;s49"/>
+    <link targType="sentence" type="1-1" xtargets="s78;s50"/>
+    <link targType="sentence" type="1-1" xtargets="s79;s51"/>
+    <link targType="sentence" type="1-1" xtargets="s80;s52"/>
+    <link targType="sentence" type="1-1" xtargets="s81;s53"/>
+    <link targType="sentence" type="1-1" xtargets="s82;s54"/>
+    <link targType="sentence" type="1-1" xtargets="s83;s55"/>
+    <link targType="sentence" type="1-1" xtargets="s84;s56"/>
+    <link targType="sentence" type="1-1" xtargets="s85;s57"/>
+    <link targType="sentence" type="1-1" xtargets="s86;s58"/>
+    <link targType="sentence" type="1-1" xtargets="s87;s59"/>
+    <link targType="sentence" type="1-1" xtargets="s88;s60"/>
+    <link targType="sentence" type="1-1" xtargets="s89;s61"/>
+    <link targType="sentence" type="1-1" xtargets="s90;s62"/>
+    <link targType="sentence" type="1-1" xtargets="s91;s63"/>
+    <link targType="sentence" type="1-1" xtargets="s92;s64"/>
+    <link targType="sentence" type="1-1" xtargets="s93;s65"/>
+    <link targType="sentence" type="1-1" xtargets="s94;s66"/>
+    <link targType="sentence" type="1-1" xtargets="s95;s67"/>
+    <link targType="sentence" type="1-1" xtargets="s96;s68"/>
+    <link targType="sentence" type="1-1" xtargets="s97;s69"/>
+    <link targType="sentence" type="1-1" xtargets="s98;s70"/>
+    <link targType="sentence" type="1-1" xtargets="s99;s71"/>
+    <link targType="sentence" type="1-1" xtargets="s100;s72"/>
+    <link targType="sentence" type="1-1" xtargets="s102;s73"/>
+    <link targType="sentence" type="1-1" xtargets="s103;s74"/>
+    <link targType="sentence" type="1-1" xtargets="s104;s75"/>
+    <link targType="sentence" type="1-1" xtargets="s105;s76"/>
+    <link targType="sentence" type="1-1" xtargets="s106;s77"/>
+    <link targType="sentence" type="1-1" xtargets="s107;s78"/>
+    <link targType="sentence" type="1-1" xtargets="s108;s79"/>
+    <link targType="sentence" type="1-1" xtargets="s109;s80"/>
+    <link targType="sentence" type="1-1" xtargets="s110;s81"/>
+    <link targType="sentence" type="1-1" xtargets="s111;s82"/>
+    <link targType="sentence" type="1-1" xtargets="s112;s83"/>
+    <link targType="sentence" type="1-1" xtargets="s113;s84"/>
+    <link targType="sentence" type="1-1" xtargets="s114;s85"/>
+    <link targType="sentence" type="1-1" xtargets="s115;s86"/>
+    <link targType="sentence" type="1-1" xtargets="s116;s87"/>
+    <link targType="sentence" type="1-1" xtargets="s117;s88"/>
+    <link targType="sentence" type="1-1" xtargets="s118;s89"/>
+    <link targType="sentence" type="1-1" xtargets="s119;s90"/>
+    <link targType="sentence" type="1-1" xtargets="s120;s91"/>
+    <link targType="sentence" type="1-1" xtargets="s121;s93"/>
+    <link targType="sentence" type="1-1" xtargets="s122;s94"/>
+    <link targType="sentence" type="1-1" xtargets="s123;s95"/>
+    <link targType="sentence" type="1-1" xtargets="s124;s96"/>
+    <link targType="sentence" type="1-1" xtargets="s125;s97"/>
+    <link targType="sentence" type="1-1" xtargets="s127;s98"/>
+    <link targType="sentence" type="1-2" xtargets="s128;s99 s100"/>
+    <link targType="sentence" type="1-2" xtargets="s129;s101 s102"/>
+    <link targType="sentence" type="1-1" xtargets="s130;s104"/>
+    <link targType="sentence" type="1-1" xtargets="s131;s105"/>
+    <link targType="sentence" type="1-1" xtargets="s132;s106"/>
+    <link targType="sentence" type="1-1" xtargets="s133;s107"/>
+    <link targType="sentence" type="1-1" xtargets="s134;s108"/>
+    <link targType="sentence" type="1-1" xtargets="s135;s109"/>
+    <link targType="sentence" type="1-1" xtargets="s136;s110"/>
+    <link targType="sentence" type="1-1" xtargets="s137;s111"/>
+    <link targType="sentence" type="1-1" xtargets="s138;s112"/>
+    <link targType="sentence" type="1-1" xtargets="s141;s113"/>
+    <link targType="sentence" type="1-1" xtargets="s142;s114"/>
+    <link targType="sentence" type="1-1" xtargets="s143;s115"/>
+    <link targType="sentence" type="1-1" xtargets="s144;s116"/>
+    <link targType="sentence" type="1-1" xtargets="s145;s117"/>
+    <link targType="sentence" type="1-1" xtargets="s147;s118"/>
+    <link targType="sentence" type="1-1" xtargets="s148;s119"/>
+    <link targType="sentence" type="1-1" xtargets="s149;s120"/>
+    <link targType="sentence" type="1-1" xtargets="s150;s121"/>
+    <link targType="sentence" type="1-1" xtargets="s151;s122"/>
+    <link targType="sentence" type="1-1" xtargets="s152;s123"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a19;a18">
+    <link targType="sentence" type="1-1" xtargets="s1;s1"/>
+    <link targType="sentence" type="2-2" xtargets="s2 s3;s2 s3"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s4"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s5"/>
+    <link targType="sentence" type="1-1" xtargets="s6;s6"/>
+    <link targType="sentence" type="1-1" xtargets="s7;s7"/>
+    <link targType="sentence" type="1-1" xtargets="s8;s8"/>
+    <link targType="sentence" type="2-1" xtargets="s9 s10;s9"/>
+    <link targType="sentence" type="1-1" xtargets="s11;s10"/>
+    <link targType="sentence" type="1-1" xtargets="s12;s11"/>
+    <link targType="sentence" type="1-1" xtargets="s13;s12"/>
+    <link targType="sentence" type="1-1" xtargets="s14;s13"/>
+    <link targType="sentence" type="1-1" xtargets="s15;s14"/>
+    <link targType="sentence" type="1-1" xtargets="s16;s15"/>
+    <link targType="sentence" type="1-1" xtargets="s17;s16"/>
+    <link targType="sentence" type="1-1" xtargets="s18;s17"/>
+    <link targType="sentence" type="1-1" xtargets="s19;s18"/>
+    <link targType="sentence" type="1-1" xtargets="s20;s19"/>
+    <link targType="sentence" type="1-1" xtargets="s21;s20"/>
+    <link targType="sentence" type="1-1" xtargets="s22;s21"/>
+    <link targType="sentence" type="1-1" xtargets="s23;s22"/>
+    <link targType="sentence" type="1-1" xtargets="s24;s23"/>
+    <link targType="sentence" type="1-1" xtargets="s25;s24"/>
+    <link targType="sentence" type="1-1" xtargets="s26;s25"/>
+    <link targType="sentence" type="1-1" xtargets="s27;s26"/>
+    <link targType="sentence" type="1-1" xtargets="s28;s27"/>
+    <link targType="sentence" type="1-1" xtargets="s29;s28"/>
+    <link targType="sentence" type="1-1" xtargets="s30;s29"/>
+    <link targType="sentence" type="1-2" xtargets="s31;s30 s31"/>
+    <link targType="sentence" type="1-1" xtargets="s32;s32"/>
+    <link targType="sentence" type="2-1" xtargets="s33 s34;s33"/>
+    <link targType="sentence" type="1-1" xtargets="s37;s34"/>
+    <link targType="sentence" type="1-1" xtargets="s38;s35"/>
+    <link targType="sentence" type="2-1" xtargets="s40 s41;s36"/>
+    <link targType="sentence" type="2-1" xtargets="s42 s43;s37"/>
+    <link targType="sentence" type="2-1" xtargets="s44 s45;s38"/>
+    <link targType="sentence" type="1-1" xtargets="s46;s39"/>
+    <link targType="sentence" type="1-1" xtargets="s47;s40"/>
+    <link targType="sentence" type="1-1" xtargets="s48;s41"/>
+    <link targType="sentence" type="1-1" xtargets="s49;s42"/>
+    <link targType="sentence" type="1-1" xtargets="s50;s43"/>
+    <link targType="sentence" type="2-1" xtargets="s51 s52;s44"/>
+    <link targType="sentence" type="1-1" xtargets="s53;s45"/>
+    <link targType="sentence" type="1-1" xtargets="s54;s46"/>
+    <link targType="sentence" type="1-1" xtargets="s55;s47"/>
+    <link targType="sentence" type="1-1" xtargets="s56;s48"/>
+    <link targType="sentence" type="1-1" xtargets="s57;s49"/>
+    <link targType="sentence" type="1-1" xtargets="s58;s50"/>
+    <link targType="sentence" type="1-1" xtargets="s59;s51"/>
+    <link targType="sentence" type="1-1" xtargets="s60;s52"/>
+    <link targType="sentence" type="1-1" xtargets="s61;s53"/>
+    <link targType="sentence" type="1-1" xtargets="s62;s54"/>
+    <link targType="sentence" type="1-1" xtargets="s63;s55"/>
+    <link targType="sentence" type="1-1" xtargets="s64;s56"/>
+    <link targType="sentence" type="1-1" xtargets="s65;s57"/>
+    <link targType="sentence" type="1-1" xtargets="s66;s58"/>
+    <link targType="sentence" type="1-1" xtargets="s67;s59"/>
+    <link targType="sentence" type="1-1" xtargets="s68;s60"/>
+    <link targType="sentence" type="1-1" xtargets="s69;s61"/>
+    <link targType="sentence" type="1-2" xtargets="s70;s62 s63"/>
+    <link targType="sentence" type="1-1" xtargets="s71;s64"/>
+    <link targType="sentence" type="1-1" xtargets="s72;s65"/>
+    <link targType="sentence" type="1-1" xtargets="s73;s66"/>
+    <link targType="sentence" type="1-1" xtargets="s74;s67"/>
+    <link targType="sentence" type="1-1" xtargets="s75;s68"/>
+    <link targType="sentence" type="1-2" xtargets="s76;s69 s70"/>
+    <link targType="sentence" type="1-1" xtargets="s77;s71"/>
+    <link targType="sentence" type="1-1" xtargets="s78;s72"/>
+    <link targType="sentence" type="1-2" xtargets="s79;s73 s74"/>
+    <link targType="sentence" type="1-1" xtargets="s80;s75"/>
+    <link targType="sentence" type="1-2" xtargets="s81;s76 s77"/>
+    <link targType="sentence" type="1-1" xtargets="s83;s78"/>
+    <link targType="sentence" type="1-1" xtargets="s84;s79"/>
+    <link targType="sentence" type="1-2" xtargets="s85;s76 s77"/>
+    <link targType="sentence" type="1-2" xtargets="s86;s79 s80"/>
+    <link targType="sentence" type="1-1" xtargets="s87;s81"/>
+    <link targType="sentence" type="1-2" xtargets="s88;s82 s83"/>
+    <link targType="sentence" type="1-1" xtargets="s89;s84"/>
+    <link targType="sentence" type="1-1" xtargets="s90;s85"/>
+    <link targType="sentence" type="1-2" xtargets="s91;s76 s77"/>
+    <link targType="sentence" type="1-1" xtargets="s92;s79"/>
+    <link targType="sentence" type="1-1" xtargets="s93;s80"/>
+    <link targType="sentence" type="1-2" xtargets="s94;s81 s82"/>
+    <link targType="sentence" type="1-2" xtargets="s95;s83 s84"/>
+    <link targType="sentence" type="1-1" xtargets="s96;s85"/>
+    <link targType="sentence" type="1-2" xtargets="s97;s86 s87"/>
+    <link targType="sentence" type="1-2" xtargets="s98;s88 s89"/>
+    <link targType="sentence" type="1-2" xtargets="s99;s90 s91"/>
+    <link targType="sentence" type="1-2" xtargets="s100;s92 s93"/>
+    <link targType="sentence" type="1-1" xtargets="s101;s94"/>
+    <link targType="sentence" type="1-2" xtargets="s102;s95 s96"/>
+    <link targType="sentence" type="1-2" xtargets="s103;s97 s98"/>
+    <link targType="sentence" type="1-1" xtargets="s104;s99"/>
+    <link targType="sentence" type="1-1" xtargets="s105;s100"/>
+    <link targType="sentence" type="1-1" xtargets="s106;s101"/>
+    <link targType="sentence" type="1-1" xtargets="s107;s102"/>
+    <link targType="sentence" type="1-1" xtargets="s108;s103"/>
+    <link targType="sentence" type="1-1" xtargets="s109;s104"/>
+    <link targType="sentence" type="1-1" xtargets="s110;s105"/>
+    <link targType="sentence" type="1-1" xtargets="s111;s106"/>
+    <link targType="sentence" type="1-1" xtargets="s112;s107"/>
+    <link targType="sentence" type="1-1" xtargets="s113;s108"/>
+    <link targType="sentence" type="1-1" xtargets="s114;s109"/>
+    <link targType="sentence" type="1-2" xtargets="s115;s110 s111"/>
+    <link targType="sentence" type="1-1" xtargets="s116;s112"/>
+    <link targType="sentence" type="1-1" xtargets="s117;s113"/>
+    <link targType="sentence" type="2-1" xtargets="s120 s121;s114"/>
+    <link targType="sentence" type="1-1" xtargets="s122;s116"/>
+    <link targType="sentence" type="1-1" xtargets="s123;s117"/>
+    <link targType="sentence" type="2-1" xtargets="s124 s125;s118"/>
+    <link targType="sentence" type="1-1" xtargets="s126;s119"/>
+    <link targType="sentence" type="1-1" xtargets="s127;s120"/>
+    <link targType="sentence" type="1-2" xtargets="s128;s121 s122"/>
+    <link targType="sentence" type="1-1" xtargets="s129;s123"/>
+    <link targType="sentence" type="2-1" xtargets="s131 s132;s124"/>
+    <link targType="sentence" type="1-1" xtargets="s133;s125"/>
+    <link targType="sentence" type="1-1" xtargets="s134;s126"/>
+    <link targType="sentence" type="1-1" xtargets="s135;s127"/>
+    <link targType="sentence" type="1-1" xtargets="s136;s128"/>
+    <link targType="sentence" type="1-1" xtargets="s137;s129"/>
+    <link targType="sentence" type="1-1" xtargets="s138;s130"/>
+    <link targType="sentence" type="1-1" xtargets="s139;s131"/>
+    <link targType="sentence" type="1-1" xtargets="s140;s132"/>
+    <link targType="sentence" type="1-1" xtargets="s141;s133"/>
+    <link targType="sentence" type="1-1" xtargets="s142;s134"/>
+    <link targType="sentence" type="1-1" xtargets="s143;s135"/>
+    <link targType="sentence" type="1-1" xtargets="s144;s136"/>
+    <link targType="sentence" type="1-1" xtargets="s145;s137"/>
+    <link targType="sentence" type="1-1" xtargets="s146;s138"/>
+    <link targType="sentence" type="1-1" xtargets="s147;s139"/>
+    <link targType="sentence" type="1-1" xtargets="s148;s140"/>
+    <link targType="sentence" type="1-1" xtargets="s149;s141"/>
+    <link targType="sentence" type="1-1" xtargets="s150;s142"/>
+    <link targType="sentence" type="1-1" xtargets="s151;s143"/>
+    <link targType="sentence" type="1-1" xtargets="s152;s144"/>
+    <link targType="sentence" type="1-1" xtargets="s153;s145"/>
+    <link targType="sentence" type="1-1" xtargets="s154;s146"/>
+    <link targType="sentence" type="1-1" xtargets="s155;s147"/>
+    <link targType="sentence" type="1-1" xtargets="s156;s148"/>
+    <link targType="sentence" type="1-1" xtargets="s157;s149"/>
+    <link targType="sentence" type="1-1" xtargets="s158;s150"/>
+    <link targType="sentence" type="1-1" xtargets="s159;s151"/>
+    <link targType="sentence" type="1-1" xtargets="s160;s152"/>
+    <link targType="sentence" type="1-1" xtargets="s161;s153"/>
+    <link targType="sentence" type="1-1" xtargets="s162;s154"/>
+    <link targType="sentence" type="1-1" xtargets="s163;s155"/>
+    <link targType="sentence" type="1-1" xtargets="s164;s156"/>
+    <link targType="sentence" type="1-1" xtargets="s165;s157"/>
+    <link targType="sentence" type="1-1" xtargets="s166;s158"/>
+    <link targType="sentence" type="1-1" xtargets="s167;s159"/>
+    <link targType="sentence" type="1-1" xtargets="s168;s160"/>
+    <link targType="sentence" type="1-1" xtargets="s169;s161"/>
+    <link targType="sentence" type="1-1" xtargets="s170;s162"/>
+    <link targType="sentence" type="1-1" xtargets="s171;s163"/>
+    <link targType="sentence" type="1-1" xtargets="s172;s164"/>
+    <link targType="sentence" type="1-1" xtargets="s173;s165"/>
+    <link targType="sentence" type="1-1" xtargets="s174;s166"/>
+    <link targType="sentence" type="1-1" xtargets="s175;s167"/>
+    <link targType="sentence" type="1-1" xtargets="s176;s168"/>
+    <link targType="sentence" type="1-1" xtargets="s177;s169"/>
+    <link targType="sentence" type="1-1" xtargets="s178;s129"/>
+    <link targType="sentence" type="1-1" xtargets="s219;s129"/>
+    <link targType="sentence" type="1-1" xtargets="s259;s251"/>
+    <link targType="sentence" type="1-1" xtargets="s261;s256"/>
+    <link targType="sentence" type="1-1" xtargets="s262;s257"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a20;a19">
+    <link targType="sentence" type="1-2" xtargets="s1;s1 s2"/>
+    <link targType="sentence" type="1-1" xtargets="s2;s3"/>
+    <link targType="sentence" type="1-2" xtargets="s3;s4 s5"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s6"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s7"/>
+    <link targType="sentence" type="1-1" xtargets="s6;s8"/>
+    <link targType="sentence" type="2-1" xtargets="s7 s8;s9"/>
+    <link targType="sentence" type="3-1" xtargets="s9 s10 s11;s10"/>
+    <link targType="sentence" type="1-1" xtargets="s14;s11"/>
+    <link targType="sentence" type="1-1" xtargets="s15;s12"/>
+    <link targType="sentence" type="1-1" xtargets="s16;s14"/>
+    <link targType="sentence" type="1-1" xtargets="s17;s15"/>
+    <link targType="sentence" type="1-2" xtargets="s18;s16 s17"/>
+    <link targType="sentence" type="1-1" xtargets="s19;s18"/>
+    <link targType="sentence" type="1-1" xtargets="s20;s19"/>
+    <link targType="sentence" type="1-1" xtargets="s25;s22"/>
+    <link targType="sentence" type="2-1" xtargets="s27 s28;s23"/>
+    <link targType="sentence" type="1-1" xtargets="s29;s24"/>
+    <link targType="sentence" type="1-1" xtargets="s30;s25"/>
+    <link targType="sentence" type="1-1" xtargets="s31;s26"/>
+    <link targType="sentence" type="1-1" xtargets="s32;s27"/>
+    <link targType="sentence" type="1-1" xtargets="s41;s30"/>
+    <link targType="sentence" type="1-1" xtargets="s42;s31"/>
+    <link targType="sentence" type="1-1" xtargets="s43;s32"/>
+    <link targType="sentence" type="1-1" xtargets="s44;s33"/>
+    <link targType="sentence" type="1-1" xtargets="s45;s34"/>
+    <link targType="sentence" type="1-1" xtargets="s46;s35"/>
+    <link targType="sentence" type="1-1" xtargets="s47;s36"/>
+    <link targType="sentence" type="1-1" xtargets="s48;s37"/>
+    <link targType="sentence" type="1-1" xtargets="s49;s38"/>
+    <link targType="sentence" type="1-1" xtargets="s50;s39"/>
+    <link targType="sentence" type="1-1" xtargets="s51;s40"/>
+    <link targType="sentence" type="1-1" xtargets="s52;s41"/>
+    <link targType="sentence" type="1-1" xtargets="s53;s42"/>
+    <link targType="sentence" type="1-1" xtargets="s54;s43"/>
+    <link targType="sentence" type="1-1" xtargets="s55;s44"/>
+    <link targType="sentence" type="1-1" xtargets="s56;s45"/>
+    <link targType="sentence" type="1-2" xtargets="s57;s48 s49"/>
+    <link targType="sentence" type="2-1" xtargets="s58 s59;s49"/>
+    <link targType="sentence" type="2-2" xtargets="s60 s61;s51 s52"/>
+    <link targType="sentence" type="1-2" xtargets="s62;s53 s54"/>
+    <link targType="sentence" type="1-1" xtargets="s64;s55"/>
+    <link targType="sentence" type="1-1" xtargets="s65;s56"/>
+    <link targType="sentence" type="1-1" xtargets="s66;s57"/>
+    <link targType="sentence" type="1-1" xtargets="s67;s58"/>
+    <link targType="sentence" type="1-1" xtargets="s68;s59"/>
+    <link targType="sentence" type="1-1" xtargets="s69;s60"/>
+    <link targType="sentence" type="1-1" xtargets="s70;s61"/>
+    <link targType="sentence" type="1-1" xtargets="s71;s62"/>
+    <link targType="sentence" type="1-1" xtargets="s72;s63"/>
+    <link targType="sentence" type="1-1" xtargets="s73;s64"/>
+    <link targType="sentence" type="1-1" xtargets="s74;s65"/>
+    <link targType="sentence" type="1-1" xtargets="s75;s66"/>
+    <link targType="sentence" type="1-1" xtargets="s76;s67"/>
+    <link targType="sentence" type="1-1" xtargets="s77;s68"/>
+    <link targType="sentence" type="1-1" xtargets="s78;s69"/>
+    <link targType="sentence" type="2-1" xtargets="s79 s80;s70"/>
+    <link targType="sentence" type="1-1" xtargets="s81;s71"/>
+    <link targType="sentence" type="1-1" xtargets="s82;s72"/>
+    <link targType="sentence" type="1-1" xtargets="s83;s73"/>
+    <link targType="sentence" type="1-1" xtargets="s84;s74"/>
+    <link targType="sentence" type="1-2" xtargets="s85;s75 s76"/>
+    <link targType="sentence" type="1-1" xtargets="s86;s77"/>
+    <link targType="sentence" type="1-1" xtargets="s87;s78"/>
+    <link targType="sentence" type="1-1" xtargets="s88;s79"/>
+    <link targType="sentence" type="1-1" xtargets="s89;s80"/>
+    <link targType="sentence" type="1-1" xtargets="s90;s81"/>
+    <link targType="sentence" type="1-1" xtargets="s91;s82"/>
+    <link targType="sentence" type="1-1" xtargets="s92;s83"/>
+    <link targType="sentence" type="1-1" xtargets="s93;s84"/>
+    <link targType="sentence" type="1-1" xtargets="s94;s85"/>
+    <link targType="sentence" type="1-1" xtargets="s95;s86"/>
+    <link targType="sentence" type="1-1" xtargets="s96;s87"/>
+    <link targType="sentence" type="1-1" xtargets="s97;s88"/>
+    <link targType="sentence" type="1-1" xtargets="s98;s89"/>
+    <link targType="sentence" type="1-1" xtargets="s99;s90"/>
+    <link targType="sentence" type="1-1" xtargets="s100;s91"/>
+    <link targType="sentence" type="1-1" xtargets="s105;s94"/>
+    <link targType="sentence" type="3-1" xtargets="s106 s107 s108;s95"/>
+    <link targType="sentence" type="1-1" xtargets="s109;s96"/>
+    <link targType="sentence" type="1-1" xtargets="s114;s97"/>
+    <link targType="sentence" type="2-1" xtargets="s115 s116;s98"/>
+    <link targType="sentence" type="2-1" xtargets="s117 s118;s99"/>
+    <link targType="sentence" type="1-1" xtargets="s119;s100"/>
+    <link targType="sentence" type="2-1" xtargets="s121 s122;s101"/>
+    <link targType="sentence" type="1-1" xtargets="s123;s102"/>
+    <link targType="sentence" type="1-1" xtargets="s124;s103"/>
+    <link targType="sentence" type="1-1" xtargets="s125;s104"/>
+    <link targType="sentence" type="1-1" xtargets="s126;s105"/>
+    <link targType="sentence" type="1-1" xtargets="s127;s106"/>
+    <link targType="sentence" type="1-1" xtargets="s128;s107"/>
+    <link targType="sentence" type="1-1" xtargets="s129;s108"/>
+    <link targType="sentence" type="1-1" xtargets="s130;s109"/>
+    <link targType="sentence" type="1-1" xtargets="s131;s110"/>
+    <link targType="sentence" type="1-1" xtargets="s132;s111"/>
+    <link targType="sentence" type="1-1" xtargets="s133;s112"/>
+    <link targType="sentence" type="1-1" xtargets="s134;s113"/>
+    <link targType="sentence" type="1-1" xtargets="s135;s114"/>
+    <link targType="sentence" type="1-1" xtargets="s136;s115"/>
+    <link targType="sentence" type="1-1" xtargets="s137;s116"/>
+    <link targType="sentence" type="1-1" xtargets="s138;s117"/>
+    <link targType="sentence" type="1-1" xtargets="s139;s118"/>
+    <link targType="sentence" type="1-1" xtargets="s140;s119"/>
+    <link targType="sentence" type="1-1" xtargets="s141;s121"/>
+    <link targType="sentence" type="1-1" xtargets="s142;s122"/>
+    <link targType="sentence" type="1-1" xtargets="s143;s123"/>
+    <link targType="sentence" type="1-1" xtargets="s144;s124"/>
+    <link targType="sentence" type="1-1" xtargets="s148;s125"/>
+    <link targType="sentence" type="1-1" xtargets="s149;s126"/>
+    <link targType="sentence" type="1-1" xtargets="s150;s130"/>
+    <link targType="sentence" type="1-1" xtargets="s151;s131"/>
+    <link targType="sentence" type="1-1" xtargets="s152;s132"/>
+    <link targType="sentence" type="2-1" xtargets="s153 s154;s134"/>
+    <link targType="sentence" type="1-1" xtargets="s156;s135"/>
+    <link targType="sentence" type="1-1" xtargets="s157;s136"/>
+    <link targType="sentence" type="2-1" xtargets="s162 s163;s138"/>
+    <link targType="sentence" type="1-1" xtargets="s164;s139"/>
+    <link targType="sentence" type="1-1" xtargets="s165;s140"/>
+    <link targType="sentence" type="1-1" xtargets="s166;s141"/>
+    <link targType="sentence" type="1-1" xtargets="s167;s142"/>
+    <link targType="sentence" type="1-1" xtargets="s168;s143"/>
+    <link targType="sentence" type="1-1" xtargets="s169;s144"/>
+    <link targType="sentence" type="1-1" xtargets="s170;s145"/>
+    <link targType="sentence" type="1-1" xtargets="s171;s146"/>
+    <link targType="sentence" type="1-3" xtargets="s178;s147 s148 s149"/>
+    <link targType="sentence" type="1-1" xtargets="s179;s150"/>
+    <link targType="sentence" type="1-1" xtargets="s180;s151"/>
+    <link targType="sentence" type="1-1" xtargets="s181;s153"/>
+    <link targType="sentence" type="1-1" xtargets="s183;s154"/>
+    <link targType="sentence" type="1-1" xtargets="s184;s155"/>
+    <link targType="sentence" type="1-1" xtargets="s185;s156"/>
+    <link targType="sentence" type="1-1" xtargets="s186;s157"/>
+    <link targType="sentence" type="1-1" xtargets="s187;s158"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a21;a20">
+    <link targType="sentence" type="1-1" xtargets="s1;s1"/>
+    <link targType="sentence" type="1-1" xtargets="s3;s2"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s3"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s4"/>
+    <link targType="sentence" type="1-1" xtargets="s6;s5"/>
+    <link targType="sentence" type="1-1" xtargets="s7;s6"/>
+    <link targType="sentence" type="1-1" xtargets="s9;s13"/>
+    <link targType="sentence" type="1-1" xtargets="s16;s15"/>
+    <link targType="sentence" type="1-1" xtargets="s17;s16"/>
+    <link targType="sentence" type="1-1" xtargets="s19;s17"/>
+    <link targType="sentence" type="1-1" xtargets="s20;s18"/>
+    <link targType="sentence" type="2-1" xtargets="s21 s22;s19"/>
+    <link targType="sentence" type="2-1" xtargets="s23 s24;s20"/>
+    <link targType="sentence" type="1-1" xtargets="s26;s21"/>
+    <link targType="sentence" type="1-1" xtargets="s27;s22"/>
+    <link targType="sentence" type="1-1" xtargets="s28;s23"/>
+    <link targType="sentence" type="1-1" xtargets="s29;s24"/>
+    <link targType="sentence" type="1-1" xtargets="s30;s25"/>
+    <link targType="sentence" type="1-1" xtargets="s31;s26"/>
+    <link targType="sentence" type="1-1" xtargets="s32;s27"/>
+    <link targType="sentence" type="1-1" xtargets="s33;s28"/>
+    <link targType="sentence" type="1-1" xtargets="s34;s29"/>
+    <link targType="sentence" type="1-1" xtargets="s35;s30"/>
+    <link targType="sentence" type="1-1" xtargets="s36;s31"/>
+    <link targType="sentence" type="1-1" xtargets="s37;s32"/>
+    <link targType="sentence" type="1-1" xtargets="s38;s33"/>
+    <link targType="sentence" type="1-1" xtargets="s39;s34"/>
+    <link targType="sentence" type="1-1" xtargets="s40;s35"/>
+    <link targType="sentence" type="1-1" xtargets="s41;s36"/>
+    <link targType="sentence" type="1-1" xtargets="s42;s37"/>
+    <link targType="sentence" type="1-1" xtargets="s47;s39"/>
+    <link targType="sentence" type="1-1" xtargets="s50;s40"/>
+    <link targType="sentence" type="1-2" xtargets="s51;s42 s43"/>
+    <link targType="sentence" type="1-1" xtargets="s52;s44"/>
+    <link targType="sentence" type="1-2" xtargets="s53;s45 s46"/>
+    <link targType="sentence" type="1-2" xtargets="s54;s47 s48"/>
+    <link targType="sentence" type="2-1" xtargets="s55 s56;s49"/>
+    <link targType="sentence" type="2-1" xtargets="s57 s58;s50"/>
+    <link targType="sentence" type="1-1" xtargets="s59;s51"/>
+    <link targType="sentence" type="1-1" xtargets="s60;s52"/>
+    <link targType="sentence" type="1-1" xtargets="s61;s53"/>
+    <link targType="sentence" type="1-1" xtargets="s62;s54"/>
+    <link targType="sentence" type="1-1" xtargets="s63;s55"/>
+    <link targType="sentence" type="1-1" xtargets="s64;s56"/>
+    <link targType="sentence" type="1-1" xtargets="s65;s57"/>
+    <link targType="sentence" type="1-2" xtargets="s66;s58 s59"/>
+    <link targType="sentence" type="1-1" xtargets="s67;s60"/>
+    <link targType="sentence" type="1-1" xtargets="s68;s61"/>
+    <link targType="sentence" type="1-1" xtargets="s69;s62"/>
+    <link targType="sentence" type="2-1" xtargets="s71 s72;s63"/>
+    <link targType="sentence" type="1-1" xtargets="s73;s64"/>
+    <link targType="sentence" type="1-1" xtargets="s74;s65"/>
+    <link targType="sentence" type="1-1" xtargets="s75;s66"/>
+    <link targType="sentence" type="1-1" xtargets="s76;s67"/>
+    <link targType="sentence" type="1-1" xtargets="s77;s68"/>
+    <link targType="sentence" type="1-1" xtargets="s78;s69"/>
+    <link targType="sentence" type="1-1" xtargets="s79;s70"/>
+    <link targType="sentence" type="1-1" xtargets="s80;s71"/>
+    <link targType="sentence" type="1-1" xtargets="s81;s72"/>
+    <link targType="sentence" type="1-1" xtargets="s82;s73"/>
+    <link targType="sentence" type="1-1" xtargets="s83;s74"/>
+    <link targType="sentence" type="1-1" xtargets="s84;s75"/>
+    <link targType="sentence" type="1-1" xtargets="s85;s76"/>
+    <link targType="sentence" type="1-1" xtargets="s86;s77"/>
+    <link targType="sentence" type="1-1" xtargets="s87;s78"/>
+    <link targType="sentence" type="1-1" xtargets="s88;s79"/>
+    <link targType="sentence" type="1-1" xtargets="s89;s80"/>
+    <link targType="sentence" type="1-1" xtargets="s90;s81"/>
+    <link targType="sentence" type="1-1" xtargets="s91;s82"/>
+    <link targType="sentence" type="1-1" xtargets="s92;s83"/>
+    <link targType="sentence" type="1-1" xtargets="s93;s84"/>
+    <link targType="sentence" type="1-1" xtargets="s94;s85"/>
+    <link targType="sentence" type="1-1" xtargets="s95;s86"/>
+    <link targType="sentence" type="1-1" xtargets="s96;s87"/>
+    <link targType="sentence" type="1-1" xtargets="s97;s88"/>
+    <link targType="sentence" type="1-1" xtargets="s98;s89"/>
+    <link targType="sentence" type="1-1" xtargets="s99;s90"/>
+    <link targType="sentence" type="1-1" xtargets="s100;s91"/>
+    <link targType="sentence" type="1-1" xtargets="s101;s92"/>
+    <link targType="sentence" type="1-1" xtargets="s102;s93"/>
+    <link targType="sentence" type="1-1" xtargets="s103;s64"/>
+    <link targType="sentence" type="1-1" xtargets="s133;s64"/>
+    <link targType="sentence" type="1-1" xtargets="s137;s128"/>
+    <link targType="sentence" type="1-1" xtargets="s138;s129"/>
+    <link targType="sentence" type="1-1" xtargets="s139;s130"/>
+    <link targType="sentence" type="1-1" xtargets="s140;s131"/>
+    <link targType="sentence" type="1-1" xtargets="s141;s132"/>
+    <link targType="sentence" type="1-1" xtargets="s142;s133"/>
+    <link targType="sentence" type="1-1" xtargets="s143;s134"/>
+    <link targType="sentence" type="1-1" xtargets="s144;s135"/>
+    <link targType="sentence" type="1-1" xtargets="s145;s136"/>
+    <link targType="sentence" type="1-1" xtargets="s146;s137"/>
+    <link targType="sentence" type="1-1" xtargets="s147;s138"/>
+    <link targType="sentence" type="1-1" xtargets="s148;s139"/>
+    <link targType="sentence" type="1-1" xtargets="s149;s140"/>
+    <link targType="sentence" type="1-1" xtargets="s150;s141"/>
+    <link targType="sentence" type="1-1" xtargets="s151;s142"/>
+    <link targType="sentence" type="1-1" xtargets="s152;s143"/>
+    <link targType="sentence" type="1-1" xtargets="s153;s144"/>
+    <link targType="sentence" type="1-1" xtargets="s154;s145"/>
+    <link targType="sentence" type="1-1" xtargets="s155;s146"/>
+    <link targType="sentence" type="1-1" xtargets="s156;s147"/>
+    <link targType="sentence" type="1-1" xtargets="s157;s148"/>
+    <link targType="sentence" type="1-1" xtargets="s158;s149"/>
+    <link targType="sentence" type="1-1" xtargets="s159;s150"/>
+    <link targType="sentence" type="1-1" xtargets="s160;s151"/>
+    <link targType="sentence" type="1-1" xtargets="s165;s153"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a22;a21">
+    <link targType="sentence" type="1-1" xtargets="s1;s1"/>
+    <link targType="sentence" type="1-1" xtargets="s2;s2"/>
+    <link targType="sentence" type="1-1" xtargets="s3;s3"/>
+    <link targType="sentence" type="2-2" xtargets="s4 s5;s4 s5"/>
+    <link targType="sentence" type="1-1" xtargets="s6;s6"/>
+    <link targType="sentence" type="1-1" xtargets="s7;s7"/>
+    <link targType="sentence" type="1-1" xtargets="s8;s8"/>
+    <link targType="sentence" type="2-2" xtargets="s9 s10;s9 s10"/>
+    <link targType="sentence" type="1-1" xtargets="s11;s11"/>
+    <link targType="sentence" type="1-1" xtargets="s12;s12"/>
+    <link targType="sentence" type="1-1" xtargets="s13;s13"/>
+    <link targType="sentence" type="1-1" xtargets="s14;s14"/>
+    <link targType="sentence" type="1-1" xtargets="s15;s15"/>
+    <link targType="sentence" type="1-1" xtargets="s16;s16"/>
+    <link targType="sentence" type="1-1" xtargets="s17;s17"/>
+    <link targType="sentence" type="1-1" xtargets="s18;s18"/>
+    <link targType="sentence" type="1-1" xtargets="s19;s19"/>
+    <link targType="sentence" type="1-1" xtargets="s20;s20"/>
+    <link targType="sentence" type="2-1" xtargets="s21 s22;s21"/>
+    <link targType="sentence" type="1-1" xtargets="s23;s22"/>
+    <link targType="sentence" type="1-1" xtargets="s24;s23"/>
+    <link targType="sentence" type="1-1" xtargets="s25;s24"/>
+    <link targType="sentence" type="1-1" xtargets="s27;s25"/>
+    <link targType="sentence" type="1-1" xtargets="s28;s26"/>
+    <link targType="sentence" type="1-1" xtargets="s29;s27"/>
+    <link targType="sentence" type="1-1" xtargets="s30;s28"/>
+    <link targType="sentence" type="1-2" xtargets="s31;s29 s30"/>
+    <link targType="sentence" type="1-1" xtargets="s32;s31"/>
+    <link targType="sentence" type="1-1" xtargets="s33;s32"/>
+    <link targType="sentence" type="1-1" xtargets="s34;s33"/>
+    <link targType="sentence" type="2-2" xtargets="s35 s36;s34 s35"/>
+    <link targType="sentence" type="1-1" xtargets="s37;s36"/>
+    <link targType="sentence" type="1-1" xtargets="s38;s37"/>
+    <link targType="sentence" type="1-1" xtargets="s39;s38"/>
+    <link targType="sentence" type="1-1" xtargets="s40;s40"/>
+    <link targType="sentence" type="1-1" xtargets="s41;s41"/>
+    <link targType="sentence" type="1-1" xtargets="s42;s42"/>
+    <link targType="sentence" type="1-1" xtargets="s43;s43"/>
+    <link targType="sentence" type="1-1" xtargets="s44;s44"/>
+    <link targType="sentence" type="1-1" xtargets="s45;s45"/>
+    <link targType="sentence" type="1-1" xtargets="s46;s46"/>
+    <link targType="sentence" type="1-1" xtargets="s47;s47"/>
+    <link targType="sentence" type="1-1" xtargets="s48;s48"/>
+    <link targType="sentence" type="1-1" xtargets="s49;s49"/>
+    <link targType="sentence" type="1-1" xtargets="s50;s50"/>
+    <link targType="sentence" type="3-1" xtargets="s51 s52 s53;s51"/>
+    <link targType="sentence" type="1-1" xtargets="s54;s52"/>
+    <link targType="sentence" type="1-1" xtargets="s55;s53"/>
+    <link targType="sentence" type="1-1" xtargets="s78;s54"/>
+    <link targType="sentence" type="1-1" xtargets="s79;s56"/>
+    <link targType="sentence" type="1-1" xtargets="s80;s57"/>
+    <link targType="sentence" type="1-2" xtargets="s81;s58 s59"/>
+    <link targType="sentence" type="1-1" xtargets="s82;s60"/>
+    <link targType="sentence" type="1-1" xtargets="s83;s61"/>
+    <link targType="sentence" type="1-1" xtargets="s84;s62"/>
+    <link targType="sentence" type="1-1" xtargets="s85;s63"/>
+    <link targType="sentence" type="1-1" xtargets="s86;s64"/>
+    <link targType="sentence" type="2-1" xtargets="s87 s88;s65"/>
+    <link targType="sentence" type="2-1" xtargets="s90 s91;s66"/>
+    <link targType="sentence" type="1-1" xtargets="s92;s67"/>
+    <link targType="sentence" type="1-1" xtargets="s93;s68"/>
+    <link targType="sentence" type="1-1" xtargets="s94;s69"/>
+    <link targType="sentence" type="1-1" xtargets="s95;s70"/>
+    <link targType="sentence" type="1-1" xtargets="s96;s71"/>
+    <link targType="sentence" type="2-3" xtargets="s97 s98;s72 s73 s74"/>
+    <link targType="sentence" type="1-1" xtargets="s99;s75"/>
+    <link targType="sentence" type="1-1" xtargets="s100;s76"/>
+    <link targType="sentence" type="1-1" xtargets="s101;s77"/>
+    <link targType="sentence" type="1-2" xtargets="s102;s78 s79"/>
+    <link targType="sentence" type="1-1" xtargets="s103;s80"/>
+    <link targType="sentence" type="1-1" xtargets="s104;s81"/>
+    <link targType="sentence" type="1-1" xtargets="s105;s82"/>
+    <link targType="sentence" type="1-1" xtargets="s106;s83"/>
+    <link targType="sentence" type="1-1" xtargets="s107;s84"/>
+    <link targType="sentence" type="1-1" xtargets="s108;s85"/>
+    <link targType="sentence" type="1-1" xtargets="s109;s86"/>
+    <link targType="sentence" type="1-2" xtargets="s110;s87 s88"/>
+    <link targType="sentence" type="1-1" xtargets="s111;s89"/>
+    <link targType="sentence" type="1-1" xtargets="s112;s90"/>
+    <link targType="sentence" type="2-2" xtargets="s113 s114;s91 s92"/>
+    <link targType="sentence" type="2-1" xtargets="s117 s118;s93"/>
+    <link targType="sentence" type="1-1" xtargets="s119;s94"/>
+    <link targType="sentence" type="2-3" xtargets="s120 s121;s116 s117 s118"/>
+    <link targType="sentence" type="1-1" xtargets="s122;s119"/>
+    <link targType="sentence" type="1-1" xtargets="s123;s120"/>
+    <link targType="sentence" type="2-3" xtargets="s124 s125;s121 s122 s123"/>
+    <link targType="sentence" type="1-1" xtargets="s126;s124"/>
+    <link targType="sentence" type="1-1" xtargets="s127;s125"/>
+    <link targType="sentence" type="1-1" xtargets="s128;s126"/>
+    <link targType="sentence" type="1-1" xtargets="s129;s127"/>
+    <link targType="sentence" type="1-2" xtargets="s130;s128 s129"/>
+    <link targType="sentence" type="1-1" xtargets="s131;s130"/>
+    <link targType="sentence" type="1-1" xtargets="s132;s131"/>
+    <link targType="sentence" type="1-1" xtargets="s133;s132"/>
+    <link targType="sentence" type="1-1" xtargets="s134;s133"/>
+    <link targType="sentence" type="1-1" xtargets="s135;s134"/>
+    <link targType="sentence" type="1-1" xtargets="s136;s135"/>
+    <link targType="sentence" type="1-1" xtargets="s137;s136"/>
+    <link targType="sentence" type="1-1" xtargets="s138;s137"/>
+    <link targType="sentence" type="1-1" xtargets="s139;s138"/>
+    <link targType="sentence" type="1-1" xtargets="s140;s139"/>
+    <link targType="sentence" type="1-1" xtargets="s141;s140"/>
+    <link targType="sentence" type="1-1" xtargets="s142;s141"/>
+    <link targType="sentence" type="1-2" xtargets="s143;s142 s143"/>
+    <link targType="sentence" type="1-1" xtargets="s144;s144"/>
+    <link targType="sentence" type="1-1" xtargets="s145;s145"/>
+    <link targType="sentence" type="1-1" xtargets="s146;s146"/>
+    <link targType="sentence" type="1-1" xtargets="s147;s147"/>
+    <link targType="sentence" type="1-1" xtargets="s148;s148"/>
+    <link targType="sentence" type="3-1" xtargets="s149 s150 s151;s151"/>
+    <link targType="sentence" type="2-1" xtargets="s152 s153;s152"/>
+    <link targType="sentence" type="1-1" xtargets="s154;s153"/>
+    <link targType="sentence" type="1-1" xtargets="s155;s154"/>
+    <link targType="sentence" type="1-1" xtargets="s156;s156"/>
+    <link targType="sentence" type="1-1" xtargets="s157;s157"/>
+    <link targType="sentence" type="1-1" xtargets="s158;s158"/>
+    <link targType="sentence" type="1-1" xtargets="s161;s176"/>
+    <link targType="sentence" type="1-1" xtargets="s162;s177"/>
+    <link targType="sentence" type="1-1" xtargets="s163;s178"/>
+    <link targType="sentence" type="1-1" xtargets="s164;s179"/>
+    <link targType="sentence" type="1-2" xtargets="s165;s181 s182"/>
+    <link targType="sentence" type="1-1" xtargets="s166;s183"/>
+    <link targType="sentence" type="1-1" xtargets="s167;s184"/>
+    <link targType="sentence" type="1-1" xtargets="s168;s185"/>
+    <link targType="sentence" type="2-2" xtargets="s169 s170;s186 s187"/>
+    <link targType="sentence" type="1-1" xtargets="s171;s188"/>
+    <link targType="sentence" type="1-2" xtargets="s172;s189 s190"/>
+    <link targType="sentence" type="1-1" xtargets="s173;s191"/>
+    <link targType="sentence" type="1-1" xtargets="s174;s192"/>
+    <link targType="sentence" type="1-1" xtargets="s175;s193"/>
+    <link targType="sentence" type="1-3" xtargets="s176;s195 s196 s197"/>
+    <link targType="sentence" type="1-1" xtargets="s178;s198"/>
+    <link targType="sentence" type="1-1" xtargets="s179;s199"/>
+    <link targType="sentence" type="1-1" xtargets="s180;s200"/>
+    <link targType="sentence" type="1-1" xtargets="s181;s201"/>
+    <link targType="sentence" type="1-1" xtargets="s182;s202"/>
+    <link targType="sentence" type="1-1" xtargets="s184;s203"/>
+    <link targType="sentence" type="1-1" xtargets="s185;s204"/>
+    <link targType="sentence" type="1-2" xtargets="s204;s210 s211"/>
+    <link targType="sentence" type="1-1" xtargets="s205;s212"/>
+    <link targType="sentence" type="1-1" xtargets="s206;s213"/>
+    <link targType="sentence" type="1-1" xtargets="s207;s214"/>
+    <link targType="sentence" type="1-1" xtargets="s208;s215"/>
+    <link targType="sentence" type="3-1" xtargets="s209 s210 s211;s217"/>
+    <link targType="sentence" type="1-1" xtargets="s212;s218"/>
+    <link targType="sentence" type="1-1" xtargets="s213;s219"/>
+    <link targType="sentence" type="1-1" xtargets="s214;s220"/>
+    <link targType="sentence" type="1-1" xtargets="s215;s221"/>
+    <link targType="sentence" type="1-2" xtargets="s219;s222 s223"/>
+    <link targType="sentence" type="1-1" xtargets="s220;s225"/>
+    <link targType="sentence" type="1-1" xtargets="s221;s226"/>
+    <link targType="sentence" type="1-1" xtargets="s222;s227"/>
+    <link targType="sentence" type="1-1" xtargets="s223;s228"/>
+    <link targType="sentence" type="1-1" xtargets="s224;s229"/>
+    <link targType="sentence" type="1-1" xtargets="s225;s230"/>
+    <link targType="sentence" type="1-1" xtargets="s226;s231"/>
+    <link targType="sentence" type="1-1" xtargets="s227;s232"/>
+    <link targType="sentence" type="1-1" xtargets="s228;s233"/>
+    <link targType="sentence" type="1-1" xtargets="s229;s234"/>
+    <link targType="sentence" type="1-1" xtargets="s230;s235"/>
+    <link targType="sentence" type="2-1" xtargets="s238 s239;s253"/>
+    <link targType="sentence" type="1-1" xtargets="s240;s256"/>
+    <link targType="sentence" type="2-2" xtargets="s242 s243;s257 s258"/>
+    <link targType="sentence" type="1-1" xtargets="s244;s259"/>
+    <link targType="sentence" type="1-1" xtargets="s245;s260"/>
+    <link targType="sentence" type="1-1" xtargets="s246;s261"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a23;a22">
+    <link targType="sentence" type="1-1" xtargets="s1;s1"/>
+    <link targType="sentence" type="1-1" xtargets="s2;s2"/>
+    <link targType="sentence" type="1-1" xtargets="s3;s3"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s4"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s5"/>
+    <link targType="sentence" type="1-1" xtargets="s6;s6"/>
+    <link targType="sentence" type="1-1" xtargets="s7;s7"/>
+    <link targType="sentence" type="1-1" xtargets="s8;s8"/>
+    <link targType="sentence" type="2-1" xtargets="s13 s14;s10"/>
+    <link targType="sentence" type="3-1" xtargets="s21 s22 s23;s11"/>
+    <link targType="sentence" type="2-2" xtargets="s27 s28;s12 s13"/>
+    <link targType="sentence" type="1-1" xtargets="s29;s14"/>
+    <link targType="sentence" type="1-1" xtargets="s30;s15"/>
+    <link targType="sentence" type="2-1" xtargets="s32 s33;s16"/>
+    <link targType="sentence" type="1-1" xtargets="s34;s17"/>
+    <link targType="sentence" type="1-1" xtargets="s35;s18"/>
+    <link targType="sentence" type="1-1" xtargets="s36;s19"/>
+    <link targType="sentence" type="3-1" xtargets="s47 s48 s49;s22"/>
+    <link targType="sentence" type="1-1" xtargets="s53;s23"/>
+    <link targType="sentence" type="1-1" xtargets="s54;s25"/>
+    <link targType="sentence" type="2-1" xtargets="s55 s56;s26"/>
+    <link targType="sentence" type="1-1" xtargets="s57;s27"/>
+    <link targType="sentence" type="2-1" xtargets="s58 s59;s28"/>
+    <link targType="sentence" type="2-1" xtargets="s62 s63;s33"/>
+    <link targType="sentence" type="1-1" xtargets="s64;s34"/>
+    <link targType="sentence" type="1-1" xtargets="s65;s35"/>
+    <link targType="sentence" type="2-1" xtargets="s66 s67;s36"/>
+    <link targType="sentence" type="2-1" xtargets="s76 s77;s38"/>
+    <link targType="sentence" type="1-1" xtargets="s78;s39"/>
+    <link targType="sentence" type="1-1" xtargets="s79;s40"/>
+    <link targType="sentence" type="1-1" xtargets="s80;s41"/>
+    <link targType="sentence" type="1-2" xtargets="s81;s42 s43"/>
+    <link targType="sentence" type="1-1" xtargets="s82;s44"/>
+    <link targType="sentence" type="1-1" xtargets="s83;s45"/>
+    <link targType="sentence" type="1-1" xtargets="s84;s47"/>
+    <link targType="sentence" type="1-1" xtargets="s87;s48"/>
+    <link targType="sentence" type="1-1" xtargets="s88;s50"/>
+    <link targType="sentence" type="1-2" xtargets="s89;s51 s52"/>
+    <link targType="sentence" type="1-1" xtargets="s90;s53"/>
+    <link targType="sentence" type="1-1" xtargets="s91;s54"/>
+    <link targType="sentence" type="1-1" xtargets="s92;s55"/>
+    <link targType="sentence" type="1-1" xtargets="s93;s56"/>
+    <link targType="sentence" type="1-1" xtargets="s94;s57"/>
+    <link targType="sentence" type="1-1" xtargets="s95;s58"/>
+    <link targType="sentence" type="1-1" xtargets="s96;s59"/>
+    <link targType="sentence" type="1-1" xtargets="s97;s60"/>
+    <link targType="sentence" type="1-1" xtargets="s98;s61"/>
+    <link targType="sentence" type="1-1" xtargets="s99;s62"/>
+    <link targType="sentence" type="1-1" xtargets="s100;s63"/>
+    <link targType="sentence" type="1-1" xtargets="s101;s64"/>
+    <link targType="sentence" type="1-1" xtargets="s102;s65"/>
+    <link targType="sentence" type="3-1" xtargets="s103 s104 s105;s66"/>
+    <link targType="sentence" type="1-1" xtargets="s106;s67"/>
+    <link targType="sentence" type="1-1" xtargets="s107;s68"/>
+    <link targType="sentence" type="1-1" xtargets="s108;s69"/>
+    <link targType="sentence" type="1-2" xtargets="s109;s70 s71"/>
+    <link targType="sentence" type="1-1" xtargets="s110;s72"/>
+    <link targType="sentence" type="1-1" xtargets="s111;s73"/>
+    <link targType="sentence" type="1-1" xtargets="s112;s74"/>
+    <link targType="sentence" type="1-1" xtargets="s113;s75"/>
+    <link targType="sentence" type="1-1" xtargets="s114;s76"/>
+    <link targType="sentence" type="1-1" xtargets="s115;s77"/>
+    <link targType="sentence" type="1-1" xtargets="s116;s78"/>
+    <link targType="sentence" type="1-1" xtargets="s121;s79"/>
+    <link targType="sentence" type="1-1" xtargets="s122;s80"/>
+    <link targType="sentence" type="1-1" xtargets="s123;s81"/>
+    <link targType="sentence" type="2-1" xtargets="s125 s126;s82"/>
+    <link targType="sentence" type="2-1" xtargets="s127 s128;s83"/>
+    <link targType="sentence" type="1-1" xtargets="s129;s84"/>
+    <link targType="sentence" type="1-1" xtargets="s130;s85"/>
+    <link targType="sentence" type="1-1" xtargets="s132;s86"/>
+    <link targType="sentence" type="1-1" xtargets="s133;s87"/>
+    <link targType="sentence" type="1-1" xtargets="s134;s88"/>
+    <link targType="sentence" type="1-1" xtargets="s135;s89"/>
+    <link targType="sentence" type="1-1" xtargets="s136;s90"/>
+    <link targType="sentence" type="1-1" xtargets="s137;s91"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a24;a23">
+    <link targType="sentence" type="1-1" xtargets="s1;s1"/>
+    <link targType="sentence" type="1-1" xtargets="s2;s2"/>
+    <link targType="sentence" type="1-1" xtargets="s3;s3"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s4"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s5"/>
+    <link targType="sentence" type="3-1" xtargets="s6 s7 s8;s7"/>
+    <link targType="sentence" type="3-1" xtargets="s9 s10 s11;s8"/>
+    <link targType="sentence" type="2-1" xtargets="s13 s14;s9"/>
+    <link targType="sentence" type="1-2" xtargets="s16;s10 s11"/>
+    <link targType="sentence" type="1-1" xtargets="s17;s12"/>
+    <link targType="sentence" type="1-1" xtargets="s18;s13"/>
+    <link targType="sentence" type="2-1" xtargets="s20 s21;s14"/>
+    <link targType="sentence" type="2-1" xtargets="s23 s24;s15"/>
+    <link targType="sentence" type="1-1" xtargets="s25;s17"/>
+    <link targType="sentence" type="1-1" xtargets="s26;s18"/>
+    <link targType="sentence" type="1-1" xtargets="s27;s19"/>
+    <link targType="sentence" type="1-1" xtargets="s28;s20"/>
+    <link targType="sentence" type="2-1" xtargets="s30 s31;s21"/>
+    <link targType="sentence" type="1-1" xtargets="s32;s22"/>
+    <link targType="sentence" type="3-1" xtargets="s37 s38 s39;s24"/>
+    <link targType="sentence" type="1-1" xtargets="s40;s26"/>
+    <link targType="sentence" type="1-1" xtargets="s41;s27"/>
+    <link targType="sentence" type="1-1" xtargets="s42;s28"/>
+    <link targType="sentence" type="1-1" xtargets="s43;s29"/>
+    <link targType="sentence" type="1-1" xtargets="s46;s30"/>
+    <link targType="sentence" type="1-2" xtargets="s47;s32 s33"/>
+    <link targType="sentence" type="1-1" xtargets="s48;s33"/>
+    <link targType="sentence" type="1-1" xtargets="s49;s34"/>
+    <link targType="sentence" type="1-1" xtargets="s50;s35"/>
+    <link targType="sentence" type="1-1" xtargets="s51;s36"/>
+    <link targType="sentence" type="1-1" xtargets="s56;s39"/>
+    <link targType="sentence" type="1-1" xtargets="s57;s40"/>
+    <link targType="sentence" type="1-1" xtargets="s58;s41"/>
+    <link targType="sentence" type="1-1" xtargets="s59;s42"/>
+    <link targType="sentence" type="2-1" xtargets="s60 s61;s43"/>
+    <link targType="sentence" type="1-1" xtargets="s62;s44"/>
+    <link targType="sentence" type="1-1" xtargets="s63;s45"/>
+    <link targType="sentence" type="1-1" xtargets="s64;s46"/>
+    <link targType="sentence" type="1-3" xtargets="s65;s47 s48 s49"/>
+    <link targType="sentence" type="1-1" xtargets="s66;s50"/>
+    <link targType="sentence" type="1-1" xtargets="s67;s51"/>
+    <link targType="sentence" type="1-1" xtargets="s68;s52"/>
+    <link targType="sentence" type="1-1" xtargets="s69;s53"/>
+    <link targType="sentence" type="1-1" xtargets="s70;s54"/>
+    <link targType="sentence" type="1-1" xtargets="s71;s55"/>
+    <link targType="sentence" type="2-1" xtargets="s72 s73;s56"/>
+    <link targType="sentence" type="1-1" xtargets="s74;s57"/>
+    <link targType="sentence" type="1-1" xtargets="s75;s58"/>
+    <link targType="sentence" type="1-1" xtargets="s76;s59"/>
+    <link targType="sentence" type="1-1" xtargets="s77;s60"/>
+    <link targType="sentence" type="1-1" xtargets="s78;s61"/>
+    <link targType="sentence" type="1-1" xtargets="s79;s62"/>
+    <link targType="sentence" type="1-1" xtargets="s80;s63"/>
+    <link targType="sentence" type="1-1" xtargets="s82;s64"/>
+    <link targType="sentence" type="2-1" xtargets="s83 s84;s65"/>
+    <link targType="sentence" type="1-1" xtargets="s86;s66"/>
+    <link targType="sentence" type="1-1" xtargets="s87;s67"/>
+    <link targType="sentence" type="1-1" xtargets="s88;s68"/>
+    <link targType="sentence" type="1-1" xtargets="s89;s69"/>
+    <link targType="sentence" type="1-1" xtargets="s90;s70"/>
+    <link targType="sentence" type="1-1" xtargets="s91;s71"/>
+    <link targType="sentence" type="1-1" xtargets="s92;s72"/>
+    <link targType="sentence" type="1-1" xtargets="s93;s73"/>
+    <link targType="sentence" type="1-1" xtargets="s94;s74"/>
+    <link targType="sentence" type="1-1" xtargets="s95;s75"/>
+    <link targType="sentence" type="1-1" xtargets="s96;s76"/>
+    <link targType="sentence" type="1-1" xtargets="s97;s77"/>
+    <link targType="sentence" type="2-1" xtargets="s98 s99;s78"/>
+    <link targType="sentence" type="2-1" xtargets="s102 s103;s79"/>
+    <link targType="sentence" type="2-1" xtargets="s104 s105;s81"/>
+    <link targType="sentence" type="2-1" xtargets="s106 s107;s82"/>
+    <link targType="sentence" type="1-1" xtargets="s108;s83"/>
+    <link targType="sentence" type="1-1" xtargets="s109;s84"/>
+    <link targType="sentence" type="1-1" xtargets="s110;s85"/>
+    <link targType="sentence" type="1-1" xtargets="s111;s86"/>
+    <link targType="sentence" type="1-1" xtargets="s112;s87"/>
+    <link targType="sentence" type="1-1" xtargets="s113;s88"/>
+    <link targType="sentence" type="1-1" xtargets="s114;s89"/>
+    <link targType="sentence" type="1-1" xtargets="s118;s90"/>
+    <link targType="sentence" type="1-1" xtargets="s119;s93"/>
+    <link targType="sentence" type="1-1" xtargets="s120;s94"/>
+    <link targType="sentence" type="1-1" xtargets="s121;s95"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a25;a24">
+    <link targType="sentence" type="2-1" xtargets="s1 s2;s2"/>
+    <link targType="sentence" type="3-1" xtargets="s6 s7 s8;s3"/>
+    <link targType="sentence" type="2-1" xtargets="s12 s13;s4"/>
+    <link targType="sentence" type="1-1" xtargets="s14;s5"/>
+    <link targType="sentence" type="1-1" xtargets="s15;s6"/>
+    <link targType="sentence" type="1-1" xtargets="s16;s7"/>
+    <link targType="sentence" type="1-1" xtargets="s18;s8"/>
+    <link targType="sentence" type="1-1" xtargets="s19;s9"/>
+    <link targType="sentence" type="1-1" xtargets="s20;s11"/>
+    <link targType="sentence" type="2-1" xtargets="s21 s22;s12"/>
+    <link targType="sentence" type="1-1" xtargets="s28;s13"/>
+    <link targType="sentence" type="1-1" xtargets="s29;s14"/>
+    <link targType="sentence" type="1-2" xtargets="s30;s15 s16"/>
+    <link targType="sentence" type="1-1" xtargets="s31;s17"/>
+    <link targType="sentence" type="2-1" xtargets="s32 s33;s18"/>
+    <link targType="sentence" type="1-1" xtargets="s34;s19"/>
+    <link targType="sentence" type="1-1" xtargets="s35;s20"/>
+    <link targType="sentence" type="1-1" xtargets="s36;s21"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a26;a25">
+    <link targType="sentence" type="1-1" xtargets="s1;s1"/>
+    <link targType="sentence" type="1-1" xtargets="s2;s2"/>
+    <link targType="sentence" type="1-1" xtargets="s3;s3"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s4"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s5"/>
+    <link targType="sentence" type="2-1" xtargets="s6 s7;s6"/>
+    <link targType="sentence" type="2-1" xtargets="s8 s9;s7"/>
+    <link targType="sentence" type="1-1" xtargets="s11;s8"/>
+    <link targType="sentence" type="1-1" xtargets="s12;s9"/>
+    <link targType="sentence" type="1-1" xtargets="s13;s10"/>
+    <link targType="sentence" type="2-1" xtargets="s14 s15;s11"/>
+    <link targType="sentence" type="1-1" xtargets="s17;s12"/>
+    <link targType="sentence" type="1-1" xtargets="s18;s13"/>
+    <link targType="sentence" type="1-1" xtargets="s19;s14"/>
+    <link targType="sentence" type="1-1" xtargets="s20;s15"/>
+    <link targType="sentence" type="1-1" xtargets="s21;s16"/>
+    <link targType="sentence" type="2-1" xtargets="s28 s29;s17"/>
+    <link targType="sentence" type="1-1" xtargets="s30;s18"/>
+    <link targType="sentence" type="2-1" xtargets="s32 s33;s19"/>
+    <link targType="sentence" type="1-1" xtargets="s34;s20"/>
+    <link targType="sentence" type="3-1" xtargets="s41 s42 s43;s22"/>
+    <link targType="sentence" type="1-1" xtargets="s44;s23"/>
+    <link targType="sentence" type="1-1" xtargets="s45;s24"/>
+    <link targType="sentence" type="1-1" xtargets="s46;s25"/>
+    <link targType="sentence" type="1-2" xtargets="s47;s26 s27"/>
+    <link targType="sentence" type="2-3" xtargets="s48 s49;s28 s29 s30"/>
+    <link targType="sentence" type="1-1" xtargets="s50;s31"/>
+    <link targType="sentence" type="1-1" xtargets="s60;s34"/>
+    <link targType="sentence" type="1-1" xtargets="s61;s35"/>
+    <link targType="sentence" type="1-1" xtargets="s62;s36"/>
+    <link targType="sentence" type="1-1" xtargets="s63;s37"/>
+    <link targType="sentence" type="1-1" xtargets="s64;s38"/>
+    <link targType="sentence" type="1-1" xtargets="s65;s39"/>
+    <link targType="sentence" type="1-1" xtargets="s66;s40"/>
+    <link targType="sentence" type="1-1" xtargets="s67;s41"/>
+    <link targType="sentence" type="2-1" xtargets="s68 s69;s48"/>
+    <link targType="sentence" type="1-1" xtargets="s71;s49"/>
+    <link targType="sentence" type="1-1" xtargets="s72;s50"/>
+    <link targType="sentence" type="1-1" xtargets="s83;s53"/>
+    <link targType="sentence" type="1-1" xtargets="s84;s54"/>
+    <link targType="sentence" type="1-1" xtargets="s85;s55"/>
+    <link targType="sentence" type="2-1" xtargets="s86 s87;s56"/>
+    <link targType="sentence" type="1-1" xtargets="s89;s57"/>
+    <link targType="sentence" type="1-1" xtargets="s90;s58"/>
+    <link targType="sentence" type="2-1" xtargets="s91 s92;s60"/>
+    <link targType="sentence" type="1-1" xtargets="s93;s58"/>
+    <link targType="sentence" type="1-1" xtargets="s94;s60"/>
+    <link targType="sentence" type="1-1" xtargets="s95;s61"/>
+    <link targType="sentence" type="1-1" xtargets="s96;s62"/>
+    <link targType="sentence" type="1-1" xtargets="s97;s63"/>
+    <link targType="sentence" type="1-1" xtargets="s98;s64"/>
+    <link targType="sentence" type="1-1" xtargets="s99;s65"/>
+    <link targType="sentence" type="1-2" xtargets="s100;s66 s67"/>
+    <link targType="sentence" type="1-2" xtargets="s101;s68 s69"/>
+    <link targType="sentence" type="3-1" xtargets="s102 s103 s104;s70"/>
+    <link targType="sentence" type="1-1" xtargets="s105;s71"/>
+    <link targType="sentence" type="1-1" xtargets="s106;s72"/>
+    <link targType="sentence" type="1-1" xtargets="s107;s73"/>
+    <link targType="sentence" type="2-1" xtargets="s108 s109;s74"/>
+    <link targType="sentence" type="2-1" xtargets="s110 s111;s75"/>
+    <link targType="sentence" type="1-1" xtargets="s112;s76"/>
+    <link targType="sentence" type="2-1" xtargets="s113 s114;s77"/>
+    <link targType="sentence" type="2-1" xtargets="s119 s120;s80"/>
+    <link targType="sentence" type="1-1" xtargets="s121;s81"/>
+    <link targType="sentence" type="1-1" xtargets="s122;s82"/>
+    <link targType="sentence" type="1-1" xtargets="s123;s83"/>
+    <link targType="sentence" type="1-1" xtargets="s124;s84"/>
+    <link targType="sentence" type="1-1" xtargets="s125;s86"/>
+    <link targType="sentence" type="1-1" xtargets="s126;s87"/>
+    <link targType="sentence" type="2-1" xtargets="s127 s128;s89"/>
+    <link targType="sentence" type="1-1" xtargets="s129;s91"/>
+    <link targType="sentence" type="2-1" xtargets="s130 s131;s93"/>
+    <link targType="sentence" type="1-1" xtargets="s132;s94"/>
+    <link targType="sentence" type="1-1" xtargets="s133;s95"/>
+    <link targType="sentence" type="1-1" xtargets="s135;s96"/>
+    <link targType="sentence" type="1-1" xtargets="s136;s97"/>
+    <link targType="sentence" type="1-1" xtargets="s137;s98"/>
+    <link targType="sentence" type="2-2" xtargets="s138 s139;s99 s100"/>
+    <link targType="sentence" type="1-2" xtargets="s140;s104 s105"/>
+    <link targType="sentence" type="1-1" xtargets="s141;s107"/>
+    <link targType="sentence" type="1-1" xtargets="s142;s108"/>
+    <link targType="sentence" type="1-2" xtargets="s144;s109 s110"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a27;a27">
+    <link targType="sentence" type="1-1" xtargets="s1;s1"/>
+    <link targType="sentence" type="1-1" xtargets="s2;s2"/>
+    <link targType="sentence" type="1-1" xtargets="s3;s3"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s4"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s5"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a29;a28">
+    <link targType="sentence" type="1-1" xtargets="s1;s1"/>
+    <link targType="sentence" type="1-1" xtargets="s2;s2"/>
+    <link targType="sentence" type="1-1" xtargets="s3;s3"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s4"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s5"/>
+    <link targType="sentence" type="1-1" xtargets="s6;s6"/>
+    <link targType="sentence" type="1-1" xtargets="s7;s7"/>
+    <link targType="sentence" type="1-1" xtargets="s8;s8"/>
+    <link targType="sentence" type="1-2" xtargets="s10;s9 s10"/>
+    <link targType="sentence" type="1-1" xtargets="s11;s11"/>
+    <link targType="sentence" type="1-1" xtargets="s12;s15"/>
+    <link targType="sentence" type="1-1" xtargets="s13;s16"/>
+    <link targType="sentence" type="1-1" xtargets="s14;s17"/>
+    <link targType="sentence" type="1-2" xtargets="s15;s18 s19"/>
+    <link targType="sentence" type="1-1" xtargets="s16;s20"/>
+    <link targType="sentence" type="1-1" xtargets="s17;s21"/>
+    <link targType="sentence" type="1-1" xtargets="s18;s22"/>
+    <link targType="sentence" type="1-1" xtargets="s19;s23"/>
+    <link targType="sentence" type="1-1" xtargets="s20;s24"/>
+    <link targType="sentence" type="1-1" xtargets="s21;s25"/>
+    <link targType="sentence" type="1-1" xtargets="s22;s26"/>
+    <link targType="sentence" type="1-1" xtargets="s23;s27"/>
+    <link targType="sentence" type="1-1" xtargets="s24;s28"/>
+    <link targType="sentence" type="1-1" xtargets="s25;s29"/>
+    <link targType="sentence" type="1-1" xtargets="s26;s30"/>
+    <link targType="sentence" type="1-1" xtargets="s27;s31"/>
+    <link targType="sentence" type="1-1" xtargets="s28;s32"/>
+    <link targType="sentence" type="1-1" xtargets="s29;s33"/>
+    <link targType="sentence" type="2-1" xtargets="s30 s31;s34"/>
+    <link targType="sentence" type="1-1" xtargets="s32;s35"/>
+    <link targType="sentence" type="1-1" xtargets="s33;s36"/>
+    <link targType="sentence" type="1-1" xtargets="s34;s38"/>
+    <link targType="sentence" type="1-1" xtargets="s35;s39"/>
+    <link targType="sentence" type="1-1" xtargets="s36;s40"/>
+    <link targType="sentence" type="1-1" xtargets="s37;s41"/>
+    <link targType="sentence" type="1-1" xtargets="s38;s42"/>
+    <link targType="sentence" type="1-1" xtargets="s39;s43"/>
+    <link targType="sentence" type="1-1" xtargets="s40;s44"/>
+    <link targType="sentence" type="1-1" xtargets="s41;s45"/>
+    <link targType="sentence" type="1-2" xtargets="s42;s46 s47"/>
+    <link targType="sentence" type="1-1" xtargets="s43;s48"/>
+    <link targType="sentence" type="1-1" xtargets="s44;s49"/>
+    <link targType="sentence" type="1-1" xtargets="s45;s50"/>
+    <link targType="sentence" type="1-1" xtargets="s46;s51"/>
+    <link targType="sentence" type="1-1" xtargets="s47;s52"/>
+    <link targType="sentence" type="1-1" xtargets="s48;s53"/>
+    <link targType="sentence" type="1-1" xtargets="s49;s54"/>
+    <link targType="sentence" type="1-1" xtargets="s50;s55"/>
+    <link targType="sentence" type="1-1" xtargets="s51;s56"/>
+  </linkGrp>
+</linkGrp>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<linkGrp targType="yearbook" xtargets="bulletin_2006_special_Online_de.xml;bulletin_2006_special_Online_fr.xml" lang="de;fr">
+  <linkGrp targType="article" xtargets="a0;a0">
+    <link targType="sentence" type="1-1" xtargets="s2;s11"/>
+    <link targType="sentence" type="1-2" xtargets="s3;s12 s13"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s14"/>
+    <link targType="sentence" type="3-1" xtargets="s5 s6 s7;s15"/>
+    <link targType="sentence" type="1-1" xtargets="s8;s16"/>
+    <link targType="sentence" type="1-1" xtargets="s9;s17"/>
+    <link targType="sentence" type="1-1" xtargets="s10;s18"/>
+    <link targType="sentence" type="1-1" xtargets="s11;s19"/>
+    <link targType="sentence" type="1-1" xtargets="s12;s20"/>
+    <link targType="sentence" type="1-1" xtargets="s13;s21"/>
+    <link targType="sentence" type="1-1" xtargets="s14;s22"/>
+    <link targType="sentence" type="1-1" xtargets="s16;s49"/>
+    <link targType="sentence" type="1-1" xtargets="s18;s54"/>
+    <link targType="sentence" type="1-1" xtargets="s19;s55"/>
+    <link targType="sentence" type="1-1" xtargets="s20;s56"/>
+    <link targType="sentence" type="1-1" xtargets="s22;s57"/>
+    <link targType="sentence" type="1-1" xtargets="s23;s58"/>
+    <link targType="sentence" type="2-1" xtargets="s24 s25;s59"/>
+    <link targType="sentence" type="1-1" xtargets="s26;s60"/>
+    <link targType="sentence" type="1-1" xtargets="s27;s61"/>
+    <link targType="sentence" type="1-1" xtargets="s28;s62"/>
+    <link targType="sentence" type="1-1" xtargets="s29;s64"/>
+    <link targType="sentence" type="1-1" xtargets="s30;s65"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a1;a1">
+    <link targType="sentence" type="2-1" xtargets="s1 s2;s154"/>
+    <link targType="sentence" type="1-1" xtargets="s3;s155"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s157"/>
+    <link targType="sentence" type="1-1" xtargets="s5;s158"/>
+    <link targType="sentence" type="1-1" xtargets="s6;s159"/>
+    <link targType="sentence" type="1-2" xtargets="s7;s160 s161"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a2;a2">
+    <link targType="sentence" type="2-1" xtargets="s7 s8;s26"/>
+    <link targType="sentence" type="1-1" xtargets="s11;s47"/>
+    <link targType="sentence" type="1-1" xtargets="s12;s82"/>
+    <link targType="sentence" type="1-2" xtargets="s14;s83 s84"/>
+    <link targType="sentence" type="1-2" xtargets="s15;s85 s86"/>
+    <link targType="sentence" type="1-1" xtargets="s16;s87"/>
+    <link targType="sentence" type="2-2" xtargets="s18 s19;s92 s93"/>
+    <link targType="sentence" type="1-1" xtargets="s297;s97"/>
+    <link targType="sentence" type="1-2" xtargets="s298;s110 s111"/>
+    <link targType="sentence" type="1-2" xtargets="s299;s117 s118"/>
+    <link targType="sentence" type="1-1" xtargets="s300;s243"/>
+    <link targType="sentence" type="2-1" xtargets="s320 s321;s251"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a3;a8">
+    <link targType="sentence" type="1-1" xtargets="s3;s89"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s90"/>
+    <link targType="sentence" type="1-2" xtargets="s5;s91 s92"/>
+    <link targType="sentence" type="1-2" xtargets="s6;s93 s94"/>
+    <link targType="sentence" type="1-2" xtargets="s7;s95 s96"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a4;a9">
+    <link targType="sentence" type="2-2" xtargets="s5 s6;s98 s99"/>
+    <link targType="sentence" type="1-1" xtargets="s7;s100"/>
+    <link targType="sentence" type="1-1" xtargets="s8;s101"/>
+    <link targType="sentence" type="1-1" xtargets="s10;s102"/>
+    <link targType="sentence" type="1-1" xtargets="s11;s103"/>
+    <link targType="sentence" type="1-1" xtargets="s12;s104"/>
+    <link targType="sentence" type="1-1" xtargets="s13;s105"/>
+    <link targType="sentence" type="1-1" xtargets="s14;s106"/>
+    <link targType="sentence" type="1-1" xtargets="s15;s107"/>
+    <link targType="sentence" type="1-1" xtargets="s16;s108"/>
+    <link targType="sentence" type="1-1" xtargets="s17;s109"/>
+    <link targType="sentence" type="1-1" xtargets="s18;s110"/>
+    <link targType="sentence" type="1-2" xtargets="s19;s111 s112"/>
+    <link targType="sentence" type="1-1" xtargets="s20;s114"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a5;a10">
+    <link targType="sentence" type="2-1" xtargets="s6 s7;s69"/>
+    <link targType="sentence" type="2-1" xtargets="s8 s9;s103"/>
+    <link targType="sentence" type="1-1" xtargets="s11;s104"/>
+    <link targType="sentence" type="1-1" xtargets="s12;s106"/>
+  </linkGrp>
+</linkGrp>

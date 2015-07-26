@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<linkGrp targType="yearbook" xtargets="bulletin_2006_special_Online_de.xml;bulletin_2006_special_Online_it.xml" lang="de;it">
+  <linkGrp targType="article" xtargets="a0;a0">
+    <link targType="sentence" type="1-1" xtargets="s1;s11"/>
+    <link targType="sentence" type="1-1" xtargets="s2;s12"/>
+    <link targType="sentence" type="1-1" xtargets="s3;s13"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s14"/>
+    <link targType="sentence" type="1-1" xtargets="s6;s15"/>
+    <link targType="sentence" type="1-1" xtargets="s7;s16"/>
+    <link targType="sentence" type="1-1" xtargets="s8;s17"/>
+    <link targType="sentence" type="1-1" xtargets="s9;s18"/>
+    <link targType="sentence" type="1-1" xtargets="s10;s19"/>
+    <link targType="sentence" type="1-1" xtargets="s11;s20"/>
+    <link targType="sentence" type="1-1" xtargets="s12;s21"/>
+    <link targType="sentence" type="1-1" xtargets="s13;s22"/>
+    <link targType="sentence" type="1-1" xtargets="s14;s23"/>
+    <link targType="sentence" type="1-1" xtargets="s16;s68"/>
+    <link targType="sentence" type="1-1" xtargets="s18;s73"/>
+    <link targType="sentence" type="1-1" xtargets="s19;s74"/>
+    <link targType="sentence" type="1-1" xtargets="s20;s75"/>
+    <link targType="sentence" type="2-1" xtargets="s21 s22;s76"/>
+    <link targType="sentence" type="2-1" xtargets="s24 s25;s77"/>
+    <link targType="sentence" type="1-1" xtargets="s26;s79"/>
+    <link targType="sentence" type="1-2" xtargets="s28;s80 s81"/>
+    <link targType="sentence" type="1-1" xtargets="s29;s82"/>
+    <link targType="sentence" type="1-1" xtargets="s30;s83"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a1;a1">
+    <link targType="sentence" type="2-1" xtargets="s1 s2;s135"/>
+    <link targType="sentence" type="1-1" xtargets="s3;s136"/>
+    <link targType="sentence" type="1-2" xtargets="s4;s138 s139"/>
+    <link targType="sentence" type="2-1" xtargets="s5 s6;s140"/>
+    <link targType="sentence" type="1-2" xtargets="s7;s141 s142"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a2;a2">
+    <link targType="sentence" type="1-1" xtargets="s6;s65"/>
+    <link targType="sentence" type="1-1" xtargets="s7;s70"/>
+    <link targType="sentence" type="1-1" xtargets="s13;s104"/>
+    <link targType="sentence" type="1-2" xtargets="s16;s123 s124"/>
+    <link targType="sentence" type="1-1" xtargets="s19;s165"/>
+    <link targType="sentence" type="1-1" xtargets="s20;s187"/>
+    <link targType="sentence" type="1-1" xtargets="s300;s196"/>
+    <link targType="sentence" type="2-1" xtargets="s320 s321;s200"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a3;a7">
+    <link targType="sentence" type="1-1" xtargets="s3;s82"/>
+    <link targType="sentence" type="1-1" xtargets="s4;s83"/>
+    <link targType="sentence" type="1-2" xtargets="s5;s84 s85"/>
+    <link targType="sentence" type="1-2" xtargets="s6;s86 s87"/>
+    <link targType="sentence" type="1-2" xtargets="s7;s88 s89"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a4;a8">
+    <link targType="sentence" type="1-1" xtargets="s5;s95"/>
+    <link targType="sentence" type="2-1" xtargets="s6 s7;s97"/>
+    <link targType="sentence" type="1-1" xtargets="s8;s98"/>
+    <link targType="sentence" type="1-1" xtargets="s13;s99"/>
+    <link targType="sentence" type="1-1" xtargets="s14;s100"/>
+    <link targType="sentence" type="1-2" xtargets="s15;s101 s102"/>
+    <link targType="sentence" type="1-1" xtargets="s16;s103"/>
+    <link targType="sentence" type="1-1" xtargets="s17;s104"/>
+    <link targType="sentence" type="1-1" xtargets="s18;s105"/>
+    <link targType="sentence" type="1-1" xtargets="s19;s106"/>
+    <link targType="sentence" type="1-1" xtargets="s20;s107"/>
+  </linkGrp>
+  <linkGrp targType="article" xtargets="a5;a9">
+    <link targType="sentence" type="3-1" xtargets="s2 s3 s4;s86"/>
+    <link targType="sentence" type="1-1" xtargets="s11;s109"/>
+    <link targType="sentence" type="1-1" xtargets="s12;s111"/>
+  </linkGrp>
+</linkGrp>
